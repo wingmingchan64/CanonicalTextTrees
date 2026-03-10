@@ -1,6 +1,6 @@
 <?php
 /*
- * php H:\github\QuanTangShi\tools\php\生成空文檔.php
+php H:\github\QuanTangShi\tools\php\生成空文檔.php
  */
 require_once( 
 	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
@@ -14,15 +14,9 @@ $text_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
 	'raw_txt' . DIRECTORY_SEPARATOR;
  
-for( $i = 1; $i<=900; $i++ )
-{
-	$文檔碼 = str_pad( $i, 3, '0', STR_PAD_LEFT );
-	file_put_contents( $text_path . $文檔碼 . '.txt',
-		'' );
-}
-
 $卷 = '424';
 $數 = 0;
+$作者 = '白居易';
 
 $source_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
@@ -33,15 +27,16 @@ $target_path = dirname( __DIR__, 2 ) .
 
 $contents = file_get_contents(
 	$source_path . $卷 . '.txt' );
-echo $contents;
 
-/*
-for( $i = 1; $i<=$數; $i++ )
+$parts = explode( "\n\n", $contents );
+
+for( $i = 0; $i<sizeof( $parts ); $i++ )
 {
 	$文檔碼 = str_pad( $卷, 3, '0', STR_PAD_LEFT ) . 
-		'-' . str_pad( $i, 3, '0', STR_PAD_LEFT );
+		'-' . str_pad( $i+1, 3, '0', STR_PAD_LEFT );
 	$文檔名 = "${文檔碼}.txt";
 	
+	$文檔內容 = $文檔碼 . ' ' . $作者 . ' ' . $parts[ $i ];
+	file_put_contents( $target_path . $文檔名, $文檔內容 );
 }
-*/
 ?>
