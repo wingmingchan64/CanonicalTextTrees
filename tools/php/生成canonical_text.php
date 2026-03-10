@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\QuanTangShi\tools\php\生成空文檔.php
+php H:\github\QuanTangShi\tools\php\生成canonical_text.php
  */
 require_once( 
 	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
@@ -14,7 +14,7 @@ $text_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
 	'raw_txt' . DIRECTORY_SEPARATOR;
  
-$卷 = '433';
+$卷 = '440';
 $作者 = '白居易';
 
 $source_path = dirname( __DIR__, 2 ) .
