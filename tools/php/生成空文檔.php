@@ -14,8 +14,7 @@ $text_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
 	'raw_txt' . DIRECTORY_SEPARATOR;
  
-$卷 = '424';
-$數 = 0;
+$卷 = '430';
 $作者 = '白居易';
 
 $source_path = dirname( __DIR__, 2 ) .
@@ -37,6 +36,7 @@ for( $i = 0; $i<sizeof( $parts ); $i++ )
 	$文檔名 = "${文檔碼}.txt";
 	
 	$文檔內容 = $文檔碼 . ' ' . $作者 . ' ' . $parts[ $i ];
+	$文檔內容 = str_replace( '，', '。', $文檔內容 );
 	file_put_contents( $target_path . $文檔名, $文檔內容 );
 }
 ?>
