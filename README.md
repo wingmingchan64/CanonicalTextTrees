@@ -1,6 +1,6 @@
 # QuanTangShi 《全唐詩》 
 
-在處理杜甫詩的時候，我看到了基準正文樹的巨大潛力。這裏搜集了三類文檔：
+在處理杜甫詩的時候，我看到了<a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/architecture/canonical_text_tree.md">基準正文樹</a>的巨大潛力。這裏搜集了三類文檔：
 
 - 從 Wikipedia 來的、未經校對的詩文
 - 把詩文轉換過來的基準正文樹
