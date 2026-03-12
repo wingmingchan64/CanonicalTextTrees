@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\QuanTangShi\tools\php\cleanup白居易.php
+php H:\github\QuanTangShi\tools\php\cleanup詩人.php
  */
 require_once( 
 	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
@@ -12,11 +12,11 @@ require_once(
 
 $text_path = __DIR__ .
 	DIRECTORY_SEPARATOR .
-	'白居易.txt';
+	'李白.txt';
  
 $contents = file_get_contents( $text_path );
 
-/*
+
 $ptn = '/第\d+筆/u';
 $contents = preg_replace( $ptn, '', $contents );
 $ptn = '/（\X+?）/u';
@@ -25,7 +25,7 @@ $ptn = '/\[\d+?]/u';
 $contents = preg_replace( $ptn, '', $contents );
 $ptn = '/\[頁]卷,冊....\d+,\d+/u';
 $contents = preg_replace( $ptn, '', $contents );
-*/
+
 $異體字 = json_decode( file_get_contents('H:\github\QuanTangShi\tools\php\異體字.json' ), true );
 
 $keys = array_keys( $異體字 );
