@@ -14,7 +14,7 @@ $text_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
 	'raw_txt' . DIRECTORY_SEPARATOR;
  
-$卷 = '432';
+$卷 = '436';
 $作者 = '白居易';
 
 $source_path = dirname( __DIR__, 2 ) .
