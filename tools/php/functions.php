@@ -4,6 +4,25 @@ const 副題 = '副題';
 const 作者 = '作者';
 const 詞牌 = '詞牌';
 const 篇名 = '篇名';
+const 回目 = '回目';
+
+function build_hongloumeng_tree(
+	string $txt
+) : array
+{
+	$paragraphs = preg_split("/\R\R/u", $txt);
+		
+	// first paragraph is 回目
+	$回目 = trim( $paragraphs[ 0 ] );
+	
+	$tree = [
+		回目 => $回目
+    ];
+	populate_hongloumeng_tree( $paragraphs, $tree );
+	
+	return $tree;
+}
+
 
 function build_lunyu_tree(
 	string $txt
@@ -88,9 +107,39 @@ function populate_tree( array $lines, array &$tree ) : void
 				line_to_sentence_tree( $line );
 		}
     }
-
-
 }
+
+function populate_hongloumeng_tree(
+	array $paragraphs, array &$tree ) : void
+{
+	//$counter = 0;
+	
+	for( $i = 1; $i < count( $paragraphs ); $i++ )
+    {
+        $paragraph_no = $i + 1;
+        $paragraph = trim( $paragraphs[ $i ] );
+
+        if( !preg_match( "/\R/u", $paragraph ) )
+        {
+			$tree[ (string)$paragraph_no ] =
+					line_to_sentence_tree( $paragraph );
+        }
+		else
+		{
+			$line_no = 0;
+			$lines = preg_split( "/\R/u", $paragraph );
+			
+			foreach( $lines as $line )
+			{
+				$line_no++;
+				$tree[ ( string )$paragraph_no ]
+					[ (string)$line_no ] =
+					line_to_sentence_tree( $line );
+			}
+		}
+    }
+}
+
 
 function build_tree_corpus(
     string $txt_dir,
