@@ -16,8 +16,8 @@
 - 結合不同的後設資料集，可以生成不同版本、注本、評本
 - 幷列不同的版本
 
-已整理:
+已生成:
 
-- 杜甫（見 DuFu、Dufu-Analysis）
-- 白居易（卷424-436）
+- <a href="https://github.com/wingmingchan64/Dufu-Analysis/tree/main/schemas/json/base_text">杜甫</a>
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/《全唐詩》/trees">白居易（卷424-436）</a>
 - 《紅樓夢》凡例、第一回
