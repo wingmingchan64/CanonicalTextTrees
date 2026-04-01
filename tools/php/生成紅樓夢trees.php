@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\QuanTangShi\tools\php\生成紅樓夢trees.php
+php H:\github\CanonicalTextTrees\tools\php\生成紅樓夢trees.php
  */
 require_once( 
 	__DIR__ . DIRECTORY_SEPARATOR .
@@ -11,7 +11,7 @@ $txt_dir = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
 $tree_dir = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
 	'《紅樓夢》' . DIRECTORY_SEPARATOR .
 	'trees' . DIRECTORY_SEPARATOR;
-$回 = '001';
+$回 = '002';
 $text_file_path = $txt_dir . $回 . '.txt';
 $tree_file_path = $tree_dir . $回 . '.json';
 
