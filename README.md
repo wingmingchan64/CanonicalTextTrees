@@ -15,6 +15,7 @@
 
 - 結合不同的後設資料集，可以生成不同版本、注本、評本
 - 幷列不同的版本
+- <a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/workflow/pipeline.md">Processing Pipeline</a>
 
 已生成:
 
