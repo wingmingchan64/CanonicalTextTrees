@@ -6,6 +6,24 @@ const 詞牌 = '詞牌';
 const 篇名 = '篇名';
 const 回目 = '回目';
 
+function build_text_tree(
+	string $txt,
+	string $title
+) : array
+{
+	$paragraphs = preg_split("/\R\R/u", $txt);
+		
+	$t = trim( $paragraphs[ 0 ] );
+	
+	$tree = [
+		$title => $t
+    ];
+	populate_hongloumeng_tree( $paragraphs, $tree );
+	
+	return $tree;
+}
+
+
 function build_hongloumeng_tree(
 	string $txt
 ) : array
