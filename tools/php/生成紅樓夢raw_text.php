@@ -12,9 +12,9 @@ require_once(
 
 $text_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
-	'《紅樓夢》' . DIRECTORY_SEPARATOR .
+	'《文選》' . DIRECTORY_SEPARATOR .
 	'raw_text' . DIRECTORY_SEPARATOR;
-$回 = '003';
+$回 = '01';
 $file_path = $text_path . $回 . '.txt';
  
 $contents = file_get_contents( $file_path  );
@@ -28,6 +28,7 @@ foreach( $異體字 as $異 => $正 )
 }
 
 $contents = preg_replace( '/【\X+?】/u', '', $contents );
+$contents = preg_replace( '/〈\X+?〉/u', '', $contents );
 $contents = preg_replace( '/\[\X+?\]/u', '', $contents );
 
 file_put_contents( $file_path, $contents );
