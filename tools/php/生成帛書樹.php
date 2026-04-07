@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\生成老子樹.php
+php H:\github\CanonicalTextTrees\tools\php\生成帛書樹.php
 */
 require_once(
 	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
@@ -11,7 +11,7 @@ require_once(
 	"函式.php" );
 
 require_once( 'functions.php' );
-$title = '老子道德經（王弼本）';
+$title = '老子德道經（帛書本）';
 
 $老子path = dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
 	'《老子》' . DIRECTORY_SEPARATOR;
@@ -43,10 +43,16 @@ foreach( $lines as $line )
 			line_to_sentence_tree( $line );
 	}
 }
+
+$tree[ '暫存' ] = $tree[ '1' ];
+$tree[ '1' ] = $tree[ '2' ];
+$tree[ '2' ] = $tree[ '暫存' ];
+unset( $tree[ '暫存' ] );
 //print_r( $tree );
 
+
 $path = $老子path . 'tree' . DIRECTORY_SEPARATOR .
-	'老子王弼本.json';
+	'老子帛書本.json';
 file_put_contents(
 	$path,
 	json_encode(
