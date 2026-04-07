@@ -12,9 +12,9 @@ require_once(
 
 $text_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
-	'《文選》' . DIRECTORY_SEPARATOR .
+	'《老子》' . DIRECTORY_SEPARATOR .
 	'raw_text' . DIRECTORY_SEPARATOR;
-$回 = '01';
+$回 = '老子';
 $file_path = $text_path . $回 . '.txt';
  
 $contents = file_get_contents( $file_path  );
