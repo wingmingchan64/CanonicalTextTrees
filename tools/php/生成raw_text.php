@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\生成紅樓夢raw_text.php
+php H:\github\CanonicalTextTrees\tools\php\生成raw_text.php
  */
 require_once( 
 	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
@@ -12,9 +12,9 @@ require_once(
 
 $text_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
-	'《老子》' . DIRECTORY_SEPARATOR .
-	'王弼注' . DIRECTORY_SEPARATOR;
-$回 = '王弼注';
+	'《文選》' . DIRECTORY_SEPARATOR .
+	'canonical_text' . DIRECTORY_SEPARATOR;
+$回 = '32.01';
 $file_path = $text_path . $回 . '.txt';
  
 $contents = file_get_contents( $file_path  );

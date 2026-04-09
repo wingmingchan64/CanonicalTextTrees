@@ -23,7 +23,6 @@ function build_text_tree(
 	return $tree;
 }
 
-
 function build_hongloumeng_tree(
 	string $txt
 ) : array

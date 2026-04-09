@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\生成紅樓夢trees.php
+php H:\github\CanonicalTextTrees\tools\php\生成text_trees.php
  */
 require_once( 
 	__DIR__ . DIRECTORY_SEPARATOR .
@@ -11,12 +11,12 @@ $txt_dir = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
 $tree_dir = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
 	'《文選》' . DIRECTORY_SEPARATOR .
 	'trees' . DIRECTORY_SEPARATOR;
-$文檔 = '01.03';
+$文檔 = '32.01';
 $text_file_path = $txt_dir . $文檔 . '.txt';
 $tree_file_path = $tree_dir . $文檔 . '.json';
 
-$tree = build_hongloumeng_tree( 
-	file_get_contents( $text_file_path )
+$tree = build_text_tree( 
+	file_get_contents( $text_file_path ), '篇目'
 );
 //print_r( $tree );
 
