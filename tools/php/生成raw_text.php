@@ -12,24 +12,41 @@ require_once(
 
 $text_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
-	'《文選》' . DIRECTORY_SEPARATOR .
-	'canonical_text' . DIRECTORY_SEPARATOR;
-$回 = '32.01';
-$file_path = $text_path . $回 . '.txt';
- 
-$contents = file_get_contents( $file_path  );
-$contents = normalize( $contents );
+	'《詩經》' . DIRECTORY_SEPARATOR .
+	'raw_text' . DIRECTORY_SEPARATOR;
+	
+if( !is_dir( $text_path ) )
+{
+    throw new RuntimeException( 'raw_text 目錄不存在: ' . $excep_dir );
+}
+$files = scandir( $text_path );
+sort( $files, SORT_STRING );
+
 $異體字 = json_decode(
 	file_get_contents( '異體字.json', true ) );
 
-foreach( $異體字 as $異 => $正 )
+foreach( $files as $file )
 {
-	$contents = str_replace( $異, $正, $contents );
+	$path = $text_path . $file;
+
+	if(
+		is_file( $path )
+		&& preg_match( '/\.txt$/i', $file )
+	)
+	{
+		$contents = file_get_contents( $path  );
+		$contents = normalize( $contents );
+
+		foreach( $異體字 as $異 => $正 )
+		{
+			$contents = str_replace( $異, $正, $contents );
+		}
+
+		$contents = preg_replace( '/【\X+?】/u', '', $contents );
+		$contents = preg_replace( '/〈\X+?〉/u', '', $contents );
+		$contents = preg_replace( '/\[\X+?\]/u', '', $contents );
+
+		file_put_contents( $path, $contents );
+	}
 }
-
-$contents = preg_replace( '/【\X+?】/u', '', $contents );
-$contents = preg_replace( '/〈\X+?〉/u', '', $contents );
-$contents = preg_replace( '/\[\X+?\]/u', '', $contents );
-
-file_put_contents( $file_path, $contents );
 ?>
