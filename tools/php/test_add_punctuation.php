@@ -75,8 +75,6 @@ for( $i = 0; $i < count( $contents ); $i++ )
 
 file_put_contents( $path, $txt );
 
-//print_r( $contents );
-
 function add_punctuation( 
 	array &$tree, string $punc='。' ) : void
 {
@@ -85,8 +83,10 @@ function add_punctuation(
 	
 	if( is_string( $values[ 0 ] ) )
 	{
-		$pointer = &$tree[ count( $keys ) ];
-		$pointer = $pointer . $punc;
+		//$pointer = &$tree[ count( $keys ) ];
+		//$pointer = $pointer . $punc;
+		$last_key = array_key_last( $tree );
+		$tree[ $last_key ] .= $punc;
 		return;
 	}
 	
