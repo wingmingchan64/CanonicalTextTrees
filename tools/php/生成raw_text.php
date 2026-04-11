@@ -12,19 +12,30 @@ require_once(
 
 $text_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
-	'《詩經》' . DIRECTORY_SEPARATOR .
-	'raw_text' . DIRECTORY_SEPARATOR;
-	
+	'《論語》' . DIRECTORY_SEPARATOR .
+	'raw_text' . DIRECTORY_SEPARATOR .
+	'論語.txt';
+/*
 if( !is_dir( $text_path ) )
 {
     throw new RuntimeException( 'raw_text 目錄不存在: ' . $excep_dir );
 }
 $files = scandir( $text_path );
 sort( $files, SORT_STRING );
-
+*/
 $異體字 = json_decode(
 	file_get_contents( '異體字.json', true ) );
 
+$contents = file_get_contents( $text_path );
+$contents = normalize( $contents );
+
+foreach( $異體字 as $異 => $正 )
+{
+	$contents = str_replace( $異, $正, $contents );
+}
+
+file_put_contents( $text_path, $contents );
+/*
 foreach( $files as $file )
 {
 	$path = $text_path . $file;
@@ -34,7 +45,7 @@ foreach( $files as $file )
 		&& preg_match( '/\.txt$/i', $file )
 	)
 	{
-		$contents = file_get_contents( $path  );
+		$contents = file_get_contents( $path );
 		$contents = normalize( $contents );
 
 		foreach( $異體字 as $異 => $正 )
@@ -49,4 +60,5 @@ foreach( $files as $file )
 		file_put_contents( $path, $contents );
 	}
 }
+*/
 ?>
