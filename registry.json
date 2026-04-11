@@ -1,0 +1,51 @@
+{
+  "HONGLOUMENG":{
+    "folder": "紅樓夢",
+    "title": "紅樓夢",
+    "display_title": "《紅樓夢》",
+    "aliases": ["石頭記", "《石頭記》"]
+  },
+  "LAOZI":{
+    "folder": "老子",
+    "title": "老子",
+    "display_title": "《老子》",
+    "aliases": ["道德經", "《道德經》"]
+  },
+  "LUNYU":{
+    "folder": "論語",
+    "title": "論語",
+    "display_title": "《論語》"
+  },
+  "QUANTANGSHI":{
+    "folder": "全唐詩",
+    "title": "全唐詩",
+    "display_title": "《全唐詩》"
+  },
+  "SHIJI":{
+    "folder": "史記",
+    "title": "史記",
+    "display_title": "《史記》"
+  },
+  "SHIJING":{
+    "folder": "詩經",
+    "title": "詩經",
+    "display_title": "《詩經》"
+  },
+  "SONGCISANBAISHOU":{
+    "folder": "宋詞三百首",
+    "title": "宋詞三百首",
+    "display_title": "《宋詞三百首》"
+  },
+  "WENXUAN":{
+    "folder": "文選",
+    "title": "文選",
+    "display_title": "《文選》",
+    "aliases": ["昭明文選", "《昭明文選》"]
+  },
+  "ZHUANGZI":{
+    "folder": "莊子",
+    "title": "莊子",
+    "display_title": "《莊子》",
+    "aliases": ["南華眞經", "《南華眞經》"]
+  }
+}

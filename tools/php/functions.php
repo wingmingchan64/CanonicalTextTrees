@@ -6,6 +6,76 @@ const 詞牌 = '詞牌';
 const 篇名 = '篇名';
 const 回目 = '回目';
 
+function retrieve_text_from_canonical_tree(
+	string $work_id,
+	array $path,
+) : string
+{
+	$registry = json_decode(
+		file_get_contents( 
+			dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
+			'registry.json' ), true
+	);
+	
+	$tree_path = dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
+		$registry[ $work_id ][ 'title' ] .
+		DIRECTORY_SEPARATOR .
+		'trees' . DIRECTORY_SEPARATOR . 
+		$path[ 0 ] . '.json';
+	//echo $path;
+	
+	$tree = json_decode(
+		file_get_contents( $tree_path ), true );
+	//print_r( $tree );
+	
+	$pointer = $tree;
+	
+	for( $i = 1; $i < count( $path ); $i++ )
+	{
+		$pointer = $pointer[ $path[ $i ] ];
+	}
+	echo flatten_tree_to_text_skip_keys( [ $pointer ] );
+	return '';
+}
+
+/**
+ * 攤平樹為文字，可略過指定 key。
+ *
+ * @param mixed $node
+ * @param array $skip_keys
+ * @return string
+ * @throws InvalidArgumentException
+ */
+function flatten_tree_to_text_skip_keys(
+	mixed $node, array $skip_keys = [] ): string
+{
+	if( is_string( $node ) )
+	{
+		return $node;
+	}
+
+	if(!is_array($node))
+	{
+		throw new InvalidArgumentException(
+			'Tree node must be either string or array.'
+		);
+	}
+
+	$text = '';
+
+	foreach( $node as $key => $child )
+	{
+		if( in_array( ( string )$key, $skip_keys, true ) )
+		{
+			continue;
+		}
+
+		$text .= flatten_tree_to_text_skip_keys($child, $skip_keys);
+	}
+
+	return $text;
+}
+
 function build_text_tree(
 	string $txt,
 	string $title
