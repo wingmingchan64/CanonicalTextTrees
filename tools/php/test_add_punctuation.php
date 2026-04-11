@@ -64,7 +64,7 @@ for( $i = 0; $i < count( $contents ); $i++ )
 	if( $i == 0 )
 	{
 		$txt .= '# ' . $contents[ $i ] . NL . NL;
-		$txt .= "此文檔以 PHP 生成。" . NL . NL;
+		$txt .= "此文檔用 PHP 程式，以基準正文樹生成。" . NL . NL;
 	}
 	else
 	{
