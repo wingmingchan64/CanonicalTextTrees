@@ -20,10 +20,10 @@
 已生成:
 
 - <a href="https://github.com/wingmingchan64/Dufu-Analysis/tree/main/schemas/json/base_text">杜甫</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/《全唐詩》/trees">白居易（卷424-436）</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/《紅樓夢》/trees">《紅樓夢》凡例、第一至第三回</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/《詩經》/trees">《詩經》</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/《論語》/trees/01.json">《論語·學而第一》</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/《老子》">《老子》</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/《莊子》/trees/01.json">《莊子·逍遙遊》</a>
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/全唐詩/trees">白居易（卷424-436）</a>
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/紅樓夢/trees">《紅樓夢》凡例、第一至第三回</a>
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/詩經/trees">《詩經》</a>
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/trees/01.json">《論語·學而第一》</a>
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/老子">《老子》</a>
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/莊子/trees/01.json">《莊子·逍遙遊》</a>
 
