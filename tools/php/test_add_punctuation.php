@@ -75,6 +75,29 @@ for( $i = 0; $i < count( $contents ); $i++ )
 
 file_put_contents( $path, $txt );
 
+$txt = '';
+
+for( $i = 0; $i < count( $contents ); $i++ )
+{
+	if( $i == 0 )
+	{
+		$txt = '<text id="' . $contents[ $i ] . '">' . NL;
+	}
+	else
+	{
+		$txt .= '<prose id="' . $i . '">';
+		$txt .= $contents[ $i ] . '</prose>' . NL;
+	}
+}
+$txt .= '</text>';
+
+$path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
+	'論語' . DIRECTORY_SEPARATOR .
+	'views' . DIRECTORY_SEPARATOR .
+	'02.xml';
+
+file_put_contents( $path, $txt );
+
 function add_punctuation( 
 	array &$tree, string $punc='。' ) : void
 {
