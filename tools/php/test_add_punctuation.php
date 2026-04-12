@@ -81,7 +81,8 @@ for( $i = 0; $i < count( $contents ); $i++ )
 {
 	if( $i == 0 )
 	{
-		$txt = '<text id="' . $contents[ $i ] . '">' . NL;
+		$txt = '<text id="' . 
+			trim( $contents[ $i ], '《》' ) . '">' . NL;
 	}
 	else
 	{
