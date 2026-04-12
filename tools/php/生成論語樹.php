@@ -12,7 +12,7 @@ require_once(
 
 require_once( 'functions.php' );
 $title = '論語';
-$篇 = '17';
+$篇 = '18';
 
 $txt = file_get_contents( 
 	dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR . 
