@@ -26,7 +26,7 @@ $path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
 file_put_contents(
 	$path,
 	json_encode(
-		$tree, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
+		array( $篇 => $tree ), 
+		JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
 );
-print_r( $tree );
 ?>
