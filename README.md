@@ -13,6 +13,7 @@
 
 用途：
 
+- 單憑一棵基準正文樹，就能以不同面貌（格式），呈現同一個文本（<a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/views/02.md">《論語·爲政第二》</a>）
 - 結合不同的後設資料集，可以生成不同版本、注本、評本
 - 幷列不同的版本
 - <a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/workflow/pipeline.md">Processing Pipeline</a>
@@ -26,4 +27,3 @@
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/trees/01.json">《論語·學而第一》</a>
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/老子">《老子》</a>
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/莊子/trees/01.json">《莊子·逍遙遊》</a>
-
