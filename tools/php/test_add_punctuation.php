@@ -86,7 +86,7 @@ for( $i = 0; $i < count( $contents ); $i++ )
 	else
 	{
 		$txt .= '<prose id="' . $i . '">';
-		$txt .= $contents[ $i ] . '</prose>' . NL;
+		$txt .= trim( $contents[ $i ] ) . '</prose>' . NL;
 	}
 }
 $txt .= '</text>';
