@@ -17,6 +17,7 @@
 - 結合不同的後設資料集，可以生成不同版本、注本、評本
 - 幷列不同的版本
 - <a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/workflow/pipeline.md">Processing Pipeline</a>
+- 從書名入手，提取書中的一個片段，如《論語》的第三篇第四章，或此章中的第五句第三個字
 
 已生成:
 
