@@ -1,6 +1,6 @@
 # Canonical Text Trees 古籍基準正文樹
 
-在處理杜甫詩的時候，我看到了<a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/architecture/canonical_text_tree.md">基準正文樹</a>的巨大潛力。這裏搜集了五類文檔：
+在處理杜甫詩的時候，我看到了<a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/architecture/canonical_text_tree.md">基準正文樹</a>的巨大潛力。這裏收集了五類文檔：
 
 - 從網上搜集來的、未經校對的詩、詞、文、小說
 - 從這些古籍轉換過來的基準正文樹
