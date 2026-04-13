@@ -1,10 +1,11 @@
 # Canonical Text Trees 古籍基準正文樹
 
-在處理杜甫詩的時候，我看到了<a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/architecture/canonical_text_tree.md">基準正文樹</a>的巨大潛力。這裏搜集了三類文檔：
+在處理杜甫詩的時候，我看到了<a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/architecture/canonical_text_tree.md">基準正文樹</a>的巨大潛力。這裏搜集了四類文檔：
 
 - 從網上搜集來的、未經校對的詩、詞、文、小說
 - 從這些古籍轉換過來的基準正文樹
 - 轉換用的 PHP、Python 程式（Python 程式多是 ChatGPT 提供的）
+- 以基準正文樹爲基礎而生成的各種正文、路徑/坐標對照表
 
 步驟：
 
@@ -17,7 +18,8 @@
 - 結合不同的後設資料集，可以生成不同版本、注本、評本
 - 幷列不同的版本
 - <a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/workflow/pipeline.md">Processing Pipeline</a>
-- 從書名入手，幷提供路徑，以提取書中的一個片段，如《論語》的第三篇第四章，或此章中的第五句第三個字
+- 從書名入手，幷提供路徑，以提取書中的一個正文片段，如《論語》的第三篇第四章，或此章中的第五句第三個字
+- 從書名入手，幷提供一個正文片段（一句）或不相關的幾個字，以提取這些文字在樹中的位置，如「大宰知我乎」在《論語》中的路徑是「LUNYU,09,6,14,3」，而「大」「少」兩個字同時出現在「LUNYU,09,6,14」、「LUNYU,18,9,40」兩個節點
 
 已生成:
 

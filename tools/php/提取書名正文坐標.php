@@ -14,8 +14,8 @@ require_once(
 	'functions.php' );
 $work_id = 'LUNYU';
 $folder = $registry[ $work_id ][ 'folder' ];
-$坐標s = 提取書名正文坐標( $folder, '大宰知我乎' );
-//$坐標s = 提取書名正文坐標( $folder, '大少' );
+//$坐標s = 提取書名正文坐標( $folder, '大宰知我乎' );
+$坐標s = 提取書名正文坐標( $folder, '大少' );
 print_r( $坐標s );
 
 function 提取書名正文坐標(
