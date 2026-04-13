@@ -15,13 +15,14 @@ require_once(
 	__DIR__ . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 
+$篇 = '02';
 $path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
 	'論語' . DIRECTORY_SEPARATOR .
 	'trees' . DIRECTORY_SEPARATOR .
-	'02.json';
+	$篇 . '.json';
 
 $tree = json_decode( 
-	file_get_contents( $path ), true );
+	file_get_contents( $path ), true )[ $篇 ];
 	
 foreach( $tree as $k => $v )
 {
@@ -35,6 +36,8 @@ foreach( $tree as $k => $v )
 		add_punctuation( $tree[ $k ] );
 	}
 }
+
+//print_r( $tree );
 
 $contents = [];
 
@@ -55,7 +58,7 @@ foreach( $tree as $k => $v )
 $path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
 	'論語' . DIRECTORY_SEPARATOR .
 	'views' . DIRECTORY_SEPARATOR .
-	'02.md';
+	$篇 . '.md';
 
 $txt = '';
 
@@ -95,7 +98,7 @@ $txt .= '</text>';
 $path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
 	'論語' . DIRECTORY_SEPARATOR .
 	'views' . DIRECTORY_SEPARATOR .
-	'02.xml';
+	$篇 . '.xml';
 
 file_put_contents( $path, $txt );
 
@@ -105,16 +108,14 @@ function add_punctuation(
 	$keys = array_keys( $tree );
 	$values = array_values( $tree );
 	
-	if( is_string( $values[ 0 ] ) )
+	if( is_string( $tree[ array_key_last( $tree ) ] ) )
 	{
-		//$pointer = &$tree[ count( $keys ) ];
-		//$pointer = $pointer . $punc;
 		$last_key = array_key_last( $tree );
 		$tree[ $last_key ] .= $punc;
 		return;
 	}
 	
-	elseif( is_array( $values[ 0 ] ) )
+	elseif( is_array( $tree[ array_key_last( $tree ) ] ) )
 	{
 		foreach( $tree as $key => $value )
 		{

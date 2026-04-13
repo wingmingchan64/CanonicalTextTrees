@@ -16,6 +16,5 @@ require_once(
 	 'functions.php' );
 
 retrieve_text_from_canonical_tree( 'LUNYU', 
-	array( '01','1' ) );
-
+	explode( ',', '01,1,3,1' ) );
 ?>

@@ -1,21 +1,26 @@
 <?php
-const 詩題 = '詩題';
-const 副題 = '副題';
+/*
+php H:\github\CanonicalTextTrees\tools\php\test_text_retrieval.php
+ */
+//const 詩題 = '詩題';
+//const 副題 = '副題';
 const 作者 = '作者';
 const 詞牌 = '詞牌';
 const 篇名 = '篇名';
 const 回目 = '回目';
+
+// load registry
+$registry = json_decode(
+	file_get_contents(
+		dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
+			'registry.json' ), true );
 
 function retrieve_text_from_canonical_tree(
 	string $work_id,
 	array $path,
 ) : string
 {
-	$registry = json_decode(
-		file_get_contents( 
-			dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
-			'registry.json' ), true
-	);
+	global $registry;
 	
 	$tree_path = dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
 		$registry[ $work_id ][ 'title' ] .
@@ -30,7 +35,7 @@ function retrieve_text_from_canonical_tree(
 	
 	$pointer = $tree;
 	
-	for( $i = 1; $i < count( $path ); $i++ )
+	for( $i = 0; $i < count( $path ); $i++ )
 	{
 		$pointer = $pointer[ $path[ $i ] ];
 	}
