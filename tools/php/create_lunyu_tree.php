@@ -37,7 +37,7 @@ for( $i = 1; $i < 21; $i++ )
 }
 
 file_put_contents(
-	$trees_dir_path . 'LUNYI_TREE.json',
+	$trees_dir_path . 'LUNYU_TREE.json',
 	json_encode(
 		$trees, 
 		JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
