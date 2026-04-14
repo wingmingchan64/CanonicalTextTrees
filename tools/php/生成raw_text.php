@@ -9,20 +9,20 @@ require_once(
 	'php' . DIRECTORY_SEPARATOR .
 	'lib' . DIRECTORY_SEPARATOR .
 	 '函式.php' );
+require_once( 
+	__DIR__ . DIRECTORY_SEPARATOR .
+	 'functions.php' );
+	 
+$work_id = 'MENGZI';
+$folder = $registry[ $work_id ][ 'folder' ];
+$title = $registry[ $work_id ][ 'title' ];
 
 $text_path = dirname( __DIR__, 2 ) .
 	DIRECTORY_SEPARATOR .
-	'《論語》' . DIRECTORY_SEPARATOR .
+	$folder . DIRECTORY_SEPARATOR .
 	'raw_text' . DIRECTORY_SEPARATOR .
-	'論語.txt';
-/*
-if( !is_dir( $text_path ) )
-{
-    throw new RuntimeException( 'raw_text 目錄不存在: ' . $excep_dir );
-}
-$files = scandir( $text_path );
-sort( $files, SORT_STRING );
-*/
+	$folder . '.txt';
+
 $異體字 = json_decode(
 	file_get_contents( '異體字.json', true ) );
 

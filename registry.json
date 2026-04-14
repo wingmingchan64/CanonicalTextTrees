@@ -16,6 +16,11 @@
     "title": "論語",
     "display_title": "《論語》"
   },
+  "MENGZI":{
+    "folder": "孟子",
+    "title": "孟子",
+    "display_title": "《孟子》"
+  },
   "QUANTANGSHI":{
     "folder": "全唐詩",
     "title": "全唐詩",
