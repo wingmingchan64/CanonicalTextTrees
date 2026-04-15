@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\生成raw_text.php
+php H:\github\CanonicalTextTrees\tools\php\生成原始文本.php
  */
 require_once( 
 	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
