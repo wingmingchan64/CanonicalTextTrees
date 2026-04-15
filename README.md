@@ -8,6 +8,10 @@
 - 以基準正文樹爲基礎而生成的各種正文、路徑/坐標對照表
 - 爲<a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/text_addressing/overview.md">文本定位</a>而編寫的程式
 
+目的：展示如何從建立基準正文文檔，到生成基準正文樹，以及各種的 mapping 文檔，最後如何利用這些生成的文檔：
+- 在樹中準確地爲文字片段定位（searching）
+- 以路徑提取文字片段（text retrieval）
+
 步驟：
 
 - 按一定格式，整理文本（存於 .txt 文檔中），修改錯字、簡體字（只用正體字）

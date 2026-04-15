@@ -2,8 +2,9 @@
 /*
 php H:\github\CanonicalTextTrees\tools\php\test_text_retrieval.php
  */
-//const 詩題 = '詩題';
-//const 副題 = '副題';
+const FOLDER = 'folder';
+const TITLE = 'title';
+const DISPLAY_TITLE = 'display_title';
 const 作者 = '作者';
 const 詞牌 = '詞牌';
 const 篇名 = '篇名';
@@ -14,6 +15,25 @@ $registry = json_decode(
 	file_get_contents(
 		dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
 			'registry.json' ), true );
+
+// retrieve parameters from registry
+function get_folder( string $work_id ) : string
+{
+	global $registry;
+	return $registry[ $work_id ][ FOLDER ];
+}
+
+function get_title( string $work_id ) : string
+{
+	global $registry;
+	return $registry[ $work_id ][ TITLE ];
+}
+
+function get_display_title( string $work_id ) : string
+{
+	global $registry;
+	return $registry[ $work_id ][ DISPLAY_TITLE ];
+}
 
 function retrieve_text_from_canonical_tree(
 	string $work_id,
@@ -27,20 +47,17 @@ function retrieve_text_from_canonical_tree(
 		DIRECTORY_SEPARATOR .
 		'trees' . DIRECTORY_SEPARATOR . 
 		$path[ 0 ] . '.json';
-	//echo $path;
 	
 	$tree = json_decode(
 		file_get_contents( $tree_path ), true );
-	//print_r( $tree );
-	
 	$pointer = $tree;
 	
 	for( $i = 0; $i < count( $path ); $i++ )
 	{
 		$pointer = $pointer[ $path[ $i ] ];
 	}
-	echo flatten_tree_to_text_skip_keys( [ $pointer ] );
-	return '';
+
+	return  flatten_tree_to_text_skip_keys( [ $pointer ] );;
 }
 
 /**

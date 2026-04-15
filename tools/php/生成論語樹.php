@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\生成論語樹.php
+php H:\github\CanonicalTextTrees\tools\php\生成論語樹.php?pian=01
 */
 require_once(
 	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
@@ -9,10 +9,13 @@ require_once(
 	"php" . DIRECTORY_SEPARATOR .
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
-
 require_once( 'functions.php' );
-$title = '論語';
-$篇 = $_GET[ 'pian' ];
+$work_id = 'MENGZI';
+$folder = get_folder( $work_id );
+$title = get_title( $work_id );
+$display_title = get_display_title( $work_id );
+//$篇 = $_GET[ 'pian' ];
+$篇 = '01';
 
 $txt = file_get_contents( 
 	dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR . 
