@@ -15,7 +15,7 @@ $folder = get_folder( $work_id );
 $title = get_title( $work_id );
 $display_title = get_display_title( $work_id );
 //$篇 = $_GET[ 'pian' ];
-$篇 = '03';
+$篇 = '06';
 
 $txt = file_get_contents( 
 	dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR . 

@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\create_paths.php
+php H:\github\CanonicalTextTrees\tools\php\生成路徑.php
  */
 
 require_once( 
@@ -13,27 +13,32 @@ require_once(
 require_once( 
 	__DIR__ . DIRECTORY_SEPARATOR .
 	 'functions.php' );
+	 
+$work_id = 'MENGZI';
 $paths = array();
 $paths_chars = array();
-$work_id = 'LUNYI';
+$folder = get_folder( $work_id );
+$title = get_title( $work_id );
 
-for( $i = 1; $i < 21; $i++ )
+for( $i = 1; $i < 4; $i++ )
 {
 	$文檔碼 = str_pad( $i, 2, '0', STR_PAD_LEFT );
 	$path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
-		'論語' . DIRECTORY_SEPARATOR .
+		$title . DIRECTORY_SEPARATOR .
 		'trees' . DIRECTORY_SEPARATOR .
 		$文檔碼 . '.json';
 	$tree = json_decode(
 		file_get_contents( $path ), true )[ $文檔碼 ];
-	record_path( $tree, 'LUNYU,' . $文檔碼 );
+	record_path( $tree, $work_id . ',' . $文檔碼 );
 }
+// 論語：21147，15945
+// 孟子：
 echo count( $paths ), NL; // 21147
 echo count( $paths_chars ), NL; // 15945
 
 $coordinates_path = dirname( __DIR__, 2 ) . 
 	DIRECTORY_SEPARATOR .
-	'論語' . DIRECTORY_SEPARATOR .
+	$title . DIRECTORY_SEPARATOR .
 	'coordinates' . DIRECTORY_SEPARATOR .
 	'paths.json';
 	
@@ -45,7 +50,7 @@ file_put_contents(
 
 $coordinates_path = dirname( __DIR__, 2 ) . 
 	DIRECTORY_SEPARATOR .
-	'論語' . DIRECTORY_SEPARATOR .
+	$title . DIRECTORY_SEPARATOR .
 	'coordinates' . DIRECTORY_SEPARATOR .
 	'paths_chars.json';
 	
