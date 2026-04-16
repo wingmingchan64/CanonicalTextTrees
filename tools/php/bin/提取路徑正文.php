@@ -19,9 +19,11 @@ require_once(
 
 echo retrieve_text_from_canonical_tree( 'LUNYU,03,4,9,1' ), NL;
 
-echo retrieve_text_from_canonical_tree( 'LUNYU,03,4,9,1', true ), NL;
+echo retrieve_text_from_canonical_tree( 'LUNYU,03,4,9', true ), NL;
 
 echo retrieve_text_from_canonical_tree( 'LUNYU,03,4,9,1,3' ), NL;
 
 echo retrieve_text_from_canonical_tree( "LUNYU,14,32,75,4,5" ), NL;
+
+echo retrieve_text_from_canonical_tree( "LUNYU,15,42,85,11" );
 ?>

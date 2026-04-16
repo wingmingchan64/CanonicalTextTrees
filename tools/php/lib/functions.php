@@ -72,7 +72,6 @@ function 搜索句內片段路徑( string $work_id, string $片段 ) : array
 	return $result;
 }
 
-
 function retrieve_text_from_canonical_tree(
 	string $path, bool $add_punctuation = false ) : string
 {
@@ -102,7 +101,7 @@ function retrieve_text_from_canonical_tree(
 	//print_r( $tree );
 	$pointer = $tree;
 	
-	for( $i = 1; $i < count( $parts ) - 1; $i++ )
+	for( $i = 1; $i < count( $parts ); $i++ )
 	{
 		$pointer = $pointer[ $parts[ $i ] ];
 	}

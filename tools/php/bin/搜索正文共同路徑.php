@@ -33,6 +33,7 @@ print_r( $坐標s );
 $坐標s = 搜索正文共同路徑( $work_id, '少氦' );
 print_r( $坐標s );
 
+
 function 搜索正文共同路徑(
 	string $work_id,
 	string $正文
