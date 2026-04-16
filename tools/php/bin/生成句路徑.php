@@ -1,28 +1,34 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\create_segment_coordinates.php
+php H:\github\CanonicalTextTrees\tools\php\bin\生成句路徑.php
  */
 
 require_once( 
-	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
+	dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 	'Dufu-Analysis' . DIRECTORY_SEPARATOR .
 	'tools' . DIRECTORY_SEPARATOR .
 	'php' . DIRECTORY_SEPARATOR .
 	'lib' . DIRECTORY_SEPARATOR .
 	 '函式.php' );
-
 require_once( 
-	__DIR__ . DIRECTORY_SEPARATOR .
+	dirname( __DIR__, 1 ) . DIRECTORY_SEPARATOR .
+	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 $work_id = 'LUNYU';
+$folder = get_folder( $work_id );
+$title = get_title( $work_id );
+$display_title = get_display_title( $work_id );
+$num_of_chapters = get_num_of_chapters( $work_id );
+
 $句_坐標 = array();
 
-for( $i = 1; $i < 21; $i++ )
+for( $i = 1; $i <= $num_of_chapters; $i++ )
 {
+	// change pad number!!!
 	$篇 = str_pad( $i, 2, '0', STR_PAD_LEFT );
 	//$篇 = '09'; // LUNYU,09,31,64,7
-	$path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
-		'論語' . DIRECTORY_SEPARATOR .
+	$path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
+		$title . DIRECTORY_SEPARATOR .
 		'trees' . DIRECTORY_SEPARATOR .
 		$篇 . '.json';
 
@@ -47,8 +53,8 @@ for( $i = 1; $i < 21; $i++ )
 	}
 }
 //print_r( count( $句_坐標 ) );
-$path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
-		'論語' . DIRECTORY_SEPARATOR .
+$path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
+		$title . DIRECTORY_SEPARATOR .
 		'coordinates' . DIRECTORY_SEPARATOR .
 		'segments_paths.json';
 		
@@ -57,8 +63,6 @@ file_put_contents(
 	json_encode(
 		$句_坐標, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
 );
-
-
 
 function save_path(
 	string $prefix,
@@ -89,7 +93,7 @@ function save_path(
 	{
 		foreach( $tree as $key => $value )
 		{
-			if( $key == "篇名" )
+			if( $key == 篇名 )
 			{
 				continue;
 			}

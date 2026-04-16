@@ -1,26 +1,33 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\record_paths.php
+php H:\github\CanonicalTextTrees\tools\php\bin\生成路徑.php
  */
 
 require_once( 
-	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
+	dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 	'Dufu-Analysis' . DIRECTORY_SEPARATOR .
 	'tools' . DIRECTORY_SEPARATOR .
 	'php' . DIRECTORY_SEPARATOR .
 	'lib' . DIRECTORY_SEPARATOR .
 	 '函式.php' );
 require_once( 
-	__DIR__ . DIRECTORY_SEPARATOR .
+	dirname( __DIR__, 1 ) . DIRECTORY_SEPARATOR .
+	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
+	 
+$work_id = 'LUNYU';
+$folder = get_folder( $work_id );
+$title = get_title( $work_id );
+$display_title = get_display_title( $work_id );
 $paths = array();
 $paths_chars = array();
 
 for( $i = 1; $i < 21; $i++ )
 {
 	$文檔碼 = str_pad( $i, 2, '0', STR_PAD_LEFT );
-	$path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
-		'論語' . DIRECTORY_SEPARATOR .
+	
+	$path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
+		$title . DIRECTORY_SEPARATOR .
 		'trees' . DIRECTORY_SEPARATOR .
 		$文檔碼 . '.json';
 	$tree = json_decode( 
@@ -30,9 +37,9 @@ for( $i = 1; $i < 21; $i++ )
 echo count( $paths ), NL;
 echo count( $paths_chars ), NL;
 
-$coordinates_path = dirname( __DIR__, 2 ) . 
+$coordinates_path = dirname( __DIR__, 3 ) . 
 	DIRECTORY_SEPARATOR .
-	'論語' . DIRECTORY_SEPARATOR .
+	$title . DIRECTORY_SEPARATOR .
 	'coordinates' . DIRECTORY_SEPARATOR .
 	'paths.json';
 	
@@ -42,9 +49,9 @@ file_put_contents(
 		$paths, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
 );
 
-$coordinates_path = dirname( __DIR__, 2 ) . 
+$coordinates_path = dirname( __DIR__, 3 ) . 
 	DIRECTORY_SEPARATOR .
-	'論語' . DIRECTORY_SEPARATOR .
+	$title . DIRECTORY_SEPARATOR .
 	'coordinates' . DIRECTORY_SEPARATOR .
 	'paths_chars.json';
 	

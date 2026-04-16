@@ -14,12 +14,14 @@
   "LUNYU":{
     "folder": "論語",
     "title": "論語",
-    "display_title": "《論語》"
+    "display_title": "《論語》",
+	"num_of_chapters": 20
   },
   "MENGZI":{
     "folder": "孟子",
     "title": "孟子",
-    "display_title": "《孟子》"
+    "display_title": "《孟子》",
+	"num_of_chapters": 14
   },
   "QUANTANGSHI":{
     "folder": "全唐詩",

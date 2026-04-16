@@ -1,23 +1,29 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\create_chars_paths.php
+php H:\github\CanonicalTextTrees\tools\php\bin\生成字路徑.php
  */
 
 require_once( 
-	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
+	dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 	'Dufu-Analysis' . DIRECTORY_SEPARATOR .
 	'tools' . DIRECTORY_SEPARATOR .
 	'php' . DIRECTORY_SEPARATOR .
 	'lib' . DIRECTORY_SEPARATOR .
 	 '函式.php' );
 require_once( 
-	__DIR__ . DIRECTORY_SEPARATOR .
+	dirname( __DIR__, 1 ) . DIRECTORY_SEPARATOR .
+	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
+$work_id = 'LUNYU';
+$folder = get_folder( $work_id );
+$title = get_title( $work_id );
+$display_title = get_display_title( $work_id );
+$num_of_chapters = get_num_of_chapters( $work_id );
 
 $paths_chars = json_decode(
 	file_get_contents(
-		dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
-		'論語' . DIRECTORY_SEPARATOR .
+		dirname( __FILE__, 4 ) . DIRECTORY_SEPARATOR .
+		$title . DIRECTORY_SEPARATOR .
 		'coordinates' . DIRECTORY_SEPARATOR .
 		'paths_chars.json' ), true );
 
@@ -36,14 +42,14 @@ foreach( $paths_chars as $path => $char )
 
 $paths_chars = json_decode(
 	file_get_contents(
-		dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
-		'論語' . DIRECTORY_SEPARATOR .
+		dirname( __FILE__, 4 ) . DIRECTORY_SEPARATOR .
+		$title . DIRECTORY_SEPARATOR .
 		'coordinates' . DIRECTORY_SEPARATOR .
 		'paths_chars.json' ), true );
 
-$chars_paths_path = dirname( __FILE__, 3 ) . 	
+$chars_paths_path = dirname( __FILE__, 4 ) . 	
 	DIRECTORY_SEPARATOR .
-	'論語' . DIRECTORY_SEPARATOR .
+	$title . DIRECTORY_SEPARATOR .
 	'coordinates' . DIRECTORY_SEPARATOR .
 	'chars_paths.json';
 
