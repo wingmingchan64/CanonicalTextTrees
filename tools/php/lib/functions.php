@@ -2,38 +2,28 @@
 /*
 php H:\github\CanonicalTextTrees\tools\php\test_text_retrieval.php
  */
-const FOLDER = 'folder';
-const TITLE = 'title';
-const DISPLAY_TITLE = 'display_title';
-const 作者 = '作者';
-const 詞牌 = '詞牌';
-const 篇名 = '篇名';
-const 回目 = '回目';
+declare( strict_types = 1 );
+// load constants
+require_once( __DIR__ . DIRECTORY_SEPARATOR . '常數.php' );
+// load exceptions
+require_once( __DIR__ . DS . 'autoload.php' );
+
+define( 'REGISTRY_PATH', dirname( __FILE__, 4 ) . 
+	DIRECTORY_SEPARATOR .
+	'schemas' . DIRECTORY_SEPARATOR . 
+	'json' . DIRECTORY_SEPARATOR . 
+	'registry' . DIRECTORY_SEPARATOR );
 
 // load registry
 $registry = json_decode(
+	file_get_contents( 
+		REGISTRY_PATH . 'registry.json' ), true );
+	
+$異體字 = json_decode(
 	file_get_contents(
-		dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
-			'registry.json' ), true );
+		REGISTRY_PATH . '異體字.json' ), true );
 
-// retrieve parameters from registry
-function get_folder( string $work_id ) : string
-{
-	global $registry;
-	return $registry[ $work_id ][ FOLDER ];
-}
-
-function get_title( string $work_id ) : string
-{
-	global $registry;
-	return $registry[ $work_id ][ TITLE ];
-}
-
-function get_display_title( string $work_id ) : string
-{
-	global $registry;
-	return $registry[ $work_id ][ DISPLAY_TITLE ];
-}
+	
 
 function retrieve_text_from_canonical_tree(
 	string $work_id,
