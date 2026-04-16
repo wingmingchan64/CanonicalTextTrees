@@ -2,75 +2,57 @@
 /*
 php H:\github\CanonicalTextTrees\tools\php\test_text_retrieval.php
  */
-declare( strict_types = 1 );
-// load constants
-require_once( __DIR__ . DIRECTORY_SEPARATOR . '常數.php' );
-// load exceptions
-require_once( __DIR__ . DS . 'autoload.php' );
-
-define( 'REGISTRY_PATH', dirname( __FILE__, 4 ) . 
-	DIRECTORY_SEPARATOR .
-	'schemas' . DIRECTORY_SEPARATOR . 
-	'json' . DIRECTORY_SEPARATOR . 
-	'registry' . DIRECTORY_SEPARATOR );
+const FOLDER = 'folder';
+const TITLE = 'title';
+const DISPLAY_TITLE = 'display_title';
+const 作者 = '作者';
+const 詞牌 = '詞牌';
+const 篇名 = '篇名';
+const 回目 = '回目';
 
 // load registry
 $registry = json_decode(
-	file_get_contents( 
-		REGISTRY_PATH . 'registry.json' ), true );
-	
-$異體字 = json_decode(
 	file_get_contents(
-		REGISTRY_PATH . '異體字.json' ), true );
-// load functions
-$func_dir = __DIR__ . DS . FUNCTIONS_DIR;
+		dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
+			'registry.json' ), true );
 
-if( !is_dir( $func_dir ) )
+// retrieve parameters from registry
+function get_folder( string $work_id ) : string
 {
-    throw new RuntimeException( '函式目錄不存在: ' . $func_dir );
+	global $registry;
+	return $registry[ $work_id ][ FOLDER ];
 }
-$files = scandir( $func_dir );
-sort( $files, SORT_STRING );
 
-foreach( $files as $file )
+function get_title( string $work_id ) : string
 {
-	$path = $func_dir . $file;
+	global $registry;
+	return $registry[ $work_id ][ TITLE ];
+}
 
-	if(
-		is_file( $path )
-		&& preg_match( '/\.php$/i', $file )
-	)
-	{
-		require_once( $path );
-	}
+function get_display_title( string $work_id ) : string
+{
+	global $registry;
+	return $registry[ $work_id ][ DISPLAY_TITLE ];
 }
 
 function retrieve_text_from_canonical_tree(
-	string $path ) : string
+	array $path ) : string
 {
-	$parts = explode( ',', $path );
-	$work_id = $parts[ 0 ];
-	
-	if( !is_legal_path( $parts[ 0 ], $path ) )
-	{
-		throw new IllegalCoordinateException();
-	}
 	global $registry;
 	
-	$tree_path = dirname( __FILE__, 4 ) . 	
-		DIRECTORY_SEPARATOR .
-		get_title( $work_id ) .
+	$tree_path = dirname( __FILE__, 3 ) . DIRECTORY_SEPARATOR .
+		$registry[ $work_id ][ 'title' ] .
 		DIRECTORY_SEPARATOR .
 		'trees' . DIRECTORY_SEPARATOR . 
-		$parts[ 1 ] . '.json';
+		$path[ 0 ] . '.json';
 	
 	$tree = json_decode(
 		file_get_contents( $tree_path ), true );
 	$pointer = $tree;
 	
-	for( $i = 1; $i < count( $parts ) - 1; $i++ )
+	for( $i = 0; $i < count( $path ); $i++ )
 	{
-		$pointer = $pointer[ $parts[ $i ] ];
+		$pointer = $pointer[ $path[ $i ] ];
 	}
 
 	return  flatten_tree_to_text_skip_keys( [ $pointer ] );;
