@@ -1,25 +1,35 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\搜索正文共同路徑.php
+php H:\github\CanonicalTextTrees\tools\php\bin\搜索正文共同路徑.php
 */
 require_once(
-	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
+	dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 	'Dufu-Analysis' . DIRECTORY_SEPARATOR .
 	'tools' . DIRECTORY_SEPARATOR .
 	"php" . DIRECTORY_SEPARATOR .
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
 require_once( 
-	__DIR__ . DIRECTORY_SEPARATOR .
-	'functions.php' );
+	dirname( __DIR__, 1 ) . DIRECTORY_SEPARATOR .
+	'lib' . DIRECTORY_SEPARATOR .
+	 'functions.php' );
+
 $work_id = 'LUNYU';
-$folder = $registry[ $work_id ][ 'folder' ];
-$title = $registry[ $work_id ][ 'title' ];
+$folder = get_folder( $work_id );
+$title = get_title( $work_id );
 
 $坐標s = 搜索正文共同路徑( $folder, $title, '大宰知我乎' );
-//$坐標s = 搜索正文共同路徑( $folder, $title, '大少' );
-//$坐標s = 搜索正文共同路徑( $folder, $title, '納虐' );
+print_r( $坐標s );
+
+$坐標s = 搜索正文共同路徑( $folder, $title, '大少' );
+print_r( $坐標s );
+
+$坐標s = 搜索正文共同路徑( $folder, $title, '納虐' );
+print_r( $坐標s );
+
 $坐標s = 搜索正文共同路徑( $folder, $title, '少納' );
+print_r( $坐標s );
+
 $坐標s = 搜索正文共同路徑( $folder, $title, '少氦' );
 print_r( $坐標s );
 
@@ -30,7 +40,7 @@ function 搜索正文共同路徑(
 ) : array
 {
 	// load chars_paths
-	$chars_paths_path = dirname( __DIR__, 2 ) .
+	$chars_paths_path = dirname( __DIR__, 3 ) .
 		DIRECTORY_SEPARATOR .
 		$folder . DIRECTORY_SEPARATOR .
 		'coordinates' . DIRECTORY_SEPARATOR .
