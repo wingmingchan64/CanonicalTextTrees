@@ -53,7 +53,7 @@ function retrieve_text_from_canonical_tree(
 	
 	if( !is_legal_path( $parts[ 0 ], $path ) )
 	{
-		throw new IllegalCoordinateException();
+		throw new CTT\Exceptions\IllegalCoordinateException( $path . " not a legal path." );
 	}
 	global $registry;
 	

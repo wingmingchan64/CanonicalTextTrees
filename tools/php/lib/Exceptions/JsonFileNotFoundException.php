@@ -2,5 +2,5 @@
 declare( strict_types = 1 );
 namespace CTT\Exceptions;
 
-class JsonFileNotFoundException extends DufuException{}
+class JsonFileNotFoundException extends CTTException{}
 ?>
