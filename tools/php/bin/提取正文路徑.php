@@ -16,4 +16,8 @@ require_once(
 
 $result = 搜索句內片段路徑( 'LUNYU', '於有喪者' );
 print_r( $result );
+
+$result = 搜索句內片段路徑( 'LUNYU', '損矣' );
+print_r( $result );
+
 ?>
