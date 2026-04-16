@@ -8,12 +8,15 @@
 - 以基準正文樹爲基礎而生成的各種正文、路徑/坐標對照表
 - 爲<a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/text_addressing/overview.md">文本定位</a>而編寫的程式
 
+---
+
 ## 目的
 
 展示如何從建立基準正文文檔，到生成基準正文樹，以及各種的 mapping 文檔，最後如何利用這些生成的文檔：
 - 在樹中準確地爲文字片段定位（text search）
 - 以路徑提取文字片段（text retrieval）
 
+---
 
 ## 用途
 
@@ -23,6 +26,8 @@
 - <a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/workflow/pipeline.md">Processing Pipeline</a>
 - <a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/text_addressing/overview.md">文本定位</a>
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/從基準文本到正文定位.md">從基準文本到正文定位</a>
+
+---
 
 ## 進度
 
