@@ -45,6 +45,33 @@ foreach( $files as $file )
 	}
 }
 
+function 搜索句內片段路徑( string $work_id, string $片段 ) : array
+{
+	global $registry;
+	$title = get_title( $work_id );
+
+	$segments_paths = json_decode(
+		file_get_contents( 
+		dirname( __FILE__, 4 ) . 	
+		DIRECTORY_SEPARATOR .
+		get_title( $work_id ) .
+		DIRECTORY_SEPARATOR .
+		'coordinates' . DIRECTORY_SEPARATOR . 
+		'segments_paths.json' ), true );
+	$segments = array_keys( $segments_paths );
+	$result = array();
+	
+	foreach( $segments as $segment )
+	{
+		if( mb_strpos( $segment, $片段 ) !== false )
+		{
+			$result = $segments_paths[ $segment ];
+		}
+	}
+	return $result;
+}
+
+
 function retrieve_text_from_canonical_tree(
 	string $path, bool $add_punctuation = false ) : string
 {
@@ -81,6 +108,7 @@ function retrieve_text_from_canonical_tree(
 
 	return  flatten_tree_to_text_skip_keys( [ $pointer ] );;
 }
+
 
 function add_punctuation( 
 	array &$tree, string $punc='。' ) : void
