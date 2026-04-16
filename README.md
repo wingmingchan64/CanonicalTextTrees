@@ -8,25 +8,23 @@
 - 以基準正文樹爲基礎而生成的各種正文、路徑/坐標對照表
 - 爲<a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/text_addressing/overview.md">文本定位</a>而編寫的程式
 
-目的：展示如何從建立基準正文文檔，到生成基準正文樹，以及各種的 mapping 文檔，最後如何利用這些生成的文檔：
+## 目的
+
+展示如何從建立基準正文文檔，到生成基準正文樹，以及各種的 mapping 文檔，最後如何利用這些生成的文檔：
 - 在樹中準確地爲文字片段定位（searching）
 - 以路徑提取文字片段（text retrieval）
 
-步驟：
 
-- 按一定格式，整理文本（存於 .txt 文檔中），修改錯字、簡體字（只用正體字）
-- 以 PHP 程式，把文本文字轉換成基準正文樹
-
-用途：
+## 用途
 
 - 單憑一棵基準正文樹，就能以不同面貌（格式），呈現同一個文本（<a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/views/02.md">《論語·爲政第二》</a>）
 - 結合不同的後設資料集，可以生成不同版本、注本、評本
 - 幷列不同的版本
 - <a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/workflow/pipeline.md">Processing Pipeline</a>
-- 從書名入手，幷提供路徑，以提取書中的一個正文片段，如以「LUNYU,03,4」提取《論語》中該節點下的文字「林放問禮之本子曰大哉問禮與其奢也寧儉喪與其易也寧戚」；以「LUNYU,03,4,9,1」提取「林放問禮之本」 （<a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/coordinates/paths.json">paths.json</a>）
-- 從書名入手，幷提供一個正文片段（一句）或不相關的幾個字，以提取包含這些文字的節點的路徑，如「大宰知我乎」在《論語》中的路徑是「LUNYU,09,6,14,3」，而「大」「少」兩個字同時出現在「LUNYU,09,6,14」、「LUNYU,18,9,40」兩個節點 （<a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/coordinates/segments_paths.json">segments_paths.json</a>、<a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/coordinates/chars_paths.json">chars_paths.json</a>）
+- <a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/text_addressing/overview.md">文本定位</a>
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/從基準文本到正文定位.md">從基準文本到正文定位</a>
 
-已生成:
+## 進度
 
 - <a href="https://github.com/wingmingchan64/Dufu-Analysis/tree/main/schemas/json/base_text">杜甫</a>
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/全唐詩/trees">白居易（卷424-436）</a>
