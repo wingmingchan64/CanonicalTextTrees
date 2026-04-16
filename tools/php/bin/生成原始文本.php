@@ -15,8 +15,9 @@ require_once(
 	 'functions.php' );
 	 
 $work_id = 'LUNYU';
-$folder = $registry[ $work_id ][ 'folder' ];
-$title = $registry[ $work_id ][ 'title' ];
+$folder = get_folder( $work_id );
+$title = get_title( $work_id );
+$display_title = get_display_title( $work_id );
 
 $text_path = dirname( __DIR__, 3 ) .
 	DIRECTORY_SEPARATOR .

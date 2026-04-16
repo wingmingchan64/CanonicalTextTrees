@@ -22,6 +22,28 @@ $registry = json_decode(
 $異體字 = json_decode(
 	file_get_contents(
 		REGISTRY_PATH . '異體字.json' ), true );
+// load functions
+$func_dir = __DIR__ . DS . FUNCTIONS_DIR;
+
+if( !is_dir( $func_dir ) )
+{
+    throw new RuntimeException( '函式目錄不存在: ' . $func_dir );
+}
+$files = scandir( $func_dir );
+sort( $files, SORT_STRING );
+
+foreach( $files as $file )
+{
+	$path = $func_dir . $file;
+
+	if(
+		is_file( $path )
+		&& preg_match( '/\.php$/i', $file )
+	)
+	{
+		require_once( $path );
+	}
+}
 
 	
 
