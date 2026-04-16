@@ -15,30 +15,33 @@ require_once(
 	 'functions.php' );
 
 $work_id = 'LUNYU';
-$folder = get_folder( $work_id );
-$title = get_title( $work_id );
+//$folder = get_folder( $work_id );
+//$title = get_title( $work_id );
 
-$坐標s = 搜索正文共同路徑( $folder, $title, '大宰知我乎' );
+$坐標s = 搜索正文共同路徑( $work_id, '大宰知我乎' );
 print_r( $坐標s );
 
-$坐標s = 搜索正文共同路徑( $folder, $title, '大少' );
+$坐標s = 搜索正文共同路徑( $work_id, '大少' );
 print_r( $坐標s );
 
-$坐標s = 搜索正文共同路徑( $folder, $title, '納虐' );
+$坐標s = 搜索正文共同路徑( $work_id, '納虐' );
 print_r( $坐標s );
 
-$坐標s = 搜索正文共同路徑( $folder, $title, '少納' );
+$坐標s = 搜索正文共同路徑( $work_id, '少納' );
 print_r( $坐標s );
 
-$坐標s = 搜索正文共同路徑( $folder, $title, '少氦' );
+$坐標s = 搜索正文共同路徑( $work_id, '少氦' );
 print_r( $坐標s );
 
 function 搜索正文共同路徑(
-	string $folder,
-	string $title,
+	string $work_id,
 	string $正文
 ) : array
 {
+	global $registry;
+	$folder = get_folder( $work_id );
+	$title = get_title( $work_id );
+
 	// load chars_paths
 	$chars_paths_path = dirname( __DIR__, 3 ) .
 		DIRECTORY_SEPARATOR .

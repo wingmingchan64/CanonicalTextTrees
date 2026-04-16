@@ -48,6 +48,7 @@ foreach( $files as $file )
 function 搜索句內片段路徑( string $work_id, string $片段 ) : array
 {
 	global $registry;
+	$folder = get_folder( $work_id );
 	$title = get_title( $work_id );
 
 	$segments_paths = json_decode(
