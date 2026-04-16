@@ -15,7 +15,7 @@ function is_legal_path(
 	return in_array( $path, $paths );
 }
 
-function 是合法路徑( string $work_id ) : bool
+function 是合法路徑( string $work_id, string $path ) : bool
 {
 	return is_legal_path( $work_id, $path );
 }
