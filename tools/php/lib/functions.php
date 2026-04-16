@@ -46,7 +46,7 @@ foreach( $files as $file )
 }
 
 function retrieve_text_from_canonical_tree(
-	string $path ) : string
+	string $path, bool $add_punctuation = false ) : string
 {
 	$parts = explode( ',', $path );
 	$work_id = $parts[ 0 ];
@@ -66,6 +66,12 @@ function retrieve_text_from_canonical_tree(
 	
 	$tree = json_decode(
 		file_get_contents( $tree_path ), true );
+		
+	if( $add_punctuation )
+	{
+		add_punctuation( $tree );
+	}
+	//print_r( $tree );
 	$pointer = $tree;
 	
 	for( $i = 1; $i < count( $parts ) - 1; $i++ )
@@ -75,6 +81,33 @@ function retrieve_text_from_canonical_tree(
 
 	return  flatten_tree_to_text_skip_keys( [ $pointer ] );;
 }
+
+function add_punctuation( 
+	array &$tree, string $punc='。' ) : void
+{
+	$keys = array_keys( $tree );
+	$values = array_values( $tree );
+	
+	if( is_string( $tree[ array_key_last( $tree ) ] ) )
+	{
+		$last_key = array_key_last( $tree );
+		$tree[ $last_key ] .= $punc;
+		return;
+	}
+	
+	elseif( is_array( $tree[ array_key_last( $tree ) ] ) )
+	{
+		foreach( $tree as $key => $value )
+		{
+			// skip 詩題, etc.
+			if( is_array( $tree[ $key ] ) )
+			{
+				add_punctuation( $tree[ $key ], $punc );
+			}
+		}
+	}
+}
+
 
 /**
  * 攤平樹為文字，可略過指定 key。

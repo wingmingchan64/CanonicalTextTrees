@@ -102,25 +102,4 @@ $path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
 
 file_put_contents( $path, $txt );
 
-function add_punctuation( 
-	array &$tree, string $punc='。' ) : void
-{
-	$keys = array_keys( $tree );
-	$values = array_values( $tree );
-	
-	if( is_string( $tree[ array_key_last( $tree ) ] ) )
-	{
-		$last_key = array_key_last( $tree );
-		$tree[ $last_key ] .= $punc;
-		return;
-	}
-	
-	elseif( is_array( $tree[ array_key_last( $tree ) ] ) )
-	{
-		foreach( $tree as $key => $value )
-		{
-			add_punctuation( $tree[ $key ], $punc );
-		}
-	}
-}
 ?>
