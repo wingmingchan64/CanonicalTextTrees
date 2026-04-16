@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\bin\生成基準文本樹.php
+php H:\github\CanonicalTextTrees\tools\php\bin\生成基準正文樹.php
 */
 require_once(
 	dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
