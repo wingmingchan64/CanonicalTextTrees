@@ -33,7 +33,7 @@ for( $i = 1; $i <= $num_of_chapters; $i++ )
 		$文檔碼 . '.json';
 	$tree = json_decode( 
 		file_get_contents( $path ), true )[ $文檔碼 ];
-	record_path( $tree, $文檔碼 );
+	record_path( $tree, $work_id . ',' . $文檔碼 );
 }
 echo count( $paths ), NL;
 echo count( $paths_chars ), NL;
@@ -62,7 +62,9 @@ file_put_contents(
 		$paths_chars, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
 );
 
-$result = is_legal_path( $work_id, "01,1,3,2,3" );
+$result = is_legal_path( $work_id, "01,1,3,2" );
+
+echo $result ? 'true' : 'false', NL;
 	
 function record_path( array $tree, string $path ) : void
 {
