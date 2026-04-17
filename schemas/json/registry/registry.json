@@ -36,7 +36,8 @@
   "SHIJING":{
     "folder": "詩經",
     "title": "詩經",
-    "display_title": "《詩經》"
+    "display_title": "《詩經》",
+	"num_of_chapters": 20
   },
   "SONGCISANBAISHOU":{
     "folder": "宋詞三百首",

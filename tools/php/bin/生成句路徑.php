@@ -14,41 +14,60 @@ require_once(
 	dirname( __DIR__, 1 ) . DIRECTORY_SEPARATOR .
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
-$work_id = 'MENGZI';
+	 
+$work_id = 'SHIJING';
 $folder = get_folder( $work_id );
 $title = get_title( $work_id );
 $display_title = get_display_title( $work_id );
-$num_of_chapters = get_num_of_chapters( $work_id );
 
 $句_坐標 = array();
 
-for( $i = 1; $i <= $num_of_chapters; $i++ )
-{
-	// change pad number!!!
-	$篇 = str_pad( $i, 2, '0', STR_PAD_LEFT );
-	//$篇 = '09'; // LUNYU,09,31,64,7
-	$path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
-		$title . DIRECTORY_SEPARATOR .
-		'trees' . DIRECTORY_SEPARATOR .
-		$篇 . '.json';
+$book_tree_dir = dirname( __DIR__, 3 ) . 
+	DIRECTORY_SEPARATOR .
+	$title . DIRECTORY_SEPARATOR .
+	'trees' . DIRECTORY_SEPARATOR;
 
-	$tree = json_decode( 
-		file_get_contents( $path ), true );[ $篇 ];
-		
-	$prefix = $work_id;
-		
-	foreach( $tree as $k => $v )
+if( !is_dir( $book_tree_dir ) )
+{
+    throw new RuntimeException( '樹文件夾不存在: ' . $book_tree_dir );
+}
+$files = scandir( $book_tree_dir );
+sort( $files, SORT_STRING );
+
+foreach( $files as $file )
+{
+	$path = $book_tree_dir . $file;
+	//echo $path, NL;
+
+	if(
+		is_file( $path )
+		&& preg_match( '/\.json$/i', $file )
+	)
 	{
-		$prefix .= ',' . key( $tree );
-		
-		if( is_string( $v ) )
+		$篇 = str_replace( '.json', '', $file );
+		$path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
+			$title . DIRECTORY_SEPARATOR .
+			'trees' . DIRECTORY_SEPARATOR .
+			$篇 . '.json';
+
+		$tree = json_decode( 
+			file_get_contents( $path ), true );[ $篇 ];
+			
+		$prefix = $work_id;
+			
+		foreach( $tree as $k => $v )
 		{
-			continue;
-		}
-		else
-		{
-			save_path( 
-				$prefix, $tree[ $k ] );
+			$prefix .= ',' . key( $tree );
+			
+			if( is_string( $v ) )
+			{
+				continue;
+			}
+			else
+			{
+				save_path( 
+					$prefix, $tree[ $k ] );
+			}
 		}
 	}
 }

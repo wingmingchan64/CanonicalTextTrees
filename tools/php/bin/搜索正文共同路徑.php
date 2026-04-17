@@ -38,5 +38,10 @@ $work_id = 'MENGZI';
 $坐標s = 搜索正文共同路徑( $work_id, '暴天' );
 print_r( $坐標s );
 
+$work_id = 'SHIJING';
+
+$坐標s = 搜索正文共同路徑( $work_id, '關' );
+print_r( $坐標s );
+
 
 ?>

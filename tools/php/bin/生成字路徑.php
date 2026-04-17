@@ -14,11 +14,11 @@ require_once(
 	dirname( __DIR__, 1 ) . DIRECTORY_SEPARATOR .
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
-$work_id = 'MENGZI';
+	 
+$work_id = 'SHIJING';
 $folder = get_folder( $work_id );
 $title = get_title( $work_id );
 $display_title = get_display_title( $work_id );
-$num_of_chapters = get_num_of_chapters( $work_id );
 
 $paths_chars = json_decode(
 	file_get_contents(
