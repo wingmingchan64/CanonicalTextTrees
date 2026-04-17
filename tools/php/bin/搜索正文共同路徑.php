@@ -43,5 +43,10 @@ $work_id = 'SHIJING';
 $坐標s = 搜索正文共同路徑( $work_id, '關' );
 print_r( $坐標s );
 
+$work_id = 'LAOZI';
+
+$坐標s = 搜索正文共同路徑( $work_id, '道' );
+print_r( $坐標s );
+
 
 ?>

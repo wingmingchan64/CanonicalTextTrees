@@ -15,7 +15,7 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-$work_id = 'SHIJING';
+$work_id = 'LAOZI';
 
 $folder = get_folder( $work_id );
 $title = get_title( $work_id );
@@ -51,11 +51,6 @@ foreach( $files as $file )
 		record_path( $tree, $work_id . ',' . $文檔碼 );
 	}
 }
-
-for( $i = 1; $i <= $num_of_chapters; $i++ )
-{
-}
-
 
 echo count( $paths ), NL;
 echo count( $paths_chars ), NL;
