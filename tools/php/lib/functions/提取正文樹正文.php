@@ -11,7 +11,7 @@ function retrieve_text_from_canonical_tree(
 	}
 	global $registry;
 	
-	$tree_path = dirname( __FILE__, 4 ) . 	
+	$tree_path = dirname( __FILE__, 5 ) . 	
 		DIRECTORY_SEPARATOR .
 		get_title( $work_id ) .
 		DIRECTORY_SEPARATOR .

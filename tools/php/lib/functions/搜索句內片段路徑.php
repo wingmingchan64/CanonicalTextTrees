@@ -8,7 +8,7 @@ function 搜索句內片段路徑(
 
 	$segments_paths = json_decode(
 		file_get_contents( 
-		dirname( __FILE__, 4 ) . 	
+		dirname( __FILE__, 5 ) . 	
 		DIRECTORY_SEPARATOR .
 		get_title( $work_id ) .
 		DIRECTORY_SEPARATOR .
