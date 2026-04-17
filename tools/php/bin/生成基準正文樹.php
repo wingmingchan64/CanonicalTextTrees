@@ -24,7 +24,7 @@ $txt = file_get_contents(
 	dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR . 
 	$title . DIRECTORY_SEPARATOR . 
 	'canonical_text' . DIRECTORY_SEPARATOR . $篇 . '.txt' );
-$tree = build_lunyu_tree( $txt );
+$tree = build_ct_tree( $txt );
 
 $path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
 	$title . DIRECTORY_SEPARATOR . 
