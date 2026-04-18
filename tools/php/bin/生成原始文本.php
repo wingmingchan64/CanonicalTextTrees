@@ -14,24 +14,41 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-$work_id = 'LUNYU';
+$work_id = 'WENXUAN';
 $folder = get_folder( $work_id );
 $title = get_title( $work_id );
 $display_title = get_display_title( $work_id );
 
-$text_path = dirname( __DIR__, 3 ) .
+$raw_text_path = dirname( __DIR__, 3 ) .
 	DIRECTORY_SEPARATOR .
 	$folder . DIRECTORY_SEPARATOR .
-	'raw_text' . DIRECTORY_SEPARATOR .
-	$folder . '.txt';
+	'raw_text' . DIRECTORY_SEPARATOR ;
 
-$contents = file_get_contents( $text_path );
-$contents = normalize( $contents );
-
-foreach( $異體字 as $異 => $正 )
+if( !is_dir( $raw_text_path ) )
 {
-	$contents = str_replace( $異, $正, $contents );
+    throw new RuntimeException( '正文文件夾不存在: ' . $raw_text_path );
 }
+$files = scandir( $raw_text_path );
+sort( $files, SORT_STRING );
 
-file_put_contents( $text_path, $contents );
+foreach( $files as $file )
+{
+	$path = $raw_text_path . $file;
+
+	if(
+		is_file( $path )
+		&& preg_match( '/\.txt$/i', $file )
+	)
+	{
+		$contents = file_get_contents( $path );
+		$contents = normalize( $contents );
+
+		foreach( $異體字 as $異 => $正 )
+		{
+			$contents = str_replace( $異, $正, $contents );
+		}
+
+		file_put_contents( $path, $contents );
+	}
+}
 ?>
