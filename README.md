@@ -33,7 +33,7 @@
 
 以下文獻支持全文搜索：
 
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/全唐詩/trees/">《全唐詩》杜甫</a>
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/全唐詩/trees/">《全唐詩》杜甫（卷216-234）</a>
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/詩經/trees">《詩經》</a>
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/trees/">《論語》</a> （校對參考書：《論語注疏》，北京大學出版社2000年12月；楊伯峻《論語譯注》，中華書局1980年）
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/孟子/trees/">《孟子》</a> （校對參考書：《孟子注疏》，北京大學出版社2000年12月；楊伯峻《孟子譯注》，中華書局1960年）
