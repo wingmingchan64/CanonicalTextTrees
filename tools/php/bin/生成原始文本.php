@@ -41,7 +41,7 @@ foreach( $files as $file )
 	)
 	{
 		$contents = file_get_contents( $path );
-		$contents = normalize( $contents );
+		$contents = normalize( $contents, true, true );
 
 		foreach( $異體字 as $異 => $正 )
 		{
