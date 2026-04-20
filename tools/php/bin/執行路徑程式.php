@@ -14,7 +14,7 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-$work_id = 'WENXUAN';
+$work_id = 'QTS';
 $folder  = get_folder( $work_id );
 $title   = get_title( $work_id );
 $trees_dir = dirname( __FILE__, 4 ) . 
@@ -28,11 +28,11 @@ $coordinates_dir = dirname( __FILE__, 4 ) .
 
 if ( !is_dir( $trees_dir ) )
 {
-	mkdir( tree_dir, 0777, true );
+	mkdir( $trees_dir, 0777, true );
 }
 if ( !is_dir( $coordinates_dir ) )
 {
-	mkdir( tree_dir, 0777, true );
+	mkdir( $coordinates_dir, 0777, true );
 }
 
 require( __DIR__ . DIRECTORY_SEPARATOR . '生成基準正文樹.php' );
