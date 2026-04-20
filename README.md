@@ -31,13 +31,17 @@
 
 ## 進度
 
+以下文獻支持全文搜索：
+
 - <a href="https://github.com/wingmingchan64/Dufu-Analysis/tree/main/schemas/json/base_text">《全唐詩》杜甫</a>
-<!--
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/全唐詩/trees">白居易（卷424-436）</a>
--->
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/紅樓夢/trees">《紅樓夢》凡例、第一至第三回</a>
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/詩經/trees">《詩經》</a>
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/trees/01.json">《論語》</a> （校對參考書：《論語注疏》，北京大學出版社2000年12月；楊伯峻《論語譯注》，中華書局1980年）
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/孟子/trees/01.json">《孟子》</a> （校對參考書：《孟子注疏》，北京大學出版社2000年12月；楊伯峻《孟子譯注》，中華書局1960年）
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/老子">《老子》</a> （校對參考書：《老子》，王弼注，上海中華書局據華亭張氏本校刊）
+
+正在進行中：
+
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/全唐詩/trees">《全唐詩》白居易（卷424-439）</a>
+- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/紅樓夢/trees">《紅樓夢》凡例、第一至第三回</a>
+
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/莊子/trees/01.json">《莊子·逍遙遊》</a>
