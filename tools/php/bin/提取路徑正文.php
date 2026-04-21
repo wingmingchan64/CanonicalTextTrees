@@ -16,7 +16,7 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 
-
+/*
 echo retrieve_text_from_canonical_tree( 'LUNYU,03,4,9,1' ), NL;
 
 echo retrieve_text_from_canonical_tree( 'LUNYU,03,4,9', true ), NL;
@@ -28,6 +28,8 @@ echo retrieve_text_from_canonical_tree( "LUNYU,14,32,75,4,5" ), NL;
 echo retrieve_text_from_canonical_tree( "LUNYU,15,42,85,11" );
 
 echo retrieve_text_from_canonical_tree( "MENGZI,02,11,69,27" );
+*/
+echo retrieve_text_from_canonical_tree( "HLM,076" );
 
 
 ?>

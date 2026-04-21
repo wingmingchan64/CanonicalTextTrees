@@ -16,6 +16,8 @@ require_once(
 
 $work_id = 'HLM';
 
-$坐標s = 搜索正文共同路徑( $work_id, '黛玉寶玉' );
+//$坐標s = 搜索正文共同路徑( $work_id, '黛寶玉' );
+//print_r( $坐標s );
+$坐標s = 搜索正文共同路徑( $work_id, '寒塘冷月' );
 print_r( $坐標s );
 ?>

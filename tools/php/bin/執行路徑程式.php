@@ -35,8 +35,10 @@ if ( !is_dir( $coordinates_dir ) )
 	mkdir( $coordinates_dir, 0777, true );
 }
 
-require( __DIR__ . DIRECTORY_SEPARATOR . '生成基準正文樹.php' );
-require( __DIR__ . DIRECTORY_SEPARATOR . '生成路徑_路徑字.php' );
+//574443
+//497404
+//require( __DIR__ . DIRECTORY_SEPARATOR . '生成基準正文樹.php' );
+//require( __DIR__ . DIRECTORY_SEPARATOR . '生成路徑_路徑字.php' );
 require( __DIR__ . DIRECTORY_SEPARATOR . '生成字路徑.php' );
 require( __DIR__ . DIRECTORY_SEPARATOR . '生成句路徑.php' );
 ?>
