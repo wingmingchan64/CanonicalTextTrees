@@ -18,13 +18,16 @@ require_once(
 $work_id = 'HLM';
 $folder = get_folder( $work_id );
 
-$回 = '020';
-$text_path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
-	$folder . DIRECTORY_SEPARATOR .
-	'canonical_text' . DIRECTORY_SEPARATOR .
-	$回 . '.txt';
+for( $i = 21; $i < 81; $i++ )
+{
+	$回 = str_pad( $i, 3, '0', STR_PAD_LEFT );
+	$text_path = dirname( __DIR__, 2 ) . DIRECTORY_SEPARATOR .
+		$folder . DIRECTORY_SEPARATOR .
+		'canonical_text' . DIRECTORY_SEPARATOR .
+		$回 . '.txt';
 
-$contents = file_get_contents( $text_path );
-$contents = normalize( $contents );
-file_put_contents( $text_path, $contents );
+	$contents = file_get_contents( $text_path );
+	$contents = normalize( $contents );
+	file_put_contents( $text_path, $contents );
+}
 ?>

@@ -61,7 +61,8 @@ function 搜索正文共同路徑(
 		}
 		else
 		{
-			return array_unique( $result_array );
+			return array_unique( 
+				array_merge( array(), $result_array ) );
 		}
 	}
 	

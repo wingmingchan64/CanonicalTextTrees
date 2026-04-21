@@ -15,9 +15,7 @@ require_once(
 	 'functions.php' );
 
 $work_id = 'HLM';
-//$folder = get_folder( $work_id );
-//$title = get_title( $work_id );
 
-$坐標s = 搜索正文共同路徑( $work_id, '黛玉' );
+$坐標s = 搜索正文共同路徑( $work_id, '黛玉寶玉' );
 print_r( $坐標s );
 ?>
