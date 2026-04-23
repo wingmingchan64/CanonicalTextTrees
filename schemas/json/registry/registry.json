@@ -57,5 +57,10 @@
     "folder": "pride_and_prejudice",
     "title": "Pride and Prejudice",
     "display_title": "Pride and Prejudice"
+  },
+  "BDS":{
+    "folder": "bds",
+    "title": "La Bible du Semeur",
+    "display_title": "La Bible du Semeur"
   }
 }

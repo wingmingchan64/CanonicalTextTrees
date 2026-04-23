@@ -14,7 +14,7 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-$work_id = 'PRIDE';
+$work_id = 'BDS';
 $ascii = true;
 
 $folder = get_folder( $work_id );
@@ -58,5 +58,5 @@ foreach( $files as $file )
 	}
 }
 
-print_r( $to_restore );
+//print_r( $to_restore );
 ?>
