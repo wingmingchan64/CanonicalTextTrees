@@ -33,6 +33,8 @@
 
 除了中文書籍以外，也特意加入了 Pride and Prejudice (Chapter I) 跟 La Bible du Semeur : Genèse 1，以證明這個模式也適用於其他語言。
 
+你做的不是「古籍專用方法」，而是一種可跨語言的 text-structuring framework。語言差異主要落在 preprocessing layer，不在 tree architecture 本身。（-ChatGPT）
+
 ---
 
 ## 進度
