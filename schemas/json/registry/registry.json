@@ -54,9 +54,8 @@
     "aliases": ["南華眞經", "《南華眞經》"]
   },
   "PRIDE":{
-    "folder": "Pride and Prejudice",
+    "folder": "pride_and_prejudice",
     "title": "Pride and Prejudice",
-    "display_title": "《莊子》",
-    "aliases": ["南華眞經", "《南華眞經》"]
+    "display_title": "Pride and Prejudice"
   },
 }
