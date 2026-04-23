@@ -13,7 +13,7 @@ define( 'REGISTRY_PATH', dirname( __FILE__, 4 ) .
 	'schemas' . DIRECTORY_SEPARATOR . 
 	'json' . DIRECTORY_SEPARATOR . 
 	'registry' . DIRECTORY_SEPARATOR );
-
+//echo REGISTRY_PATH . 'registry.json', NL;
 // load registry
 $registry = json_decode(
 	file_get_contents( 
