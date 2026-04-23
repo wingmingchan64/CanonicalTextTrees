@@ -18,7 +18,7 @@ define( 'REGISTRY_PATH', dirname( __FILE__, 4 ) .
 $registry = json_decode(
 	file_get_contents( 
 		REGISTRY_PATH . 'registry.json' ), true );
-	
+		
 $異體字 = json_decode(
 	file_get_contents(
 		REGISTRY_PATH . '異體字.json' ), true );
