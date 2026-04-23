@@ -29,6 +29,12 @@
 
 ---
 
+## 基準正文樹的普遍性
+
+除了中文書籍以外，也特意加入了 Pride and Prejudice (Chapter I) 跟 La Bible du Semeur : Genèse 1，以證明這個模式也適用於其他語言。
+
+---
+
 ## 進度
 
 以下文獻支持全文搜索：
