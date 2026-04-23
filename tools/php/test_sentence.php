@@ -34,7 +34,7 @@ foreach ($iterator as $boundary) {
     $sentences[] = substr($text, $start, $boundary - $start);
     $start = $boundary;
 }
-print_r($sentences);
+print_r( $sentences );
 
 $sentence = "“It took you two days to think of poking it with a stick.”";
 

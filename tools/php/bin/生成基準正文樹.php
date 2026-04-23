@@ -14,14 +14,16 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-//$work_id = 'LAOZI';
+$work_id = 'PRIDE';
+$ascii = true;
+
 $folder = get_folder( $work_id );
 $title = get_title( $work_id );
 $display_title = get_display_title( $work_id );
 
 $book_ct_dir = dirname( __DIR__, 3 ) . 
 	DIRECTORY_SEPARATOR .
-	$title . DIRECTORY_SEPARATOR .
+	$folder . DIRECTORY_SEPARATOR .
 	'canonical_text' . DIRECTORY_SEPARATOR;
 
 if( !is_dir( $book_ct_dir ) )
@@ -42,10 +44,10 @@ foreach( $files as $file )
 	{
 		$篇 = str_replace( '.txt', '', $file );
 		$txt = file_get_contents( $path );
-		$tree = build_ct_tree( $txt );
+		$tree = build_ct_tree( $txt, $ascii );
 
 		$tree_path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
-			$title . DIRECTORY_SEPARATOR . 
+			$folder . DIRECTORY_SEPARATOR . 
 			'trees' . DIRECTORY_SEPARATOR . $篇 . '.json';
 		file_put_contents(
 			$tree_path,
@@ -55,4 +57,6 @@ foreach( $files as $file )
 		);
 	}
 }
+
+print_r( $to_restore );
 ?>
