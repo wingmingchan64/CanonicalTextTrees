@@ -47,6 +47,12 @@
     "display_title": "《文選》",
     "aliases": ["昭明文選", "《昭明文選》"]
   },
+  "ZHAOZHU":{
+    "folder": "杜詩趙次公先後解輯校",
+    "title": "杜詩趙次公先後解輯校",
+    "display_title": "林繼中輯校《杜詩趙次公先後解輯校》",
+    "aliases": ["趙注"]
+  },
   "ZHUANGZI":{
     "folder": "莊子",
     "title": "莊子",

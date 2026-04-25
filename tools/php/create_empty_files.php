@@ -22,8 +22,8 @@ $target_folder = dirname( __DIR__, 2 ) .
 	$folder . DIRECTORY_SEPARATOR .
 	'raw_text' . DIRECTORY_SEPARATOR;
 
-$卷 = '31.';
-$篇尾 = 9;
+$卷 = '37.';
+$篇尾 = 8;
 
 for( $i = 1; $i <= $篇尾; $i++ )
 {

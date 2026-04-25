@@ -13,9 +13,11 @@ require_once(
 	dirname( __DIR__, 1 ) . DIRECTORY_SEPARATOR .
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
-	 
-$work_id = 'BDS';
-$ascii = true;
+
+// set these three!!!
+$work_id = 'ZHAOZHU';
+$ascii = false; // true for English, French, etc
+$modern = true; // keep all modern punctuations
 
 $folder = get_folder( $work_id );
 $title = get_title( $work_id );
@@ -44,7 +46,7 @@ foreach( $files as $file )
 	{
 		$篇 = str_replace( '.txt', '', $file );
 		$txt = file_get_contents( $path );
-		$tree = build_ct_tree( $txt, $ascii );
+		$tree = build_ct_tree( $txt, $ascii, $modern );
 
 		$tree_path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
 			$folder . DIRECTORY_SEPARATOR . 
