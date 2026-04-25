@@ -1,4 +1,16 @@
 {
+  "CHOUZHU":{
+    "folder": "杜詩詳註",
+    "title": "杜詩詳註",
+    "display_title": "仇兆鰲《杜詩詳註》",
+    "aliases": ["仇注", "《杜詩詳注》"]
+  },
+  "GUOZHU":{
+    "folder": "新刊校定集注杜詩",
+    "title": "新刊校定集注杜詩",
+    "display_title": "郭知達《新刊校定集注杜詩》",
+    "aliases": ["郭注", "《九家注》", "《九家集注杜詩》"]
+  },
   "HLM":{
     "folder": "紅樓夢",
     "title": "紅樓夢",
@@ -46,6 +58,11 @@
     "title": "文選",
     "display_title": "《文選》",
     "aliases": ["昭明文選", "《昭明文選》"]
+  },
+  "XDF":{
+    "folder": "杜甫全集校注",
+    "title": "杜甫全集校注",
+    "display_title": "蕭滌非主編《杜甫全集校注》"
   },
   "ZHAOZHU":{
     "folder": "杜詩趙次公先後解輯校",

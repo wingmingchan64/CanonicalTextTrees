@@ -29,7 +29,10 @@ echo retrieve_text_from_canonical_tree( "LUNYU,15,42,85,11" );
 
 echo retrieve_text_from_canonical_tree( "MENGZI,02,11,69,27" );
 */
-echo retrieve_text_from_canonical_tree( "HLM,076" );
-
+//echo retrieve_text_from_canonical_tree( "GUOZHU,0001,31" );
+//echo NL;
+//echo retrieve_text_from_canonical_tree( "GUOZHU,0001,32" );
+echo NL;
+echo retrieve_text_from_canonical_tree( "XDF,0001,7" );
 
 ?>

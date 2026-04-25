@@ -14,7 +14,7 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-$work_id = 'HLM';
+$work_id = 'CHOUZHU';
 $folder  = get_folder( $work_id );
 $title   = get_title( $work_id );
 $trees_dir = dirname( __FILE__, 4 ) . 
@@ -37,8 +37,8 @@ if ( !is_dir( $coordinates_dir ) )
 
 //574443
 //497404
-//require( __DIR__ . DIRECTORY_SEPARATOR . '生成基準正文樹.php' );
-//require( __DIR__ . DIRECTORY_SEPARATOR . '生成路徑_路徑字.php' );
+require( __DIR__ . DIRECTORY_SEPARATOR . '生成基準正文樹.php' );
+require( __DIR__ . DIRECTORY_SEPARATOR . '生成路徑_路徑字.php' );
 require( __DIR__ . DIRECTORY_SEPARATOR . '生成字路徑.php' );
 require( __DIR__ . DIRECTORY_SEPARATOR . '生成句路徑.php' );
 ?>

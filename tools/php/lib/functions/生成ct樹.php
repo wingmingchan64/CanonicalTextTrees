@@ -5,7 +5,7 @@ $to_skip = array(
 );
 $to_restore = array_flip( $to_skip );
 
-function build_ct_tree( string $txt, bool $ascii=false, bool $modern=false ) : array
+function build_ct_tree( string $txt, bool $ascii=false, bool $modern=false, bool $line_intact=false ) : array
 {
 	$lines = preg_split("/\R/u", $txt);
 		
@@ -16,7 +16,7 @@ function build_ct_tree( string $txt, bool $ascii=false, bool $modern=false ) : a
 	$tree = [
 		篇名 => $篇名
     ];
-	populate_tree( $lines, $tree, $ascii, $modern );
+	populate_tree( $lines, $tree, $ascii, $modern, $line_intact );
 	
 	return $tree;
 }
@@ -28,7 +28,7 @@ function 生成ct樹( string $txt ) : array
 
 function populate_tree( 
 	array $lines, array &$tree, 
-	bool $ascii, bool $modern ) : void
+	bool $ascii, bool $modern, bool $line_intact ) : void
 {
 	$counter = 0;
 	
@@ -44,9 +44,16 @@ function populate_tree(
         }
 		else
 		{
-			$tree[ ( string )$counter ][ (string)$line_no ] =
-				line_to_sentence_tree(
-					$line, $ascii, $modern );
+			if( $line_intact )
+			{
+				$tree[ ( string )$counter ][ (string)$line_no ] = $line;
+			}
+			else
+			{
+				$tree[ ( string )$counter ][ (string)$line_no ] =
+					line_to_sentence_tree(
+						$line, $ascii, $modern, $line_intact );
+			}
 		}
     }
 }
