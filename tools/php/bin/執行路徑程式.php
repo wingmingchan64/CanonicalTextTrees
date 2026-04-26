@@ -21,8 +21,8 @@ $title   = get_title( $work_id );
 $ascii = false; // true for English, French, etc
 //$level = 1; // not in use
 //$level = 2; // for 杜著述, 段，行
-$level = 3; // for 引書, 句 2.24M 53938
-//$level = 4; // 字
+//$level = 3; // for 引書, 句 2.24M 53938
+$level = 4; // 字
 $modern = false; // keep 。
 
 $trees_dir = dirname( __FILE__, 4 ) . 
