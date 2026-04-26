@@ -27,53 +27,79 @@ $book_tree_dir = dirname( __DIR__, 3 ) .
 	$title . DIRECTORY_SEPARATOR .
 	'trees' . DIRECTORY_SEPARATOR;
 
-if( !is_dir( $book_tree_dir ) )
-{
-    throw new RuntimeException( '樹文件夾不存在: ' . $book_tree_dir );
-}
-$files = scandir( $book_tree_dir );
-sort( $files, SORT_STRING );
 
-foreach( $files as $file )
+if( $level == 3 )
 {
-	$path = $book_tree_dir . $file;
-	//echo $path, NL;
-
-	if(
-		is_file( $path )
-		&& preg_match( '/\.json$/i', $file )
-	)
+	$path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
+		$title . DIRECTORY_SEPARATOR .
+		'coordinates' . DIRECTORY_SEPARATOR .
+		'paths_chars.json';
+	$paths_chars = json_decode( file_get_contents( $path ),
+		true );
+	
+	foreach( $paths_chars as $path => $chars )
 	{
-		$篇 = str_replace( '.json', '', $file );
-		$path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
-			$title . DIRECTORY_SEPARATOR .
-			'trees' . DIRECTORY_SEPARATOR .
-			$篇 . '.json';
-
-		$tree = json_decode( 
-			file_get_contents( $path ), true );[ $篇 ];
-			
-		$prefix = $work_id;
-			
-		foreach( $tree as $k => $v )
+		if( !array_key_exists( $chars, $句_坐標 ) )
 		{
-			$prefix .= ',' . key( $tree );
-			
-			if( is_string( $v ) )
+			$句_坐標[ $chars ] = array();
+		}
+		
+		if( !in_array( $path, $句_坐標[ $chars ] ) )
+		{
+			$句_坐標[ $chars ][] = $path;
+		}
+	}
+}
+
+if( $level == 4 )
+{
+	if( !is_dir( $book_tree_dir ) )
+	{
+		throw new RuntimeException( '樹文件夾不存在: ' . $book_tree_dir );
+	}
+	$files = scandir( $book_tree_dir );
+	sort( $files, SORT_STRING );
+
+	foreach( $files as $file )
+	{
+		$path = $book_tree_dir . $file;
+		//echo $path, NL;
+		if(
+			is_file( $path )
+			&& preg_match( '/\.json$/i', $file )
+		)
+		{
+			$篇 = str_replace( '.json', '', $file );
+			$path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
+				$title . DIRECTORY_SEPARATOR .
+				'trees' . DIRECTORY_SEPARATOR .
+				$篇 . '.json';
+
+			$tree = json_decode( 
+				file_get_contents( $path ), true );[ $篇 ];
+				
+			$prefix = $work_id;
+				
+			foreach( $tree as $k => $v )
 			{
-				continue;
-			}
-			else
-			{
-				save_path( 
-					$prefix, $tree[ $k ] );
+				$prefix .= ',' . key( $tree );
+				
+				if( is_string( $v ) )
+				{
+					continue;
+				}
+				else
+				{
+					save_path( 
+						$prefix, $tree[ $k ] );
+				}
 			}
 		}
 	}
 }
 //print_r( count( $句_坐標 ) );
 $path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
-		$title . DIRECTORY_SEPARATOR .
+		$folder . DIRECTORY_SEPARATOR .
 		'coordinates' . DIRECTORY_SEPARATOR .
 		'segments_paths.json';
 		

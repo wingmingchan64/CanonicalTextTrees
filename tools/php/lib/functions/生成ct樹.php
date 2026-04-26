@@ -5,7 +5,11 @@ $to_skip = array(
 );
 $to_restore = array_flip( $to_skip );
 
-function build_ct_tree( string $txt, bool $ascii=false, bool $modern=false, bool $line_intact=false ) : array
+function build_ct_tree( 
+	string $txt, 
+	bool $ascii=false, 
+	int $level=4, 
+	bool $modern=false ) : array
 {
 	$lines = preg_split("/\R/u", $txt);
 		
@@ -16,19 +20,24 @@ function build_ct_tree( string $txt, bool $ascii=false, bool $modern=false, bool
 	$tree = [
 		篇名 => $篇名
     ];
-	populate_tree( $lines, $tree, $ascii, $modern, $line_intact );
+	populate_tree( $lines, $tree, $ascii, $level, $modern );
 	
 	return $tree;
 }
 
-function 生成ct樹( string $txt ) : array
+function 生成ct樹(
+	string $txt, 
+	bool $ascii=false, 
+	int $level=4, 
+	bool $modern=false ) : array
+
 {
-	return build_ct_tree( $txt );
+	return build_ct_tree( $txt, $ascii, $level, $modern );
 }
 
 function populate_tree( 
 	array $lines, array &$tree, 
-	bool $ascii, bool $modern, bool $line_intact ) : void
+	bool $ascii, int $level, bool $modern ) : void
 {
 	$counter = 0;
 	
@@ -44,7 +53,7 @@ function populate_tree(
         }
 		else
 		{
-			if( $line_intact )
+			if( $level == 2 )
 			{
 				$tree[ ( string )$counter ][ (string)$line_no ] = $line;
 			}
@@ -52,14 +61,15 @@ function populate_tree(
 			{
 				$tree[ ( string )$counter ][ (string)$line_no ] =
 					line_to_sentence_tree(
-						$line, $ascii, $modern, $line_intact );
+						$line, $ascii, $level, $modern );
 			}
 		}
     }
 }
 
 function line_to_sentence_tree( 
-	string $line, bool $ascii, bool $modern ): array
+	string $line, bool $ascii, 
+	int $level, bool $modern ): array
 {
     $result = [];
 
@@ -72,20 +82,27 @@ function line_to_sentence_tree(
 
 		foreach( $sentences as $sent_idx => $sentence )
 		{
-			if( $modern )
+			if( $level == 4 && $modern )
 			{
 				$sentence .= '。';
 			}
 			
 			$sent_key = ( string )( $sent_idx + 1 );
-			$result[ $sent_key ] = [];
-
-			$chars = preg_split( 
-				'//u', $sentence, -1, PREG_SPLIT_NO_EMPTY );
-
-			foreach( $chars as $char_idx => $ch )
+			
+			if( $level == 3 )
 			{
-				$result[ $sent_key ][( string )( $char_idx + 1 )] = $ch;
+				$result[ $sent_key ] = $sentence;
+			}
+			else
+			{
+				$result[ $sent_key ] = [];
+				$chars = preg_split( 
+					'//u', $sentence, -1, PREG_SPLIT_NO_EMPTY );
+
+				foreach( $chars as $char_idx => $ch )
+				{
+					$result[ $sent_key ][( string )( $char_idx + 1 )] = $ch;
+				}
 			}
 		}
 	}

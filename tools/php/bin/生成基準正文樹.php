@@ -16,10 +16,6 @@ require_once(
 
 // set these three!!!
 //$work_id = 'GUOZHU'; // comment this out!!!
-$ascii = false; // true for English, French, etc
-$modern = true; // keep all modern punctuations
-$line_intact = true; // for 杜著述
-
 $folder = get_folder( $work_id );
 $title = get_title( $work_id );
 $display_title = get_display_title( $work_id );
@@ -47,7 +43,8 @@ foreach( $files as $file )
 	{
 		$篇 = str_replace( '.txt', '', $file );
 		$txt = file_get_contents( $path );
-		$tree = build_ct_tree( $txt, $ascii, $modern, $line_intact );
+		$tree = build_ct_tree( 
+			$txt, $ascii, $level, $modern ); // use flag instead
 
 		$tree_path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
 			$folder . DIRECTORY_SEPARATOR . 
