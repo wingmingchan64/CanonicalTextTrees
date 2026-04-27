@@ -6,9 +6,9 @@ Status: Draft
 
 ## Overview
 
-This repository stores `classical texts and related works as addressable text trees`, together with derived data such as coordinates and retrieval paths.
+This repository stores **classical texts and related works as addressable text trees**, together with derived data such as coordinates and retrieval paths.
 
-It is designed as a `text-source layer` for research and analysis systems, where texts are not merely read, but `referenced, aligned, and combined across sources`.
+It is designed as a **text-source layer** for research and analysis systems, where texts are not merely read, but **referenced, aligned, and combined across sources**.
 
 The repository now includes:
 
@@ -20,7 +20,7 @@ The repository now includes:
   - 仇兆鰲《杜詩詳註》
   - 蕭滌非《杜甫全集校注》
 
-All of these are treated uniformly as `text sources with stable internal structure`.
+All of these are treated uniformly as **text sources with stable internal structure**.
 
 ---
 
@@ -28,7 +28,7 @@ All of these are treated uniformly as `text sources with stable internal structu
 
 ### Texts as Trees
 
-Each work is converted into a `tree structure`, where:
+Each work is converted into a **tree structure**, where:
 
 - nodes represent structural units (段、行、句等)
 - leaves contain textual content
@@ -42,7 +42,7 @@ Granularity is determined by use:
 
 ### Addressability
 
-Every unit of text is addressable via a `path`, for example:
+Every unit of text is addressable via a **path**, for example:
 
 >`CHOUZHU,0006,5,13`
 
