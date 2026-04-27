@@ -107,40 +107,37 @@ corpus/
 
 Key folders
 - `canonical_text/`<br />Normalized base text (source of truth)
-- `trees/`
-Generated tree representations
-- `coordinates/`
-Addressing systems for text units
-metadata/
-Optional, work-specific annotations (if applicable)
-raw_text/
-Input material (usually empty after processing)
-views/
-Generated sample outputs
-registry.json
-Describes the structure and configuration of the work
+- `trees/`<br />Generated tree representations
+- `coordinates/`<br />Addressing systems for text units
+- `metadata/`<br />Optional, work-specific annotations (if applicable)
+- `raw_text/`<br />Input material (usually empty after processing)
+- `views/`<br />Generated sample outputs
+- `registry.json`<br />Describes the structure and configuration of the work
 
 ---
 
 ## Relationship to Other Projects
 
-This repository serves as a text-source backend.
+This repository serves as a **text-source backend**.
 
 For example:
 
-In Dufu-Analysis, metadata objects may contain paths like:
+- In Dufu-Analysis, metadata objects may contain paths like:
 
+<pre>
 {
   "book": "郭",
   "src_path": "GUO,0003,5,13"
 }
-The analysis system retrieves the corresponding text from this repository
+</pre>
+
+- The analysis system retrieves the corresponding text from this repository
 
 This allows:
 
-multiple sources to be displayed together
-quotations to be resolved to full context
-comparison across editions and works
+- multiple sources to be displayed together
+- quotations to be resolved to full context
+- comparison across editions and works
 
 ---
 
@@ -148,12 +145,12 @@ comparison across editions and works
 
 This repository is intended for:
 
-textual research
-annotation systems
-digital humanities workflows
-personal study environments
+- textual research
+- annotation systems
+- digital humanities workflows
+- personal study environments
 
-It is not intended as a finished corpus, but as a growing, structured text base.
+It is **not intended as a finished corpus**, but as a **growing, structured text base**.
 
 ---
 
@@ -161,13 +158,13 @@ It is not intended as a finished corpus, but as a growing, structured text base.
 
 This project is ongoing.
 
-Not all works are fully processed
-Granularity may vary by text
-Structures may evolve as needed
+- Not all works are fully processed
+- Granularity may vary by text
+- Structures may evolve as needed
 
 The focus is on:
 
-building a stable, flexible system for working with texts
+>building a stable, flexible system for working with texts
 
 rather than completing all data.
 
@@ -177,4 +174,4 @@ rather than completing all data.
 
 CanonicalTextTrees is:
 
-a repository of structured, addressable texts that serve as a unified source layer for analysis, annotation, and contextual retrieval.
+>a repository of structured, addressable texts that serve as a unified source layer for analysis, annotation, and contextual retrieval.
