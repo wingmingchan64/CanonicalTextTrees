@@ -1,59 +1,178 @@
 # Canonical Text Trees 基準正文樹
 
-在處理杜甫詩的時候，我看到了<a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/architecture/canonical_text_tree.md">基準正文樹</a>的巨大潛力。這裏收集了五類文檔：
-
-- 從網上搜集來的、未經校對的詩、詞、文、小說，甚至包括 Pride and Prejudice (Chapter I)、 La Bible du Semeur : Genèse 1
-- 從這些書籍轉換過來的基準正文樹
-- 轉換用的 PHP、Python 程式（Python 程式多是 ChatGPT 提供的）
-- 以基準正文樹爲基礎而生成的各種正文、路徑/坐標對照表
-- 爲<a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/text_addressing/overview.md">文本定位</a>而編寫的程式
+Status: Draft
 
 ---
 
-## 目的
+## Overview
 
-展示如何從建立基準正文文檔，到生成基準正文樹，以及各種的 mapping 文檔，最後如何利用這些生成的文檔：
-- 在樹中準確地爲文字片段定位（text search）
-- 以路徑提取文字片段（text retrieval）
+This repository stores `classical texts and related works as addressable text trees`, together with derived data such as coordinates and retrieval paths.
 
----
+It is designed as a `text-source layer` for research and analysis systems, where texts are not merely read, but `referenced, aligned, and combined across sources`.
 
-## 用途
+The repository now includes:
 
-- 單憑一棵基準正文樹，就能以不同面貌（格式），呈現同一個文本（<a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/views/02.md">《論語·爲政第二》</a>）
-- 結合不同的後設資料集，可以生成不同版本、注本、評本
-- 幷列不同的版本
-- <a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/workflow/pipeline.md">Processing Pipeline</a>
-- <a href="https://github.com/wingmingchan64/Dufu-Analysis/blob/main/docs/text_addressing/overview.md">文本定位</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/從基準文本到正文定位.md">從基準文本到正文定位</a>
+- Classical works (e.g. 《論語》, 《孟子》, 《文選》)
+- Du Fu’s poetry (杜詩)
+- Major commentarial works on Du Fu (杜著述), such as:
+  - 林繼中輯校《杜詩趙次公先後解輯校》
+  - 郭知達《新刊校定集注杜詩》
+  - 仇兆鰲《杜詩詳註》
+  - 蕭滌非《杜甫全集校注》
 
----
-
-## 基準正文樹的普遍性
-
-除了中文書籍以外，也特意加入了 Pride and Prejudice (Chapter I) 跟 La Bible du Semeur : Genèse 1，以證明這個模式也適用於其他語言。
-
-你做的不是「古籍專用方法」，而是一種可跨語言的 text-structuring framework。語言差異主要落在 preprocessing layer，不在 tree architecture 本身。（-ChatGPT）
+All of these are treated uniformly as `text sources with stable internal structure`.
 
 ---
 
-## 進度
+## Design Principles
 
-以下文獻支持全文搜索：
+### Texts as Trees
 
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/全唐詩/trees/">《全唐詩》杜甫（卷216-234）</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/詩經/trees">《詩經》</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/論語/trees/">《論語》</a> （校對參考書：《論語注疏》，北京大學出版社2000年12月；楊伯峻《論語譯注》，中華書局1980年）
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/孟子/trees/">《孟子》</a> （校對參考書：《孟子注疏》，北京大學出版社2000年12月；楊伯峻《孟子譯注》，中華書局1960年）
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/老子/trees">《老子》</a> （校對參考書：《老子》，王弼注，上海中華書局據華亭張氏本校刊）
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/文選/trees">《文選》</a>
+Each work is converted into a `tree structure`, where:
 
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/紅樓夢/trees">《紅樓夢》凡例、第一至第八十回</a> （此部分錯字比較多）
+- nodes represent structural units (段、行、句等)
+- leaves contain textual content
+- paths uniquely identify any retrievable unit
 
+Granularity is determined by use:
 
-正在進行中：
+- 杜詩正文: fine-grained (character-level when necessary)
+- 典籍引用: segment / line-level by default
+- 注本 / classical works: line-level by default
 
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/全唐詩/trees">《全唐詩》白居易（卷424-439）</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/莊子/trees/01.json">《莊子·逍遙遊》</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/pride_and_prejudice/trees/01.json">Pride and Prejudice Chapter I</a>
-- <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/bds/trees/01.01.json">La Bible du Semeur : Genèse 1</a>
+### Addressability
+
+Every unit of text is addressable via a `path`, for example:
+
+>`CHOUZHU,0006,5,13`
+
+This allows:
+
+precise quotation
+retrieval of context
+cross-source alignment
+
+Paths are stored in generated files such as paths.json.
+
+### Separation of Concerns
+
+This repository contains texts and their structural representations only.
+
+It does not include:
+
+rendering logic
+application-specific metadata processing
+UI or display concerns
+
+Those belong to external systems (e.g. Dufu-Analysis).
+
+### Metadata-Free Text Storage
+
+Texts are stored independently of annotation systems.
+
+In downstream usage:
+
+metadata refers to texts by path
+texts are retrieved when needed
+no duplication of textual content inside metadata
+
+### Context over Fragments
+
+Many classical annotations quote only short fragments.
+
+This repository enables:
+
+retrieval of full source passages
+reconstruction of textual context
+improved interpretability for modern readers
+
+---
+
+## Repository Structure
+
+Each work is stored in its own directory:
+
+corpus/
+  classical/
+    論語/
+      registry.json
+      canonical_text/
+      coordinates/
+      metadata/
+      raw_text/
+      trees/
+      views/
+Key folders
+canonical_text/
+Normalized base text (source of truth)
+trees/
+Generated tree representations
+coordinates/
+Addressing systems for text units
+metadata/
+Optional, work-specific annotations (if applicable)
+raw_text/
+Input material (usually empty after processing)
+views/
+Generated sample outputs
+registry.json
+Describes the structure and configuration of the work
+
+---
+
+## Relationship to Other Projects
+
+This repository serves as a text-source backend.
+
+For example:
+
+In Dufu-Analysis, metadata objects may contain paths like:
+
+{
+  "book": "郭",
+  "src_path": "GUO,0003,5,13"
+}
+The analysis system retrieves the corresponding text from this repository
+
+This allows:
+
+multiple sources to be displayed together
+quotations to be resolved to full context
+comparison across editions and works
+
+---
+
+## Intended Use
+
+This repository is intended for:
+
+textual research
+annotation systems
+digital humanities workflows
+personal study environments
+
+It is not intended as a finished corpus, but as a growing, structured text base.
+
+---
+
+## Status
+
+This project is ongoing.
+
+Not all works are fully processed
+Granularity may vary by text
+Structures may evolve as needed
+
+The focus is on:
+
+building a stable, flexible system for working with texts
+
+rather than completing all data.
+
+---
+
+## Summary
+
+CanonicalTextTrees is:
+
+a repository of structured, addressable texts that serve as a unified source layer for analysis, annotation, and contextual retrieval.
