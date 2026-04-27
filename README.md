@@ -109,7 +109,7 @@ Key folders
 - `canonical_text/`<br />Normalized base text (source of truth)
 - `trees/`
 Generated tree representations
-coordinates/
+- `coordinates/`
 Addressing systems for text units
 metadata/
 Optional, work-specific annotations (if applicable)
