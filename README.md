@@ -48,21 +48,21 @@ Every unit of text is addressable via a **path**, for example:
 
 This allows:
 
-precise quotation
-retrieval of context
-cross-source alignment
+- precise quotation
+- retrieval of context
+- cross-source alignment
 
-Paths are stored in generated files such as paths.json.
+Paths are stored in generated files such as `paths.json`.
 
 ### Separation of Concerns
 
-This repository contains texts and their structural representations only.
+This repository contains **texts and their structural representations only**.
 
 It does not include:
 
-rendering logic
-application-specific metadata processing
-UI or display concerns
+- rendering logic
+- application-specific metadata processing
+- UI or display concerns
 
 Those belong to external systems (e.g. Dufu-Analysis).
 
@@ -72,9 +72,9 @@ Texts are stored independently of annotation systems.
 
 In downstream usage:
 
-metadata refers to texts by path
-texts are retrieved when needed
-no duplication of textual content inside metadata
+- metadata refers to texts by path
+- texts are retrieved when needed
+- no duplication of textual content inside metadata
 
 ### Context over Fragments
 
@@ -82,9 +82,9 @@ Many classical annotations quote only short fragments.
 
 This repository enables:
 
-retrieval of full source passages
-reconstruction of textual context
-improved interpretability for modern readers
+- retrieval of full source passages
+- reconstruction of textual context
+- improved interpretability for modern readers
 
 ---
 
@@ -92,6 +92,7 @@ improved interpretability for modern readers
 
 Each work is stored in its own directory:
 
+<pre>
 corpus/
   classical/
     論語/
@@ -102,10 +103,11 @@ corpus/
       raw_text/
       trees/
       views/
+</pre>
+
 Key folders
-canonical_text/
-Normalized base text (source of truth)
-trees/
+- `canonical_text/`<br />Normalized base text (source of truth)
+- `trees/`
 Generated tree representations
 coordinates/
 Addressing systems for text units
