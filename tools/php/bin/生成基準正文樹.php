@@ -15,10 +15,10 @@ require_once(
 	 'functions.php' );
 
 // set these three!!!
-//$work_id = 'GUOZHU'; // comment this out!!!
-$folder = get_folder( $work_id );
-$title = get_title( $work_id );
-$display_title = get_display_title( $work_id );
+$work_id = 'GUOZHU'; // comment this out!!!
+$folder = get_ctt_folder( $work_id );
+//$title = get_ctt_title( $work_id );
+//$display_title = get_ctt_display_title( $work_id );
 
 $book_ct_dir = dirname( __DIR__, 3 ) . 
 	DIRECTORY_SEPARATOR .
@@ -43,6 +43,9 @@ foreach( $files as $file )
 	{
 		$篇 = str_replace( '.txt', '', $file );
 		$txt = file_get_contents( $path );
+		// remove markers
+		$txt = preg_replace( '/〚\X+?〛/u', '', $txt );
+		// build tree
 		$tree = build_ct_tree( 
 			$txt, $ascii, $level, $modern ); // use flag instead
 
@@ -57,6 +60,4 @@ foreach( $files as $file )
 		);
 	}
 }
-
-//print_r( $to_restore );
 ?>

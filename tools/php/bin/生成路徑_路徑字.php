@@ -17,15 +17,15 @@ require_once(
 	 
 //$work_id = 'LAOZI';
 
-$folder = get_folder( $work_id );
-$title = get_title( $work_id );
-$display_title = get_display_title( $work_id );
+$folder = get_ctt_folder( $work_id );
+$title = get_ctt_title( $work_id );
+$display_title = get_ctt_display_title( $work_id );
 $paths = array();
 $paths_chars = array();
 
 $book_tree_dir = dirname( __DIR__, 3 ) . 
 	DIRECTORY_SEPARATOR .
-	$title . DIRECTORY_SEPARATOR .
+	$folder . DIRECTORY_SEPARATOR .
 	'trees' . DIRECTORY_SEPARATOR;
 
 if( !is_dir( $book_tree_dir ) )
@@ -57,7 +57,7 @@ echo count( $paths_chars ), NL;
 
 $coordinates_path = dirname( __DIR__, 3 ) . 
 	DIRECTORY_SEPARATOR .
-	$title . DIRECTORY_SEPARATOR .
+	$folder . DIRECTORY_SEPARATOR .
 	'coordinates' . DIRECTORY_SEPARATOR .
 	'paths.json';
 	
@@ -69,7 +69,7 @@ file_put_contents(
 
 $coordinates_path = dirname( __DIR__, 3 ) . 
 	DIRECTORY_SEPARATOR .
-	$title . DIRECTORY_SEPARATOR .
+	$folder . DIRECTORY_SEPARATOR .
 	'coordinates' . DIRECTORY_SEPARATOR .
 	'paths_chars.json';
 	

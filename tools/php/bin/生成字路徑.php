@@ -16,14 +16,14 @@ require_once(
 	 'functions.php' );
 	 
 //$work_id = 'LAOZI';
-$folder = get_folder( $work_id );
-$title = get_title( $work_id );
-$display_title = get_display_title( $work_id );
+$folder = get_ctt_folder( $work_id );
+$title = get_ctt_title( $work_id );
+$display_title = get_ctt_display_title( $work_id );
 
 $paths_chars = json_decode(
 	file_get_contents(
 		dirname( __FILE__, 4 ) . DIRECTORY_SEPARATOR .
-		$title . DIRECTORY_SEPARATOR .
+		$folder . DIRECTORY_SEPARATOR .
 		'coordinates' . DIRECTORY_SEPARATOR .
 		'paths_chars.json' ), true );
 

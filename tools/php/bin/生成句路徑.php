@@ -16,15 +16,15 @@ require_once(
 	 'functions.php' );
 	 
 //$work_id = 'LAOZI';
-$folder = get_folder( $work_id );
-$title = get_title( $work_id );
-$display_title = get_display_title( $work_id );
+$folder = get_ctt_folder( $work_id );
+$title = get_ctt_title( $work_id );
+$display_title = get_ctt_display_title( $work_id );
 
 $句_坐標 = array();
 
 $book_tree_dir = dirname( __DIR__, 3 ) . 
 	DIRECTORY_SEPARATOR .
-	$title . DIRECTORY_SEPARATOR .
+	$folder . DIRECTORY_SEPARATOR .
 	'trees' . DIRECTORY_SEPARATOR;
 
 

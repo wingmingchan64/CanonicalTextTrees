@@ -1,7 +1,7 @@
 <?php
 function get_folder( string $work_id ) : string
 {
-	global $registry;
+	global $ctt_registry;
 	return $registry[ $work_id ][ FOLDER ];
 }
 
