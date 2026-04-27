@@ -15,12 +15,13 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-$work_id = 'WENXUAN';
-$folder = get_folder( $work_id );
+$work_id = 'HANSHU';
+$folder = get_ctt_folder( $work_id );
 $target_folder = dirname( __DIR__, 2 ) . 
 	DIRECTORY_SEPARATOR . 
 	$folder . DIRECTORY_SEPARATOR .
-	'raw_text' . DIRECTORY_SEPARATOR;
+	'canonical_text' . DIRECTORY_SEPARATOR;
+	//'raw_text' . DIRECTORY_SEPARATOR;
 
 if( !is_dir( $target_folder ) )
 {

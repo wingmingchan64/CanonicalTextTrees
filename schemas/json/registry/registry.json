@@ -5,11 +5,22 @@
     "display_title": "仇兆鰲《杜詩詳註》",
     "aliases": ["仇注", "《杜詩詳注》"]
   },
+  "FSTY":{
+    "folder": "corpus/classical/風俗通義",
+    "title": "風俗通義",
+    "display_title": "應劭《風俗通義》",
+    "aliases": ["《風俗通》"]
+  },
   "GUOZHU":{
     "folder": "corpus/dufu/新刊校定集注杜詩",
     "title": "新刊校定集注杜詩",
     "display_title": "郭知達《新刊校定集注杜詩》",
     "aliases": ["郭注", "《九家注》", "《九家集注杜詩》"]
+  },
+  "HANSHU":{
+    "folder": "corpus/classical/漢書",
+    "title": "漢書",
+    "display_title": "《漢書》"
   },
   "HLM":{
     "folder": "corpus/classical/紅樓夢",
