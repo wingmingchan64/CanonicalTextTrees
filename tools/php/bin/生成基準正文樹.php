@@ -15,7 +15,7 @@ require_once(
 	 'functions.php' );
 
 // set these three!!!
-$work_id = 'GUOZHU'; // comment this out!!!
+//$work_id = 'GUOZHU'; // comment this out!!!
 $folder = get_ctt_folder( $work_id );
 //$title = get_ctt_title( $work_id );
 //$display_title = get_ctt_display_title( $work_id );

@@ -31,7 +31,7 @@ $book_tree_dir = dirname( __DIR__, 3 ) .
 if( $level == 3 )
 {
 	$path = dirname( __DIR__, 3 ) . DIRECTORY_SEPARATOR .
-		$title . DIRECTORY_SEPARATOR .
+		$folder . DIRECTORY_SEPARATOR .
 		'coordinates' . DIRECTORY_SEPARATOR .
 		'paths_chars.json';
 	$paths_chars = json_decode( file_get_contents( $path ),
