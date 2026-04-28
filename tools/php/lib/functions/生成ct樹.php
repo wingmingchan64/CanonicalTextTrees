@@ -91,7 +91,7 @@ function line_to_sentence_tree(
 			
 			if( $level == 3 )
 			{
-				$result[ $sent_key ] = $sentence;
+				$result[ $sent_key ] = $sentence . '。';
 			}
 			else
 			{

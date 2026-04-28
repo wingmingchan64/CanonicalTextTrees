@@ -14,7 +14,7 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-$work_id = 'ZHUANGZI';
+$work_id = 'GUOZHU';
 $folder  = get_ctt_folder( $work_id );
 
 $ascii = false; // true for English, French, etc
