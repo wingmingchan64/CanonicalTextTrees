@@ -3,19 +3,28 @@
     "folder": "corpus/dufu/杜詩詳註",
     "title": "杜詩詳註",
     "display_title": "仇兆鰲《杜詩詳註》",
-    "aliases": ["仇注", "《杜詩詳注》"]
+    "aliases": ["仇注", "《杜詩詳注》"],
+	"author":"仇兆鰲"
+  },
+  "DSSBS":{
+    "folder": "corpus/dufu/杜詩三百首",
+    "title": "杜詩三百首",
+    "display_title": "江弱水評注《杜詩三百首》",
+	"author":"江弱水"
   },
   "FSTY":{
     "folder": "corpus/classical/風俗通義",
     "title": "風俗通義",
     "display_title": "應劭《風俗通義》",
-    "aliases": ["《風俗通》"]
+    "aliases": ["《風俗通》"],
+	"author":"應劭"
   },
   "GUOZHU":{
     "folder": "corpus/dufu/新刊校定集注杜詩",
     "title": "新刊校定集注杜詩",
     "display_title": "郭知達《新刊校定集注杜詩》",
-    "aliases": ["郭注", "《九家注》", "《九家集注杜詩》"]
+    "aliases": ["郭注", "《九家注》", "《九家集注杜詩》"],
+	"author":"郭知達"
   },
   "HANSHU":{
     "folder": "corpus/classical/漢書",
@@ -25,8 +34,15 @@
   "HLM":{
     "folder": "corpus/classical/紅樓夢",
     "title": "紅樓夢",
-    "display_title": "《紅樓夢》",
-    "aliases": ["石頭記", "《石頭記》"]
+    "display_title": "曹雪芹《紅樓夢》",
+    "aliases": ["石頭記", "《石頭記》"],
+	"author":"曹雪芹"
+  },
+  "JTL":{
+    "folder": "corpus/classical/劇談錄",
+    "title": "劇談錄",
+    "display_title": "《劇談錄》",
+    "author": "康騈"
   },
   "LAOZI":{
     "folder": "corpus/classical/老子",
@@ -59,7 +75,7 @@
     "title": "詩經",
     "display_title": "《詩經》"
   },
-  "SONGCISANBAISHOU":{
+  "SCSBS":{
     "folder": "corpus/classical/宋詞三百首",
     "title": "宋詞三百首",
     "display_title": "《宋詞三百首》"
@@ -90,7 +106,8 @@
   "PRIDE":{
     "folder": "corpus/others/pride_and_prejudice",
     "title": "Pride and Prejudice",
-    "display_title": "Pride and Prejudice"
+    "display_title": "Pride and Prejudice",
+	"author":"Jane Austen"
   },
   "BDS":{
     "folder": "corpus/others/bds",
