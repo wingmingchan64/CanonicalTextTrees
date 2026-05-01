@@ -1,4 +1,4 @@
-# 面貌樣本
+# 面貌樣本 （View Samples）
 
 Status: Draft
 
