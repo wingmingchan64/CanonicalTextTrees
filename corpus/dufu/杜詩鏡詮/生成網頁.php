@@ -15,10 +15,8 @@ require_once(
 $template = file_get_contents(
 	dirname( __FILE__ ) . DIRECTORY_SEPARATOR . '模板.html' );
 $詩題 = "鄭駙馬宅宴洞中";
-$題注 = <<<AOD
-<sub class="題注">
+$題解 = <<<AOD
 《唐書》：明皇臨晉公主下嫁鄭潛曜。朱注：按潛曜廣文博士鄭虔之姪，公作公主母《皇甫淑妃墓碑》云：甫忝鄭莊之賓客，遊貴主之園林。《長安記》：蓮花洞在神禾原，卽鄭駙馬之居，所云主家陰洞者也。
-</sub>
 AOD;
 $眉批 = <<<MOD
 邵云：拗體蒼秀。<br />
@@ -34,7 +32,7 @@ EOD;
 $評論 = "《杜臆》：後半乃總四句作開合。上二句幾杳不知所之矣，迨佩響遙傳，始知身在主家也。";
 
 $template = str_replace( '〘詩題〙', $詩題, $template );
-$template = str_replace( '〘題注〙', $題注, $template );
+$template = str_replace( '〘題解〙', $題解, $template );
 $template = str_replace( '〘眉批〙', $眉批, $template );
 $template = str_replace( '〘詩文〙', $詩文, $template );
 $template = str_replace( '〘評論〙', $評論, $template );

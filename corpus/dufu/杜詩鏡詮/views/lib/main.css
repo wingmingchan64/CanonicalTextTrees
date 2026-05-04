@@ -2,28 +2,17 @@ body {
 	background: #ffffda;
 }
 
-table {
-	width: 100%;
-}
-
-tr {
-	width: 100%;
-}
-
-th {
-	
-}
-
-table, th, td {
-	border: 1px;
-}
-
 .詩題 {
 	text-align:left;
 	font-size: 200%;
 }
 
 .題注 {
+	font-size: 70%;
+	color: #666666;
+}
+
+.題解 {
 	width: 100%;
 	font-size: 100%;
 	color: green;
