@@ -24,7 +24,7 @@ A text is first normalized and segmented into stable structural units, then repr
 
 ## Core Principles
 
-1. Texts are represented as trees
+**1. Texts are represented as trees**
 
 A text is transformed into a canonical text tree.
 
@@ -47,30 +47,31 @@ Terminal nodes depend on the language and preprocessing policy:
 | Modern Chinese		| Character or word			|
 | English				| Word/Sentence				|
 
-Punctuation marks may also be represented as independent nodes.
+Punctuation marks are represented as independent nodes.
 
-2. Paths are stable addresses
+**2. Paths are stable addresses**
 
 Each terminal node can be addressed by a complete path.
 
 Example:
 
-〚LUNYU,01,1,3,2,4〛
+`LUNYU,01,1,3,2,4` (or formalized as `〚LUNYU,01,1,3,2,4〛`)
 
 Paths are:
 
-explicit
-complete
-deterministic
-language-independent
+- explicit
+- complete
+- deterministic
+- language-independent
 
 The system supports:
 
-coordinate → text
-text → coordinate
-range addressing
-scope-based retrieval
-3. Scope is the semantic core
+- coordinate → text
+- text → coordinate
+- range addressing
+- scope-based retrieval
+
+**3. Scope is the semantic core**
 
 A scope is defined as:
 
@@ -80,17 +81,18 @@ Coordinates and range coordinates are only representations of scope.
 
 Example:
 
-〚…,1-5〛
+`〚…,1-5〛`
 
 is treated as a compressed representation of:
 
-{〚…,1〛, 〚…,2〛, 〚…,3〛, 〚…,4〛, 〚…,5〛}
+`{〚…,1〛, 〚…,2〛, 〚…,3〛, 〚…,4〛, 〚…,5〛}`
 
 The system distinguishes between:
 
-dense scopes (compressible)
-non-dense scopes (non-compressible)
-4. Metadata is separated from text
+- dense scopes (compressible)
+- non-dense scopes (non-compressible)
+
+**4. Metadata is separated from text**
 
 Canonical texts remain stable and minimally modified.
 
@@ -98,62 +100,69 @@ Metadata is stored separately and attached through paths and scopes.
 
 Examples include:
 
-annotations
-citations
-cross-text references
-textual corrections
-recovered fragments
-editorial notes
+- annotations
+- citations
+- cross-text references
+- textual corrections
+- recovered fragments
+- editorial notes
 
 This separation allows:
 
-multiple views
-reversible transformations
-traceable editorial intervention
-preservation of source texts
-Design Philosophy
-Single Source of Truth
+- multiple views
+- traceable editorial intervention
+- preservation of source texts
+
+---
+
+## Design Philosophy
+
+### Single Source of Truth
 
 Textual content should exist in one place only.
 
 Metadata should reference texts through paths rather than duplicate textual content whenever possible.
 
-Structure First
+### Structure First
 
 The framework prioritizes:
 
-stable structure
-stable addressing
-stable retrieval
+- stable structure
+- stable addressing
+- stable retrieval
 
 Interpretation and presentation belong to higher layers.
 
-Language-Agnostic Architecture
+### Language-Agnostic Architecture
 
 The framework is not tied to a specific language.
 
 Different corpora may require different preprocessing and tokenization policies, but the tree architecture and path system remain unchanged.
 
-Current Experimental Corpora
+---
+
+## Current Experimental Corpora
 
 The framework has been tested on:
 
-Classical Chinese
-《論語》
-《孟子》
-《老子》
-《詩經》
-杜甫詩歌
-《文選》 (ongoing)
-Modern Chinese
-《紅樓夢》前八十回
-English
-sample texts from Pride and Prejudice
-sample texts from Project Hail Mary
-French
-small experimental samples
+**Classical Chinese**
+
+- 《論語》
+- 《孟子》
+- 《老子》
+- 《詩經》
+- 杜甫詩歌
+- 《文選》
+- Modern Chinese
+- 《紅樓夢》前八十回
+- English
+	- sample texts from Pride and Prejudice
+- French
+	- small experimental samples
+	
 Typical Workflow
-Raw text
+
+<pre>Raw text
     ↓
 Normalization
     ↓
@@ -163,41 +172,54 @@ Canonical tree generation
     ↓
 Path generation
     ↓
-Search / metadata / rendering
-Possible Applications
-Canonical text representation
-Precise textual citation
-Annotation systems
-Commentary databases
-Textual criticism
-Cross-text quotation tracking
-Fragment recovery
-Literary analysis
-Search and retrieval
-Multi-version comparison
-Repository Structure (draft)
-CanonicalTextTrees/
+Search / metadata / rendering</pre>
+
+---
+
+## Possible Applications
+
+- Canonical text representation
+- Precise textual citation
+- Annotation systems
+- Commentary databases
+- Textual criticism
+- Cross-text quotation tracking
+- Fragment recovery
+- Literary analysis
+- Search and retrieval
+- Multi-version comparison
+
+---
+
+## Repository Structure (draft)
+
+<pre>CanonicalTextTrees/
 ├── docs/
 ├── corpora/
 ├── trees/
 ├── metadata/
 ├── tools/
-└── tests/
-Current Status
+└── tests/</pre>
+
+---
+
+## Current Status
 
 The framework is still under active development.
 
 At present, the main focus is:
 
-stabilizing the addressing system
-refining scope semantics
-generating reliable canonical trees
-testing scalability across different textual genres
+- stabilizing the addressing system
+- refining scope semantics
+- generating reliable canonical trees
+- testing scalability across different textual genres
 
 rather than building large-scale annotation datasets.
 
-Long-Term Goal
+---
+
+## Long-Term Goal
 
 The long-term goal of CanonicalTextTrees is to provide:
 
-a stable structural foundation for representing, addressing, connecting, and studying texts across languages, editions, and traditions.
+>a stable structural foundation for representing, addressing, connecting, and studying texts across languages, editions, and traditions.
