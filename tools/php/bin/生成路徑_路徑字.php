@@ -45,6 +45,10 @@ foreach( $files as $file )
 		&& preg_match( '/\.json$/i', $file )
 	)
 	{
+		if( $file == $work_id . '_TREE.json' )
+		{
+			continue;
+		}
 		$文檔碼 = str_replace( '.json', '', $file );
 		$tree = json_decode(
 			file_get_contents( $path ), true )[ $文檔碼 ];

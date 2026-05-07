@@ -45,7 +45,7 @@ if ( !is_dir( $coordinates_dir ) )
 //574443
 //497404
 require( __DIR__ . DIRECTORY_SEPARATOR . '生成基準正文樹.php' );
-/*
+
 require( __DIR__ . DIRECTORY_SEPARATOR . '生成路徑_路徑字.php' );
 
 if( $level == 4 )
@@ -53,5 +53,5 @@ if( $level == 4 )
 	require( __DIR__ . DIRECTORY_SEPARATOR . '生成字路徑.php' );
 }
 require( __DIR__ . DIRECTORY_SEPARATOR . '生成句路徑.php' );
-*/
+
 ?>
