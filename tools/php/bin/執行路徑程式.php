@@ -14,13 +14,13 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-$work_id = 'LUNYU';
+$work_id = 'JINGQUAN';
 $folder  = get_ctt_folder( $work_id );
 
 $ascii = false; // true for English, French, etc
 //$level = 1; // not in use
 $level = 2; // for 杜著述, 段，行
-$level = 3; // for 引書, 句 2.24M 53938， 11.9M/41.5M
+//$level = 3; // for 引書, 句 2.24M 53938， 11.9M/41.5M
 //$level = 4; // 字
 $modern = false; // keep 。
 

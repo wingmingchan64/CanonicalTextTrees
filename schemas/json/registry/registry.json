@@ -39,6 +39,12 @@
     "aliases": ["石頭記", "《石頭記》"],
 	"author":"曹雪芹"
   },
+  "JINGQUAN":{
+    "folder": "corpus/dufu/杜詩鏡詮",
+    "title": "杜詩鏡詮",
+    "display_title": "楊倫《杜詩鏡詮》",
+    "author": "楊倫"
+  },
   "JTL":{
     "folder": "corpus/classical/劇談錄",
     "title": "劇談錄",
