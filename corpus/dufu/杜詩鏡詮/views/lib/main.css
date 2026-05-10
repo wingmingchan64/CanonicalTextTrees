@@ -44,10 +44,21 @@ body {
 	font-size: 80%;
 }
 
+.夾注 {
+	color: #666666;
+	font-size: 80%;
+}
+
 .行間 {
 	height: 10px;
 }
 
 .評論 {
 	color: blue;
+}
+
+.重圈 {
+	position: fixed;
+	left: -15px;
+	bottom: -15px;
 }
