@@ -44,7 +44,7 @@ foreach( $files as $file )
 		$篇 = str_replace( '.txt', '', $file );
 		$txt = file_get_contents( $path );
 		// remove markers
-		$txt = preg_replace( '/〚\X+?〛/u', '', $txt );
+		$txt = preg_replace( 夾注regex, '', $txt );
 		// build tree
 		$tree = build_ct_tree( 
 			$txt, $ascii, $level, $modern ); // use flag instead
