@@ -67,6 +67,12 @@
     "title": "孟子",
     "display_title": "《孟子》"
   },
+  "QIANZHU":{
+    "folder": "corpus/dufu/錢注杜詩",
+    "title": "錢注杜詩",
+    "display_title": "錢謙益《錢注杜詩》",
+	"author":"錢謙益"
+  },
   "QTS":{
     "folder": "corpus/classical/全唐詩",
     "title": "全唐詩",

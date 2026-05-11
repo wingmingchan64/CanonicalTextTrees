@@ -15,20 +15,21 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-$work_id = 'WENXUAN';
-$folder = get_folder( $work_id );
+$work_id = 'QIANZHU';
+$folder = get_ctt_folder( $work_id );
 $target_folder = dirname( __DIR__, 2 ) . 
 	DIRECTORY_SEPARATOR . 
 	$folder . DIRECTORY_SEPARATOR .
-	'raw_text' . DIRECTORY_SEPARATOR;
+	'canonical_text' . DIRECTORY_SEPARATOR;
 
-$卷   = '60.';
-$篇尾 = 6;
+//$卷   = '60.';
+$篇尾 = 1000;
 
 for( $i = 1; $i <= $篇尾; $i++ )
 {
-	$file = $target_folder . $卷 .
-		str_pad( $i, 2, '0', STR_PAD_LEFT ) . '.txt';
+	//$file = $target_folder . $卷 .
+	$file = $target_folder . 
+		str_pad( $i, 4, '0', STR_PAD_LEFT ) . '.txt';
 	file_put_contents( $file, '' );
 }
 ?>
