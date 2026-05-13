@@ -2,7 +2,7 @@
 
 ## 文本來源
 
-- <a href="https://drive.google.com/drive/folders/1n-gJCTAQeRP--10rjJ-BTKNEraXHDN5F">《杜詩鏡詮》首十卷</a>
+- 紫府祕庫 <a href="https://drive.google.com/drive/folders/1n-gJCTAQeRP--10rjJ-BTKNEraXHDN5F">《杜詩鏡詮》首十卷</a>
 
 ---
 
@@ -20,4 +20,4 @@
 
 ## 備注
 
--
+- 紫府祕庫十卷可用，但拷貝時間有亂碼現象
