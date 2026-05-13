@@ -57,8 +57,6 @@ body {
 	color: blue;
 }
 
-.重圈 {
-	position: fixed;
-	left: -15px;
-	bottom: -15px;
+.替換 {
+	color: lime;
 }

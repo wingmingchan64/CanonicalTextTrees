@@ -21,7 +21,6 @@
 {"scope":"0668,32,1,1-5","src_path":"JINGQUAN,0097,34"}
 {"scope":"0668,32,2,1-5","src_path":"JINGQUAN,0097,35"}
 {"scope":"0668,33,1,1-5","src_path":"JINGQUAN,0097,36,77"}
-{"scope":"0668,38,1-2","src_path":"JINGQUAN,0097,40"}
 {"scope":"0668,40,1,1-5","src_path":"JINGQUAN,0097,42"}
 {"scope":"0668,40,2,1-5","src_path":"JINGQUAN,0097,43"}
 {"scope":"0668,41,1,1-5","src_path":"JINGQUAN,0097,44,97"}
