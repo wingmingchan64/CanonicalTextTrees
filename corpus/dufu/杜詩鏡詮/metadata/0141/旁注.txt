@@ -17,4 +17,4 @@
 {"scope":"0943,62,1-2","src_path":"JINGQUAN,0141,35"}
 {"scope":"憶昨狼狽初","src_path":"JINGQUAN,0141,36"}
 {"scope":"0943,67,1-2","src_path":"JINGQUAN,0141,40"}
-
+{"scope":"0943,72,1-2","src_path":"JINGQUAN,0141,46"}
