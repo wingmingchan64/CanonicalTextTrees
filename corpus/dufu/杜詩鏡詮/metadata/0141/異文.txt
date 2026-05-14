@@ -1,5 +1,10 @@
-{"scope":"散","src_path":"JINGQUAN,0141,62"}
-{"scope":"0943,31,2,4","src_path":"JINGQUAN,0141,63"}
-{"scope":"0943,33,2,4","src_path":"JINGQUAN,0141,64"}
-{"scope":"纔","src_path":"JINGQUAN,0141,65,136"}
-{"scope":"纔","src_path":"JINGQUAN,0141,65,137","op":"insert"}
+{"scope":"散","src_path":"JINGQUAN,0141,61"}
+{"scope":"0943,31,2,4","src_path":"JINGQUAN,0141,62"}
+{"scope":"0943,33,2,4","src_path":"JINGQUAN,0141,63"}
+{"scope":"纔","src_path":"JINGQUAN,0141,64,135"}
+{"scope":"纔","src_path":"JINGQUAN,0141,64,136","op":"insert"}
+{"scope":"0943,39,2,1","src_path":"JINGQUAN,0141,65,138"}
+{"scope":"0943,39,2,2","src_path":"JINGQUAN,0141,65,139"}
+{"scope":"0943,39,2,4","src_path":"JINGQUAN,0141,65,140"}
+{"scope":"0943,39,2,5","src_path":"JINGQUAN,0141,65,141"}
+{"scope":"0943,39,2,5","src_path":"JINGQUAN,0141,65,142","op":"insert"}

@@ -10,4 +10,7 @@
 {"scope":"0943,29,1-2","src_path":"JINGQUAN,0141,18"}
 {"scope":"殘害爲異物","src_path":"JINGQUAN,0141,20"}
 {"scope":"0943,37,1-2","src_path":"JINGQUAN,0141,21"}
+{"scope":"0943,43,1-2","src_path":"JINGQUAN,0141,24"}
+{"scope":"0943,48,1-2","src_path":"JINGQUAN,0141,25"}
+{"scope":"0943,49,1-2","src_path":"JINGQUAN,0141,26"}
 
