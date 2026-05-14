@@ -1,0 +1,5 @@
+{"scope":"散","src_path":"JINGQUAN,0141,62"}
+{"scope":"0943,31,2,4","src_path":"JINGQUAN,0141,63"}
+{"scope":"0943,33,2,4","src_path":"JINGQUAN,0141,64"}
+{"scope":"纔","src_path":"JINGQUAN,0141,65,136"}
+{"scope":"纔","src_path":"JINGQUAN,0141,65,137","op":"insert"}

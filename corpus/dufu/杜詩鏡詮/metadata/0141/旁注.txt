@@ -1,0 +1,13 @@
+{"scope":"0943,4,1-2","src_path":"JINGQUAN,0141,3"}
+{"scope":"0943,8,1-2","src_path":"JINGQUAN,0141,4"}
+{"scope":"0943,9,1-2","src_path":"JINGQUAN,0141,5"}
+{"scope":"東胡反未已","src_path":"JINGQUAN,0141,7"}
+{"scope":"揮涕戀行在","src_path":"JINGQUAN,0141,9"}
+{"scope":"所遇多被傷","src_path":"JINGQUAN,0141,10"}
+{"scope":"0943,15,1-2","src_path":"JINGQUAN,0141,11"}
+{"scope":"0943,21,1-2","src_path":"JINGQUAN,0141,14"}
+{"scope":"0943,28,1-2","src_path":"JINGQUAN,0141,17"}
+{"scope":"0943,29,1-2","src_path":"JINGQUAN,0141,18"}
+{"scope":"殘害爲異物","src_path":"JINGQUAN,0141,20"}
+{"scope":"0943,37,1-2","src_path":"JINGQUAN,0141,21"}
+
