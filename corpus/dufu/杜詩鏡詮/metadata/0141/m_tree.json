@@ -11,7 +11,7 @@
                     "JINGQUAN,0141,49": "insert"
                 },
                 "0943,33,2,4": {
-                    "JINGQUAN,0141,51": "replace"
+                    "JINGQUAN,0141,51": "insert"
                 },
                 "0943,36,2,3": {
                     "JINGQUAN,0141,52,112": "replace",
@@ -31,15 +31,15 @@
                     "JINGQUAN,0141,53,119": "insert"
                 },
                 "0943,50,2,1": {
-                    "JINGQUAN,0141,54,121": "insert"
+                    "JINGQUAN,0141,54,121": "replace"
                 },
                 "0943,50,2,3": {
-                    "JINGQUAN,0141,54,122": "insert"
+                    "JINGQUAN,0141,54,122": "replace"
                 },
                 "0943,50,2,4": {
-                    "JINGQUAN,0141,54,123": "insert"
+                    "JINGQUAN,0141,54,123": "replace"
                 },
-                "0943,51,2,5": {
+                "0943,51,2,a": {
                     "JINGQUAN,0141,27": "insert"
                 },
                 "0943,40,2,4": {

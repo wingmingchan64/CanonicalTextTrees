@@ -1,5 +1,5 @@
 {"scope":"散","src_path":"JINGQUAN,0141,49","op":"insert"}
-{"scope":"0943,33,2,4","src_path":"JINGQUAN,0141,51"}
+{"scope":"0943,33,2,4","src_path":"JINGQUAN,0141,51","op":"insert"}
 {"scope":"纔","src_path":"JINGQUAN,0141,52,112"}
 {"scope":"纔","src_path":"JINGQUAN,0141,52,113","op":"insert"}
 {"scope":"0943,39,2,1","src_path":"JINGQUAN,0141,53,115"}
@@ -7,10 +7,10 @@
 {"scope":"0943,39,2,4","src_path":"JINGQUAN,0141,53,117"}
 {"scope":"0943,39,2,5","src_path":"JINGQUAN,0141,53,118"}
 {"scope":"0943,39,2,5","src_path":"JINGQUAN,0141,53,119","op":"insert"}
-{"scope":"0943,50,2,1","src_path":"JINGQUAN,0141,54,121","op":"insert"}
-{"scope":"0943,50,2,3","src_path":"JINGQUAN,0141,54,122","op":"insert"}
-{"scope":"0943,50,2,4","src_path":"JINGQUAN,0141,54,123","op":"insert"}
-{"scope":"0943,51,2,5","src_path":"JINGQUAN,0141,27","op":"insert"}
+{"scope":"0943,50,2,1","src_path":"JINGQUAN,0141,54,121"}
+{"scope":"0943,50,2,3","src_path":"JINGQUAN,0141,54,122"}
+{"scope":"0943,50,2,4","src_path":"JINGQUAN,0141,54,123"}
+{"scope":"0943,51,2,a","src_path":"JINGQUAN,0141,27","op":"insert"}
 {"scope":"凜","src_path":"JINGQUAN,0141,55"}
 {"scope":"飢","src_path":"JINGQUAN,0141,56"}
 {"scope":"看","src_path":"JINGQUAN,0141,57"}
