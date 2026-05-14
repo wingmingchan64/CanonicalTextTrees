@@ -2,9 +2,9 @@
 /*
 php H:\github\CanonicalTextTrees\tools\php\bin\views\生成杜詩鏡銓面貌.php
 */
-use CTT\Exceptions\IllegalWorkIDException;
-use Dufu\Exceptions\JsonFileNotFoundException;
-use Dufu\Exceptions\InvalidAnchorValueException;
+//use CTT\Exceptions\IllegalWorkIDException;
+//use Dufu\Exceptions\JsonFileNotFoundException;
+//use Dufu\Exceptions\InvalidAnchorValueException;
 
 require_once(
 	dirname( __DIR__, 5 ) . DIRECTORY_SEPARATOR .
@@ -14,15 +14,15 @@ require_once(
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
 	
-$默文碼 = '0668';
-$著述碼 = 'JINGQUAN';
-$版文檔碼 = '0097';
+$默文檔碼 = '0943';
+$著述碼   = 'JINGQUAN';
+$版文檔碼 = '0141';
 
 $m_tree = 提取後設資料樹( $著述碼, $版文檔碼 );
 $paths = array();
 $m_paths = 記錄後設資料樹路徑( $m_tree );
 $folder = 提取ctt文件夾( $著述碼 );
-$樹 = 挂樹飾( $默文碼, "${著述碼},${版文檔碼}", $paths );
+$樹 = 挂樹飾( $默文檔碼, "${著述碼},${版文檔碼}", $paths );
 
 $json_path = dirname( __FILE__, 5 ) . DIRECTORY_SEPARATOR .
 	$folder . DIRECTORY_SEPARATOR .
@@ -56,9 +56,9 @@ $template = file_get_contents(
 	dirname( __FILE__, 5 ) . DIRECTORY_SEPARATOR .
 	$folder . DIRECTORY_SEPARATOR .
 	'模板.html' );
-$詩題 = $樹[ $默文碼 ][ '詩題' ][ '題' ];
-$題解 = $樹[ $默文碼 ][ '詩題' ][ 'a' ];
-$眉批 = $樹[ $默文碼 ][ 'a' ];
+$詩題 = $樹[ $默文檔碼 ][ '詩題' ][ '題' ];
+$題解 = $樹[ $默文檔碼 ][ '詩題' ][ 'a' ];
+$眉批 = $樹[ $默文檔碼 ][ 'a' ];
 
 if( $眉批 != '' )
 {
@@ -87,8 +87,8 @@ if( $眉批 != '' )
 	}
 }
 
-$樹[ $默文碼 ][ '詩題' ] = '';
-$樹[ $默文碼 ][ 'a' ] = '';
+$樹[ $默文檔碼 ][ '詩題' ] = '';
+$樹[ $默文檔碼 ][ 'a' ] = '';
 $評論 = $樹[ 'a' ];
 $樹[ 'a' ] = '';
 $詩文 = 攤平樹文字_略過鍵( $樹 );

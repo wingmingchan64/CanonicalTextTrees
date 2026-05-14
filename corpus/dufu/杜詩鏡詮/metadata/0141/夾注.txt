@@ -1,2 +1,2 @@
-{"scope":"0943,31,2,4","src_path":"JINGQUAN,0141,62"}
+{"scope":"0943,31,2,4","src_path":"JINGQUAN,0141,50"}
 {"scope":"夏殷","src_path":"JINGQUAN,0141,37"}

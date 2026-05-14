@@ -17,8 +17,8 @@ spl_autoload_register( function ( string $class ): void
     $path = __DIR__ . DIRECTORY_SEPARATOR
           . str_replace( '\\', DIRECTORY_SEPARATOR, $relative )
           . '.php';
-	echo "proceeding", "\n";
-	echo $path, "\n";
+	//echo "proceeding", "\n";
+	//echo $path, "\n";
 
     if( is_file( $path ) )
 	{
