@@ -10,7 +10,7 @@
 {"scope":"0943,50,2,1","src_path":"JINGQUAN,0141,54,121"}
 {"scope":"0943,50,2,3","src_path":"JINGQUAN,0141,54,122"}
 {"scope":"0943,50,2,4","src_path":"JINGQUAN,0141,54,123"}
-{"scope":"0943,51,2,a","src_path":"JINGQUAN,0141,27","op":"insert"}
+{"scope":"0943,51,2","src_path":"JINGQUAN,0141,27","op":"insert"}
 {"scope":"凜","src_path":"JINGQUAN,0141,55"}
 {"scope":"飢","src_path":"JINGQUAN,0141,56"}
 {"scope":"看","src_path":"JINGQUAN,0141,57"}

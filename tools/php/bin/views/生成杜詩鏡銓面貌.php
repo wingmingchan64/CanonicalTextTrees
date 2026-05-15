@@ -46,10 +46,26 @@ $json_path = dirname( __FILE__, 5 ) . DIRECTORY_SEPARATOR .
 	'views' . DIRECTORY_SEPARATOR .
 	"${版文檔碼}html.json";
 
+echo "Before encode", NL;
+try
+{
+	//print_r( $樹 );
+	echo json_encode(
+		$樹, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT ), NL;
+}
+catch (\JsonException $e)
+{
+	echo "Error here", NL;
+    // Handle the error (e.g., log it or show a message)
+    echo "Encoding failed: " . $e->getMessage();
+}
+echo "After encode", NL;
+
+
 file_put_contents(
 	$json_path,
 	json_encode(
-		$樹, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
+		$樹, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT )
 );
 
 $template = file_get_contents(
@@ -91,10 +107,17 @@ $樹[ $默文檔碼 ][ '詩題' ] = '';
 $樹[ $默文檔碼 ][ 'a' ] = '';
 $評論 = $樹[ 'a' ];
 $樹[ 'a' ] = '';
+
+print_r( $樹 );
+
 $詩文 = 攤平樹文字_略過鍵( $樹 );
 $詩文 = preg_replace( 夾注regex, '', $詩文 );
 $評論 = '<p class="評論">' . $評論 . '</p>';
 $評論 = str_replace( '◯', '</p><p class="評論">', $評論 );
+
+echo $詩文, NL;
+
+
 $template = str_replace( '〘詩題〙', $詩題, $template );
 $template = str_replace( '〘題解〙', $題解, $template );
 $template = str_replace( '〘眉批〙', $眉批, $template );
