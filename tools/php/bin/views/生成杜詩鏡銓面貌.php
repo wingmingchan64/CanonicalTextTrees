@@ -14,9 +14,9 @@ require_once(
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
 	
-$默文檔碼 = '0943';
+$默文檔碼 = '0668';
 $著述碼   = 'JINGQUAN';
-$版文檔碼 = '0141';
+$版文檔碼 = '0097';
 
 $m_tree = 提取後設資料樹( $著述碼, $版文檔碼 );
 $paths = array();
