@@ -1,1 +1,9 @@
-{"scope":"","src_path":""}
+{"scope":"鄜畤","src_path":"QIANZHU,3"}
+{"scope":"天吳","src_path":"QIANZHU,4"}
+{"scope":"畫眉闊","src_path":"QIANZHU,5"}
+{"scope":"回紇","src_path":"QIANZHU,6"}
+{"scope":"擒胡月","src_path":"QIANZHU,7"}
+{"scope":"誅襃妲","src_path":"QIANZHU,8"}
+{"scope":"陳將軍","src_path":"QIANZHU,9"}
+{"scope":"大同殿","src_path":"QIANZHU,10"}
+{"scope":"白獸闥","src_path":"QIANZHU,11"}
