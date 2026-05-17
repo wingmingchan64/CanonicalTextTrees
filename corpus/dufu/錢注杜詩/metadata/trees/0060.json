@@ -1,0 +1,147 @@
+{
+    "QIANZHU": {
+        "0060": {
+            "原注": {
+                "0943,詩題": {
+                    "QIANZHU,0060,1": "insert"
+                }
+            },
+            "題解": {
+                "0943,詩題": {
+                    "QIANZHU,0060,2": "insert"
+                }
+            },
+            "異文": {
+                "0943,5,1,5": {
+                    "QIANZHU,0060,12": "replace"
+                },
+                "0943,7,1,1": {
+                    "QIANZHU,0060,13": "replace"
+                },
+                "闕下": {
+                    "QIANZHU,0060,14": "replace"
+                },
+                "途": {
+                    "QIANZHU,0060,15": "replace"
+                },
+                "含": {
+                    "QIANZHU,0060,16": "replace"
+                },
+                "瑟": {
+                    "QIANZHU,0060,17": "replace"
+                },
+                "戴": {
+                    "QIANZHU,0060,18": "replace"
+                },
+                "苦": {
+                    "QIANZHU,0060,19": "replace"
+                },
+                "緬": {
+                    "QIANZHU,0060,20": "replace"
+                },
+                "巖谷": {
+                    "QIANZHU,0060,21": "replace"
+                },
+                "鳥": {
+                    "QIANZHU,0060,22": "replace"
+                },
+                "0943,28,1,2": {
+                    "QIANZHU,0060,23": "replace"
+                },
+                "散": {
+                    "QIANZHU,0060,24": "replace"
+                },
+                "墮": {
+                    "QIANZHU,0060,25": "replace"
+                },
+                "迴": {
+                    "QIANZHU,0060,26": "replace"
+                },
+                "0943,33,2,4": {
+                    "QIANZHU,0060,27": "replace"
+                },
+                "纔": {
+                    "QIANZHU,0060,28,57": "replace",
+                    "QIANZHU,0060,28,58": "insert"
+                },
+                "裋": {
+                    "QIANZHU,0060,29": "replace"
+                },
+                "泄": {
+                    "QIANZHU,0060,30": "replace"
+                },
+                "嘔泄臥數日": {
+                    "QIANZHU,0060,31": "replace"
+                },
+                "0943,40,1,2": {
+                    "QIANZHU,0060,32": "replace"
+                },
+                "籍": {
+                    "QIANZHU,0060,33": "replace"
+                },
+                "說": {
+                    "QIANZHU,0060,34": "replace"
+                },
+                "看": {
+                    "QIANZHU,0060,35,72": "replace",
+                    "QIANZHU,0060,35,73": "insert"
+                },
+                "旁": {
+                    "QIANZHU,0060,36,75": "replace",
+                    "QIANZHU,0060,36,76": "insert"
+                },
+                "0943,50,2,4": {
+                    "QIANZHU,0060,37": "replace"
+                },
+                "紇": {
+                    "QIANZHU,0060,38,80": "replace",
+                    "QIANZHU,0060,38,81": "insert"
+                },
+                "善": {
+                    "QIANZHU,0060,39": "replace"
+                },
+                "0943,55,2,3": {
+                    "QIANZHU,0060,40": "replace"
+                },
+                "0943,58,2,3": {
+                    "QIANZHU,0060,41": "replace"
+                },
+                "夏殷": {
+                    "QIANZHU,0060,42": "replace"
+                },
+                "埽": {
+                    "QIANZHU,0060,43": "replace"
+                }
+            },
+            "注釋": {
+                "鄜畤": {
+                    "QIANZHU,0060,3": "insert"
+                },
+                "天吳": {
+                    "QIANZHU,0060,4": "insert"
+                },
+                "畫眉闊": {
+                    "QIANZHU,0060,5": "insert"
+                },
+                "回紇": {
+                    "QIANZHU,0060,6": "insert"
+                },
+                "擒胡月": {
+                    "QIANZHU,0060,7": "insert"
+                },
+                "誅襃妲": {
+                    "QIANZHU,0060,8": "insert"
+                },
+                "陳將軍": {
+                    "QIANZHU,0060,9": "insert"
+                },
+                "大同殿": {
+                    "QIANZHU,0060,10": "insert"
+                },
+                "白獸闥": {
+                    "QIANZHU,0060,11": "insert"
+                }
+            }
+        }
+    }
+}

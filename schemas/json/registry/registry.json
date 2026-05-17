@@ -104,6 +104,12 @@
     "title": "杜甫全集校注",
     "display_title": "蕭滌非主編《杜甫全集校注》"
   },
+  "YUEZHU":{
+    "folder": "corpus/dufu/杜詩約注",
+    "title": "杜詩約注",
+    "display_title": "陳永明《杜詩約注》",
+	"author":"陳永明"
+  },
   "ZHAOZHU":{
     "folder": "corpus/dufu/杜詩趙次公先後解輯校",
     "title": "杜詩趙次公先後解輯校",
