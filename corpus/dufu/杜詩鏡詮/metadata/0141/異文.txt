@@ -16,5 +16,4 @@
 {"scope":"看","src_path":"JINGQUAN,0141,57"}
 {"scope":"0943,58,2,3","src_path":"JINGQUAN,0141,58,131"}
 {"scope":"0943,58,2,3","src_path":"JINGQUAN,0141,58,132","op":"insert"}
-{"scope":"埽","src_path":"JINGQUAN,0141,59,134"}
-{"scope":"缺","src_path":"JINGQUAN,0141,59,135"}
+{"scope":"缺","src_path":"JINGQUAN,0141,59,134"}
