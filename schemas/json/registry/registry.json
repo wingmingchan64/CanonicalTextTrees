@@ -78,6 +78,11 @@
     "title": "全唐詩",
     "display_title": "《全唐詩》"
   },
+  "SCSBS":{
+    "folder": "corpus/classical/宋詞三百首",
+    "title": "宋詞三百首",
+    "display_title": "《宋詞三百首》"
+  },
   "SHIJI":{
     "folder": "corpus/classical/史記",
     "title": "史記",
@@ -88,10 +93,11 @@
     "title": "詩經",
     "display_title": "《詩經》"
   },
-  "SCSBS":{
-    "folder": "corpus/classical/宋詞三百首",
-    "title": "宋詞三百首",
-    "display_title": "《宋詞三百首》"
+  "SLQM":{
+    "folder": "corpus/classical/聲律啟蒙",
+    "title": "聲律啟蒙",
+    "display_title": "《聲律啟蒙》",
+	"author":"車萬育"
   },
   "WENXUAN":{
     "folder": "corpus/classical/文選",
