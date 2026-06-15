@@ -14,7 +14,8 @@ require_once(
 	'php' . DIRECTORY_SEPARATOR .
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
-	 
+
+/*
 $work_id = 'SLQM';
 $folder = get_ctt_folder( $work_id );
 $target_folder = dirname( __DIR__, 2 ) . 
@@ -22,6 +23,8 @@ $target_folder = dirname( __DIR__, 2 ) .
 	$folder . DIRECTORY_SEPARATOR .
 	'canonical_text' . DIRECTORY_SEPARATOR;
 	//'raw_text' . DIRECTORY_SEPARATOR;
+*/
+$target_folder = "H:\github\DuFu\默認版本\文賦\\";
 
 if( !is_dir( $target_folder ) )
 {
@@ -41,6 +44,7 @@ foreach( $files as $file )
 	{
 		$txt = file_get_contents( $path );
 		$txt = normalize( 修復文字( $txt ) );
+		//echo $txt, NL;
 		file_put_contents( $path, $txt );
 	}
 }
