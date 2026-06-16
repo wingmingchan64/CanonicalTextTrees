@@ -1,0 +1,8 @@
+{"scope":"0943,3-4","src_path":""}
+{"scope":"0943,5-12","src_path":""}
+{"scope":"0943,13-30","src_path":""}
+{"scope":"0943,31-48","src_path":""}
+{"scope":"0943,49-56","src_path":""}
+{"scope":"0943,57-62","src_path":""}
+{"scope":"0943,63-68","src_path":""}
+{"scope":"0943,69-72","src_path":""}
