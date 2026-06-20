@@ -6,6 +6,12 @@
     "aliases": ["仇注", "《杜詩詳注》"],
 	"author":"仇兆鰲"
   },
+  "DFQSYZ":{
+    "folder": "corpus/dufu/杜甫全詩訳注",
+    "title": "杜甫全詩訳注",
+    "display_title": "下定雅弘、松原朗《杜甫全詩訳注》",
+	"author":"下定雅弘、松原朗"
+  },
   "DSSBS":{
     "folder": "corpus/dufu/杜詩三百首",
     "title": "杜詩三百首",
