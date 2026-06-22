@@ -15,10 +15,13 @@ require_once(
 	 'functions.php' );
 
 // set these three!!!
-//$work_id = 'GUOZHU'; // comment this out!!!
+$work_id = 'CHOUZHU'; // comment this out!!!
 $folder = get_ctt_folder( $work_id );
 //$title = get_ctt_title( $work_id );
 //$display_title = get_ctt_display_title( $work_id );
+$ascii = false;
+$level = 2;
+$modern = false;
 
 $book_ct_dir = dirname( __DIR__, 3 ) . 
 	DIRECTORY_SEPARATOR .
@@ -29,6 +32,7 @@ if( !is_dir( $book_ct_dir ) )
 {
     throw new RuntimeException( '正文文件夾不存在: ' . $book_ct_dir );
 }
+
 $files = scandir( $book_ct_dir );
 sort( $files, SORT_STRING );
 
