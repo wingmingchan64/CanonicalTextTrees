@@ -15,9 +15,10 @@ require_once(
 	 'functions.php' );
 	 
 $work_id = 'JINGQUAN';
-$work_id = 'CHOUZHU';
+//$work_id = 'CHOUZHU';
 //$work_id = 'GUOZHU';
 $folder  = get_ctt_folder( $work_id );
+echo $folder, NL;
 
 $ascii = false; // true for English, French, etc
 //$level = 1; // not in use

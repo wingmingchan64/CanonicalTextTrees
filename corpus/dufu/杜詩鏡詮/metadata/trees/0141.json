@@ -1,0 +1,215 @@
+{
+    "JINGQUAN": {
+        "0141": {
+            "題解": {
+                "0943,詩題": {
+                    "JINGQUAN,0141,1": "insert"
+                }
+            },
+            "異文": {
+                "散": {
+                    "JINGQUAN,0141,49": "insert"
+                },
+                "0943,33,2,4": {
+                    "JINGQUAN,0141,51": "insert"
+                },
+                "纔": {
+                    "JINGQUAN,0141,52,112": "replace",
+                    "JINGQUAN,0141,52,113": "insert"
+                },
+                "0943,39,2,1": {
+                    "JINGQUAN,0141,53,115": "replace"
+                },
+                "0943,39,2,2": {
+                    "JINGQUAN,0141,53,116": "replace"
+                },
+                "0943,39,2,4": {
+                    "JINGQUAN,0141,53,117": "replace"
+                },
+                "0943,39,2,5": {
+                    "JINGQUAN,0141,53,118": "replace",
+                    "JINGQUAN,0141,53,119": "insert"
+                },
+                "0943,50,2,1": {
+                    "JINGQUAN,0141,54,121": "replace"
+                },
+                "0943,50,2,3": {
+                    "JINGQUAN,0141,54,122": "replace"
+                },
+                "0943,50,2,4": {
+                    "JINGQUAN,0141,54,123": "replace"
+                },
+                "0943,51,2": {
+                    "JINGQUAN,0141,27": "insert"
+                },
+                "凜": {
+                    "JINGQUAN,0141,55": "replace"
+                },
+                "飢": {
+                    "JINGQUAN,0141,56": "replace"
+                },
+                "看": {
+                    "JINGQUAN,0141,57": "replace"
+                },
+                "0943,58,2,3": {
+                    "JINGQUAN,0141,58,131": "replace",
+                    "JINGQUAN,0141,58,132": "insert"
+                },
+                "缺": {
+                    "JINGQUAN,0141,59,134": "replace"
+                }
+            },
+            "夾注": {
+                "0943,31,2,4": {
+                    "JINGQUAN,0141,50": "insert"
+                },
+                "0943,65,1,3-4": {
+                    "JINGQUAN,0141,37": "insert"
+                }
+            },
+            "旁注": {
+                "0943,4": {
+                    "JINGQUAN,0141,3": "insert"
+                },
+                "0943,8": {
+                    "JINGQUAN,0141,4": "insert"
+                },
+                "0943,9": {
+                    "JINGQUAN,0141,5": "insert"
+                },
+                "東胡反未已": {
+                    "JINGQUAN,0141,7": "insert"
+                },
+                "揮涕戀行在": {
+                    "JINGQUAN,0141,9": "insert"
+                },
+                "所遇多被傷": {
+                    "JINGQUAN,0141,10": "insert"
+                },
+                "0943,15": {
+                    "JINGQUAN,0141,11": "insert"
+                },
+                "0943,21": {
+                    "JINGQUAN,0141,14": "insert"
+                },
+                "0943,28": {
+                    "JINGQUAN,0141,17": "insert"
+                },
+                "0943,29": {
+                    "JINGQUAN,0141,18": "insert"
+                },
+                "殘害爲異物": {
+                    "JINGQUAN,0141,20": "insert"
+                },
+                "0943,37": {
+                    "JINGQUAN,0141,21": "insert"
+                },
+                "0943,43": {
+                    "JINGQUAN,0141,24": "insert"
+                },
+                "0943,48": {
+                    "JINGQUAN,0141,25": "insert"
+                },
+                "0943,49": {
+                    "JINGQUAN,0141,26": "insert"
+                },
+                "0943,56": {
+                    "JINGQUAN,0141,31": "insert"
+                },
+                "0943,62": {
+                    "JINGQUAN,0141,35": "insert"
+                },
+                "憶昨狼狽初": {
+                    "JINGQUAN,0141,36": "insert"
+                },
+                "0943,67": {
+                    "JINGQUAN,0141,40": "insert"
+                },
+                "0943,72": {
+                    "JINGQUAN,0141,46": "insert"
+                }
+            },
+            "注釋": {
+                "初吉": {
+                    "JINGQUAN,0141,2": "insert"
+                },
+                "密勿": {
+                    "JINGQUAN,0141,6": "insert"
+                },
+                "東胡反未已": {
+                    "JINGQUAN,0141,8": "insert"
+                },
+                "邠郊入地底": {
+                    "JINGQUAN,0141,12": "insert"
+                },
+                "涇水中蕩潏": {
+                    "JINGQUAN,0141,13": "insert"
+                },
+                "橡栗": {
+                    "JINGQUAN,0141,15": "insert"
+                },
+                "鄜畤": {
+                    "JINGQUAN,0141,16": "insert"
+                },
+                "往者散何卒": {
+                    "JINGQUAN,0141,19": "insert"
+                },
+                "天吳及紫鳳": {
+                    "JINGQUAN,0141,22": "insert"
+                },
+                "顚倒在裋褐": {
+                    "JINGQUAN,0141,23": "insert"
+                },
+                "0943,52": {
+                    "JINGQUAN,0141,28": "insert"
+                },
+                "0943,53": {
+                    "JINGQUAN,0141,29": "insert"
+                },
+                "四方服勇決": {
+                    "JINGQUAN,0141,30": "insert"
+                },
+                "伊洛指掌收": {
+                    "JINGQUAN,0141,32": "insert"
+                },
+                "青徐": {
+                    "JINGQUAN,0141,33": "insert"
+                },
+                "旋瞻略恆碣": {
+                    "JINGQUAN,0141,34": "insert"
+                },
+                "中自誅襃妲": {
+                    "JINGQUAN,0141,38": "insert"
+                },
+                "0943,66": {
+                    "JINGQUAN,0141,39": "insert"
+                },
+                "0943,67": {
+                    "JINGQUAN,0141,41": "insert"
+                },
+                "0943,68": {
+                    "JINGQUAN,0141,42": "insert"
+                },
+                "淒涼大同殿": {
+                    "JINGQUAN,0141,43": "insert"
+                },
+                "寂寞白獸闥": {
+                    "JINGQUAN,0141,44": "insert"
+                },
+                "掃灑數不缺": {
+                    "JINGQUAN,0141,45": "insert"
+                }
+            },
+            "眉批": {
+                "0943": {
+                    "JINGQUAN,0141,48": "insert"
+                }
+            },
+            "評論": {
+                "a": {
+                    "JINGQUAN,0141,47": "insert"
+                }
+            }
+        }
+    }
+}

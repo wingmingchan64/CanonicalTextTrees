@@ -20,4 +20,4 @@
 {"scope":"0943,68","src_path":"JINGQUAN,0141,42"}
 {"scope":"淒涼大同殿","src_path":"JINGQUAN,0141,43"}
 {"scope":"寂寞白獸闥","src_path":"JINGQUAN,0141,44"}
-{"scope":"埽灑數不缺","src_path":"JINGQUAN,0141,45"}
+{"scope":"掃灑數不缺","src_path":"JINGQUAN,0141,45"}

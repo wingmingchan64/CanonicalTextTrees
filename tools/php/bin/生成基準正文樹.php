@@ -14,14 +14,8 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 
-// set these three!!!
-$work_id = 'CHOUZHU'; // comment this out!!!
+// set folder in 執行路徑程式.php, not here!!!
 $folder = get_ctt_folder( $work_id );
-//$title = get_ctt_title( $work_id );
-//$display_title = get_ctt_display_title( $work_id );
-$ascii = false;
-$level = 2;
-$modern = false;
 
 $book_ct_dir = dirname( __DIR__, 3 ) . 
 	DIRECTORY_SEPARATOR .
