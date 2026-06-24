@@ -12,3 +12,5 @@
 {"scope":"恐君有遺失","src_path":"CHOUZHU,0145,21"}
 {"scope":"經緯固密勿","src_path":"CHOUZHU,0145,22"}
 {"scope":"東胡反未已","src_path":"CHOUZHU,0145,23"}
+{"scope":"臣甫憤所切","src_path":"CHOUZHU,0145,24"}
+{"scope":"揮涕戀行在","src_path":"CHOUZHU,0145,25"}
