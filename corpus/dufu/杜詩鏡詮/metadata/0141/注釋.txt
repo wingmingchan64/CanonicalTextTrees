@@ -1,10 +1,10 @@
-{"scope":"初吉","src_path":"JINGQUAN,0141,2"}
-{"scope":"密勿","src_path":"JINGQUAN,0141,6"}
+{"scope":"閏八月初吉","src_path":"JINGQUAN,0141,2"}
+{"scope":"經緯固密勿","src_path":"JINGQUAN,0141,6"}
 {"scope":"東胡反未已","src_path":"JINGQUAN,0141,8"}
 {"scope":"邠郊入地底","src_path":"JINGQUAN,0141,12"}
 {"scope":"涇水中蕩潏","src_path":"JINGQUAN,0141,13"}
-{"scope":"橡栗","src_path":"JINGQUAN,0141,15"}
-{"scope":"鄜畤","src_path":"JINGQUAN,0141,16"}
+{"scope":"羅生雜橡栗","src_path":"JINGQUAN,0141,15"}
+{"scope":"坡陀望鄜畤","src_path":"JINGQUAN,0141,16"}
 {"scope":"往者散何卒","src_path":"JINGQUAN,0141,19"}
 {"scope":"天吳及紫鳳","src_path":"JINGQUAN,0141,22"}
 {"scope":"顚倒在裋褐","src_path":"JINGQUAN,0141,23"}
@@ -12,7 +12,7 @@
 {"scope":"0943,53","src_path":"JINGQUAN,0141,29"}
 {"scope":"四方服勇決","src_path":"JINGQUAN,0141,30"}
 {"scope":"伊洛指掌收","src_path":"JINGQUAN,0141,32"}
-{"scope":"青徐","src_path":"JINGQUAN,0141,33"}
+{"scope":"此舉開青徐","src_path":"JINGQUAN,0141,33"}
 {"scope":"旋瞻略恆碣","src_path":"JINGQUAN,0141,34"}
 {"scope":"中自誅襃妲","src_path":"JINGQUAN,0141,38"}
 {"scope":"0943,66","src_path":"JINGQUAN,0141,39"}

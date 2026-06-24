@@ -19,10 +19,12 @@ $著述碼   = 'JINGQUAN';
 $版文檔碼 = '0141';
 
 $m_tree = 提取後設資料樹( $著述碼, $版文檔碼 );
+// $paths is a global array
 $paths = array();
-$m_paths = 記錄後設資料樹路徑( $m_tree );
+記錄後設資料樹路徑( $m_tree );
 $folder = 提取ctt文件夾( $著述碼 );
 $樹 = 挂樹飾( $默文檔碼, "${著述碼},${版文檔碼}", $paths );
+print_r( $樹 );
 /*
 $顔色表 = json_decode(
 	file_get_contents( dirname( __FILE__, 5 ) . 	
