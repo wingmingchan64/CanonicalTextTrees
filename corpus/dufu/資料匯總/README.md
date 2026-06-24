@@ -15,3 +15,11 @@
 - 但旣然已經包含了兩個杜著述，要加到三十多個，原則、方法都是一樣的
 - 三十多個杜著述中也包括一些受版權保護的著作，内容不宜公開發表
 - 關於這三十多個杜著述，見<a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/corpus/dufu">corpus/dufu</a>
+- 沒有公開的資料包括：
+	- 江弱水《杜詩三百首》
+	- 謝思煒《杜甫集校注》
+	- 下定雅弘、松原朗《杜甫全詩訳注》
+	- 蕭滌非主編《杜甫全集校注》
+	- 陳貽焮主編《增訂注釋全唐詩》
+	- 張志烈主編《杜詩全集（今注本）》
+	- Stephen Owen: The Poetry of Du Fu
