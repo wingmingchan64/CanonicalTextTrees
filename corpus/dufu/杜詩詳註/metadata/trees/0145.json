@@ -1,7 +1,11 @@
 {
     "CHOUZHU": {
         "0145": {
-            "題解": [],
+            "題解": {
+                "0943,詩題": {
+                    "CHOUZHU,0145,9": "insert"
+                }
+            },
             "注釋": {
                 "皇帝二載秋": {
                     "CHOUZHU,0145,10": "insert"
@@ -44,9 +48,354 @@
                 },
                 "東胡反未已": {
                     "CHOUZHU,0145,23": "insert"
+                },
+                "臣甫憤所切": {
+                    "CHOUZHU,0145,24": "insert"
+                },
+                "揮涕戀行在": {
+                    "CHOUZHU,0145,25": "insert"
+                },
+                "道途猶恍惚": {
+                    "CHOUZHU,0145,26": "insert"
+                },
+                "乾坤含瘡痍": {
+                    "CHOUZHU,0145,27": "insert"
+                },
+                "憂虞何時畢": {
+                    "CHOUZHU,0145,28": "insert"
+                },
+                "靡靡踰阡陌": {
+                    "CHOUZHU,0145,29": "insert"
+                },
+                "人煙眇蕭瑟": {
+                    "CHOUZHU,0145,30": "insert"
+                },
+                "所遇多被傷": {
+                    "CHOUZHU,0145,31": "insert"
+                },
+                "呻吟更流血": {
+                    "CHOUZHU,0145,32": "insert"
+                },
+                "旌旗晚明滅": {
+                    "CHOUZHU,0145,33": "insert"
+                },
+                "前登寒山重": {
+                    "CHOUZHU,0145,34": "insert"
+                },
+                "屢得飲馬窟": {
+                    "CHOUZHU,0145,35": "insert"
+                },
+                "邠郊入地底": {
+                    "CHOUZHU,0145,36": "insert"
+                },
+                "涇水中蕩潏": {
+                    "CHOUZHU,0145,37": "insert"
+                },
+                "猛虎立我前": {
+                    "CHOUZHU,0145,38": "insert"
+                },
+                "石戴古車轍": {
+                    "CHOUZHU,0145,39": "insert"
+                },
+                "青雲動高興": {
+                    "CHOUZHU,0145,40": "insert"
+                },
+                "幽事亦可悅": {
+                    "CHOUZHU,0145,41": "insert"
+                },
+                "山果多瑣細": {
+                    "CHOUZHU,0145,42": "insert"
+                },
+                "羅生雜橡栗": {
+                    "CHOUZHU,0145,43": "insert"
+                },
+                "或紅如丹砂": {
+                    "CHOUZHU,0145,44": "insert"
+                },
+                "或黑如點漆": {
+                    "CHOUZHU,0145,45": "insert"
+                },
+                "雨露之所濡": {
+                    "CHOUZHU,0145,46": "insert"
+                },
+                "甘苦齊結實": {
+                    "CHOUZHU,0145,47": "insert"
+                },
+                "坡陀望鄜畤": {
+                    "CHOUZHU,0145,48": "insert"
+                },
+                "巖谷互出沒": {
+                    "CHOUZHU,0145,49": "insert"
+                },
+                "我行已水濱": {
+                    "CHOUZHU,0145,50": "insert"
+                },
+                "我僕猶木末": {
+                    "CHOUZHU,0145,51": "insert"
+                },
+                "鴟鳥鳴黃桑": {
+                    "CHOUZHU,0145,52": "insert"
+                },
+                "野鼠拱亂穴": {
+                    "CHOUZHU,0145,53": "insert"
+                },
+                "夜深經戰場": {
+                    "CHOUZHU,0145,54": "insert"
+                },
+                "寒月照白骨": {
+                    "CHOUZHU,0145,55": "insert"
+                },
+                "潼關百萬師": {
+                    "CHOUZHU,0145,56": "insert"
+                },
+                "往者散何卒": {
+                    "CHOUZHU,0145,57": "insert"
+                },
+                "遂令半秦民": {
+                    "CHOUZHU,0145,58": "insert"
+                },
+                "殘害爲異物": {
+                    "CHOUZHU,0145,59": "insert"
+                },
+                "況我墮胡塵": {
+                    "CHOUZHU,0145,60": "insert"
+                },
+                "及歸盡華髮": {
+                    "CHOUZHU,0145,61": "insert"
+                },
+                "經年至茅屋": {
+                    "CHOUZHU,0145,62": "insert"
+                },
+                "妻子衣百結": {
+                    "CHOUZHU,0145,63": "insert"
+                },
+                "慟哭松聲迴": {
+                    "CHOUZHU,0145,64": "insert"
+                },
+                "悲泉共幽咽": {
+                    "CHOUZHU,0145,65": "insert"
+                },
+                "平生所嬌兒": {
+                    "CHOUZHU,0145,66": "insert"
+                },
+                "顏色白勝雪": {
+                    "CHOUZHU,0145,67": "insert"
+                },
+                "見耶背面啼": {
+                    "CHOUZHU,0145,68": "insert"
+                },
+                "垢膩腳不襪": {
+                    "CHOUZHU,0145,69": "insert"
+                },
+                "補綻纔過膝": {
+                    "CHOUZHU,0145,70": "insert"
+                },
+                "海圖拆波濤": {
+                    "CHOUZHU,0145,71": "insert"
+                },
+                "舊繡移曲折": {
+                    "CHOUZHU,0145,72": "insert"
+                },
+                "天吳及紫鳳": {
+                    "CHOUZHU,0145,73": "insert"
+                },
+                "顚倒在裋褐": {
+                    "CHOUZHU,0145,74": "insert"
+                },
+                "嘔泄臥數日": {
+                    "CHOUZHU,0145,75": "insert"
+                },
+                "粉黛亦解苞": {
+                    "CHOUZHU,0145,76": "insert"
+                },
+                "衾裯稍羅列": {
+                    "CHOUZHU,0145,77": "insert"
+                },
+                "癡女頭自櫛": {
+                    "CHOUZHU,0145,78": "insert"
+                },
+                "曉妝隨手抹": {
+                    "CHOUZHU,0145,79": "insert"
+                },
+                "移時施朱鉛": {
+                    "CHOUZHU,0145,80": "insert"
+                },
+                "狼籍畫眉闊": {
+                    "CHOUZHU,0145,81": "insert"
+                },
+                "生還對童稚": {
+                    "CHOUZHU,0145,82": "insert"
+                },
+                "似欲忘飢渴": {
+                    "CHOUZHU,0145,83": "insert"
+                },
+                "甘受雜亂聒": {
+                    "CHOUZHU,0145,84": "insert"
+                },
+                "生理焉得說": {
+                    "CHOUZHU,0145,85": "insert"
+                },
+                "至尊尙蒙塵": {
+                    "CHOUZHU,0145,86": "insert"
+                },
+                "幾日休練卒": {
+                    "CHOUZHU,0145,87": "insert"
+                },
+                "仰看天色改": {
+                    "CHOUZHU,0145,88": "insert"
+                },
+                "旁覺祅氣豁": {
+                    "CHOUZHU,0145,89": "insert"
+                },
+                "陰風西北來": {
+                    "CHOUZHU,0145,90": "insert"
+                },
+                "慘澹隨回紇": {
+                    "CHOUZHU,0145,91": "insert"
+                },
+                "其俗善馳突": {
+                    "CHOUZHU,0145,92": "insert"
+                },
+                "送兵五千人": {
+                    "CHOUZHU,0145,93": "insert"
+                },
+                "驅馬一萬匹": {
+                    "CHOUZHU,0145,94": "insert"
+                },
+                "此輩少爲貴": {
+                    "CHOUZHU,0145,95": "insert"
+                },
+                "四方服勇決": {
+                    "CHOUZHU,0145,96": "insert"
+                },
+                "破敵過箭疾": {
+                    "CHOUZHU,0145,97": "insert"
+                },
+                "聖心頗虛佇": {
+                    "CHOUZHU,0145,98": "insert"
+                },
+                "時議氣欲奪": {
+                    "CHOUZHU,0145,99": "insert"
+                },
+                "伊洛指掌收": {
+                    "CHOUZHU,0145,100": "insert"
+                },
+                "官軍請深入": {
+                    "CHOUZHU,0145,101": "insert"
+                },
+                "蓄銳何俱發": {
+                    "CHOUZHU,0145,102": "insert"
+                },
+                "此舉開青徐": {
+                    "CHOUZHU,0145,103": "insert"
+                },
+                "旋瞻略恆碣": {
+                    "CHOUZHU,0145,104": "insert"
+                },
+                "昊天積霜露": {
+                    "CHOUZHU,0145,105": "insert"
+                },
+                "正氣有肅殺": {
+                    "CHOUZHU,0145,106": "insert"
+                },
+                "禍轉亡胡歲": {
+                    "CHOUZHU,0145,107": "insert"
+                },
+                "勢成擒胡月": {
+                    "CHOUZHU,0145,108": "insert"
+                },
+                "皇綱未宜絕": {
+                    "CHOUZHU,0145,109": "insert"
+                },
+                "憶昨狼狽初": {
+                    "CHOUZHU,0145,110": "insert"
+                },
+                "事與古先別": {
+                    "CHOUZHU,0145,111": "insert"
+                },
+                "姦臣竟葅醢": {
+                    "CHOUZHU,0145,112": "insert"
+                },
+                "同惡隨蕩析": {
+                    "CHOUZHU,0145,113": "insert"
+                },
+                "不聞夏殷衰": {
+                    "CHOUZHU,0145,114": "insert"
+                },
+                "中自誅襃妲": {
+                    "CHOUZHU,0145,115": "insert"
+                },
+                "宣光果明哲": {
+                    "CHOUZHU,0145,116": "insert"
+                },
+                "桓桓陳將軍": {
+                    "CHOUZHU,0145,117": "insert"
+                },
+                "仗鉞奮忠烈": {
+                    "CHOUZHU,0145,118": "insert"
+                },
+                "微爾人盡非": {
+                    "CHOUZHU,0145,119": "insert"
+                },
+                "於今國猶活": {
+                    "CHOUZHU,0145,120": "insert"
+                },
+                "淒涼大同殿": {
+                    "CHOUZHU,0145,121": "insert"
+                },
+                "寂寞白獸闥": {
+                    "CHOUZHU,0145,122": "insert"
+                },
+                "都人望翠華": {
+                    "CHOUZHU,0145,123": "insert"
+                },
+                "佳氣向金闕": {
+                    "CHOUZHU,0145,124": "insert"
+                },
+                "園陵固有神": {
+                    "CHOUZHU,0145,125": "insert"
+                },
+                "掃灑數不缺": {
+                    "CHOUZHU,0145,126": "insert"
+                },
+                "煌煌太宗業": {
+                    "CHOUZHU,0145,127": "insert"
+                },
+                "樹立甚宏達": {
+                    "CHOUZHU,0145,128": "insert"
                 }
             },
-            "評論": []
+            "大意": {
+                "0943,3-4": {
+                    "CHOUZHU,0145,1": "insert"
+                },
+                "0943,5-12": {
+                    "CHOUZHU,0145,2": "insert"
+                },
+                "0943,13-30": {
+                    "CHOUZHU,0145,3": "insert"
+                },
+                "0943,31-48": {
+                    "CHOUZHU,0145,4": "insert"
+                },
+                "0943,49-56": {
+                    "CHOUZHU,0145,5": "insert"
+                },
+                "0943,57-62": {
+                    "CHOUZHU,0145,6": "insert"
+                },
+                "0943,63-68": {
+                    "CHOUZHU,0145,7": "insert"
+                },
+                "0943,69-72": {
+                    "CHOUZHU,0145,8": "insert"
+                }
+            },
+            "評論": {
+                "a": {
+                    "CHOUZHU,0145,129": "insert"
+                }
+            }
         }
     }
 }
