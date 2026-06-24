@@ -1,8 +1,8 @@
-{"scope":"0943,3-4","src_path":""}
-{"scope":"0943,5-12","src_path":""}
-{"scope":"0943,13-30","src_path":""}
-{"scope":"0943,31-48","src_path":""}
-{"scope":"0943,49-56","src_path":""}
-{"scope":"0943,57-62","src_path":""}
-{"scope":"0943,63-68","src_path":""}
-{"scope":"0943,69-72","src_path":""}
+{"scope":"0943,3-4","src_path":"CHOUZHU,0145,1"}
+{"scope":"0943,5-12","src_path":"CHOUZHU,0145,2"}
+{"scope":"0943,13-30","src_path":"CHOUZHU,0145,3"}
+{"scope":"0943,31-48","src_path":"CHOUZHU,0145,4"}
+{"scope":"0943,49-56","src_path":"CHOUZHU,0145,5"}
+{"scope":"0943,57-62","src_path":"CHOUZHU,0145,6"}
+{"scope":"0943,63-68","src_path":"CHOUZHU,0145,7"}
+{"scope":"0943,69-72","src_path":"CHOUZHU,0145,8"}
