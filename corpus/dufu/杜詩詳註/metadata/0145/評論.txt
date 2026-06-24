@@ -1,9 +1,1 @@
 {"scope":"a","src_path":"CHOUZHU,0145,129"}
-{"scope":"a","src_path":"CHOUZHU,0145,130"}
-{"scope":"a","src_path":"CHOUZHU,0145,131"}
-{"scope":"a","src_path":"CHOUZHU,0145,132"}
-{"scope":"a","src_path":"CHOUZHU,0145,133"}
-{"scope":"a","src_path":"CHOUZHU,0145,134"}
-{"scope":"a","src_path":"CHOUZHU,0145,135"}
-{"scope":"a","src_path":"CHOUZHU,0145,136"}
-{"scope":"a","src_path":"CHOUZHU,0145,137"}

@@ -36,8 +36,21 @@ $子樹 = 截取子樹( $著述碼, $版文檔碼, array( "題解","注釋","大
 $folder = 提取ctt文件夾( $著述碼 );
 $樹 = 挂樹飾( $默文檔碼, "${著述碼},${版文檔碼}", $paths, $樹 );
 
+$json = json_encode(
+	$樹,
+	JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT
+);
 
-print_r( $樹 );
+file_put_contents(
+	dirname( __DIR__, 4 ) . DS . 
+	'corpus' . DS .
+	'dufu' . DS .
+	'資料匯總' . DS .
+	'views' . DS .
+	"仇楊.json",
+	$json . PHP_EOL );
+
+
 
 
 function 截取子樹(
