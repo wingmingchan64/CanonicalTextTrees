@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\bin\metadata\截取子樹.php
+php H:\github\CanonicalTextTrees\tools\php\bin\metadata\生成資料匯總樹.php
 */
 //use CTT\Exceptions\IllegalWorkIDException;
 //use Dufu\Exceptions\JsonFileNotFoundException;
@@ -13,19 +13,40 @@ require_once(
 	"php" . DIRECTORY_SEPARATOR .
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
-	
+
 $默文檔碼 = '0943';
-$著述碼   = 'JINGQUAN';
-$版文檔碼 = '0141';
-$paths = array();
-$子樹 = 截取子樹( $著述碼, $版文檔碼, array( "題解", "注釋", "評論" ) );
-記錄後設資料樹路徑( $子樹 );
+$簡稱_著述碼 = 提取數據結構( 簡稱_著述碼 );
+$杜著述s = array(
+	array(
+		"簡稱"=>"仇",
+		"文檔碼"=>"0145",
+		"部分"=>array( "題解","注釋","評論" )
+		),
+	array(
+		"簡稱"=>"楊",
+		"文檔碼"=>"0141",
+		"部分"=>array( "題解","注釋","評論" )
+		),
+);
+
+$樹 = null;
+
+foreach( $杜著述s as $杜著述 )
+{
+	$簡稱 = $杜著述[ "簡稱" ];
+	$著述碼 = $簡稱_著述碼[ $簡稱 ];
+	$版文檔碼 = $杜著述[ "文檔碼" ];
+	$部分 = $杜著述[ "部分" ];
+	$paths = array();
+	$子樹 = 截取子樹( $著述碼, $版文檔碼, $部分 );
+	記錄後設資料樹路徑( $子樹 );
 //print_r( $paths );
-
-$folder = 提取ctt文件夾( $著述碼 );
-$樹 = 挂樹飾( $默文檔碼, "${著述碼},${版文檔碼}", $paths );
+	$folder = 提取ctt文件夾( $著述碼 );
+	$樹 = 挂樹飾( $默文檔碼, "${著述碼},${版文檔碼}", $paths,	
+		$樹  );
+}
 //print_r( $樹 );
-
+/*
 $著述碼   = 'CHOUZHU';
 $版文檔碼 = '0145';
 $paths = array();
@@ -36,7 +57,7 @@ $子樹 = 截取子樹( $著述碼, $版文檔碼, array( "題解","注釋","大
 $folder = 提取ctt文件夾( $著述碼 );
 $樹 = 挂樹飾( $默文檔碼, "${著述碼},${版文檔碼}", $paths, $樹 );
 //print_r( $樹 );
-
+*/
 $json = json_encode(
 	$樹,
 	JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT
@@ -48,7 +69,7 @@ file_put_contents(
 	'dufu' . DS .
 	'資料匯總' . DS .
 	'views' . DS .
-	'0943.json',
+	$默文檔碼 . '.json',
 	$json . PHP_EOL );
 
 

@@ -116,6 +116,11 @@
     "title": "杜甫全集校注",
     "display_title": "蕭滌非主編《杜甫全集校注》"
   },
+  "YDCC":{
+    "folder": "corpus/dufu/引典出處",
+    "title": "引典出處",
+    "display_title": "《引典出處》"
+  },
   "YUEZHU":{
     "folder": "corpus/dufu/杜詩約注",
     "title": "杜詩約注",
