@@ -1,6 +1,19 @@
-# 杜工部草堂詩箋（五十卷）
+# 杜工部草堂詩箋
 
-## 資料來源
+---
+
+Status: Draft
+
+---
+
+## 系統資訊
+
+簡稱：蔡
+著述碼：CTSJ
+
+---
+
+## 五十卷本資料來源
 
 1. 魯訔編次、蔡夢弼會箋、曾祥波新定斠證《新定杜工部草堂詩箋斠證》，五冊，上海古籍出版社2021年12月第1版。
 
@@ -11,3 +24,15 @@ https://commons.wikimedia.org/wiki/File:ZHSY000677_%E6%9D%9C%E5%B7%A5%E9%83%A8%E
 https://commons.wikimedia.org/wiki/Category:%E6%9D%9C%E5%B7%A5%E9%83%A8%E8%8D%89%E5%A0%82%E8%A9%A9%E7%AE%8B
 https://commons.wikimedia.org/wiki/File:NLC892-411999016738-75200_%E6%9D%9C%E5%B7%A5%E9%83%A8%E8%8D%89%E5%A0%82%E8%A9%A9%E7%AE%8B_%E7%AC%AC1%E5%86%8A.pdf
 https://commons.wikimedia.org/wiki/File:NLC892-411999016738-75250_%E6%9D%9C%E5%B7%A5%E9%83%A8%E8%8D%89%E5%A0%82%E8%A9%A9%E7%AE%8B_%E7%AC%AC2%E5%86%8A.pdf
+
+---
+
+## 四十卷本資料來源
+
+1. https://commons.wikimedia.org/wiki/Category:%E6%9D%9C%E5%B7%A5%E9%83%A8%E8%8D%89%E5%A0%82%E8%A9%A9%E7%AE%8B
+
+---
+
+## 殘本存九卷（卷一至三、卷九至十四）
+
+1. https://commons.wikimedia.org/w/index.php?title=File:NCL-09523_%E6%9D%9C%E5%B7%A5%E9%83%A8%E8%8D%89%E5%A0%82%E8%A9%A9%E7%AE%8B.pdf&page=2

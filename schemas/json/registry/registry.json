@@ -1,4 +1,10 @@
 {
+  "CTSJ":{
+    "folder": "corpus/dufu/杜工部草堂詩箋",
+    "title": "杜工部草堂詩箋",
+    "display_title": "蔡夢弼《杜工部草堂詩箋》",
+	"author":"蔡夢弼"
+  },
   "CHOUZHU":{
     "folder": "corpus/dufu/杜詩詳註",
     "title": "杜詩詳註",
@@ -16,8 +22,12 @@
     "folder": "corpus/dufu/杜詩三百首",
     "title": "杜詩三百首",
     "display_title": "江弱水評注《杜詩三百首》",
-	"author":"江弱水",
-	"url":"https://book.qq.com/book-chapter/56925064"
+	"author":"江弱水"
+  },
+  "FMJZ":{
+    "folder": "corpus/dufu/分門集註杜工部詩",
+    "title": "分門集註杜工部詩",
+    "display_title": "《分門集註杜工部詩》"
   },
   "FSTY":{
     "folder": "corpus/classical/風俗通義",
