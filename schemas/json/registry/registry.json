@@ -137,6 +137,12 @@
     "display_title": "陳永明《杜詩約注》",
 	"author":"陳永明"
   },
+  "ZHANGNIANPU":{
+    "folder": "corpus/dufu/年譜/張忠綱",
+    "title": "杜甫年譜簡編",
+    "display_title": "張忠綱《杜甫年譜簡編》",
+	"author":"張忠綱"
+  },
   "ZHAOZHU":{
     "folder": "corpus/dufu/杜詩趙次公先後解輯校",
     "title": "杜詩趙次公先後解輯校",
