@@ -14,10 +14,11 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-//$work_id = 'JINGQUAN';
 //$work_id = 'CHOUZHU';
 //$work_id = 'GUOZHU';
-$work_id = 'ZHANGNIANPU';
+//$work_id = 'JINGQUAN';
+$work_id = 'XDF';
+//$work_id = 'ZHANGNIANPU';
 $folder  = get_ctt_folder( $work_id );
 //echo $folder, NL;
 

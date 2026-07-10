@@ -1,6 +1,9 @@
 <?php
 /*
 php H:\github\CanonicalTextTrees\tools\php\bin\metadata\生成資料匯總樹.php
+
+before this, run
+
 */
 //use CTT\Exceptions\IllegalWorkIDException;
 //use Dufu\Exceptions\JsonFileNotFoundException;
@@ -25,6 +28,11 @@ $杜著述s = array(
 	array(
 		"簡稱"=>"楊",
 		"文檔碼"=>"0141",
+		"部分"=>array( "題解","注釋","評論" )
+		),
+	array(
+		"簡稱"=>"蕭",
+		"文檔碼"=>"0146",
 		"部分"=>array( "題解","注釋","評論" )
 		),
 );
