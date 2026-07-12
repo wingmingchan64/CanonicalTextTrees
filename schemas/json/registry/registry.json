@@ -12,17 +12,35 @@
     "aliases": ["仇注", "《杜詩詳注》"],
 	"author":"仇兆鰲"
   },
+  "DDXJ":{
+    "folder": "corpus/dufu/讀杜心解",
+    "title": "讀杜心解",
+    "display_title": "浦起龍《讀杜心解》",
+	"author":"浦起龍"
+  },
   "DFQSYZ":{
     "folder": "corpus/dufu/杜甫全詩訳注",
     "title": "杜甫全詩訳注",
     "display_title": "下定雅弘、松原朗《杜甫全詩訳注》",
 	"author":"下定雅弘、松原朗"
   },
+  "DGBSJJZ":{
+    "folder": "corpus/dufu/杜工部詩集輯注",
+    "title": "杜工部詩集輯注",
+    "display_title": "朱鶴齡《杜工部詩集輯注》",
+	"author":"朱鶴齡"
+  },
   "DSSBS":{
     "folder": "corpus/dufu/杜詩三百首",
     "title": "杜詩三百首",
     "display_title": "江弱水評注《杜詩三百首》",
 	"author":"江弱水"
+  },
+  "DUYI":{
+    "folder": "corpus/dufu/杜臆",
+    "title": "杜臆",
+    "display_title": "王嗣奭《杜臆》",
+	"author":"王嗣奭"
   },
   "FMJZ":{
     "folder": "corpus/dufu/分門集註杜工部詩",
@@ -55,11 +73,23 @@
     "aliases": ["石頭記", "《石頭記》"],
 	"author":"曹雪芹"
   },
+  "HSBQJZ":{
+    "folder": "corpus/dufu/黃氏補千家註紀年杜工部詩史",
+    "title": "黃氏補千家註紀年杜工部詩史",
+    "display_title": "黃希、黃鶴《黃氏補千家註紀年杜工部詩史》",
+    "author": "黃希、黃鶴"
+  },
   "JINGQUAN":{
     "folder": "corpus/dufu/杜詩鏡詮",
     "title": "杜詩鏡詮",
     "display_title": "楊倫《杜詩鏡詮》",
     "author": "楊倫"
+  },
+  "JQJZ":{
+    "folder": "corpus/classical/集千家註分類杜工部詩",
+    "title": "集千家註分類杜工部詩",
+    "display_title": "徐居仁編次《集千家註分類杜工部詩》",
+    "author": "徐居仁"
   },
   "JTL":{
     "folder": "corpus/classical/劇談錄",
@@ -82,6 +112,18 @@
     "folder": "corpus/classical/孟子",
     "title": "孟子",
     "display_title": "《孟子》"
+  },
+  "OWEN":{
+    "folder": "corpus/dufu/The_Poetry_of_Du_Fu",
+    "title": "The Poetry of Du Fu",
+    "display_title": "Stephen Owen: The Poetry of Du Fu",
+	"author":"Owen, Stephen"
+  },
+  "PJYDSZJ":{
+    "folder": "corpus/dufu/辟疆園杜詩註解",
+    "title": "辟疆園杜詩註解",
+    "display_title": "顧宸《辟疆園杜詩註解》",
+	"author":"顧宸"
   },
   "QIANZHU":{
     "folder": "corpus/dufu/錢注杜詩",
@@ -124,7 +166,14 @@
   "XDF":{
     "folder": "corpus/dufu/杜甫全集校注",
     "title": "杜甫全集校注",
-    "display_title": "蕭滌非主編《杜甫全集校注》"
+    "display_title": "蕭滌非主編《杜甫全集校注》",
+	"author":"蕭滌非"
+  },
+  "XSW":{
+    "folder": "corpus/dufu/杜甫集校注",
+    "title": "杜甫集校注",
+    "display_title": "謝思煒《杜甫集校注》",
+	"author":"謝思煒"
   },
   "YDCC":{
     "folder": "corpus/dufu/引典出處",
@@ -136,6 +185,12 @@
     "title": "杜詩約注",
     "display_title": "陳永明《杜詩約注》",
 	"author":"陳永明"
+  },
+  "ZDZSQTS":{
+    "folder": "corpus/dufu/增訂注釋全唐詩",
+    "title": "增訂注釋全唐詩",
+    "display_title": "陳貽焮主編《增訂注釋全唐詩》",
+	"author":"陳貽焮"
   },
   "ZHANGNIANPU":{
     "folder": "corpus/dufu/年譜/張忠綱",
