@@ -1,5 +1,18 @@
 # 楊倫《杜詩鏡詮》
 
+---
+
+Status: Draft
+
+---
+
+## 系統資訊
+
+簡稱：楊
+著述碼：JINGQUAN
+
+---
+
 ## 文本來源
 
 - 紫府祕庫 <a href="https://drive.google.com/drive/folders/1n-gJCTAQeRP--10rjJ-BTKNEraXHDN5F">《杜詩鏡詮》首十卷</a>
