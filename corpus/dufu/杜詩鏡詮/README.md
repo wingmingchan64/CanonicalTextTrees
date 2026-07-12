@@ -8,7 +8,8 @@
 
 ## 參考書籍
 
--
+- 《杜詩鏡銓》，二冊，上海古籍出版社1980年7月新1版。
+- Wikipedia Commons <a href="https://commons.wikimedia.org/wiki/Category:杜詩鏡銓">Category:杜詩鏡銓</a>
 
 ---
 
