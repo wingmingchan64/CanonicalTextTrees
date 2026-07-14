@@ -1,16 +1,22 @@
 {
-  "CTSJ":{
-    "folder": "corpus/dufu/杜工部草堂詩箋",
-    "title": "杜工部草堂詩箋",
-    "display_title": "蔡夢弼《杜工部草堂詩箋》",
-	"author":"蔡夢弼"
-  },
   "CHOUZHU":{
     "folder": "corpus/dufu/杜詩詳註",
     "title": "杜詩詳註",
     "display_title": "仇兆鰲《杜詩詳註》",
     "aliases": ["仇注", "《杜詩詳注》"],
 	"author":"仇兆鰲"
+  },
+  "CJTDSJ":{
+    "folder": "corpus/dufu/唱經堂杜詩解",
+    "title": "唱經堂杜詩解",
+    "display_title": "金聖歎《唱經堂杜詩解》",
+	"author":"金聖歎"
+  },
+  "CTSJ":{
+    "folder": "corpus/dufu/杜工部草堂詩箋",
+    "title": "杜工部草堂詩箋",
+    "display_title": "蔡夢弼《杜工部草堂詩箋》",
+	"author":"蔡夢弼"
   },
   "DDXJ":{
     "folder": "corpus/dufu/讀杜心解",
@@ -24,17 +30,76 @@
     "display_title": "下定雅弘、松原朗《杜甫全詩訳注》",
 	"author":"下定雅弘、松原朗"
   },
+  "DFSQY":{
+    "folder": "corpus/dufu/杜甫詩全譯",
+    "title": "杜甫詩全譯",
+    "display_title": "韓成武、張志民《杜甫詩全譯》",
+	"author":"韓成武、張志民"
+  },
   "DGBSJJZ":{
     "folder": "corpus/dufu/杜工部詩集輯注",
     "title": "杜工部詩集輯注",
     "display_title": "朱鶴齡《杜工部詩集輯注》",
 	"author":"朱鶴齡"
   },
+  "DSC":{
+    "folder": "corpus/dufu/杜詩闡",
+    "title": "杜詩闡",
+    "display_title": "盧元昌《杜詩闡》",
+	"author":"盧元昌"
+  },
+  "DSHC":{
+    "folder": "corpus/dufu/杜詩会稡",
+    "title": "杜詩会稡",
+    "display_title": "張遠《杜詩会稡》",
+	"author":"張遠"
+  },
+  "DSLW":{
+    "folder": "corpus/dufu/杜詩論文",
+    "title": "杜詩論文",
+    "display_title": "吳見思《杜詩論文》",
+	"author":"吳見思"
+  },
+  "DSOP":{
+    "folder": "corpus/dufu/杜詩偶評",
+    "title": "杜詩偶評",
+    "display_title": "沈德潛《杜詩偶評》",
+	"author":"沈德潛"
+  },
+  "DSQJJZB":{
+    "folder": "corpus/dufu/杜詩全集（今注本）",
+    "title": "杜詩全集（今注本）",
+    "display_title": "張志烈主編《杜詩全集（今注本）》",
+	"author":"張志烈"
+  },
+  "DSS":{
+    "folder": "corpus/dufu/杜詩說",
+    "title": "杜詩說",
+    "display_title": "黃生《杜詩說》",
+	"author":"黃生"
+  },
   "DSSBS":{
     "folder": "corpus/dufu/杜詩三百首",
     "title": "杜詩三百首",
     "display_title": "江弱水評注《杜詩三百首》",
 	"author":"江弱水"
+  },
+  "DSTDGB":{
+    "folder": "corpus/dufu/讀書堂杜工部詩集註解",
+    "title": "讀書堂杜工部詩集註解",
+    "display_title": "張溍《讀書堂杜工部詩集註解》",
+	"author":"張溍"
+  },
+  "DSYZ":{
+    "folder": "corpus/dufu/杜詩言志",
+    "title": "杜詩言志",
+    "display_title": "《杜詩言志》"
+  },
+  "DSZS":{
+    "folder": "corpus/dufu/杜詩註釋",
+    "title": "杜詩註釋",
+    "display_title": "許寳善《杜詩註釋》",
+	"author":"許寳善"
   },
   "DUYI":{
     "folder": "corpus/dufu/杜臆",
@@ -157,11 +222,22 @@
     "display_title": "《聲律啟蒙》",
 	"author":"車萬育"
   },
+  "TSBC":{
+    "folder": "corpus/dufu/唐詩別裁",
+    "title": "唐詩別裁",
+    "display_title": "沈德潛《唐詩別裁》",
+	"author":"沈德潛"
+  },
   "WENXUAN":{
     "folder": "corpus/classical/文選",
     "title": "文選",
     "display_title": "《文選》",
     "aliases": ["昭明文選", "《昭明文選》"]
+  },
+  "WZYJBJZ":{
+    "folder": "corpus/dufu/王狀元集百家注編年杜陵詩史",
+    "title": "王狀元集百家注編年杜陵詩史",
+    "display_title": "《王狀元集百家注編年杜陵詩史》"
   },
   "XDF":{
     "folder": "corpus/dufu/杜甫全集校注",
