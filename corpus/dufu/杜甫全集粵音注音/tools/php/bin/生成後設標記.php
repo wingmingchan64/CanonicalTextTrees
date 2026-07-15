@@ -16,9 +16,9 @@ $end = 72;
 
 for( $i = $start; $i <= $end; $i++ )
 {
-	$行 = $i + 142;
+	$行 = $i-2;
 $marker = <<<EOD
-{"scope":"${文檔碼},${i}","src_path":"DFQJYYZY,${文檔碼},3,${行}"}
+{"scope":"${文檔碼},${i}","src_path":"OWEN,05.27,${行}"}
 EOD;
 	echo $marker, NL;
 }
