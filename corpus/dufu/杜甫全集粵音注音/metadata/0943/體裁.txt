@@ -1,1 +1,1 @@
-{"scope":"0943,a","src_path":"DFQJYYZY,0943,4"}
+{"scope":"0943,詩題","src_path":"DFQJYYZY,0943,4"}
