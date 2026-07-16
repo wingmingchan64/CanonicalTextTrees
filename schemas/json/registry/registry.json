@@ -235,6 +235,12 @@
     "display_title": "沈德潛《唐詩別裁》",
 	"author":"沈德潛"
   },
+  "TSJSCD":{
+    "folder": "corpus/dufu/唐詩鑒賞辭典",
+    "title": "唐詩鑒賞辭典",
+    "display_title": "《唐詩鑒賞辭典》",
+	"author":""
+  },
   "WENXUAN":{
     "folder": "corpus/classical/文選",
     "title": "文選",
