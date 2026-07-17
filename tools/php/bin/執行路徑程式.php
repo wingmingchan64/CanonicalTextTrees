@@ -18,9 +18,9 @@ require_once(
 //$work_id = 'DFQJYYZY';
 //$work_id = 'DFQSYZ';
 //$work_id = 'DFSQY';
-$work_id = 'DUYI';
+//$work_id = 'DUYI';
 //$work_id = 'GUOZHU';
-//$work_id = 'JINGQUAN';
+$work_id = 'JINGQUAN';
 //$work_id = 'OWEN';
 //$work_id = 'TSJSCD';
 //$work_id = 'XDF';
