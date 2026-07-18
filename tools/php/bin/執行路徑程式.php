@@ -15,7 +15,7 @@ require_once(
 	 'functions.php' );
 	 
 //$work_id = 'CHOUZHU';
-$work_id = 'CJTDSJ';
+//$work_id = 'CJTDSJ';
 //$work_id = 'DDXJ';
 //$work_id = 'DFQJYYZY';
 //$work_id = 'DFQSYZ';
@@ -23,7 +23,7 @@ $work_id = 'CJTDSJ';
 //$work_id = 'DSS';
 //$work_id = 'DSYZ';
 //$work_id = 'DUYI';
-//$work_id = 'GUOZHU';
+$work_id = 'GUOZHU';
 //$work_id = 'JINGQUAN';
 //$work_id = 'OWEN';
 //$work_id = 'TSJSCD';
