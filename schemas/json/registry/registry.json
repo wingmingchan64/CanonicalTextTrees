@@ -97,6 +97,11 @@
     "display_title": "張溍《讀書堂杜工部詩集註解》",
 	"author":"張溍"
   },
+  "DSS":{
+    "folder": "corpus/dufu/杜詩說",
+    "title": "杜詩說",
+    "display_title": "黃生《杜詩說》"
+  },
   "DSYZ":{
     "folder": "corpus/dufu/杜詩言志",
     "title": "杜詩言志",
