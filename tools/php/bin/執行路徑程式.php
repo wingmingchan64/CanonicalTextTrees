@@ -14,8 +14,8 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-//$work_id = 'CHOUZHU';
-$work_id = 'DDXJ';
+$work_id = 'CHOUZHU';
+//$work_id = 'DDXJ';
 //$work_id = 'DFQJYYZY';
 //$work_id = 'DFQSYZ';
 //$work_id = 'DFSQY';
