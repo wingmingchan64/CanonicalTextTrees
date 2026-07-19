@@ -23,10 +23,11 @@ require_once(
 //$work_id = 'DSS';
 //$work_id = 'DSYZ';
 //$work_id = 'DUYI';
-$work_id = 'GUOZHU';
+//$work_id = 'GUOZHU';
 //$work_id = 'JINGQUAN';
 //$work_id = 'OWEN';
 //$work_id = 'TSJSCD';
+$work_id = 'WZYJBJZ';
 //$work_id = 'XDF';
 //$work_id = 'ZDZSQTS';
 //$work_id = 'ZHANGNIANPU';
