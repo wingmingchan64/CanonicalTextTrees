@@ -36,3 +36,9 @@ https://commons.wikimedia.org/wiki/File:NLC892-411999016738-75250_%E6%9D%9C%E5%B
 ## 殘本存九卷（卷一至三、卷九至十四）
 
 1. https://commons.wikimedia.org/w/index.php?title=File:NCL-09523_%E6%9D%9C%E5%B7%A5%E9%83%A8%E8%8D%89%E5%A0%82%E8%A9%A9%E7%AE%8B.pdf&page=2
+
+## 備注
+
+- 注中〚0142:〛指五十卷本《北征》
+- 注中〚曾0142:〛指《新定杜工部草堂詩箋斠證·北征》
+- 曾祥波新定斠證本頗多異體字、簡體字，如「争」、「盗」、「静」等。

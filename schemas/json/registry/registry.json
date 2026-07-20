@@ -218,6 +218,12 @@
     "title": "宋詞三百首",
     "display_title": "《宋詞三百首》"
   },
+  "SFJL":{
+    "folder": "corpus/classical/三輔決錄",
+    "title": "三輔決錄",
+    "display_title": "趙岐《三輔決錄》",
+	"author":"趙岐"
+  },
   "SHIJI":{
     "folder": "corpus/classical/史記",
     "title": "史記",
