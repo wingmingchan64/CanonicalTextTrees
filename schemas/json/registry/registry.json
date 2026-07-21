@@ -162,6 +162,12 @@
     "display_title": "楊倫《杜詩鏡銓》",
     "author": "楊倫"
   },
+  "JINGWENJI":{
+    "folder": "corpus/classical/景文集",
+    "title": "景文集",
+    "display_title": "宋祁《景文集》",
+    "author": "宋祁"
+  },
   "JQJZ":{
     "folder": "corpus/classical/集千家註分類杜工部詩",
     "title": "集千家註分類杜工部詩",
