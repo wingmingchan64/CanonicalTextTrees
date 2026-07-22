@@ -1,4 +1,5 @@
 {"scope":"1","src_path":"WENXUAN,09.03,1","quoting":["趙","郭","王","分","蔡","仇","浦","楊","蕭"],"begin":"余遭世之"}
 {"scope":"1","src_path":"JINGWENJI,07.36,1","quoting":["趙"],"begin":"唐家六葉太"}
 {"scope":"22","src_path":"SHIHUA,竹坡詩話,18","begin":"韓退之《城南聯句"}
+{"scope":"24","src_path":"SHIHUA,竹坡詩話,18","begin":"杜子美《北征》"}
 {"scope":"38","src_path":"SFJL,01,57,125","quoting":["蔡"],"begin":"太史令"}
