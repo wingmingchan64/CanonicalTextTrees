@@ -230,6 +230,11 @@
     "display_title": "趙岐《三輔決錄》",
 	"author":"趙岐"
   },
+  "SHANHAIJING":{
+    "folder": "corpus/classical/山海經",
+    "title": "山海經",
+    "display_title": "《山海經》"
+  },
   "SHIHUA":{
     "folder": "corpus/classical/詩話",
     "title": "詩話",

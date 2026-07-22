@@ -14,6 +14,10 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
+check_argv( $argv, 2, 提供著述碼 );
+$work_id = trim( $argv[ 1 ] );
+
+	 
 //$work_id = 'CHOUZHU';
 //$work_id = 'CJTDSJ';
 //$work_id = 'CTSJ';
@@ -30,7 +34,7 @@ require_once(
 //$work_id = 'JINGWENJI';
 //$work_id = 'OWEN';
 //$work_id = 'SFJL';
-$work_id = 'SHIHUA';
+//$work_id = 'SHIHUA';
 //$work_id = 'TSJSCD';
 //$work_id = 'WENXUAN';
 //$work_id = 'WZYJBJZ';
@@ -38,6 +42,8 @@ $work_id = 'SHIHUA';
 //$work_id = 'ZDZSQTS';
 //$work_id = 'ZHANGNIANPU';
 //$work_id = 'ZHAOZHU';
+
+
 
 $folder  = get_ctt_folder( $work_id );
 //echo $folder, NL;
