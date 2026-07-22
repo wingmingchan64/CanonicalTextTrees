@@ -230,6 +230,11 @@
     "display_title": "趙岐《三輔決錄》",
 	"author":"趙岐"
   },
+  "SHIHUA":{
+    "folder": "corpus/classical/詩話",
+    "title": "詩話",
+    "display_title": "詩話"
+  },
   "SHIJI":{
     "folder": "corpus/classical/史記",
     "title": "史記",
