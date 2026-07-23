@@ -36,7 +36,7 @@ sort( $files, SORT_STRING );
 //foreach( $files as $file )
 //{
 	//$path = $target_folder . $file;
-	$path = "H:\github\CanonicalTextTrees\corpus\dufu\杜詩全集（今注本）\canonical_text" . '\0141.txt';
+	$path = "H:\github\CanonicalTextTrees\corpus\classical\舊唐書\canonical_text" . '\051.txt';
 
 	if(
 		is_file( $path )
