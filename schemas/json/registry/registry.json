@@ -314,6 +314,12 @@
     "display_title": "陳貽焮主編《增訂注釋全唐詩》",
 	"author":"陳貽焮"
   },
+  "ZHANGCIDIAN":{
+    "folder": "corpus/dufu/杜甫大辭典",
+    "title": "杜甫大辭典",
+    "display_title": "張忠綱主編《杜甫大辭典》",
+	"author":"張忠綱"
+  },
   "ZHANGNIANPU":{
     "folder": "corpus/dufu/年譜/張忠綱",
     "title": "杜甫年譜簡編",
