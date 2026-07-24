@@ -6,6 +6,11 @@
     "aliases": ["仇注", "《杜詩詳注》"],
 	"author":"仇兆鰲"
   },
+  "CIDIAN":{
+    "folder": "corpus/dufu/詞典",
+    "title": "詞典",
+    "display_title": "詞典"
+  },
   "CJTDSJ":{
     "folder": "corpus/dufu/唱經堂杜詩解",
     "title": "唱經堂杜詩解",
