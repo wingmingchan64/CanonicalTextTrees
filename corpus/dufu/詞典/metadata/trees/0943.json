@@ -1,9 +1,12 @@
 {
     "CIDIAN": {
         "0943": {
-            "詞典": {
+            "釋義": {
                 "鄜州": {
-                    "ZHANGCIDIAN,13,1": "insert"
+                    "ZHANGCIDIAN,地13,1,4": "insert"
+                },
+                "洛陽": {
+                    "ZHANGCIDIAN,地9,1,4": "insert"
                 }
             }
         }
