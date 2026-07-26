@@ -17,34 +17,6 @@ require_once(
 check_argv( $argv, 2, 提供著述碼 );
 $work_id = trim( $argv[ 1 ] );
 
-	 
-//$work_id = 'CHOUZHU';
-//$work_id = 'CJTDSJ';
-//$work_id = 'CTSJ';
-//$work_id = 'DDXJ';
-//$work_id = 'DFQJYYZY';
-//$work_id = 'DFQSYZ';
-//$work_id = 'DFSQY';
-//$work_id = 'DSS';
-//$work_id = 'DSYZ';
-//$work_id = 'DUYI';
-//$work_id = 'FMJZ';
-//$work_id = 'GUOZHU';
-//$work_id = 'JINGQUAN';
-//$work_id = 'JINGWENJI';
-//$work_id = 'OWEN';
-//$work_id = 'SFJL';
-//$work_id = 'SHIHUA';
-//$work_id = 'TSJSCD';
-//$work_id = 'WENXUAN';
-//$work_id = 'WZYJBJZ';
-//$work_id = 'XDF';
-//$work_id = 'ZDZSQTS';
-//$work_id = 'ZHANGNIANPU';
-//$work_id = 'ZHAOZHU';
-
-
-
 $folder  = get_ctt_folder( $work_id );
 //echo $folder, NL;
 
