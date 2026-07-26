@@ -96,16 +96,21 @@
     "display_title": "江弱水評注《杜詩三百首》",
 	"author":"江弱水"
   },
+  "DSS":{
+    "folder": "corpus/dufu/杜詩說",
+    "title": "杜詩說",
+    "display_title": "黃生《杜詩說》"
+  },
+  "DSSBS":{
+    "folder": "corpus/dufu/杜詩三百首",
+    "title": "杜詩三百首",
+    "display_title": "江弱水《杜詩三百首》"
+  },
   "DSTDGB":{
     "folder": "corpus/dufu/讀書堂杜工部詩集註解",
     "title": "讀書堂杜工部詩集註解",
     "display_title": "張溍《讀書堂杜工部詩集註解》",
 	"author":"張溍"
-  },
-  "DSS":{
-    "folder": "corpus/dufu/杜詩說",
-    "title": "杜詩說",
-    "display_title": "黃生《杜詩說》"
   },
   "DSYZ":{
     "folder": "corpus/dufu/杜詩言志",
