@@ -27,40 +27,46 @@ foreach( $map as $默文檔碼 => $版文檔碼 )
 	$m_file = $folder . 'metadata' . DIRECTORY_SEPARATOR .
 		'trees' . DIRECTORY_SEPARATOR .
 		$版文檔碼 . '.json';
-	$mm = json_decode(
-		file_get_contents( $m_file ), true 
-	);
 	$基準正文樹 = 提取基準正文樹( $默文檔碼 );
-	//print_r( $mm );
 	
-	foreach( $mm[ $著述碼 ][ $版文檔碼 ][ '異文' ]
-		as $默path => $版path_函 )
+	if( file_exists( $m_file ) )
 	{
-		//print_r( $默path );
+	
+		$mm = json_decode(
+			file_get_contents( $m_file ), true 
+		);
+		//print_r( $mm );
 		
-		foreach( $版path_函 as $版path => $函式 )
+		foreach( $mm[ $著述碼 ][ $版文檔碼 ][ '異文' ]
+			as $默path => $版path_函 )
 		{
-			if( $函式 == 'replace' )
+			//print_r( $默path );
+			
+			foreach( $版path_函 as $版path => $函式 )
 			{
-				替換路徑字(
-					$基準正文樹,
-					explode( ',', $默path ),
-					提取ctt正文( $版path )
-				);
-				
+				if( $函式 == 'replace' )
+				{
+					替換路徑字(
+						$基準正文樹,
+						explode( ',', $默path ),
+						提取ctt正文( $版path )
+					);
+					
+				}
 			}
 		}
-		//print_r( $基準正文樹 );
-		
-		$tree_path = $folder .
-			'views' . DIRECTORY_SEPARATOR .
-			$版文檔碼 . '.json';
-
-		file_put_contents(
-			$tree_path,
-			json_encode(
-				$基準正文樹, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) );
 	}
+		
 	//print_r( $基準正文樹 );
+		
+	$tree_path = $folder .
+		'views' . DIRECTORY_SEPARATOR .
+		$版文檔碼 . '.json';
+
+	file_put_contents(
+		$tree_path,
+		json_encode(
+			$基準正文樹, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) );
 }
+	//print_r( $基準正文樹 );
 ?>
