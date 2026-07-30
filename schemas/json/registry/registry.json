@@ -284,6 +284,12 @@
     "display_title": "《唐詩鑒賞辭典》",
 	"author":""
   },
+  "WANGZHU":{
+    "folder": "corpus/dufu/杜工部集",
+    "title": "杜工部集",
+    "display_title": "王洙編《杜工部集》",
+    "author": "王洙"
+  },
   "WENXUAN":{
     "folder": "corpus/classical/文選",
     "title": "文選",
