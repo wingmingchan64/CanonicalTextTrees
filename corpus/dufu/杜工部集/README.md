@@ -23,3 +23,11 @@ Status: Draft
 ## 備注
 
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/corpus/dufu/%E6%9D%9C%E5%B7%A5%E9%83%A8%E9%9B%86/views">views</a> 文件夾裏儲存的是《杜工部集》的正文樹，包括異文、部分重要的異體字。
+
+---
+
+## 葉嘉瑩評語
+
+杜工部集二十卷、補遺一卷十六冊 宋王洙編 〔王本〕
+續古逸叢書影印宋紹興刊本，卷首有宋仁宗寶元二年（公元一〇三九年）王洙序。
+（按此書無注，然據以影印之原書，版本極佳，爲今日所見杜詩最早刊本。）
