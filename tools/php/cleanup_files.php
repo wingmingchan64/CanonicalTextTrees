@@ -36,14 +36,14 @@ sort( $files, SORT_STRING );
 //foreach( $files as $file )
 //{
 	//$path = $target_folder . $file;
-	$path = "H:\github\CanonicalTextTrees\corpus\classical\舊唐書\canonical_text" . '\051.txt';
+	$path = "H:\github\CanonicalTextTrees\corpus\dufu\集千家註批點杜工部詩集\canonical_text" . '\15.40.txt';
 
 	if(
 		is_file( $path )
 		//&& preg_match( '/\.txt$/i', $file )
 	)
 	{
-		echo "File", NL;
+		//echo "File", NL;
 		$txt = file_get_contents( $path );
 		//$txt = normalize( 修復文字( $txt ) );
 		$txt = 修復文字( $txt );
