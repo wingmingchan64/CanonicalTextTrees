@@ -184,11 +184,16 @@
     "display_title": "宋祁《景文集》",
     "author": "宋祁"
   },
-  "JQJZ":{
-    "folder": "corpus/classical/集千家註分類杜工部詩",
+  "JQJZFL":{
+    "folder": "corpus/dufu/集千家註分類杜工部詩",
     "title": "集千家註分類杜工部詩",
     "display_title": "徐居仁編次《集千家註分類杜工部詩》",
     "author": "徐居仁"
+  },
+  "JQJZPD":{
+    "folder": "corpus/dufu/集千家註批點杜工部詩集",
+    "title": "集千家註批點杜工部詩集",
+    "display_title": "《集千家註批點杜工部詩集》"
   },
   "JTL":{
     "folder": "corpus/classical/劇談錄",
