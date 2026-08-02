@@ -1,0 +1,9 @@
+{"scope":"題注","src_path":"WANGZHU,0006,0,2"}
+{"scope":"凌","src_path":"WANGZHU,0006,1,4"}
+{"scope":"青","src_path":"WANGZHU,0006,1,5"}
+{"scope":"荷","src_path":"WANGZHU,0006,1,6"}
+{"scope":"荷","src_path":"WANGZHU,0006,1,7","op":"insert"}
+{"scope":"右","src_path":"WANGZHU,0006,1,8"}
+{"scope":"右","src_path":"WANGZHU,0006,1,9","op":"insert"}
+{"scope":"歌","src_path":"WANGZHU,0006,1,10"}
+{"scope":"涌","src_path":"WANGZHU,0006,1,11"}

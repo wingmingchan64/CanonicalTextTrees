@@ -46,10 +46,17 @@ foreach( $map as $默文檔碼 => $版文檔碼 )
 			{
 				if( $函式 == 'replace' )
 				{
+					$文字 = 提取ctt正文( $版path );
+					
+					if( mb_strpos( $默path, '題注' ) !== false )
+					{
+						$文字 = "[${文字}]";
+					}
+					
 					替換路徑字(
 						$基準正文樹,
 						explode( ',', $默path ),
-						提取ctt正文( $版path )
+						$文字
 					);
 					
 				}
