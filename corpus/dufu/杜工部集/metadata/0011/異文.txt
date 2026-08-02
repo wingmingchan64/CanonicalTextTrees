@@ -1,0 +1,2 @@
+{"scope":"庭","src_path":"WANGZHU,0011,1,3"}
+{"scope":"卒","src_path":"WANGZHU,0011,1,4","op":"insert"}
