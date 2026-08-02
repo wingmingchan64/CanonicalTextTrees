@@ -1,0 +1,2 @@
+{"scope":"誠","src_path":"WANGZHU,0008,1,3"}
+{"scope":"鎖","src_path":"WANGZHU,0008,1,4"}
