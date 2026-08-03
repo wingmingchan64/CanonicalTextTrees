@@ -1,0 +1,7 @@
+{"scope":"階","src_path":"WANGZHU,0015,1,3"}
+{"scope":"0465,2,12,1,3","src_path":"WANGZHU,0015,1,4"}
+{"scope":"荒","src_path":"WANGZHU,0015,1,5","op":"insert"}
+{"scope":"辨","src_path":"WANGZHU,0015,1,6"}
+{"scope":"鎖","src_path":"WANGZHU,0015,1,7"}
+{"scope":"雁","src_path":"WANGZHU,0015,1,8"}
+{"scope":"泥","src_path":"WANGZHU,0015,1,9"}

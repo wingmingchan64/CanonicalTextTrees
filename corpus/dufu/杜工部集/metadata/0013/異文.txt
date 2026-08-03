@@ -1,0 +1,3 @@
+{"scope":"攻","src_path":"WANGZHU,0013,1,3"}
+{"scope":"駒","src_path":"WANGZHU,0013,1,4","op":"insert"}
+{"scope":"休","src_path":"WANGZHU,0013,1,5","op":"insert"}

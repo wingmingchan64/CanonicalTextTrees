@@ -1,0 +1,3 @@
+{"scope":"0167,詩題","src_path":"WANGZHU,0012,篇名"}
+{"scope":"驄","src_path":"WANGZHU,0012,1,3"}
+{"scope":"卻","src_path":"WANGZHU,0012,1,4"}
