@@ -1,0 +1,7 @@
+{"scope":"宋","src_path":"WANGZHU,0017,1,3","op":"insert"}
+{"scope":"轗","src_path":"WANGZHU,0017,1,4"}
+{"scope":"鬢","src_path":"WANGZHU,0017,1,5"}
+{"scope":"覓","src_path":"WANGZHU,0017,1,6"}
+{"scope":"檐","src_path":"WANGZHU,0017,1,7"}
+{"scope":"盜","src_path":"WANGZHU,0017,1,8"}
+{"scope":"杯","src_path":"WANGZHU,0017,1,9"}

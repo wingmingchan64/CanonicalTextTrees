@@ -18,27 +18,37 @@ require_once(
 $著述碼 = 'WANGZHU';
 $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 	get_ctt_folder( $著述碼 ) . DIRECTORY_SEPARATOR;
-$mapping_file = "默詩碼_版詩碼.json";
+$mapping_file = "版詩碼_默詩碼.json";
 $map = json_decode(
 	file_get_contents( $folder . $mapping_file ), true );
 
-foreach( $map as $默詩碼 => $版詩碼 )
+foreach( $map as $版詩碼 => $默詩碼 )
 {
-	if( strlen( $默詩碼 ) != 4 )
+	$版文檔碼 = $版詩碼;
+
+	if( is_array( $默詩碼 ) )
 	{
-		$默文檔碼 = substr( $默詩碼, 0, 4 );
-		$版文檔碼 = substr( $版詩碼, 0, 4 );
+		// use the first 默文檔碼 as root
+		$默文檔碼 = substr( $默詩碼[ '1' ], 0, 4 );
+		$基準正文樹 = array( $默文檔碼 => array() ) ;
+		
+		foreach( $默詩碼 as $首 => $詩碼 )
+		{
+			[ $wd, $s ] = explode( '-', $詩碼 );
+			$子樹 = 提取基準正文樹( $詩碼 )[ $wd ][ $s ];
+			$基準正文樹[ $默文檔碼 ][ $首 ] = $子樹;
+		}
 	}
 	else
 	{
 		$默文檔碼 = $默詩碼;
-		$版文檔碼 = $版詩碼;
+		$基準正文樹 = 提取基準正文樹( $默文檔碼 );
 	}
 	
-	$m_file = $folder . 'metadata' . DIRECTORY_SEPARATOR .
+	$m_file = $folder . 'metadata' . 
+		DIRECTORY_SEPARATOR .
 		'trees' . DIRECTORY_SEPARATOR .
 		$版文檔碼 . '.json';
-	$基準正文樹 = 提取基準正文樹( $默文檔碼 );
 	
 	if( file_exists( $m_file ) )
 	{
@@ -81,8 +91,9 @@ foreach( $map as $默詩碼 => $版詩碼 )
 			}
 		}
 	}
-		
-	//print_r( $基準正文樹 );
+	
+	$基準正文樹[ $版文檔碼 ] = $基準正文樹[ $默文檔碼 ];
+	unset( $基準正文樹[ $默文檔碼 ] );
 		
 	$tree_path = $folder .
 		'views' . DIRECTORY_SEPARATOR .
