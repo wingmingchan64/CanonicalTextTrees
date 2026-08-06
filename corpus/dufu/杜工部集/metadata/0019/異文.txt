@@ -1,0 +1,5 @@
+{"scope":"光","src_path":"WANGZHU,0019,1,3","op":"insert"}
+{"scope":"鬢","src_path":"WANGZHU,0019,1,4"}
+{"scope":"答","src_path":"WANGZHU,0019,1,5"}
+{"scope":"1324,8,2,2","src_path":"WANGZHU,0019,1,6","op":"insert"}
+{"scope":"世","src_path":"WANGZHU,0019,1,7"}
