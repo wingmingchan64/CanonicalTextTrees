@@ -22,7 +22,7 @@ $trees_folder = $folder . 'trees' . DIRECTORY_SEPARATOR;
 $views_folder = $folder . 'views' . DIRECTORY_SEPARATOR;
 	
 $bwv = '140';
-$languages = array( 'DE' , 'EN1', 'ZH1', 'FR1'/**/ );
+$languages = array( 'EN1','DE' ,  /*'ZH1', 'FR1'*/ );
 $lang_trees = array();
 
 foreach( $languages as $lang )
@@ -69,7 +69,7 @@ foreach( $lang_trees[ $languages[ 0 ] ]
 
 
 file_put_contents(
-	$views_folder . $bwv . /*'_DE_EN1' .*/ '.json',
+	$views_folder . $bwv . '_EN1_DE' ./**/ '.json',
 	json_encode(
 		$樹, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) );
 
