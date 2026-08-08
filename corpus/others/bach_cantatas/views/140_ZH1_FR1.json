@@ -1,0 +1,350 @@
+{
+    "140": {
+        "篇名": {
+            "ZH1": "BWV 140 - 醒来，声音召唤我们",
+            "FR1": "BWV 140 - Réveillez-vous, la voix nous appelle"
+        },
+        "1": {
+            "3": {
+                "ZH1": "合唱 S A T B",
+                "FR1": "1. Chœur"
+            },
+            "4": {
+                "ZH1": "醒来，声音召唤我们",
+                "FR1": "Réveillez-vous, la voix nous appelle"
+            },
+            "5": {
+                "ZH1": "是城垛高岗上的哨卫，",
+                "FR1": "Celle du veilleur en haut du rempart,"
+            },
+            "6": {
+                "ZH1": "醒来，以色列之城！",
+                "FR1": "Réveille-toi, cité de Jérusalem !"
+            },
+            "7": {
+                "ZH1": "此刻是午夜；",
+                "FR1": "Cette heure est appelée minuit ;"
+            },
+            "8": {
+                "ZH1": "他们清晰的嗓音召唤我们：",
+                "FR1": "Ils nous appellent d'une voix claire :"
+            },
+            "9": {
+                "ZH1": "你们在何处，智慧圣女？",
+                "FR1": "Où êtes-vous sages vierges ?"
+            },
+            "10": {
+                "ZH1": "起来，新郎来到；",
+                "FR1": "debout, le fiancé arrive ;"
+            },
+            "11": {
+                "ZH1": "起立，带上灯盏！",
+                "FR1": "Levez-vous et prenez vos lampes ;"
+            },
+            "12": {
+                "ZH1": "哈利路亚！",
+                "FR1": "Alléluia !"
+            },
+            "13": {
+                "ZH1": "准备好",
+                "FR1": "Préparez-vous"
+            },
+            "14": {
+                "ZH1": "为了婚礼，",
+                "FR1": "Pour les noces,"
+            },
+            "15": {
+                "ZH1": "你必去会他！",
+                "FR1": "Vous devez aller à sa rencontre."
+            }
+        },
+        "2": {
+            "17": {
+                "ZH1": "宣叙调 T",
+                "FR1": "2. Récitatif"
+            },
+            "18": {
+                "ZH1": "他到来，他到来了，",
+                "FR1": "Il arrive, il arrive,"
+            },
+            "19": {
+                "ZH1": "新郎到来了！",
+                "FR1": "Le fiancé arrive !"
+            },
+            "20": {
+                "ZH1": "你们为锡安之女，出来，",
+                "FR1": "O filles de Sion, venez dehors,"
+            },
+            "21": {
+                "ZH1": "他匆匆从高处出发",
+                "FR1": "Il hâte son départ d'en haut"
+            },
+            "22": {
+                "ZH1": "赶至你们母亲之所。",
+                "FR1": "Versqui comme un la maison de votre mère."
+            },
+            "23": {
+                "ZH1": "新郎到来，如动狍",
+                "FR1": "Le fiancé arrive, comme un chevreuil"
+            },
+            "24": {
+                "ZH1": "又如雄鹿",
+                "FR1": "Et un jeune cerf"
+            },
+            "25": {
+                "ZH1": "跃动山间",
+                "FR1": "Saute sur les collines"
+            },
+            "26": {
+                "ZH1": "为你们带来婚礼盛典。",
+                "FR1": "Et vous apporte la fête du mariage."
+            },
+            "27": {
+                "ZH1": "醒来，你们当起！",
+                "FR1": "Réveillez-vous, levez-vous"
+            },
+            "28": {
+                "ZH1": "起迎新郎！",
+                "FR1": "Pour embrasser le fiancé ;"
+            },
+            "29": {
+                "ZH1": "彼处，看，他从此道来。",
+                "FR1": "Là, regardez, il arrive par ici."
+            }
+        },
+        "3": {
+            "31": {
+                "ZH1": "咏叹调 （二重唱） S （灵魂） B （耶稣）",
+                "FR1": "3. Air (Duetto)"
+            },
+            "32": {
+                "ZH1": "你何时到来，我的救主？",
+                "FR1": "Quand viens-tu, mon sauveur ?"
+            },
+            "33": {
+                "ZH1": "我已到，为你的一部分。",
+                "FR1": "J'arrive, comme ta partie."
+            },
+            "34": {
+                "ZH1": "我点燃（灯）油候君。",
+                "FR1": "J'attends avec l'huile brûlante."
+            },
+            "35": {
+                "ZH1": "请敞开大堂。",
+                "FR1": "{Ouvre, J'ouvre}"
+            },
+            "36": {
+                "ZH1": "我已敞开大堂。",
+                "FR1": "la salle"
+            },
+            "37": {
+                "ZH1": "迎向天国盛宴",
+                "FR1": "Pour le repas céleste"
+            },
+            "38": {
+                "ZH1": "到来，耶稣！",
+                "FR1": "Viens, Jésus !"
+            },
+            "39": {
+                "ZH1": "到来，可爱灵魂！",
+                "FR1": "Viens, âme délicieuse !"
+            }
+        },
+        "4": {
+            "41": {
+                "ZH1": "圣咏 T",
+                "FR1": "4. Choral"
+            },
+            "42": {
+                "ZH1": "锡安听闻哨卫歌声，",
+                "FR1": "Sion entend le veilleur chanter,"
+            },
+            "43": {
+                "ZH1": "她心欢愉跃动，",
+                "FR1": "Son cœur saute de joie en elle,"
+            },
+            "44": {
+                "ZH1": "她醒来匆忙起迎。",
+                "FR1": "Elle s'éveille et se lève en hâte."
+            },
+            "45": {
+                "ZH1": "她的挚友从天国光荣莅临，",
+                "FR1": "Son ami arrive du ciel dans sa slendeur,"
+            },
+            "46": {
+                "ZH1": "慈悲满载，真理服人。",
+                "FR1": "Fort de miséricorde, puissant de vérité,"
+            },
+            "47": {
+                "ZH1": "她的光耀转明，她的主星升起。",
+                "FR1": "Sa lumière devient brillante, son étoile se lève."
+            },
+            "48": {
+                "ZH1": "请到来，尊贵之冠，",
+                "FR1": "Viens maintenant, précieuse couronne,"
+            },
+            "49": {
+                "ZH1": "主耶稣，上帝子！",
+                "FR1": "Seigneur Jésus, fils de Dieu !"
+            },
+            "50": {
+                "ZH1": "和散那！",
+                "FR1": "Hosanna !"
+            },
+            "51": {
+                "ZH1": "我等皆跟从",
+                "FR1": "Nous suivons tous"
+            },
+            "52": {
+                "ZH1": "至那欢乐之堂",
+                "FR1": "Jusqu'à la salle de joie"
+            },
+            "53": {
+                "ZH1": "分享主的晚宴。",
+                "FR1": "Et partageons le repas du soir."
+            }
+        },
+        "5": {
+            "55": {
+                "ZH1": "宣叙调 B",
+                "FR1": "5. Récitatif"
+            },
+            "56": {
+                "ZH1": "请进驻我，",
+                "FR1": "Aussi viens en moi,"
+            },
+            "57": {
+                "ZH1": "你是我所选的新娘，",
+                "FR1": "Toi, la fiancée que j'ai choisie pour moi !"
+            },
+            "58": {
+                "ZH1": "我已与你许配",
+                "FR1": "Avec toi je me suis"
+            },
+            "59": {
+                "ZH1": "做永恒约定。",
+                "FR1": "Fiancé pour toujours."
+            },
+            "60": {
+                "ZH1": "我愿意置你于心间，",
+                "FR1": "Je te poserai sur mon cœur"
+            },
+            "61": {
+                "ZH1": "胶合于怀抱",
+                "FR1": "Sur mon bras comme un sceau"
+            },
+            "62": {
+                "ZH1": "取悦你悲伤的眼睛。",
+                "FR1": "Et pour réjouir tes yeux chagrinés."
+            },
+            "63": {
+                "ZH1": "现在忘掉，啊灵魂，",
+                "FR1": "Oublie maintenant, ô âme,"
+            },
+            "64": {
+                "ZH1": "伤痛，悲哀，",
+                "FR1": "L'angoisse, le chagrin,"
+            },
+            "65": {
+                "ZH1": "这些你所曾经受过的；",
+                "FR1": "Que tu as dû endurer ;"
+            },
+            "66": {
+                "ZH1": "安于我左手，",
+                "FR1": "Sur ma main gauche tu dois reposer"
+            },
+            "67": {
+                "ZH1": "让我右手吻你。",
+                "FR1": "Et ma main droite veut t'embrasser."
+            }
+        },
+        "6": {
+            "69": {
+                "ZH1": "咏叹调 （二重唱）S （灵魂） B （耶稣）",
+                "FR1": "6. Air (Duetto)"
+            },
+            "70": {
+                "ZH1": "我友属我，",
+                "FR1": "Mon ami est mien,"
+            },
+            "71": {
+                "ZH1": "而我也属你，",
+                "FR1": "Et je suis le tien,"
+            },
+            "72": {
+                "ZH1": "我们的爱不分。",
+                "FR1": "Rien ne séparera notre amour."
+            },
+            "73": {
+                "ZH1": "我愿与你",
+                "FR1": "Je veux paître"
+            },
+            "74": {
+                "ZH1": "你将与我",
+                "FR1": "Tu veux paître"
+            },
+            "75": {
+                "ZH1": "共赏天堂玫瑰，",
+                "FR1": "sur les roses du ciel avec {toi, moi},"
+            },
+            "76": {
+                "ZH1": "此间充满幸福，充满欢愉",
+                "FR1": "Il y aura plein de joie, il y aura du bonheur."
+            }
+        },
+        "7": {
+            "78": {
+                "ZH1": "圣咏 S A T B",
+                "FR1": "7. Choral"
+            },
+            "79": {
+                "ZH1": "送你荣耀之歌，",
+                "FR1": "Que Gloria soit chanté pour toi"
+            },
+            "80": {
+                "ZH1": "以人类和天使之声的演绎，",
+                "FR1": "Avec des langues mortelles et des langues angéliques,"
+            },
+            "81": {
+                "ZH1": "伴以竖琴和钹声。",
+                "FR1": "Avec des harpes et mêmes des cymbales."
+            },
+            "82": {
+                "ZH1": "十二珍珠为门，",
+                "FR1": "De douze perles sont faites les portes,"
+            },
+            "83": {
+                "ZH1": "在你城中我们伴随",
+                "FR1": "Dans ta ville nous sommes compagnons"
+            },
+            "84": {
+                "ZH1": "于高处环绕你宝座的天使。",
+                "FR1": "Des anges autour de ton trône."
+            },
+            "85": {
+                "ZH1": "前所未见，",
+                "FR1": "Aucun œil n'a jamais perçu,"
+            },
+            "86": {
+                "ZH1": "前所未闻",
+                "FR1": "Aucune oreille n'a jamais entendu"
+            },
+            "87": {
+                "ZH1": "如此极乐。",
+                "FR1": "Une telle joie."
+            },
+            "88": {
+                "ZH1": "故我们欢悦，",
+                "FR1": "Donc nous sommes joyeux,"
+            },
+            "89": {
+                "ZH1": "io, io！ （欢呼之声）",
+                "FR1": "Hourra, hourra !"
+            },
+            "90": {
+                "ZH1": "永恒甜美欢畅。",
+                "FR1": "Éternellement in dulci jubilo."
+            }
+        }
+    }
+}
