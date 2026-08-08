@@ -1,6 +1,11 @@
 {
     "140": {
-        "篇名": "BWV 140 - \"Wachet auf, ruft uns die Stimme\"",
+        "篇名": {
+            "DE": "BWV 140 - \"Wachet auf, ruft uns die Stimme\"",
+            "EN1": "BWV 140 - Awake, calls the voice to us",
+            "ZH1": "BWV 140 - 醒来，声音召唤我们",
+            "FR1": "BWV 140 - Réveillez-vous, la voix nous appelle"
+        },
         "1": {
             "3": {
                 "DE": "1. Choral",

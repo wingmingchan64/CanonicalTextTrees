@@ -22,39 +22,45 @@ $trees_folder = $folder . 'trees' . DIRECTORY_SEPARATOR;
 $views_folder = $folder . 'views' . DIRECTORY_SEPARATOR;
 	
 $bwv = '140';
-$DE = $bwv . '.json';
-$EN1 = $bwv . '_EN1.json';
-$ZH1 = $bwv . '_ZH1.json';
-$FR1 = $bwv . '_FR1.json';
+$languages = array( 'DE' , 'EN1', 'ZH1', 'FR1'/**/ );
+$lang_trees = array();
+
+foreach( $languages as $lang )
+{
+	$file = $trees_folder . $bwv . '_' . $lang . '.json';
+	
+	if( file_exists( $file ) )
+	{
+		$lang_trees[ $lang ] = 
+			json_decode(
+				file_get_contents( $file ), true );
+	}
+}
+
+//print_r( $lang_trees );
 
 $樹 = array( $bwv => array() );
 
-$de_tree = json_decode(
-	file_get_contents( $trees_folder . $DE ), true );
-$en1_tree = json_decode(
-	file_get_contents( $trees_folder . $EN1 ), true );
-$zh1_tree = json_decode(
-	file_get_contents( $trees_folder . $ZH1 ), true );
-$fr1_tree = json_decode(
-	file_get_contents( $trees_folder . $FR1 ), true );
-
-foreach( $de_tree[ $bwv ] as $k => $v )
+foreach( $lang_trees[ $languages[ 0 ] ]
+	[ $bwv.'_'.$languages[ 0 ] ] as $k => $v )
 {
 	if( $k == '篇名' )
 	{
-		$樹[ $bwv ][ '篇名' ] = $de_tree[ $bwv ][ '篇名' ];
+		foreach( $languages as $l )
+		{
+			$樹[ $bwv ][ '篇名' ][ $l ] = $lang_trees[ $l ][ $bwv.'_'.$l ][ '篇名' ];
+		}
 	}
 	else
 	{
 		foreach( array_keys( $v ) as $line )
 		{
-			$樹[ $bwv ][ $k ][ $line ] = array(
-				'DE' => $de_tree[ $bwv ][ $k ][ $line ],
-				'EN1' => $en1_tree[ $bwv . '_EN1' ][ $k ][ $line ],
-				'ZH1' => $zh1_tree[ $bwv . '_ZH1' ][ $k ][ $line ],
-				'FR1' => $fr1_tree[ $bwv . '_FR1' ][ $k ][ $line ],
+			foreach( $lang_trees as $l => $l_tree )
+			{
+				$樹[ $bwv ][ $k ][ $line ][ $l ] = 
+					$lang_trees[ $l ][ $bwv . '_' . $l ][ $k ][ $line ];
 				
-			);
+			}
 		}
 	}
 }
@@ -63,7 +69,7 @@ foreach( $de_tree[ $bwv ] as $k => $v )
 
 
 file_put_contents(
-	$views_folder . $bwv . '.json',
+	$views_folder . $bwv . /*'_DE_EN1' .*/ '.json',
 	json_encode(
 		$樹, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) );
 
