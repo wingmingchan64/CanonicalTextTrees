@@ -1,4 +1,10 @@
 {
+  "BACH_CANTATAS":{
+    "folder": "corpus/others/bach_cantatas",
+    "title": "Bach's Cantatas",
+    "display_title": "Bach's Cantatas",
+	"author":"Bach"
+  },
   "CHOUZHU":{
     "folder": "corpus/dufu/杜詩詳註",
     "title": "杜詩詳註",
