@@ -63,12 +63,8 @@ foreach( $lang_trees[ $languages[ 0 ] ]
 	}
 }
 
-//print_r( $樹 );
-
-
 file_put_contents(
 	$views_folder . $bwv . /*'_ZH1_FR1' .*/ '.json',
 	json_encode(
 		$樹, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) );
-
 ?>
