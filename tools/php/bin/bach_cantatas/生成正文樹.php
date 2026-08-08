@@ -39,6 +39,10 @@ foreach( $languages as $lang )
 
 $樹 = array( $bwv => array() );
 
+// at least one language
+if( count( $languages ) == 0 )
+	exit;
+
 foreach( $lang_trees[ $languages[ 0 ] ]
 	[ $bwv.'_'.$languages[ 0 ] ] as $k => $v )
 {
