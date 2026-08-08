@@ -25,6 +25,7 @@ $bwv = '140';
 $DE = $bwv . '.json';
 $EN1 = $bwv . '_EN1.json';
 $ZH1 = $bwv . '_ZH1.json';
+$FR1 = $bwv . '_FR1.json';
 
 $樹 = array( $bwv => array() );
 
@@ -34,6 +35,8 @@ $en1_tree = json_decode(
 	file_get_contents( $trees_folder . $EN1 ), true );
 $zh1_tree = json_decode(
 	file_get_contents( $trees_folder . $ZH1 ), true );
+$fr1_tree = json_decode(
+	file_get_contents( $trees_folder . $FR1 ), true );
 
 foreach( $de_tree[ $bwv ] as $k => $v )
 {
@@ -48,7 +51,9 @@ foreach( $de_tree[ $bwv ] as $k => $v )
 			$樹[ $bwv ][ $k ][ $line ] = array(
 				'DE' => $de_tree[ $bwv ][ $k ][ $line ],
 				'EN1' => $en1_tree[ $bwv . '_EN1' ][ $k ][ $line ],
-				'ZH1' => $zh1_tree[ $bwv . '_ZH1' ][ $k ][ $line ]
+				'ZH1' => $zh1_tree[ $bwv . '_ZH1' ][ $k ][ $line ],
+				'FR1' => $fr1_tree[ $bwv . '_FR1' ][ $k ][ $line ],
+				
 			);
 		}
 	}
