@@ -71,7 +71,7 @@ $Cambridge = json_decode(
 	file_get_contents( $Cambridge_file ), true);
 //print_r( $樹 );
 
-foreach( $metadata as $path => $term )
+foreach( $metadata as $path => $terms )
 {
 	$paths = explode( ',', $path );
 	$pointer = &$樹;
@@ -80,33 +80,39 @@ foreach( $metadata as $path => $term )
 	{
 		$pointer = &$pointer[ $step ];
 	}
+	
 	if( !array_key_exists( 'entry', $pointer ) )
 	{
 		$pointer[ 'entry' ] = array();
 	}
-	if( !array_key_exists( $term, $pointer[ 'entry' ] ) )
+	
+	foreach( $terms as $term )
 	{
-		$pointer[ 'entry' ][ $term ] = array();
-	}
-	if( array_key_exists( $term, $pronunciation ) )
-	{
-		$pointer[ 'entry' ][ $term ][ 'pronunciation' ]
-			= $pronunciation[ $term ];
-	}
-	if( array_key_exists( $term, $grammar ) )
-	{
-		$pointer[ 'entry' ][ $term ][ 'grammar' ]
-			= $grammar[ $term ];
-	}
-	if( array_key_exists( $term, $Langenscheidt ) )
-	{
-		$pointer[ 'entry' ][ $term ][ 'Langenscheidt' ]
-			= $Langenscheidt[ $term ];
-	}
-	if( array_key_exists( $term, $Cambridge ) )
-	{
-		$pointer[ 'entry' ][ $term ][ 'Cambridge' ]
-			= $Cambridge[ $term ];
+		if( !array_key_exists( $term, $pointer[ 'entry' ] ) )
+		{
+			echo $term, NL;
+			$pointer[ 'entry' ][ $term ] = array();
+		}
+		if( array_key_exists( $term, $pronunciation ) )
+		{
+			$pointer[ 'entry' ][ $term ][ 'pronunciation' ]
+				= $pronunciation[ $term ];
+		}
+		if( array_key_exists( $term, $grammar ) )
+		{
+			$pointer[ 'entry' ][ $term ][ 'grammar' ]
+				= $grammar[ $term ];
+		}
+		if( array_key_exists( $term, $Langenscheidt ) )
+		{
+			$pointer[ 'entry' ][ $term ][ 'Langenscheidt' ]
+				= $Langenscheidt[ $term ];
+		}
+		if( array_key_exists( $term, $Cambridge ) )
+		{
+			$pointer[ 'entry' ][ $term ][ 'Cambridge' ]
+				= $Cambridge[ $term ];
+		}
 	}
 }
 
