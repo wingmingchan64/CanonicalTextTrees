@@ -1,5 +1,20 @@
 {
+	"aufwachen":"intransitive",
 	"betrübt":"adj",
 	"Bräutigam":"der; genitive, singular Bräutigams | nominative, plural Bräutigame",
-	"ergötzen":"transitive"
+	"ergötzen":"transitive",
+	"ermuntern":"transitive",
+	"Gnade":"die; genitive, singular Gnade | nominative, plural Gnaden",
+	"Heil":"das; genitive, singular Heiles | genitive, singular Heils",
+	"Hirsch":"der; genitive, singular Hirsches | genitive, singular Hirschs | nominative, plural Hirsche",
+	"Hügel":"der; genitive, singular Hügels | nominative, plural Hügel",
+	"klug":"adj; comparative klüger | superlative klügste",
+	"Perle":"die; genitive, singular Perle | nominative, plural Perle",
+	"Pforte":"die; genitive, singular Pforte | nominative, plural Pforten",
+	"Reh":"das; genitive, singular Rehes | genitive, singular Rehs | nominative, plural Rehe",
+	"scheiden":"3rd, singular, present scheidet | 3rd, singular, preterit schied | past participle geschieden",
+	"spüren":"transitive-intransitive",
+	"Wächter":"der; genitive, singular Wächters | nominative, plural Wächter(also Wächterin /ˈvɛçtərɪn/ [ feminine ] genitive, singular Wächterin | nominative, plural Wächterinnen)",
+	"Wonne":"die; genitive, singular Wonne | nominative, plural Wonnen",
+	"Zinne":"die; genitive, singular Zinne | nominative, plural Zinnen"
 }
