@@ -147,6 +147,11 @@
     "aliases": ["《風俗通》"],
 	"author":"應劭"
   },
+  "GERMAN":{
+    "folder": "corpus/others/german",
+    "title": "German",
+    "display_title": "German"
+  },
   "GUOYU":{
     "folder": "corpus/classical/國語",
     "title": "國語",
