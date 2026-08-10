@@ -252,7 +252,21 @@
             },
             "37": {
                 "DE": "Da versammleten sich die Hohenpriester und Schriftgelehrten und die Ältesten im Volk in den Palast des Hohenpriesters, der da hieß Kaiphas, und hielten Rat, wie sie Jesum mit Listen griffen und töteten. Sie sprachen aber:",
-                "EN1": "Then the high priests and the scribes and the elders of the people gathered in the palace of the high priest, who was named Caiaphas, and took council how with deception they could seize Jesus and kill him. They said, however:"
+                "EN1": "Then the high priests and the scribes and the elders of the people gathered in the palace of the high priest, who was named Caiaphas, and took council how with deception they could seize Jesus and kill him. They said, however:",
+                "entry": {
+                    "versammeln": {
+                        "Langenscheidt": "to gather, to assemble",
+                        "Cambridge": "als Gruppe an einem Ort zusammenkommen"
+                    },
+                    "Schriftgelehrte": {
+                        "grammar": "der",
+                        "Langenscheidt": "scribe"
+                    },
+                    "greifen": {
+                        "Langenscheidt": "to seize, to catch",
+                        "Cambridge": "etw. mit der Hand nehmen"
+                    }
+                }
             }
         },
         "7": {
