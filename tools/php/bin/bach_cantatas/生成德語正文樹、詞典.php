@@ -88,7 +88,7 @@ $Langenscheidt = json_decode(
 $Cambridge_file = $german_folder . 'Cambridge.json';
 $Cambridge = json_decode(
 	file_get_contents( $Cambridge_file ), true);
-$wordlist_file = $german_folder . 'DE_EN5895.json';
+$wordlist_file = $german_folder . 'DE_EN.json';
 $wordlist = json_decode(
 	file_get_contents( $wordlist_file ), true);
 

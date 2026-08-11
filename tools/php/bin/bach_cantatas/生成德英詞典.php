@@ -29,7 +29,8 @@ $wordlist = explode( "\r\n",
 	file_get_contents( $german_folder . 
 	'deutch_1.6million.txt' ) );
 
-for( $i = 0; $i < 10000; $i++ )
+// 50000 Angriffsversuche
+for( $i = 0; $i < 50000; $i++ )
 {
 	$word = $wordlist[ $i ];
 	$url = "https://www.dict.cc/?s=${word}";
@@ -54,13 +55,13 @@ for( $i = 0; $i < 10000; $i++ )
 		{
 			if( $str_array2[ $j ] == $word )
 			{
-				$temp[] = $str_array1[ $j ];
+				$temp[] = str_replace( "\\'", '', $str_array1[ $j ] );
 			}
 			// ignore contents in ()
 			elseif( 
 				trim( preg_replace( $regex3, '', $str_array1[ $j ] ) ) == $word )
 			{
-				$temp[] = $str_array1[ $j ];
+				$temp[] = str_replace( "\\'", '', $str_array1[ $j ] );
 			}
 		}
 		
