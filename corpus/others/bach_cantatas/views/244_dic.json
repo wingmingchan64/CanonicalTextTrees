@@ -53,7 +53,8 @@
                         "pronunciation": "\/ɡəˈdʊlt\/",
                         "grammar": "die; genitive, singular Geduld",
                         "Langenscheidt": "patience",
-                        "Cambridge": "Fähigkeit, auf etw. zu warten oder Nachsicht zu zeigen"
+                        "Cambridge": "Fähigkeit, auf etw. zu warten oder Nachsicht zu zeigen",
+                        "Wordlist": "patience"
                     }
                 }
             },
@@ -64,7 +65,8 @@
                     "Schuld": {
                         "grammar": "die; genitive, singular Schuld | nominative , plural Schulden",
                         "Langenscheidt": "blame, guilt, sin, debt, obligation",
-                        "Cambridge": "Zustand, schuldig zu sein"
+                        "Cambridge": "Zustand, schuldig zu sein",
+                        "Wordlist": "guilt"
                     }
                 }
             },
@@ -124,7 +126,8 @@
                     "Sünde": {
                         "grammar": "die; genitive, singular Sünde | nominative, plural Sünden",
                         "Langenscheidt": "sin",
-                        "Cambridge": "Verstoß gegen die Regeln der Religion"
+                        "Cambridge": "Verstoß gegen die Regeln der Religion",
+                        "Wordlist": "sin"
                     }
                 }
             },
@@ -210,11 +213,13 @@
                 "entry": {
                     "scharf": {
                         "Langenscheidt": "sharp, harsh",
-                        "Cambridge": "leicht und gut schneidend, streng"
+                        "Cambridge": "leicht und gut schneidend, streng",
+                        "Wordlist": "sharp"
                     },
                     "Urteil": {
                         "grammar": "judgement, condemnation, sentence",
-                        "Cambridge": "begründete Meinung, die man über jdn \/ etw. hat oder äußert, offizielle Entscheidung eines Richters"
+                        "Cambridge": "begründete Meinung, die man über jdn \/ etw. hat oder äußert, offizielle Entscheidung eines Richters",
+                        "Wordlist": "judgment"
                     }
                 }
             },

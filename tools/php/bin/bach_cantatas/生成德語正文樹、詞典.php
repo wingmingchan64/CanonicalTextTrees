@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\bin\bach_cantatas\生成德語正文樹、詞典.php
+php H:\github\CanonicalTextTrees\tools\php\bin\bach_cantatas\生成德語正文樹、詞典.php 244
  */
 
 require_once( 
@@ -20,8 +20,13 @@ $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 	get_ctt_folder( $著述碼 ) . DIRECTORY_SEPARATOR;
 $trees_folder = $folder . 'trees' . DIRECTORY_SEPARATOR;
 $views_folder = $folder . 'views' . DIRECTORY_SEPARATOR;
-	
-$bwv = '244';
+
+check_argv( $argv, 2, "Must provide the BWV." );
+$bwv = trim( $argv[ 1 ] );
+
+//$bwv = '244';
+
+
 $de_filename = $bwv . '_DE';
 $de_file = $trees_folder . $de_filename . '.json';
 $en1_filename = $bwv . '_EN1';
@@ -83,6 +88,10 @@ $Langenscheidt = json_decode(
 $Cambridge_file = $german_folder . 'Cambridge.json';
 $Cambridge = json_decode(
 	file_get_contents( $Cambridge_file ), true);
+$wordlist_file = $german_folder . 'DE_EN5895.json';
+$wordlist = json_decode(
+	file_get_contents( $wordlist_file ), true);
+
 //print_r( $樹 );
 
 foreach( $metadata as $path => $terms )
@@ -126,6 +135,11 @@ foreach( $metadata as $path => $terms )
 		{
 			$pointer[ 'entry' ][ $term ][ 'Cambridge' ]
 				= $Cambridge[ $term ];
+		}
+		if( array_key_exists( $term, $wordlist ) )
+		{
+			$pointer[ 'entry' ][ $term ][ 'Wordlist' ]
+				= $wordlist[ $term ];
 		}
 	}
 }
