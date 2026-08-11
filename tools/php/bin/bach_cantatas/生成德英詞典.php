@@ -33,26 +33,46 @@ for( $i = 0; $i < 10000; $i++ )
 {
 	$word = $wordlist[ $i ];
 	$url = "https://www.dict.cc/?s=${word}";
-	$regex = '/var c1Arr = new Array\((.+?)\);/';
+	$regex1 = '/var c1Arr = new Array\((.+?)\);/';
+	$regex2 = '/var c2Arr = new Array\((.+?)\);/';
+	$regex3 = '/\(.+?\)/';
 	
 	try
 	{
 		$file = file_get_contents( $url );
-		$matches = array();
-		preg_match_all( $regex, $file, $matches );
+		$matches1 = array();
+		$matches2 = array();
+		preg_match_all( $regex1, $file, $matches1 );
+		preg_match_all( $regex2, $file, $matches2 );
+		$str1 = str_replace( '"', '', $matches1[ 1 ][ 0 ] );
+		$str2 = str_replace( '"', '', $matches2[ 1 ][ 0 ] );
+		$str_array1 = explode( ',', $str1 );
+		$str_array2 = explode( ',', $str2 );
+		$temp = array();
 		
-		$output_file = $german_folder . 'wordlist.txt';
+		for( $j = 0; $j < count( $str_array1 ); $j++ )
+		{
+			if( $str_array2[ $j ] == $word )
+			{
+				$temp[] = $str_array1[ $j ];
+			}
+			// ignore contents in ()
+			elseif( 
+				trim( preg_replace( $regex3, '', $str_array1[ $j ] ) ) == $word )
+			{
+				$temp[] = $str_array1[ $j ];
+			}
+		}
 		
-		if( $matches[ 1 ][ 0 ] == '' )
+		if( count( $temp ) == 0 )
 		{
 			continue;
 		}
-		$text = "\"${word}\":\"" . trim(
-			str_replace( ',', ', ',
-				str_replace( '"', '', 
-				implode( ',', $matches[ 1 ] ) ) ), ', ' ) . "\",";
-		$text .= NL;
+		
+		$output_file = $german_folder . 'wordlist.txt';
+		$text = "\"${word}\":\"" . implode( ", ", $temp ) . "\"," . NL;
 		// Append the string to the file
+		// the program can die any time; therefore it // is better to append the string to the file
 		file_put_contents( $output_file, $text, FILE_APPEND | LOCK_EX);
 	}
 	catch( ErrorException $e )
