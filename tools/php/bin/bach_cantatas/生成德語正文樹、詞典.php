@@ -138,7 +138,7 @@ foreach( $metadata as $path => $terms )
 		}
 		if( array_key_exists( $term, $wordlist ) )
 		{
-			$pointer[ 'entry' ][ $term ][ 'Wordlist' ]
+			$pointer[ 'entry' ][ $term ][ 'DE_EN' ]
 				= $wordlist[ $term ];
 		}
 	}

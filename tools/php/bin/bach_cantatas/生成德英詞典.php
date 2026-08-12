@@ -29,11 +29,30 @@ $wordlist = explode( "\r\n",
 	file_get_contents( $german_folder . 
 	'deutch_1.6million.txt' ) );
 
+$diacritic = array(
+"Ä"=>"%C3%84",
+"ä"=>"%C3%A4",
+"Ö"=>"%C3%96",
+"ö"=>"%C3%B6",
+"Ü"=>"%C3%9C",
+"ü"=>"%C3%BC",
+"ẞ"=>"%E1%BA%9E",
+"ß"=>"%C3%9F" );
+
 // 50000 Angriffsversuche
 for( $i = 0; $i < 50000; $i++ )
 {
 	$word = $wordlist[ $i ];
-	$url = "https://www.dict.cc/?s=${word}";
+	$escaped_word = $word;
+	
+	foreach( $diacritic as $k => $v )
+	{
+		//echo $k, NL;
+		//echo $v, NL;
+		$escaped_word = str_replace( $k, $v, $escaped_word );
+	}
+	$url = "https://www.dict.cc/?s=${escaped_word}";
+	//echo $url, NL;
 	$regex1 = '/var c1Arr = new Array\((.+?)\);/';
 	$regex2 = '/var c2Arr = new Array\((.+?)\);/';
 	$regex3 = '/\(.+?\)/';
@@ -50,6 +69,9 @@ for( $i = 0; $i < 50000; $i++ )
 		$str_array1 = explode( ',', $str1 );
 		$str_array2 = explode( ',', $str2 );
 		$temp = array();
+		
+		//print_r( $str_array1 );
+		//print_r( $str_array2 );
 		
 		for( $j = 0; $j < count( $str_array1 ); $j++ )
 		{
@@ -70,6 +92,7 @@ for( $i = 0; $i < 50000; $i++ )
 			continue;
 		}
 		
+		$temp = array_unique( $temp );
 		$output_file = $german_folder . 'wordlist.txt';
 		$text = "\"${word}\":\"" . implode( ", ", $temp ) . "\"," . NL;
 		// Append the string to the file
