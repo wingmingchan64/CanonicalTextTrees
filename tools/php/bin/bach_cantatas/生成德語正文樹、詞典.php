@@ -26,8 +26,8 @@ $bwv = trim( $argv[ 1 ] );
 $switches = [
 	'pronunciation',
 	'grammar',
-	//'Cambridge',
-	//'Langenscheidt',
+	'Cambridge',
+	'Langenscheidt',
 	'DE_EN'
 ];
 
