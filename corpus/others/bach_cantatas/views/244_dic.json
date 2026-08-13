@@ -20,6 +20,8 @@
                 "EN1": "(Daughters of Zion and Faithful Souls)",
                 "entry": {
                     "Gläubige": {
+                        "pronunciation": "\/ˈɡlɔybɪɡə\/",
+                        "grammar": "der; genitive, singular Gläubigen | nominative, plural Gläubigen",
                         "DE_EN": "believer [female], believers"
                     }
                 }
@@ -46,6 +48,8 @@
                 "EN1": "Behold! - what? - behold the patience,",
                 "entry": {
                     "Geduld": {
+                        "pronunciation": "\/ɡəˈdʊlt\/",
+                        "grammar": "die; genitive, singular Geduld",
                         "DE_EN": "endurance, forbearance, longanimity, patience"
                     }
                 }
@@ -55,6 +59,7 @@
                 "EN1": "look! - where? - at our guilt.",
                 "entry": {
                     "Schuld": {
+                        "grammar": "die; genitive, singular Schuld | nominative , plural Schulden",
                         "DE_EN": "charge, culpability, due, guiltiness, iniquity [guilt: Heb. 'āwôn], liability [guilt]"
                     }
                 }
@@ -63,6 +68,9 @@
                 "DE": "Sehet ihn aus Lieb und Huld",
                 "EN1": "See him, out of love and graciousness",
                 "entry": {
+                    "Huld": {
+                        "grammar": "die"
+                    },
                     "Huld [veraltet, noch ironisch] [geh.]": {
                         "DE_EN": "benevolence, favor [Am.], favour [Br.], grace [of a king, lady etc.]"
                     }
@@ -81,6 +89,7 @@
                 "EN1": "slaughtered on the trunk of the Cross,",
                 "entry": {
                     "schlachten": {
+                        "pronunciation": "\/ˈʃlaxtən\/",
                         "DE_EN": "to butcher, to slaughter"
                     }
                 }
@@ -99,6 +108,7 @@
                 "EN1": "however you were scorned.",
                 "entry": {
                     "verachten": {
+                        "pronunciation": "\/fɛɐˈ|axtən\/",
                         "DE_EN": "to condemn, to disdain, to disparage, to regard \/ treat with contempt, to spurn"
                     }
                 }
@@ -108,6 +118,7 @@
                 "EN1": "you have borne all sins,",
                 "entry": {
                     "Sünde": {
+                        "grammar": "die; genitive, singular Sünde | nominative, plural Sünden",
                         "DE_EN": "evil, piacle [obs.] [sin], sin, transgression"
                     }
                 }
@@ -145,9 +156,11 @@
                 "EN1": "When Jesus had finished this speech, he said to his disciples:",
                 "entry": {
                     "vollenden": {
+                        "pronunciation": "\/fɔlˈ|ɛndən\/",
                         "DE_EN": "to achieve, to complete, to finish (off), to perfect"
                     },
                     "Jünger": {
+                        "grammar": "der; genitive, singular Jüngers | nominative, plural Jünger",
                         "DE_EN": "disciple"
                     }
                 }
@@ -190,6 +203,7 @@
                         "DE_EN": "acridly, keenly, poignantly, pungently, sharp-edged, sharp, sharply, spicy, trenchantly, virulently  [fig.]"
                     },
                     "Urteil": {
+                        "grammar": "judgement, condemnation, sentence",
                         "DE_EN": "adjudgment, adjudication, assessment [judgment], discretion [judgement], judgement, judgment, sentence"
                     }
                 }
@@ -198,6 +212,10 @@
                 "DE": "Was ist die Schuld, in was für Missetaten",
                 "EN1": "What is the crime, of what kind of misdeed",
                 "entry": {
+                    "Missetat": {
+                        "pronunciation": "\/ˈmɪsətaːt\/",
+                        "grammar": "die; genitive, singular Missetat | nominative, plural Missetaten"
+                    },
                     "eine Missetat begehen": {
                         "DE_EN": "to commit a deed"
                     }
@@ -230,6 +248,7 @@
                         "DE_EN": "to congregate, to convene, to convent [obs.], to gather [esp. of people]"
                     },
                     "Schriftgelehrte": {
+                        "grammar": "der",
                         "DE_EN": "scribes"
                     },
                     "greifen": {

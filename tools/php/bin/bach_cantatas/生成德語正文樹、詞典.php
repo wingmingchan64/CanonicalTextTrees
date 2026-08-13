@@ -24,8 +24,8 @@ $views_folder = $folder . 'views' . DIRECTORY_SEPARATOR;
 check_argv( $argv, 2, "Must provide the BWV." );
 $bwv = trim( $argv[ 1 ] );
 $switches = [
-	//'pronunciation',
-	//'grammar',
+	'pronunciation',
+	'grammar',
 	//'Cambridge',
 	//'Langenscheidt',
 	'DE_EN'
