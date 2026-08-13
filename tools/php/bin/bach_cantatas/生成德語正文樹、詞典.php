@@ -23,6 +23,13 @@ $views_folder = $folder . 'views' . DIRECTORY_SEPARATOR;
 
 check_argv( $argv, 2, "Must provide the BWV." );
 $bwv = trim( $argv[ 1 ] );
+$switches = [
+	//'pronunciation',
+	//'grammar',
+	//'Cambridge',
+	//'Langenscheidt',
+	'DE_EN'
+];
 
 //$bwv = '244';
 
@@ -76,21 +83,39 @@ $metadata = json_decode(
 $german_folder = dirname( __DIR__, 4 ) .
 	DIRECTORY_SEPARATOR .
 	get_ctt_folder( 'GERMAN' ) . DIRECTORY_SEPARATOR;
-$pronunciation_file = $german_folder . 'pronunciation.json';
-$pronunciation = json_decode(
-	file_get_contents( $pronunciation_file ), true);
-$grammar_file = $german_folder . 'grammar.json';
-$grammar = json_decode(
-	file_get_contents( $grammar_file ), true);
-$Langenscheidt_file = $german_folder . 'Langenscheidt.json';
-$Langenscheidt = json_decode(
-	file_get_contents( $Langenscheidt_file ), true);
-$Cambridge_file = $german_folder . 'Cambridge.json';
-$Cambridge = json_decode(
-	file_get_contents( $Cambridge_file ), true);
-$wordlist_file = $german_folder . 'DE_EN.json';
-$wordlist = json_decode(
-	file_get_contents( $wordlist_file ), true);
+
+if( in_array( 'pronunciation', $switches ) )
+{
+	$pronunciation_file = $german_folder . 	
+		'pronunciation.json';
+	$pronunciation = json_decode(
+		file_get_contents( $pronunciation_file ), true);
+}
+if( in_array( 'grammar', $switches ) )
+{
+	$grammar_file = $german_folder . 'grammar.json';
+	$grammar = json_decode(
+		file_get_contents( $grammar_file ), true);
+}
+if( in_array( 'Langenscheidt', $switches ) )
+{
+	$Langenscheidt_file = $german_folder . 
+		'Langenscheidt.json';
+	$Langenscheidt = json_decode(
+		file_get_contents( $Langenscheidt_file ), true);
+}
+if( in_array( 'Cambridge', $switches ) )
+{
+	$Cambridge_file = $german_folder . 'Cambridge.json';
+	$Cambridge = json_decode(
+		file_get_contents( $Cambridge_file ), true);
+}
+if( in_array( 'DE_EN', $switches ) )
+{
+	$wordlist_file = $german_folder . 'DE_EN.json';
+	$wordlist = json_decode(
+		file_get_contents( $wordlist_file ), true);
+}
 
 //print_r( $樹 );
 
@@ -111,35 +136,66 @@ foreach( $metadata as $path => $terms )
 	
 	foreach( $terms as $term )
 	{
+		/*
 		if( !array_key_exists( $term, $pointer[ 'entry' ] ) )
 		{
 			echo $term, NL;
 			$pointer[ 'entry' ][ $term ] = array();
 		}
-		if( array_key_exists( $term, $pronunciation ) )
+		*/
+		
+		if( in_array( 'pronunciation', $switches ) &&
+			array_key_exists( $term, $pronunciation ) )
 		{
 			$pointer[ 'entry' ][ $term ][ 'pronunciation' ]
 				= $pronunciation[ $term ];
 		}
-		if( array_key_exists( $term, $grammar ) )
+		if( in_array( 'grammar', $switches ) &&
+			array_key_exists( $term, $grammar ) )
 		{
 			$pointer[ 'entry' ][ $term ][ 'grammar' ]
 				= $grammar[ $term ];
 		}
-		if( array_key_exists( $term, $Langenscheidt ) )
+		if( in_array( 'Langenscheidt', $switches ) &&
+			array_key_exists( $term, $Langenscheidt ) )
 		{
 			$pointer[ 'entry' ][ $term ][ 'Langenscheidt' ]
 				= $Langenscheidt[ $term ];
 		}
-		if( array_key_exists( $term, $Cambridge ) )
+		
+		if( in_array( 'Cambridge', $switches ) &&
+			array_key_exists( $term, $Cambridge ) )
 		{
 			$pointer[ 'entry' ][ $term ][ 'Cambridge' ]
 				= $Cambridge[ $term ];
 		}
-		if( array_key_exists( $term, $wordlist ) )
+		
+		if( in_array( 'DE_EN', $switches ) )
 		{
-			$pointer[ 'entry' ][ $term ][ 'DE_EN' ]
-				= $wordlist[ $term ];
+			if( array_key_exists( $term, $wordlist ) )
+			{
+				$pointer[ 'entry' ][ $term ][ 'DE_EN' ]
+					= $wordlist[ $term ];
+			}
+			else
+			{
+				foreach( array_keys( $wordlist ) as $k )
+				{
+					$tempk = trim( preg_replace( '/[.+?]/','', $k ) );
+					
+					if( $tempk != '' &&
+						( str_starts_with( 
+						$tempk, $term . ' ' ) ||
+						str_ends_with( 
+						$tempk,  ' ' . $term ) ||
+						strpos( $tempk, ' ' . $term . ' ' ) !== false
+						) )
+					{
+						$pointer[ 'entry' ][ $k ][ 'DE_EN' ] = $wordlist[ $k ];
+						break;
+					}
+				}
+			}
 		}
 	}
 }

@@ -2,6 +2,8 @@
 /*
 php H:\github\CanonicalTextTrees\tools\php\bin\bach_cantatas\生成德英詞典.php
  */
+ini_set('memory_limit', '-1'); 
+
 set_error_handler(function($severity, $message, $file, $line) {
     if (!(error_reporting() & $severity)) {
         // This statement respects the @ symbol suppression
@@ -25,84 +27,90 @@ require_once(
 $german_folder = dirname( __DIR__, 4 ) .
 	DIRECTORY_SEPARATOR .
 	get_ctt_folder( 'GERMAN' ) . DIRECTORY_SEPARATOR;
-$wordlist = explode( "\r\n",
-	file_get_contents( $german_folder . 
-	'deutch_1.6million.txt' ) );
 
-$diacritic = array(
-"Ä"=>"%C3%84",
-"ä"=>"%C3%A4",
-"Ö"=>"%C3%96",
-"ö"=>"%C3%B6",
-"Ü"=>"%C3%9C",
-"ü"=>"%C3%BC",
-"ẞ"=>"%E1%BA%9E",
-"ß"=>"%C3%9F" );
+$dict_text_file = $german_folder . 'dict.cc.txt';
+$contents = file_get_contents( $dict_text_file );
+$lines = explode( "\n", $contents );
+//echo count( $lines ), NL; // 1313232
+$n_pos = array();
+$term_en = array();
+$DE_noun_gender_number = array();
+$DE_EN = array();
 
-// 50000 Angriffsversuche
-for( $i = 0; $i < 50000; $i++ )
+foreach( $lines as $line )
 {
-	$word = $wordlist[ $i ];
-	$escaped_word = $word;
-	
-	foreach( $diacritic as $k => $v )
+	if( $line == '' )
 	{
-		//echo $k, NL;
-		//echo $v, NL;
-		$escaped_word = str_replace( $k, $v, $escaped_word );
-	}
-	$url = "https://www.dict.cc/?s=${escaped_word}";
-	//echo $url, NL;
-	$regex1 = '/var c1Arr = new Array\((.+?)\);/';
-	$regex2 = '/var c2Arr = new Array\((.+?)\);/';
-	$regex3 = '/\(.+?\)/';
-	
-	try
-	{
-		$file = file_get_contents( $url );
-		$matches1 = array();
-		$matches2 = array();
-		preg_match_all( $regex1, $file, $matches1 );
-		preg_match_all( $regex2, $file, $matches2 );
-		$str1 = str_replace( '"', '', $matches1[ 1 ][ 0 ] );
-		$str2 = str_replace( '"', '', $matches2[ 1 ][ 0 ] );
-		$str_array1 = explode( ',', $str1 );
-		$str_array2 = explode( ',', $str2 );
-		$temp = array();
-		
-		//print_r( $str_array1 );
-		//print_r( $str_array2 );
-		
-		for( $j = 0; $j < count( $str_array1 ); $j++ )
-		{
-			if( $str_array2[ $j ] == $word )
-			{
-				$temp[] = str_replace( "\\'", '', $str_array1[ $j ] );
-			}
-			// ignore contents in ()
-			elseif( 
-				trim( preg_replace( $regex3, '', $str_array1[ $j ] ) ) == $word )
-			{
-				$temp[] = str_replace( "\\'", '', $str_array1[ $j ] );
-			}
-		}
-		
-		if( count( $temp ) == 0 )
-		{
-			continue;
-		}
-		
-		$temp = array_unique( $temp );
-		$output_file = $german_folder . 'wordlist.txt';
-		$text = "\"${word}\":\"" . implode( ", ", $temp ) . "\"," . NL;
-		// Append the string to the file
-		// the program can die any time; therefore it // is better to append the string to the file
-		file_put_contents( $output_file, $text, FILE_APPEND | LOCK_EX);
-	}
-	catch( ErrorException $e )
-	{
-		//print_r( $e );
 		continue;
 	}
+	$parts = explode( '⬛', $line );
+	
+	if( trim( $parts[ 2 ] ) == 'noun' )
+	{
+		$noun_pos = explode( ' ', trim( $parts[ 0 ] ) );
+		$len = count( $noun_pos );
+		$pos = '';
+		
+		// assign the first {X} to pos
+		for( $i = 0; $i < $len; $i++ )
+		{
+			if( strpos( $noun_pos[ $i ], '{' ) !== false )
+			{
+				$pos = $noun_pos[ $i ];
+				unset( $noun_pos[ $i ] );
+				break;
+			}
+		}
+		
+		// assign the remaining to noun
+		$noun = implode( ' ', $noun_pos );
+		
+		if( !array_key_exists( $noun, $n_pos ) )
+		{
+			$n_pos[ $noun ] = array();
+		}
+		
+		if( $pos != '' )
+		{
+			$n_pos[ $noun ][] = $pos;
+		}
+		
+		if( !array_key_exists( $noun, $term_en ) )
+		{
+			$term_en[ $noun ] = array();
+		}
+		
+		$term_en[ $noun ][] = $parts[ 1 ];
+	} // nouns
+	else
+	{
+		if( !array_key_exists( $parts[ 0 ], $term_en ) )
+		{
+			$term_en[ $parts[ 0 ] ] = array();
+		}
+		
+		$term_en[ $parts[ 0 ] ][] = $parts[ 1 ];
+	} // others
 }
+
+foreach( $n_pos as $k => $v )
+{
+	$DE_noun_gender_number[ $k ] = implode( ',', 
+		array_unique( $v ) );
+}
+
+foreach( $term_en as $k => $v )
+{
+	$DE_EN[ $k ] = implode( ', ', $v );
+}
+
+file_put_contents(
+	$german_folder . 'DE_noun_gender_number.json',
+	json_encode(
+		$DE_noun_gender_number, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) );
+file_put_contents(
+	$german_folder . 'DE_EN.json',
+	json_encode(
+		$DE_EN, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) );
+
 ?>

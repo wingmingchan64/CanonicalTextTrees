@@ -20,10 +20,7 @@
                 "EN1": "(Daughters of Zion and Faithful Souls)",
                 "entry": {
                     "Gläubige": {
-                        "pronunciation": "\/ˈɡlɔybɪɡə\/",
-                        "grammar": "der; genitive, singular Gläubigen | nominative, plural Gläubigen",
-                        "Langenscheidt": "believer",
-                        "Cambridge": "religiöser Mensch"
+                        "DE_EN": "believer [female], believers"
                     }
                 }
             },
@@ -32,8 +29,7 @@
                 "EN1": "Come, daughters, help me lament,",
                 "entry": {
                     "klagen": {
-                        "Langenscheidt": "to complain, to lament",
-                        "Cambridge": "äußern, dass man unter etw. leidet"
+                        "DE_EN": "to complain, to file a suit, to go to law, to lament, to litigate, to sue (at law)"
                     }
                 }
             },
@@ -50,10 +46,7 @@
                 "EN1": "Behold! - what? - behold the patience,",
                 "entry": {
                     "Geduld": {
-                        "pronunciation": "\/ɡəˈdʊlt\/",
-                        "grammar": "die; genitive, singular Geduld",
-                        "Langenscheidt": "patience",
-                        "Cambridge": "Fähigkeit, auf etw. zu warten oder Nachsicht zu zeigen"
+                        "DE_EN": "endurance, forbearance, longanimity, patience"
                     }
                 }
             },
@@ -62,9 +55,7 @@
                 "EN1": "look! - where? - at our guilt.",
                 "entry": {
                     "Schuld": {
-                        "grammar": "die; genitive, singular Schuld | nominative , plural Schulden",
-                        "Langenscheidt": "blame, guilt, sin, debt, obligation",
-                        "Cambridge": "Zustand, schuldig zu sein"
+                        "DE_EN": "charge, culpability, due, guiltiness, iniquity [guilt: Heb. 'āwôn], liability [guilt]"
                     }
                 }
             },
@@ -72,9 +63,8 @@
                 "DE": "Sehet ihn aus Lieb und Huld",
                 "EN1": "See him, out of love and graciousness",
                 "entry": {
-                    "Huld": {
-                        "grammar": "die",
-                        "Langenscheidt": "favor, grace"
+                    "Huld [veraltet, noch ironisch] [geh.]": {
+                        "DE_EN": "benevolence, favor [Am.], favour [Br.], grace [of a king, lady etc.]"
                     }
                 }
             },
@@ -91,9 +81,7 @@
                 "EN1": "slaughtered on the trunk of the Cross,",
                 "entry": {
                     "schlachten": {
-                        "pronunciation": "\/ˈʃlaxtən\/",
-                        "Langenscheidt": "to slaughter",
-                        "Cambridge": "ein Tier töten und zerlegen, um dessen Fleisch für die Ernährung zu verwenden"
+                        "DE_EN": "to butcher, to slaughter"
                     }
                 }
             },
@@ -102,7 +90,7 @@
                 "EN1": "patient at all times,",
                 "entry": {
                     "erfunden": {
-                        "Langenscheidt": "Partizip Perfekt: erfinden"
+                        "DE_EN": "contrived, devised, fictional, imaginary, invented, made-up, phoney  [coll.], phony  [coll.]"
                     }
                 }
             },
@@ -111,9 +99,7 @@
                 "EN1": "however you were scorned.",
                 "entry": {
                     "verachten": {
-                        "pronunciation": "\/fɛɐˈ|axtən\/",
-                        "Langenscheidt": "to scorn, to scoff at, to dispise",
-                        "Cambridge": "als schlecht und minderwertig betrachten"
+                        "DE_EN": "to condemn, to disdain, to disparage, to regard \/ treat with contempt, to spurn"
                     }
                 }
             },
@@ -122,9 +108,7 @@
                 "EN1": "you have borne all sins,",
                 "entry": {
                     "Sünde": {
-                        "grammar": "die; genitive, singular Sünde | nominative, plural Sünden",
-                        "Langenscheidt": "sin",
-                        "Cambridge": "Verstoß gegen die Regeln der Religion"
+                        "DE_EN": "evil, piacle [obs.] [sin], sin, transgression"
                     }
                 }
             },
@@ -132,9 +116,8 @@
                 "DE": "Sonst müßten wir verzagen.",
                 "EN1": "otherwise we would have to despair.",
                 "entry": {
-                    "verzagen": {
-                        "Langenscheidt": "to loose heart, to despair",
-                        "Cambridge": "den Mut verlieren"
+                    "Nicht verzagen.": {
+                        "DE_EN": "Don't give up hope."
                     }
                 }
             },
@@ -142,9 +125,8 @@
                 "DE": "Erbarm dich unser, o Jesu.",
                 "EN1": "Have mercy on us, O Jesus.",
                 "entry": {
-                    "erbarmen": {
-                        "Langenscheidt": "to take pity",
-                        "Cambridge": "Mitleid mit jdm empfinden und ihm helfen"
+                    "jdn. erbarmen [österr., sonst selten] [jds. Mitleid erregen]": {
+                        "DE_EN": "to arouse sb.'s pity"
                     }
                 }
             },
@@ -163,14 +145,10 @@
                 "EN1": "When Jesus had finished this speech, he said to his disciples:",
                 "entry": {
                     "vollenden": {
-                        "pronunciation": "\/fɔlˈ|ɛndən\/",
-                        "Langenscheidt": "to complete, to accomplish",
-                        "Cambridge": "erfolgreich zu Ende bringen"
+                        "DE_EN": "to achieve, to complete, to finish (off), to perfect"
                     },
                     "Jünger": {
-                        "grammar": "der; genitive, singular Jüngers | nominative, plural Jünger",
-                        "Langenscheidt": "disciple",
-                        "Cambridge": "Anhänger von Jesus, einem Propheten oder einer Lehre"
+                        "DE_EN": "disciple"
                     }
                 }
             }
@@ -185,7 +163,7 @@
                 "EN1": "You know that in two days it will be Passover, and the Son of Man will be handed over to be crucified.",
                 "entry": {
                     "überantworten": {
-                        "Langenscheidt": "to hand over"
+                        "DE_EN": "to sign over"
                     }
                 }
             }
@@ -199,8 +177,8 @@
                 "DE": "Herzliebster Jesu, was hast du verbrochen,",
                 "EN1": "Heart's beloved Jesus, how have you transgressed,",
                 "entry": {
-                    "verbrechen": {
-                        "Langenscheidt": "to be up to, to commit a crime"
+                    "etw. [Akk.] verbrechen [fig.]": {
+                        "DE_EN": "to perpetrate sth."
                     }
                 }
             },
@@ -209,12 +187,10 @@
                 "EN1": "that such a harsh sentence has been pronounced?",
                 "entry": {
                     "scharf": {
-                        "Langenscheidt": "sharp, harsh",
-                        "Cambridge": "leicht und gut schneidend, streng"
+                        "DE_EN": "acridly, keenly, poignantly, pungently, sharp-edged, sharp, sharply, spicy, trenchantly, virulently  [fig.]"
                     },
                     "Urteil": {
-                        "grammar": "judgement, condemnation, sentence",
-                        "Cambridge": "begründete Meinung, die man über jdn \/ etw. hat oder äußert, offizielle Entscheidung eines Richters"
+                        "DE_EN": "adjudgment, adjudication, assessment [judgment], discretion [judgement], judgement, judgment, sentence"
                     }
                 }
             },
@@ -222,11 +198,8 @@
                 "DE": "Was ist die Schuld, in was für Missetaten",
                 "EN1": "What is the crime, of what kind of misdeed",
                 "entry": {
-                    "Missetat": {
-                        "pronunciation": "\/ˈmɪsətaːt\/",
-                        "grammar": "die; genitive, singular Missetat | nominative, plural Missetaten",
-                        "Langenscheidt": "misdeed",
-                        "Cambridge": "schlechte, verbotene Tat"
+                    "eine Missetat begehen": {
+                        "DE_EN": "to commit a deed"
                     }
                 }
             },
@@ -235,8 +208,7 @@
                 "EN1": "are you accused?",
                 "entry": {
                     "geraten": {
-                        "Langenscheidt": "to get into",
-                        "Cambridge": "unbeabsichtigt an einen Ort oder in eine Situation kommen"
+                        "DE_EN": "advised, counseled [Am.], counselled [Br.], guessed, turned out  [well, bad etc.]"
                     }
                 }
             },
@@ -255,16 +227,13 @@
                 "EN1": "Then the high priests and the scribes and the elders of the people gathered in the palace of the high priest, who was named Caiaphas, and took council how with deception they could seize Jesus and kill him. They said, however:",
                 "entry": {
                     "versammeln": {
-                        "Langenscheidt": "to gather, to assemble",
-                        "Cambridge": "als Gruppe an einem Ort zusammenkommen"
+                        "DE_EN": "to congregate, to convene, to convent [obs.], to gather [esp. of people]"
                     },
                     "Schriftgelehrte": {
-                        "grammar": "der",
-                        "Langenscheidt": "scribe"
+                        "DE_EN": "scribes"
                     },
                     "greifen": {
-                        "Langenscheidt": "to seize, to catch",
-                        "Cambridge": "etw. mit der Hand nehmen"
+                        "DE_EN": "to bite [wheels, screw], to snatch, to take hold of"
                     }
                 }
             }
