@@ -112,6 +112,9 @@
                     "erfunden": {
                         "Langenscheidt": "Partizip Perfekt: erfinden",
                         "DE_EN": "contrived, devised, fictional, imaginary, invented, made-up, phoney  [coll.], phony  [coll.]"
+                    },
+                    "erfinden": {
+                        "DE_EN": "to devise, to forge [invent], to invent"
                     }
                 }
             },
@@ -308,7 +311,12 @@
             },
             "40": {
                 "DE": "Ja nicht auf das Fest, auf daß nicht ein Aufruhr werde im Volk.",
-                "EN1": "Not, indeed, during the festival, so that there will not be an uproar among the people."
+                "EN1": "Not, indeed, during the festival, so that there will not be an uproar among the people.",
+                "entry": {
+                    "Aufruhr": {
+                        "DE_EN": "agitation [row, rebellion], bedlam, brouhaha, cataclysm, civil commotion, clamor [Am.], clamour [Br.], coil [obs.], combustion [fig.], commotion, convulsion, fracas, furore [Br.], furor [Am.], hurly-burly, insurgence, insurgency, insurrection, mutiny, pother, rabblement, racket [uproar], rebellion, revolt, riot, row [esp. Br.] [coll.] [uproar], sedition, seditions, storm [outcry], stramash [Scot.], tumult, turmoil, upheaval, uproar"
+                    }
+                }
             }
         },
         "8": {
@@ -318,7 +326,25 @@
             },
             "43": {
                 "DE": "Da nun Jesus war zu Bethanien, im Hause Simonis des Aussätzigen, trat zu ihm ein Weib, die hatte ein Glas mit köstlichem Wasser und goß es auf sein Haupt, da er zu Tische saß. Da das seine Jünger sahen, wurden sie unwillig und sprachen:",
-                "EN1": "Now when Jesus was in Bethany, in the house of Simon the leper, a woman came to him with a cup filled with valuable water; and she poured it upon his head as he sat at the table. When his disciples saw this, they were against it and said:"
+                "EN1": "Now when Jesus was in Bethany, in the house of Simon the leper, a woman came to him with a cup filled with valuable water; and she poured it upon his head as he sat at the table. When his disciples saw this, they were against it and said:",
+                "entry": {
+                    "Aussätziger": {
+                        "DE_EN": "lazar [archaic] [leper]"
+                    },
+                    "treten": {
+                        "DE_EN": "to step, to tread (on)"
+                    },
+                    "köstlich": {
+                        "DE_EN": "delectable, delectably, delicate, delicious, deliciously, delightsome, delish [coll.], mouth-watering, toothsome, yum-yum  [coll.]"
+                    },
+                    "gießen": {
+                        "grammar": "3rd, singular, preterit goss | past participle gegossen",
+                        "DE_EN": "to cast, to found [metal, glass], to mold [Am.]"
+                    },
+                    "unwillig": {
+                        "DE_EN": "indignant, loath, loathly, loth  [spv.], reluctant, reluctantly, unwilling, unwillingly"
+                    }
+                }
             }
         },
         "9": {
@@ -328,7 +354,12 @@
             },
             "46": {
                 "DE": "Wozu dienet dieser Unrat? Dieses Wasser hätte mögen teuer verkauft und den Armen gegeben werden.",
-                "EN1": "What purpose does this foolishness serve? This water could have been sold for a high price and given to the poor."
+                "EN1": "What purpose does this foolishness serve? This water could have been sold for a high price and given to the poor.",
+                "entry": {
+                    "Unrat": {
+                        "DE_EN": "dross, filth [fig.], muck"
+                    }
+                }
             }
         },
         "10": {
@@ -338,7 +369,12 @@
             },
             "49": {
                 "DE": "Da das Jesus merkete, sprach er zu ihnen:",
-                "EN1": "When Jesus heard this, he said to them:"
+                "EN1": "When Jesus heard this, he said to them:",
+                "entry": {
+                    "merken": {
+                        "DE_EN": "to bookmark, to notice, to realize [to become aware]"
+                    }
+                }
             }
         },
         "11": {
@@ -348,7 +384,24 @@
             },
             "52": {
                 "DE": "Was bekümmert ihr das Weib? Sie hat ein gut Werk an mir getan. Ihr habet allezeitArmen bei euch, mich aber habt ihr nicht allezeit. Daß sie dies Wasser hat aufmeinen Leib gegossen, hat sie getan, daß man mich begraben wird. Wahrlich, ichsage euch: Wo dies Evangelium geprediget wird in der ganzen Welt, da wird manauch sagen zu ihrem Gedächtnis, was sie getan hat.",
-                "EN1": "Why do you trouble the woman? She has done a gooddeed for me. You will have the poor with you always, but you will not alwayshave me. She has poured this water on my body because I will be buried. Truly Isay to you: wherever this Gospel will be preached in the whole world they will tell, in her memory, what she has done."
+                "EN1": "Why do you trouble the woman? She has done a gooddeed for me. You will have the poor with you always, but you will not alwayshave me. She has poured this water on my body because I will be buried. Truly Isay to you: wherever this Gospel will be preached in the whole world they will tell, in her memory, what she has done.",
+                "entry": {
+                    "jdn. bekümmern": {
+                        "DE_EN": "to distress sb., to trouble sb., to worry sb."
+                    },
+                    "Leib": {
+                        "DE_EN": "body and limbs, body"
+                    },
+                    "begraben": {
+                        "DE_EN": "buried, entombed, interred, sepulchered  [Am.], sepulchred  [Br.], to inter"
+                    },
+                    "predigen": {
+                        "DE_EN": "to jaw [coll.] [to moralize], to preach, to sermonize"
+                    },
+                    "Gedächtnis": {
+                        "DE_EN": "memory, mind [memory], remembrance, retention"
+                    }
+                }
             }
         },
         "12": {
@@ -358,27 +411,64 @@
             },
             "55": {
                 "DE": "Du lieber Heiland du,",
-                "EN1": "O you dear Savior,"
+                "EN1": "O you dear Savior,",
+                "entry": {
+                    "Heiland": {
+                        "DE_EN": "Redeemer, savior [Am.], saviour [Br.]"
+                    }
+                }
             },
             "56": {
                 "DE": "Wenn deiner Jünger töricht streiten,",
-                "EN1": "when your disciples foolishly protest"
+                "EN1": "when your disciples foolishly protest",
+                "entry": {
+                    "töricht": {
+                        "DE_EN": "absurd, asinine, daft  [Br.]  [coll.], fatuous, fond [dated for: foolish], foolhardy, foolish, misguided, misguidedly, silly, stupid, unwise"
+                    },
+                    "streiten": {
+                        "DE_EN": "to altercate [archaic], to bicker [quarrel], to brabble, to brawl, to contest, to differ, to disagree, to dispute, to fratch [N. Engl.], to hassle [coll.] [argue], to have an argument, to litigate, to quarrel, to row [Br.] [coll.] [quarrel], to stickle, to struggle, to wrangle"
+                    }
+                }
             },
             "57": {
                 "DE": "Daß diese fromme Weib",
-                "EN1": "that this virtuous woman"
+                "EN1": "that this virtuous woman",
+                "entry": {
+                    "fromm": {
+                        "DE_EN": "devotional, devout, devoutly, divine, godly, pious, piously, religious, saintly"
+                    }
+                }
             },
             "58": {
                 "DE": "Mit Salben deinen Leib",
-                "EN1": "prepares your body"
+                "EN1": "prepares your body",
+                "entry": {
+                    "Salbe": {
+                        "DE_EN": "balm [ointment], ointment, salve, unguent"
+                    }
+                }
             },
             "59": {
                 "DE": "zum Grabe will bereiten,",
-                "EN1": "with ointment for the grave,"
+                "EN1": "with ointment for the grave,",
+                "entry": {
+                    "bereiten": {
+                        "Langenscheidt": "to prepare, to give, to cause"
+                    },
+                    "(jdm.) Umstände bereiten [geh.]": {
+                        "DE_EN": "to cause inconvenience (to sb.)"
+                    }
+                }
             },
             "60": {
                 "DE": "So lasse mir inzwischen zu,",
-                "EN1": "in the meantime let me,"
+                "EN1": "in the meantime let me,",
+                "entry": {
+                    "inzwischen": {
+                        "pronunciation": "\/ɪnˈʦvɪʃən\/",
+                        "DE_EN": "by now, by that time, by then, in the meantime, meanwhile, since, since then"
+                    }
+                }
             },
             "61": {
                 "DE": "Von meiner Augen Tränenflüssen",
@@ -396,7 +486,12 @@
             },
             "65": {
                 "DE": "Buß und Reu, Buß und Reu",
-                "EN1": "Repentance and regret, repentance and regret"
+                "EN1": "Repentance and regret, repentance and regret",
+                "entry": {
+                    "Buß": {
+                        "Langenscheidt": "repent"
+                    }
+                }
             },
             "66": {
                 "DE": "Knirscht das Sündenherz entzwei.",

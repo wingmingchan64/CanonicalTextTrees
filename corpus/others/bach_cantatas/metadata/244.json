@@ -5,7 +5,7 @@
 	"244,2,11":["Schuld"],
 	"244,2,12":["Huld"],
 	"244,2,15":["schlachten"],
-	"244,2,16":["erfunden"],
+	"244,2,16":["erfunden","erfinden"],
 	"244,2,17":["verachten"],
 	"244,2,18":["Sünde"],
 	"244,2,19":["verzagen"],
@@ -16,6 +16,17 @@
 	"244,5,31":["scharf","Urteil"],
 	"244,5,32":["Missetat"],
 	"244,5,33":["geraten"],
-	"244,6,37":["versammeln","Schriftgelehrte","greifen"]
-	
+	"244,6,37":["versammeln","Schriftgelehrte","greifen"],
+	"244,7,40":["Aufruhr"],
+	"244,8,43":["Aussätziger","treten","köstlich","gießen","unwillig"],
+	"244,9,46":["Unrat"],
+	"244,10,49":["merken"],
+	"244,11,52":["bekümmern","Leib","begraben","predigen","Gedächtnis"],
+	"244,12,55":["Heiland"],
+	"244,12,56":["töricht","streiten"],
+	"244,12,57":["fromm"],
+	"244,12,58":["Salbe"],
+	"244,12,59":["bereiten"],
+	"244,12,60":["inzwischen"],
+	"244,13,65":["Buß"]
 }
