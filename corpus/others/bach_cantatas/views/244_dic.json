@@ -19,6 +19,10 @@
                 "DE": "(Töchter Zion und Gläubige Seelen)",
                 "EN1": "(Daughters of Zion and Faithful Souls)",
                 "entry": {
+                    "Töchter": {
+                        "pronunciation": "\/ˈtœçtɐ\/",
+                        "DE_EN": "daughters"
+                    },
                     "Gläubige": {
                         "pronunciation": "\/ˈɡlɔybɪɡə\/",
                         "grammar": "der; genitive, singular Gläubigen | nominative, plural Gläubigen",
@@ -490,24 +494,59 @@
                 "entry": {
                     "Buß": {
                         "Langenscheidt": "repent"
+                    },
+                    "Reue": {
+                        "DE_EN": "compunction [regret], contrition, penitence, regret, remorsefulness, remorse, repentance, ruefulness, rue [archaic] [repentance, regret], sorrow [remorse]"
                     }
                 }
             },
             "66": {
                 "DE": "Knirscht das Sündenherz entzwei.",
-                "EN1": "rips the sinful heart in two."
+                "EN1": "rips the sinful heart in two.",
+                "entry": {
+                    "knirschen": {
+                        "DE_EN": "to crump, to crunch [with teeth], to grate [one's teeth], to graunch [esp. Br.] [coll.], to gride [literary], to scroop, to scrunch [snow, gravel, pebbles]"
+                    },
+                    "entzwei": {
+                        "DE_EN": "apart [broken, fallen], asunder [archaic or literary], atwain  [archaic], in half, in pieces, in sunder [apart], in twain  [archaic], in two"
+                    }
+                }
             },
             "67": {
                 "DE": "Das die Tropfen meiner Zähren",
-                "EN1": "Thus the drops of my tears,"
+                "EN1": "Thus the drops of my tears,",
+                "entry": {
+                    "Tropf": {
+                        "DE_EN": "drip, IV bag"
+                    },
+                    "Zähren": {
+                        "Langenscheidt": "tears"
+                    },
+                    "Zähren [veraltet für Tränen] [poet.] [hum.]": {
+                        "DE_EN": "brine [obs.] [poet.]"
+                    }
+                }
             },
             "68": {
                 "DE": "Angenehme Spezerei,",
-                "EN1": "desirable spices,"
+                "EN1": "desirable spices,",
+                "entry": {
+                    "Spezerei [veraltet] [Gewürz, bes. überseeisches]": {
+                        "DE_EN": "spice [esp. from overseas]"
+                    }
+                }
             },
             "69": {
                 "DE": "Treuer Jesu, dir gebären.",
-                "EN1": "are brought to you, loving Jesus."
+                "EN1": "are brought to you, loving Jesus.",
+                "entry": {
+                    "Nördlicher Treuer Kurzpfeil [Libellenart]": {
+                        "DE_EN": "northern banded groundling [Brachythemis impartita]"
+                    },
+                    "gebären": {
+                        "DE_EN": "to bear [to give birth], to birth [chiefly Am. dialect]"
+                    }
+                }
             }
         },
         "14": {
@@ -527,7 +566,12 @@
             },
             "75": {
                 "DE": "Was wollt ihr mir geben? Ich will ihn euch verraten.",
-                "EN1": "What will you give me? I will betray him to you."
+                "EN1": "What will you give me? I will betray him to you.",
+                "entry": {
+                    "verraten": {
+                        "DE_EN": "betrayed, to reveal [name, details]"
+                    }
+                }
             }
         },
         "16": {
@@ -537,7 +581,21 @@
             },
             "78": {
                 "DE": "Und sie boten ihm dreißig Silberlinge. Und von dem an suchte er Gelegenheit, daß er ihn verriete.",
-                "EN1": "And they offered him thirty silver pieces. And from then on he sought opportunity to betray him."
+                "EN1": "And they offered him thirty silver pieces. And from then on he sought opportunity to betray him.",
+                "entry": {
+                    "bieten": {
+                        "DE_EN": "to give [afford, provide], to make a bid, to make an offer for, to proffer, to provide, to tender [money, services, shares]"
+                    },
+                    "Silberlinge": {
+                        "DE_EN": "honesties [genus Lunaria], money plants [genus Lunaria], moonworts [genus Lunaria], pieces of silver, satin flowers [genus Lunaria], silver dollars [genus Lunaria]"
+                    },
+                    "den Punkt erreichen, von dem an es kein Zurück mehr gibt": {
+                        "DE_EN": "to reach the point of no return"
+                    },
+                    "Gelegenheit": {
+                        "DE_EN": "chance, innings, instance, occasion, opportunity"
+                    }
+                }
             }
         },
         "17": {
@@ -547,23 +605,51 @@
             },
             "81": {
                 "DE": "Blute nur, du liebes Herz!",
-                "EN1": "Bleed out, you loving heart!"
+                "EN1": "Bleed out, you loving heart!",
+                "entry": {
+                    "bluten": {
+                        "DE_EN": "to bleed, to haemorrhage [Br.], to hemorrhage [Am.]"
+                    }
+                }
             },
             "82": {
                 "DE": "Ach! ein Kind, das du erzogen,",
-                "EN1": "Alas! A child that you raised,"
+                "EN1": "Alas! A child that you raised,",
+                "entry": {
+                    "erziehen": {
+                        "DE_EN": "to breed [rear and train], to educate"
+                    }
+                }
             },
             "83": {
                 "DE": "Das an deiner Brust gesogen,",
-                "EN1": "that nursed at your breast,"
+                "EN1": "that nursed at your breast,",
+                "entry": {
+                    "saugen": {
+                        "DE_EN": "to draw [water, air etc.], to suck"
+                    }
+                }
             },
             "84": {
                 "DE": "Droht den Pfleger zu ermorden,",
-                "EN1": "threatens to murder its caretaker,"
+                "EN1": "threatens to murder its caretaker,",
+                "entry": {
+                    "drohen": {
+                        "DE_EN": "to menace, to threaten, to threat [archaic]"
+                    },
+                    "Pfleger": {
+                        "DE_EN": "(medical) orderly, caregiver, carer, hospital aide, nurse, tender [of sick person], carers, nurses [male]"
+                    }
+                }
             },
             "85": {
                 "DE": "Denn es ist zur Schlange worden.",
-                "EN1": "since it has become a serpent."
+                "EN1": "since it has become a serpent.",
+                "entry": {
+                    "Schlange": {
+                        "DE_EN": "serpent [literary or archaic] [snake], snake"
+                    }
+                }
             }
         },
         "18": {
@@ -613,7 +699,12 @@
             },
             "100": {
                 "DE": "Und die Jünger täten, wie ihnen Jesus befohlen hatte, und bereiteten das Osterlamm. Und am Abend satzte er sich zu Tische mit den Zwölfen. Und da sie aßen, sprach er:",
-                "EN1": "And the disciples did as Jesus had commanded them, and prepared the Passover lamb. And in the evening he sat at dinner with the twelve. And as they ate, He said:"
+                "EN1": "And the disciples did as Jesus had commanded them, and prepared the Passover lamb. And in the evening he sat at dinner with the twelve. And as they ate, He said:",
+                "entry": {
+                    "befehlen": {
+                        "DE_EN": "to bid [command], to dictate [command]"
+                    }
+                }
             }
         },
         "23": {
@@ -633,7 +724,12 @@
             },
             "106": {
                 "DE": "Und sie wurden sehr betrübt und huben an, ein jeglicher unter ihnen, und sagten zu ihm:",
-                "EN1": "And they were very troubled and began, each one among them, to say to him:"
+                "EN1": "And they were very troubled and began, each one among them, to say to him:",
+                "entry": {
+                    "anheben": {
+                        "DE_EN": "to accentuate, to elevate, to hoist"
+                    }
+                }
             }
         },
         "25": {
@@ -653,7 +749,12 @@
             },
             "112": {
                 "DE": "Ich bins, ich sollte büßen,",
-                "EN1": "It is I, I should atone,"
+                "EN1": "It is I, I should atone,",
+                "entry": {
+                    "büßen": {
+                        "DE_EN": "to atone, to suffer [as punishment, in hell etc.]"
+                    }
+                }
             },
             "113": {
                 "DE": "An Händen und an Füßen",
@@ -661,19 +762,43 @@
             },
             "114": {
                 "DE": "Gebunden in der Höll.",
-                "EN1": "in hell."
+                "EN1": "in hell.",
+                "entry": {
+                    "Hölle": {
+                        "DE_EN": "abyss, hades [coll.] [hell], hell, infernal regions {pl}, inferno, netherworld, pandemonium, Tophet [hell]"
+                    }
+                }
             },
             "115": {
                 "DE": "Die Geißeln und die Banden",
-                "EN1": "The scourges and the bonds"
+                "EN1": "The scourges and the bonds",
+                "entry": {
+                    "Geißel": {
+                        "DE_EN": "whip"
+                    }
+                }
             },
             "116": {
                 "DE": "Und was du ausgestanden,",
-                "EN1": "and what you endured,"
+                "EN1": "and what you endured,",
+                "entry": {
+                    "ausstehen": {
+                        "Langenscheidt": "to stand, to bear, to endure, to suffer"
+                    },
+                    "Angst ausstehen": {
+                        "DE_EN": "to be frightened"
+                    }
+                }
             },
             "117": {
                 "DE": "Das hat verdienet meine Seel.",
-                "EN1": "my soul has deserved."
+                "EN1": "my soul has deserved.",
+                "entry": {
+                    "verdienen": {
+                        "Langenscheidt": "to earn, to make, to deserve",
+                        "DE_EN": "to bring in [earn]"
+                    }
+                }
             },
             "118": {
                 "DE": "(\"O Welt, sieh heir dein Leben,\" verse 5)",
@@ -697,7 +822,21 @@
             },
             "124": {
                 "DE": "Der mit der Hand mit mir in die Schüssel tauchet, der wird mich verraten. Des Menschen Sohn gehet zwar dahin, wie von ihm geschrieben stehet; doch wehe dem Menschen, durch welchen des Menschen Sohn verraten wird! Es wäre ihm besser, daß derselbige Mensch noch nie geboren wäre.",
-                "EN1": "He who has dipped his hand in the bowl with me will betray me. The Son of Man will indeed pass away as it stands written of him; yet woe to the man through whom the Son of Man is betrayed! It would be better for him if this man had never been born."
+                "EN1": "He who has dipped his hand in the bowl with me will betray me. The Son of Man will indeed pass away as it stands written of him; yet woe to the man through whom the Son of Man is betrayed! It would be better for him if this man had never been born.",
+                "entry": {
+                    "Schüssel": {
+                        "DE_EN": "basin [bowl], bowl, dish, pan, tureen"
+                    },
+                    "zwar": {
+                        "DE_EN": "admittedly, indeed  [admittedly], to be sure"
+                    },
+                    "Weh": {
+                        "DE_EN": "bale [obs., poet.]"
+                    },
+                    "derselbe": {
+                        "DE_EN": "idem <id.>, same, the same"
+                    }
+                }
             }
         },
         "29": {
@@ -767,7 +906,12 @@
             },
             "145": {
                 "DE": "Und er nahm den Kelch und dankete, gab ihnen den und sprach:",
-                "EN1": "And he took the cup and blessed it, gave it to them and said:"
+                "EN1": "And he took the cup and blessed it, gave it to them and said:",
+                "entry": {
+                    "Kelch": {
+                        "DE_EN": "calyx, chalice, goblet"
+                    }
+                }
             }
         },
         "36": {
@@ -777,7 +921,26 @@
             },
             "148": {
                 "DE": "Trinket alle daraus; das ist mein Blut des neuen Testaments, welches vergossen wird für viele zur Vergebung der Sünden. Ich sage euch: Ich werde von nun an nicht mehr von diesem Gewächs des Weinstocks trinken bis an den Tag, da ichs neu trinken werde mit euch in meines Vaters Reich.",
-                "EN1": "Drink from this, all of you; this is my blood of the new covenant, which is poured out for many for the forgiveness of sins. I say to you: from now on I will not drink again from this fruit of the vine until the day when I drink again with you in my Father's kingdom."
+                "EN1": "Drink from this, all of you; this is my blood of the new covenant, which is poured out for many for the forgiveness of sins. I say to you: from now on I will not drink again from this fruit of the vine until the day when I drink again with you in my Father's kingdom.",
+                "entry": {
+                    "vergießen": {
+                        "DE_EN": "to cast, to diffuse, to mold [Am.], to mould [Br.]"
+                    },
+                    "Blut vergießen": {
+                        "DE_EN": "to shed blood"
+                    },
+                    "Vergebung": {
+                        "pronunciation": "\/fɛɐˈɡeːbʊŋ\/",
+                        "DE_EN": "absolution [forgiveness], condonation, forgiveness, remission [forgiveness]"
+                    },
+                    "Gewächs": {
+                        "pronunciation": "\/ɡəˈvɛks\/",
+                        "DE_EN": "growth, plant"
+                    },
+                    "Weinstock": {
+                        "DE_EN": "grapevine, vine, vine stock"
+                    }
+                }
             }
         },
         "37": {
@@ -795,23 +958,43 @@
             },
             "153": {
                 "DE": "so macht mich doch sein Testament erfreut:",
-                "EN1": "yet his Testament brings me joy:"
+                "EN1": "yet his Testament brings me joy:",
+                "entry": {
+                    "erfreuen": {
+                        "DE_EN": "to delectate, to delight, to gratify, to please"
+                    }
+                }
             },
             "154": {
                 "DE": "Sein Fleisch und Blut, o Kostbarkeit,",
-                "EN1": "his flesh and blood, O most precious,"
+                "EN1": "his flesh and blood, O most precious,",
+                "entry": {
+                    "Kostbarkeit [Eigenschaft]": {
+                        "DE_EN": "costliness, preciousness, valuableness, value"
+                    }
+                }
             },
             "155": {
                 "DE": "Vermacht er mir in meine Hände.",
-                "EN1": "he bequeaths to my hands."
+                "EN1": "he bequeaths to my hands.",
+                "entry": {
+                    "etw. [Akk.] vermachen": {
+                        "DE_EN": "to will sth. [bequeath]"
+                    }
+                }
             },
             "156": {
                 "DE": "Wie er es auf er Welt mit denen Seinen",
-                "EN1": "Just as in the world, among his own,"
+                "EN1": "How he fares\/acts in the world with his own people,"
             },
             "157": {
                 "DE": "Nicht böse können meinen,",
-                "EN1": "he could not wish them harm,"
+                "EN1": "he could not wish them harm,",
+                "entry": {
+                    "böse": {
+                        "DE_EN": "badly, bad [wicked, aggressive], crossly, diabolic, evil, sinister, vicious, wicked"
+                    }
+                }
             },
             "158": {
                 "DE": "so liebt er sie bis an das Ende.",
