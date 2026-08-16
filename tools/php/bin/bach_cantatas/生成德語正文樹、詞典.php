@@ -180,6 +180,8 @@ foreach( $metadata as $path => $terms )
 			}
 			else
 			{
+				$counter = 0;
+
 				foreach( array_keys( $wordlist ) as $k )
 				{
 					$tempk = trim( preg_replace( '/[.+?]/','', $k ) );
@@ -193,7 +195,12 @@ foreach( $metadata as $path => $terms )
 						) )
 					{
 						$pointer[ 'entry' ][ $k ][ 'DE_EN' ] = $wordlist[ $k ];
-						//break;
+						$counter++;
+
+						if( $counter > 5 )
+						{
+							break;
+						}
 					}
 				}
 			}

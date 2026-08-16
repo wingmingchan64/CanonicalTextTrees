@@ -249,6 +249,10 @@
                     "Jesus": {
                         "pronunciation": "ˈjeːzʊs",
                         "DE_EN": "Jesus, Jesu [poet.]"
+                    },
+                    "Jesu": {
+                        "pronunciation": "ˈjeːzu",
+                        "DE_EN": "Jesus', of Jesus"
                     }
                 }
             },
@@ -276,21 +280,6 @@
                     },
                     "Ostern mit Schnee": {
                         "DE_EN": "Easter with snow"
-                    },
-                    "Ostern [regional, österr., schweiz., in Wunschformeln: {pl}]": {
-                        "DE_EN": "Easter"
-                    },
-                    "weiße Ostern": {
-                        "DE_EN": "white Easter {sg}"
-                    },
-                    "Wenn Ostern und Pfingsten auf einen Tag fallen. [Redewendung]": {
-                        "DE_EN": "If pigs could fly. [idiom]"
-                    },
-                    "Wenn Ostern und Pfingsten auf einen Tag fällt. [Redewendung]": {
-                        "DE_EN": "If pigs could fly. [idiom]"
-                    },
-                    "zu Ostern": {
-                        "DE_EN": "at Easter"
                     },
                     "überantworten": {
                         "pronunciation": "yːbɐˈʔantˌvɔʁtn̩",
@@ -418,6 +407,9 @@
                 "entry": {
                     "Aufruhr": {
                         "DE_EN": "agitation [row, rebellion], bedlam, brouhaha, cataclysm, civil commotion, clamor [Am.], clamour [Br.], coil [obs.], combustion [fig.], commotion, convulsion, fracas, furore [Br.], furor [Am.], hurly-burly, insurgence, insurgency, insurrection, mutiny, pother, rabblement, racket [uproar], rebellion, revolt, riot, row [esp. Br.] [coll.] [uproar], sedition, seditions, storm [outcry], stramash [Scot.], tumult, turmoil, upheaval, uproar"
+                    },
+                    "Aufruhre": {
+                        "pronunciation": "ˈaʊ̯fˌʁuːʁə"
                     }
                 }
             }
@@ -431,6 +423,9 @@
                 "DE": "Da nun Jesus war zu Bethanien, im Hause Simonis des Aussätzigen, trat zu ihm ein Weib, die hatte ein Glas mit köstlichem Wasser und goß es auf sein Haupt, da er zu Tische saß. Da das seine Jünger sahen, wurden sie unwillig und sprachen:",
                 "EN1": "Now when Jesus was in Bethany, in the house of Simon the leper, a woman came to him with a cup filled with valuable water; and she poured it upon his head as he sat at the table. When his disciples saw this, they were against it and said:",
                 "entry": {
+                    "Betanien \/ Bethanien": {
+                        "DE_EN": "Bethany"
+                    },
                     "Aussätziger": {
                         "pronunciation": "ˈaʊ̯sˌzɛt͡sɪɡɐ",
                         "DE_EN": "lazar [archaic] [leper]"
@@ -515,9 +510,6 @@
                     },
                     "sich [Akk.] um jdn.\/etw. bekümmern [geh.] [veraltend]": {
                         "DE_EN": "to concern oneself with sb.\/sth."
-                    },
-                    "sich über etw. bekümmern": {
-                        "DE_EN": "to worry about sth."
                     },
                     "Leib": {
                         "pronunciation": "laɪ̯p",
@@ -612,168 +604,6 @@
                     },
                     "den Weg bereiten [Redewendung] [Pionierarbeit leisten]": {
                         "DE_EN": "to trailblaze [fig.]"
-                    },
-                    "den Weg für etw. [Akk.] bereiten [fig.] [Redewendung] [Pionierarbeit leisten]": {
-                        "DE_EN": "to blaze the way for sth. [idiom] [to pioneer]"
-                    },
-                    "den Weg für jdn.\/etw. bereiten [fig.]": {
-                        "DE_EN": "to set the stage for sb.\/sth. [fig.]"
-                    },
-                    "ein \/ das Bad bereiten [zubereiten, ansetzen]": {
-                        "DE_EN": "to prepare a \/ the bath"
-                    },
-                    "einem Gerücht ein Ende bereiten": {
-                        "DE_EN": "to scotch a rumour [Br.]"
-                    },
-                    "ein großes Vergnügen bereiten": {
-                        "DE_EN": "to cause great amusement"
-                    },
-                    "etw. [Akk.] bereiten [zubereiten]": {
-                        "DE_EN": "to prepare sth. [meal, medicine etc.]"
-                    },
-                    "etw. [Dat.] den Weg bereiten": {
-                        "DE_EN": "to pioneer sth."
-                    },
-                    "etw. [Dat.] ein Ende bereiten": {
-                        "DE_EN": "to put an end to sth."
-                    },
-                    "Freude bereiten": {
-                        "DE_EN": "to spark joy"
-                    },
-                    "große Freude bereiten": {
-                        "DE_EN": "to give great pleasure"
-                    },
-                    "große Sorge bereiten": {
-                        "DE_EN": "to cause great anxiety"
-                    },
-                    "Ich möchte (dir) keine Unannehmlichkeiten bereiten.": {
-                        "DE_EN": "I don't want to put you out. [I don't want to cause you any trouble.]"
-                    },
-                    "Ich möchte Ihnen keine Unannehmlichkeiten bereiten.": {
-                        "DE_EN": "I have no desire to cause you any trouble."
-                    },
-                    "Ich möchte Ihnen keine Unannehmlichkeiten bereiten. [formelle Anrede]": {
-                        "DE_EN": "I don't want to put you out. [I don't want to cause you any trouble.]"
-                    },
-                    "jdm. (das) Frühstück bereiten": {
-                        "DE_EN": "to fix breakfast for sb. [Am.]"
-                    },
-                    "jdm. (schweren) Kummer bereiten": {
-                        "DE_EN": "to cause sb. (great) sorrow"
-                    },
-                    "jdm.\/etw. den Weg bereiten [fig.] [ermöglichen]": {
-                        "DE_EN": "to pave the way for sb.\/sth. [fig.]"
-                    },
-                    "jdm.\/etw. etw. [Akk.] bereiten [Schmerz, Freude, Mühe, Kummer, Probleme]": {
-                        "DE_EN": "to give sb.\/sth. sth. [pain, joy, trouble, worry, problems]"
-                    },
-                    "jdm. eine Enttäuschung bereiten": {
-                        "DE_EN": "to disappoint sb."
-                    },
-                    "jdm. eine Menge Ärger bereiten": {
-                        "DE_EN": "to cause sb. a lot of trouble"
-                    },
-                    "jdm. einen großen Bahnhof bereiten [Redewendung]": {
-                        "DE_EN": "to roll out the red carpet for sb. [idiom]"
-                    },
-                    "jdm. eine Niederlage bereiten": {
-                        "DE_EN": "to hand sb. a defeat"
-                    },
-                    "jdm. eine unangenehme Überraschung bereiten [z. B. unerwartete Niederlage]": {
-                        "DE_EN": "to pull off an upset against sb."
-                    },
-                    "jdm. eine Überraschung bereiten": {
-                        "DE_EN": "to give sb. a surprise"
-                    },
-                    "jdm. ein herzliches Willkommen bereiten": {
-                        "DE_EN": "to accord sb. a hearty welcome"
-                    },
-                    "jdm. ein Problem bereiten": {
-                        "DE_EN": "to pose a problem to sb., to present sb. with a problem"
-                    },
-                    "jdm. Freude bereiten": {
-                        "DE_EN": "to bring joy to sb., to give sb. pleasure"
-                    },
-                    "jdm. Kopfschmerzen bereiten [auch fig.]": {
-                        "DE_EN": "to give sb. a headache [also fig.], to give sb. headaches [also fig.]"
-                    },
-                    "jdm. Kopfzerbrechen bereiten": {
-                        "DE_EN": "to cause sb. quite a headache [fig.]"
-                    },
-                    "jdm. Kummer bereiten": {
-                        "DE_EN": "to cause sb. pain, to distress sb., to give grief to sb., to grieve sb."
-                    },
-                    "jdm. Ovationen bereiten": {
-                        "DE_EN": "to give sb. an ovation"
-                    },
-                    "jdm. schlaflose Nächte bereiten": {
-                        "DE_EN": "to give sb. sleepless nights"
-                    },
-                    "jdm. Schmerzen bereiten": {
-                        "DE_EN": "to give sb. pain, to inflict pain on sb."
-                    },
-                    "jdm. Schmerzen bereiten [seelisch]": {
-                        "DE_EN": "to pain sb."
-                    },
-                    "jdm. Schwierigkeiten bereiten \/ machen": {
-                        "DE_EN": "to trouble sb."
-                    },
-                    "jdm. Schwierigkeiten bereiten": {
-                        "DE_EN": "to cause difficulty for sb., to hamper sb."
-                    },
-                    "jdm. Sorgen bereiten \/ machen": {
-                        "DE_EN": "to worry sb."
-                    },
-                    "jdm. Sorgen bereiten": {
-                        "DE_EN": "to bother sb."
-                    },
-                    "jdm. ständig Schwierigkeiten bereiten": {
-                        "DE_EN": "to keep sb. in hot water all the time [sl.] [idiom]"
-                    },
-                    "jdm. Umstände bereiten": {
-                        "DE_EN": "to put sb. out [inconvenience]"
-                    },
-                    "jdm. Unannehmlichkeiten bereiten": {
-                        "DE_EN": "to be an inconvenience to sb., to cause sb. inconvenience, to discommode sb. [formal] [cause inconvenience], to inconvenience sb."
-                    },
-                    "jdm. Ungelegenheiten bereiten": {
-                        "DE_EN": "to inconvenience sb."
-                    },
-                    "jdm. Verdruss bereiten": {
-                        "DE_EN": "to cause annoyance to sb."
-                    },
-                    "jdm. Vergnügen bereiten": {
-                        "DE_EN": "to give pleasure to sb., to give sb. pleasure, to pleasure sb. [give pleasure to sb.]"
-                    },
-                    "jdm. Ärger bereiten": {
-                        "DE_EN": "to cause sb. trouble"
-                    },
-                    "Mühe bereiten": {
-                        "DE_EN": "to make work"
-                    },
-                    "Schmerzen bereiten": {
-                        "DE_EN": "to cause pain, to give pain"
-                    },
-                    "Schwierigkeiten bereiten": {
-                        "DE_EN": "to cause difficulties, to make trouble, to pose difficulties"
-                    },
-                    "Unannehmlichkeit bereiten": {
-                        "DE_EN": "to cause inconvenience"
-                    },
-                    "Unordnung bereiten": {
-                        "DE_EN": "to cause disorder"
-                    },
-                    "Unruhe bereiten": {
-                        "DE_EN": "to cause a stir"
-                    },
-                    "Unwohlsein bereiten": {
-                        "DE_EN": "to cause discomfort, to cause uneasiness"
-                    },
-                    "Vergnügen bereiten": {
-                        "DE_EN": "to afford pleasure"
-                    },
-                    "Ärger bereiten": {
-                        "DE_EN": "to bring trouble, to cause trouble, to shit-stir [Br.] [vulg.]"
                     }
                 }
             },
@@ -1140,60 +970,6 @@
                     },
                     "Höllenqualen ausstehen": {
                         "DE_EN": "to go through hell [fig.]"
-                    },
-                    "Höllenqualen ausstehen [fig.]": {
-                        "DE_EN": "to go through purgatory [fig.]"
-                    },
-                    "Ich kann ... nicht ausstehen.": {
-                        "DE_EN": "I can't abide ... . [people]"
-                    },
-                    "Ich kann es nicht mehr ausstehen.": {
-                        "DE_EN": "I can't stand it any longer."
-                    },
-                    "Ich kann ihn nicht ausstehen.": {
-                        "DE_EN": "I can't bear him., I cannot bear him."
-                    },
-                    "Ich kann sie nicht ausstehen.": {
-                        "DE_EN": "I can't stand her."
-                    },
-                    "jdn.\/etw. ausstehen (können)": {
-                        "DE_EN": "to stand sb.\/sth. [coll.] [put up with]"
-                    },
-                    "jdn.\/etw. ausstehen": {
-                        "DE_EN": "to bear sb.\/sth., to suffer sb.\/sth."
-                    },
-                    "jdn.\/etw. ausstehen [ertragen, aushalten]": {
-                        "DE_EN": "to abide sb.\/sth., to endure sb.\/sth."
-                    },
-                    "jdn.\/etw. nicht ausstehen können": {
-                        "DE_EN": "to loathe sb.\/sth."
-                    },
-                    "jdn. auf den Tod nicht ausstehen können [Redewendung]": {
-                        "DE_EN": "to hate sb.'s guts [coll.] [idiom]"
-                    },
-                    "jdn. nicht ausstehen können": {
-                        "DE_EN": "to hate sb.'s guts [coll.] [idiom], to not be able to stand sb."
-                    },
-                    "Nein danke, ich kann Machospielchen nicht ausstehen.": {
-                        "DE_EN": "No, thanks. I don't like cockfights."
-                    },
-                    "noch ausstehen": {
-                        "DE_EN": "to be yet to come, to remain to be done"
-                    },
-                    "noch ausstehen [zu erwarten sein]": {
-                        "DE_EN": "to be still expected"
-                    },
-                    "Sie hatte ihn von Anfang an nicht ausstehen können.": {
-                        "DE_EN": "She had loathed him from the moment she first met him."
-                    },
-                    "Todesqualen ausstehen": {
-                        "DE_EN": "to suffer agonies"
-                    },
-                    "Todesqualen ausstehen [fig.]": {
-                        "DE_EN": "to suffer agony"
-                    },
-                    "Todesängste ausstehen": {
-                        "DE_EN": "to be scared to death"
                     }
                 }
             },
