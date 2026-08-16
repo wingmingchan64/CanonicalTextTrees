@@ -2382,12 +2382,21 @@
                     },
                     "dem Glück vertrauen": {
                         "DE_EN": "to trust to luck"
+                    },
+                    "auf jdn.\/etw. bauen [fig.]": {
+                        "DE_EN": "to rely on sb.\/sth."
                     }
                 }
             },
             "304": {
                 "DE": "Den will er nicht verlassen.",
-                "EN1": "God will never abandon."
+                "EN1": "God will never abandon.",
+                "entry": {
+                    "verlassen": {
+                        "pronunciation": "fɛɐ̯ˈlasn̩",
+                        "DE_EN": "forlornly, forsaken, loose [deserted], to evacuate, to file out, to loose [abandon, forsake]"
+                    }
+                }
             },
             "305": {
                 "DE": "(\"Was mein Gott will, das g'scheh allzeit,\" verse 1)",
@@ -2401,7 +2410,13 @@
             },
             "308": {
                 "DE": "Und er kam und fand sie aber schlafend, und ihre Augen waren voll Schlafs. Und er ließ sie und ging abermal hin und betete zum drittenmal und redete dieselbigen Worte. Da kam er zu seinen Jüngern und sprach zu ihnen:",
-                "EN1": "And he came back and found them sleeping, nevertheless, and their eyes were full of sleep. And he left them and went away another time and prayed for the third time, and spoke the same words. Then he came back to his disciples and said to them:"
+                "EN1": "And he came back and found them sleeping, nevertheless, and their eyes were full of sleep. And he left them and went away another time and prayed for the third time, and spoke the same words. Then he came back to his disciples and said to them:",
+                "entry": {
+                    "abermals": {
+                        "pronunciation": "ˈaːbɐmaːls",
+                        "DE_EN": "again, anew, once again, once more"
+                    }
+                }
             }
         },
         "66": {
@@ -2411,7 +2426,34 @@
             },
             "311": {
                 "DE": "Ach! Wollt ihr nun schlafen und ruhen? Siehe, die Stunde ist hie, daß des Menschen Sohn in der Sünder Hände überantwortet wird. Stehet auf, lasset uns gehen; siehe, er ist da der mich verrät.",
-                "EN1": "Alas! Do you wish to sleep and rest now? Behold, the hour has come, when the Son of Man is to be handed over into the hands of sinners. Get up, let us go; see, he who betrays me is here."
+                "EN1": "Alas! Do you wish to sleep and rest now? Behold, the hour has come, when the Son of Man is to be handed over into the hands of sinners. Get up, let us go; see, he who betrays me is here.",
+                "entry": {
+                    "ruhen": {
+                        "pronunciation": "ˈʁuːən",
+                        "DE_EN": "to repose, to rest"
+                    },
+                    "siehe": {
+                        "pronunciation": "ˈziːə"
+                    },
+                    "Oberster Gerichtshof des Vereinigten Königreichs [ab 2009; davor siehe House of Lords]": {
+                        "DE_EN": "Supreme Court of the United Kingdom"
+                    },
+                    "Richter des Obersten Gerichtshofs [des Vereinigten Königreichs] [ab 2009; davor siehe Lord of Appeal in Ordinary]": {
+                        "DE_EN": "Justice of the Supreme Court [of the United Kingdom]"
+                    },
+                    "Richter des Obersten Gerichtshofs [des Vereinigten Königreichs] [ab 2009; davor siehe Lords of Appeal in Ordinary]": {
+                        "DE_EN": "Justices of the Supreme Court [of the United Kingdom]"
+                    },
+                    "siehe <s.> [Verweis in Texten; z. B. ”siehe Seite 99”]": {
+                        "DE_EN": "see [reference in texts; e.g. ”see page 99”]"
+                    },
+                    "siehe Abbildung <s. Abb.>": {
+                        "DE_EN": "see figure <see fig.>"
+                    },
+                    "siehe Anhang [eines Buches etc.]": {
+                        "DE_EN": "see appendix [of a book etc.]"
+                    }
+                }
             }
         },
         "67": {
@@ -2421,7 +2463,29 @@
             },
             "314": {
                 "DE": "Und als er noch redete, siehe, da kam Judas, der Zwölfen einer, und mit ihm einer große Schar mit Schwerten und mit Stangen von den Hohenpriester und Ältesten des Volks. Und der Verräter hatte ihnen ein Zeichen gegeben und gesagt: \"Welchen ich küssen werde, der ists, den greifet!\" Und alsbald trat er zu Jesu und sprach:",
-                "EN1": "And as he was speaking, behold, there came Judas, one of the twelve, and with him a large troop from the high priest and the elders of the people with swords and spears. And the betrayer had given them a sign and said: \"The one that I will kiss is him; seize him!\" And just then he stepped forward to Jesus and said:"
+                "EN1": "And as he was speaking, behold, there came Judas, one of the twelve, and with him a large troop from the high priest and the elders of the people with swords and spears. And the betrayer had given them a sign and said: \"The one that I will kiss is him; seize him!\" And just then he stepped forward to Jesus and said:",
+                "entry": {
+                    "Schar": {
+                        "pronunciation": "ʃaːɐ̯",
+                        "DE_EN": "band, bevy, clutch, crowd, drove, flight [birds], flock, gaggle, horde, passel [Am.] [coll.], posse [coll.], regiment [group of people], sheaf [family], shoal, skein, swarm, troop"
+                    },
+                    "Schwert": {
+                        "pronunciation": "ʃvɛʁt",
+                        "DE_EN": "blade, brand [archaic], daggerboard [windsurfing], sword"
+                    },
+                    "Stange": {
+                        "pronunciation": "ˈʃtaŋə",
+                        "DE_EN": "bar, perch [for bird], pole, rod, rod [beer glass, 0.3 or 0.25 l], staff, stem [beer glass, 0.3 or 0.25 l], stick, stick [beer glass, 0.3 or 0.25 l]"
+                    },
+                    "Zeichen": {
+                        "pronunciation": "ˈt͡saɪ̯çn̩",
+                        "DE_EN": "emblem, glyph, sign, token [sign], chars [coll.] [characters], imprint [fig.], indicia {pl}, signs"
+                    },
+                    "alsbald": {
+                        "pronunciation": "alsˈbalt",
+                        "DE_EN": "belive  [Scot.], quickly [soon afterwards]"
+                    }
+                }
             }
         },
         "68": {
@@ -2431,7 +2495,15 @@
             },
             "317": {
                 "DE": "Gegrüßet seist du, Rabbi!",
-                "EN1": "Greetings to you, Rabbi!"
+                "EN1": "Greetings to you, Rabbi!",
+                "entry": {
+                    "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir.": {
+                        "DE_EN": "Hail Mary, full of grace, the Lord is with thee."
+                    },
+                    "Gegrüßet seist du, Maria": {
+                        "DE_EN": "Hail Mary"
+                    }
+                }
             }
         },
         "69": {
@@ -2461,7 +2533,13 @@
             },
             "326": {
                 "DE": "Da traten sie hinzu und legte die Hände an Jesum und griffen ihn.",
-                "EN1": "Then they stepped forward and laid hands on Jesus and seized him."
+                "EN1": "Then they stepped forward and laid hands on Jesus and seized him.",
+                "entry": {
+                    "legen": {
+                        "pronunciation": "ˈleːɡŋ̩",
+                        "DE_EN": "to lay, to place, to position, to put, to set, to stick"
+                    }
+                }
             }
         },
         "72": {
@@ -2471,11 +2549,22 @@
             },
             "329": {
                 "DE": "So ist mein Jesus nun gefangen.",
-                "EN1": "Thus my Jesus is now captured."
+                "EN1": "Thus my Jesus is now captured.",
+                "entry": {
+                    "gefangen": {
+                        "pronunciation": "ɡəˈfaŋən",
+                        "DE_EN": "captive, captured, caught, ensnared, trapped"
+                    }
+                }
             },
             "330": {
                 "DE": "-Laßt ihn, haltet, bindet nicht! -",
-                "EN1": "- Leave him, stop, don't bind him! -"
+                "EN1": "- Leave him, stop, don't bind him! -",
+                "entry": {
+                    "Laßt ihn": {
+                        "Google": "Lasst ihn, leave him alone"
+                    }
+                }
             },
             "331": {
                 "DE": "Mond und Licht",
@@ -2483,7 +2572,17 @@
             },
             "332": {
                 "DE": "Ist vor Schmerzen untergangen,",
-                "EN1": "for sorrow have set,"
+                "EN1": "for sorrow have set,",
+                "entry": {
+                    "Schmerzen": {
+                        "pronunciation": "ˈʃmɛʁt͡sn̩",
+                        "DE_EN": "aches and pains, aches, ache {sg}, pains, pain {sg}, pangs"
+                    },
+                    "untergehen": {
+                        "pronunciation": "ˈʊntɐˌɡeːən",
+                        "DE_EN": "to be destroyed, to founder, to go down, to perish, to sink"
+                    }
+                }
             },
             "333": {
                 "DE": "Weil mein Jesus ist gefangen.",
@@ -2501,23 +2600,77 @@
             },
             "337": {
                 "DE": "Sind Blitze, sind Donner",
-                "EN1": "Are lightning and thunder"
+                "EN1": "Are lightning and thunder",
+                "entry": {
+                    "Blitz": {
+                        "pronunciation": "blɪt͡s",
+                        "DE_EN": "(optical) flash, bolt of lightning, bolt [thunderbolt], fire-flaught [Scot.] [obs.] [flash of lightning], flashing, flash, levin [archaic], lighten [Scot.], lightning flash, lightning, strike, thunderbolt"
+                    },
+                    "Donner": {
+                        "pronunciation": "ˈd̥ɔnːr̩",
+                        "DE_EN": "thunder"
+                    }
+                }
             },
             "338": {
                 "DE": "in Wolken verschwunden?",
-                "EN1": "extinguished in the clouds?"
+                "EN1": "extinguished in the clouds?",
+                "entry": {
+                    "Wolke": {
+                        "pronunciation": "ˈvɔlkə",
+                        "DE_EN": "cloud"
+                    },
+                    "verschwinden": {
+                        "pronunciation": "fɛɐ̯ˈʃvɪndn̩",
+                        "DE_EN": "to abscond, to bail out (of) [sl.] [disappear], to come off, to come out, to disappear, to dissolve [disappear], to go away [vanish, disappear], to go missing, to take a long hike off a short pier [coll.], to vanish"
+                    }
+                }
             },
             "339": {
                 "DE": "Eröffne den feurigen Abgrund, o Hölle,",
-                "EN1": "Open the fiery abyss, O Hell,"
+                "EN1": "Open the fiery abyss, O Hell,",
+                "entry": {
+                    "eröffnen": {
+                        "pronunciation": "ɛɐ̯ˈʔœfnən",
+                        "DE_EN": "to establish, to initialise [Br..], to initialize, to introduce, to open up, to open, to start off [discussion, conversation, season], to unclose"
+                    },
+                    "Abgrund": {
+                        "pronunciation": "ˈapˌɡʁʊnt",
+                        "DE_EN": "abysm [literary], abyss, bottomless pit, chasm, deep, fovea, precipice"
+                    }
+                }
             },
             "340": {
                 "DE": "Zertrümmre, verderbe, verschlinge, zerschelle",
-                "EN1": "crush, destroy, devour, smash"
+                "EN1": "crush, destroy, devour, smash",
+                "entry": {
+                    "zertrümmern": {
+                        "pronunciation": "t͡sɛɐ̯ˈtʁʏmɐn",
+                        "DE_EN": "to break to smithereens, to dash to pieces, to pound"
+                    },
+                    "verderben": {
+                        "pronunciation": "fɛɐ̯ˈdɛʁbn̩",
+                        "DE_EN": "to abase, to addle, to barbarize, to canker, to corrupt, to damn, to debase, to decay, to defile, to degenerate, to demoralize, to deteriorate, to go bad, to mess up, to perish [rot or decay], to poison [corrupt], to spoil, to vitiate, to vulgarise [Br.], to vulgarize"
+                    },
+                    "verschlingen": {
+                        "pronunciation": "fɛɐ̯ˈʃlɪŋən",
+                        "DE_EN": "to gulp down, to gulp, to suck under [completely]"
+                    },
+                    "zerschellen": {
+                        "pronunciation": "ˌt͡sɛɐ̯ˈʃɛlən",
+                        "DE_EN": "to be smashed, to burst [ship, plane] [also fig.], to shatter, to smash to pieces"
+                    }
+                }
             },
             "341": {
                 "DE": "Mit plötzlicher Wut",
-                "EN1": "with sudden rage"
+                "EN1": "with sudden rage",
+                "entry": {
+                    "Wut": {
+                        "pronunciation": "vuːt",
+                        "DE_EN": "66º North [Michael Ridpath], Fury [Salman Rushdie], anger, angriness, bate [Br.] [dated] [coll.] [spv.] [bait] [an angry mood, a rage], birse [esp. Scot.] [anger, rage], dander, emportment [rare] [anger, fury], enragedness, fume [fig.], furiousness, fury, incensement, infuriation, irateness, ire, rabidness, rage [anger], spleen [fury], temper, umbrage [offence, ire], wrath [literary or hum.]"
+                    }
+                }
             },
             "342": {
                 "DE": "Den falschen Verräter, das mördrische Blut!",
@@ -2531,7 +2684,30 @@
             },
             "345": {
                 "DE": "Und siehe, einer aus denen, die mit Jesu waren, reckete die Hand aus, und schlug des Hohenpriesters Knecht und hieb ihm ein Ohr ab. Da sprach Jesus zu ihm:",
-                "EN1": "And behold, one of those who were with Jesus stretched out his hand and struck a servant of the high priest, and cut off his ear. Then Jesus said to him:"
+                "EN1": "And behold, one of those who were with Jesus stretched out his hand and struck a servant of the high priest, and cut off his ear. Then Jesus said to him:",
+                "entry": {
+                    "recken": {
+                        "pronunciation": "ˈʁɛkn̩",
+                        "DE_EN": "to draw out, to forge down, to strain"
+                    },
+                    "schlagen": {
+                        "pronunciation": "ˈʃlaːɡŋ̩",
+                        "DE_EN": "to colaphize [obs.] [buffet], to flap [wings, doors, shutters], to knock (at), to slat [strike, beat], to strike out [hit out], to thrash, to whack [coll.], to whap [coll.] [rare] [spv. of whop], to whop [Am.] [coll.]"
+                    },
+                    "Knecht": {
+                        "pronunciation": "knɛçt",
+                        "DE_EN": "churl [archaic] [farm labourer], farm hand [live-in], farm labourer [Br.] [live-in], menial [servant]"
+                    },
+                    "abheben": {
+                        "pronunciation": "ˈapˌheːbn̩",
+                        "Langenscheidt": "to cut off",
+                        "DE_EN": "to blast off [space rocket], to get airborne, to lift off, to take off"
+                    },
+                    "Ohr": {
+                        "pronunciation": "oːɐ̯",
+                        "DE_EN": "earhole [Br.] [coll.], ear, lug [N. Engl.] [Scot.]"
+                    }
+                }
             }
         },
         "75": {
@@ -2541,7 +2717,33 @@
             },
             "348": {
                 "DE": "Stecke dein Schwert an seinen Ort; denn wer das Schwert nimmt, der soll durchs Schwert umkommen. Oder meinest du, daß ich nicht könnte meinen Vater bitten, daß er mir zuschickte mehr denn zwölf Legion Engel? Wie würde aber die Schrift erfüllet? Es muß also gehen.",
-                "EN1": "Put your sword back in its place; for whoever takes the sword will perish through the sword. Or do you think that I could not ask my Father to send me more than twelve legions of angels? How would the scripture be fulfilled then? It must happen thus."
+                "EN1": "Put your sword back in its place; for whoever takes the sword will perish through the sword. Or do you think that I could not ask my Father to send me more than twelve legions of angels? How would the scripture be fulfilled then? It must happen thus.",
+                "entry": {
+                    "stecken": {
+                        "pronunciation": "ˈʃtɛkn̩",
+                        "DE_EN": "to plunge [to thrust], to put, to stick, to thrust, to tuck [put]"
+                    },
+                    "umkommen": {
+                        "pronunciation": "ˈʊmˌkɔmən",
+                        "DE_EN": "to be killed, to lose one's life, to meet one's death, to perish"
+                    },
+                    "zuschicken": {
+                        "pronunciation": "ˈt͡suːˌʃɪkn̩"
+                    },
+                    "Ich lasse es mir zuschicken.": {
+                        "DE_EN": "I have it sent to me."
+                    },
+                    "jdm.\/etw. etw. zuschicken": {
+                        "DE_EN": "to send sth. to sb.\/sth."
+                    },
+                    "jdm. etw. zuschicken": {
+                        "DE_EN": "to send sb. sth."
+                    },
+                    "erfüllen": {
+                        "pronunciation": "ɛɐ̯ˈfʏlən",
+                        "DE_EN": "to grant"
+                    }
+                }
             }
         },
         "76": {
@@ -2551,7 +2753,13 @@
             },
             "351": {
                 "DE": "Zu der Stund sprach Jesus zu den Scharen:",
-                "EN1": "At the time Jesus said to the crowd:"
+                "EN1": "At the time Jesus said to the crowd:",
+                "entry": {
+                    "Scharen": {
+                        "pronunciation": "ˈʃaːʁən",
+                        "DE_EN": "multitudes [of people, animals]"
+                    }
+                }
             }
         },
         "77": {
@@ -2561,7 +2769,27 @@
             },
             "354": {
                 "DE": "Ihr seid ausgegangen als zu einem Mörder, mit Schwerten und mit Stangen, mich zu fahen; bin ich doch täglich bei euch gesessen und habe gelehret im Tempel, und ihr habt mich nicht gegriffen. Aber das ist alles geschehen, daß erfüllet würden die Schriften der Propheten.",
-                "EN1": "You have come out as if to a murderer, with swords and spears to take me; yet I have daily sat among you and have taught in the Temple, and you did not arrest me. However all of this has happened in order to fulfill the writings of the prophets."
+                "EN1": "You have come out as if to a murderer, with swords and spears to take me; yet I have daily sat among you and have taught in the Temple, and you did not arrest me. However all of this has happened in order to fulfill the writings of the prophets.",
+                "entry": {
+                    "fahen": {
+                        "pronunciation": "ˈfaːən"
+                    },
+                    "jdn.\/etw. fahen [veraltet] [einfangen]": {
+                        "DE_EN": "to catch sb.\/sth. [capture]"
+                    },
+                    "sitzen": {
+                        "pronunciation": "ˈzɪt͡sn̩",
+                        "DE_EN": "to be based [business], to be sat [coll.] [to be sitting], to be seated, to fit, to sit"
+                    },
+                    "lehren": {
+                        "pronunciation": "ˈleːʁən",
+                        "DE_EN": "to learn [archaic or coll.], to teach"
+                    },
+                    "Prophet": {
+                        "pronunciation": "ˌpʁoˈfeːt",
+                        "DE_EN": "predictor, prophet, revelator, seer"
+                    }
+                }
             }
         },
         "78": {
