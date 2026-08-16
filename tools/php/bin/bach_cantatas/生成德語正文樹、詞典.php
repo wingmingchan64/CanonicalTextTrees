@@ -87,7 +87,8 @@ $german_folder = dirname( __DIR__, 4 ) .
 if( in_array( 'pronunciation', $switches ) )
 {
 	$pronunciation_file = $german_folder . 	
-		'pronunciation.json';
+		//'pronunciation.json';
+		'DE_IPA.json';
 	$pronunciation = json_decode(
 		file_get_contents( $pronunciation_file ), true);
 }
@@ -192,7 +193,7 @@ foreach( $metadata as $path => $terms )
 						) )
 					{
 						$pointer[ 'entry' ][ $k ][ 'DE_EN' ] = $wordlist[ $k ];
-						break;
+						//break;
 					}
 				}
 			}

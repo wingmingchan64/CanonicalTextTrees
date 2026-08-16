@@ -2,7 +2,17 @@
     "244": {
         "篇名": {
             "DE": "BWV 244 - Matthäus-Passion",
-            "EN1": "BWV 244 - St. Matthew Passion"
+            "EN1": "BWV 244 - St. Matthew Passion",
+            "entry": {
+                "Matthäus": {
+                    "pronunciation": "maˈtɛːʊs",
+                    "DE_EN": "Matthew"
+                },
+                "Passion": {
+                    "pronunciation": "paˈsi̯oːn",
+                    "DE_EN": "passion"
+                }
+            }
         },
         "1": {
             "3": {
@@ -20,11 +30,11 @@
                 "EN1": "(Daughters of Zion and Faithful Souls)",
                 "entry": {
                     "Töchter": {
-                        "pronunciation": "\/ˈtœçtɐ\/",
+                        "pronunciation": "ˈtœçtɐ",
                         "DE_EN": "daughters"
                     },
                     "Gläubige": {
-                        "pronunciation": "\/ˈɡlɔybɪɡə\/",
+                        "pronunciation": "ˈɡlɔɪ̯bɪɡə",
                         "grammar": "der; genitive, singular Gläubigen | nominative, plural Gläubigen",
                         "Langenscheidt": "believer",
                         "Cambridge": "religiöser Mensch",
@@ -37,6 +47,7 @@
                 "EN1": "Come, daughters, help me lament,",
                 "entry": {
                     "klagen": {
+                        "pronunciation": "ˈklaːɡn̩",
                         "Langenscheidt": "to complain, to lament",
                         "Cambridge": "äußern, dass man unter etw. leidet",
                         "DE_EN": "to complain, to file a suit, to go to law, to lament, to litigate, to sue (at law)"
@@ -56,7 +67,7 @@
                 "EN1": "Behold! - what? - behold the patience,",
                 "entry": {
                     "Geduld": {
-                        "pronunciation": "\/ɡəˈdʊlt\/",
+                        "pronunciation": "ˈɡədʊlt",
                         "grammar": "die; genitive, singular Geduld",
                         "Langenscheidt": "patience",
                         "Cambridge": "Fähigkeit, auf etw. zu warten oder Nachsicht zu zeigen",
@@ -69,6 +80,7 @@
                 "EN1": "look! - where? - at our guilt.",
                 "entry": {
                     "Schuld": {
+                        "pronunciation": "ʃʊlt",
                         "grammar": "die; genitive, singular Schuld | nominative , plural Schulden",
                         "Langenscheidt": "blame, guilt, sin, debt, obligation",
                         "Cambridge": "Zustand, schuldig zu sein",
@@ -81,6 +93,7 @@
                 "EN1": "See him, out of love and graciousness",
                 "entry": {
                     "Huld": {
+                        "pronunciation": "hʊlt",
                         "grammar": "die",
                         "Langenscheidt": "favor, grace"
                     },
@@ -102,7 +115,7 @@
                 "EN1": "slaughtered on the trunk of the Cross,",
                 "entry": {
                     "schlachten": {
-                        "pronunciation": "\/ˈʃlaxtən\/",
+                        "pronunciation": "ˈʃlaxtn̩",
                         "Langenscheidt": "to slaughter",
                         "Cambridge": "ein Tier töten und zerlegen, um dessen Fleisch für die Ernährung zu verwenden",
                         "DE_EN": "to butcher, to slaughter"
@@ -114,10 +127,12 @@
                 "EN1": "patient at all times,",
                 "entry": {
                     "erfunden": {
+                        "pronunciation": "ɛɐ̯ˈfʊndn̩",
                         "Langenscheidt": "Partizip Perfekt: erfinden",
                         "DE_EN": "contrived, devised, fictional, imaginary, invented, made-up, phoney  [coll.], phony  [coll.]"
                     },
                     "erfinden": {
+                        "pronunciation": "ɛɐ̯ˈfɪndn̩",
                         "DE_EN": "to devise, to forge [invent], to invent"
                     }
                 }
@@ -127,7 +142,7 @@
                 "EN1": "however you were scorned.",
                 "entry": {
                     "verachten": {
-                        "pronunciation": "\/fɛɐˈ|axtən\/",
+                        "pronunciation": "fɛɐ̯ˈʔaxtn̩",
                         "Langenscheidt": "to scorn, to scoff at, to dispise",
                         "Cambridge": "als schlecht und minderwertig betrachten",
                         "DE_EN": "to condemn, to disdain, to disparage, to regard \/ treat with contempt, to spurn"
@@ -139,6 +154,7 @@
                 "EN1": "you have borne all sins,",
                 "entry": {
                     "Sünde": {
+                        "pronunciation": "ˈzʏndə",
                         "grammar": "die; genitive, singular Sünde | nominative, plural Sünden",
                         "Langenscheidt": "sin",
                         "Cambridge": "Verstoß gegen die Regeln der Religion",
@@ -151,11 +167,24 @@
                 "EN1": "otherwise we would have to despair.",
                 "entry": {
                     "verzagen": {
+                        "pronunciation": "fɛɐ̯ˈt͡saːɡn̩",
                         "Langenscheidt": "to loose heart, to despair",
                         "Cambridge": "den Mut verlieren"
                     },
                     "Nicht verzagen.": {
                         "DE_EN": "Don't give up hope."
+                    },
+                    "verzagen [geh.] [den Mut verlieren]": {
+                        "DE_EN": "to lose heart [idiom], to quail [lose heart]"
+                    },
+                    "verzagen [geh.] [die Hoffnung aufgeben]": {
+                        "DE_EN": "to give up hope"
+                    },
+                    "verzagen [geh.] [die Zuversicht oder das Selbstvertrauen verlieren]": {
+                        "DE_EN": "to despond [archaic] [lose confidence]"
+                    },
+                    "verzagen [geh.] [verzweifeln]": {
+                        "DE_EN": "to despair, to grow disconsolate"
                     }
                 }
             },
@@ -164,11 +193,15 @@
                 "EN1": "Have mercy on us, O Jesus.",
                 "entry": {
                     "erbarmen": {
+                        "pronunciation": "ɛɐ̯ˈbaʁmən",
                         "Langenscheidt": "to take pity",
                         "Cambridge": "Mitleid mit jdm empfinden und ihm helfen"
                     },
                     "jdn. erbarmen [österr., sonst selten] [jds. Mitleid erregen]": {
                         "DE_EN": "to arouse sb.'s pity"
+                    },
+                    "sich [Akk.] jds. erbarmen [geh.]": {
+                        "DE_EN": "to take pity on sb."
                     }
                 }
             },
@@ -180,19 +213,26 @@
         "3": {
             "23": {
                 "DE": "2. Evangelist",
-                "EN1": "2. Evangelist"
+                "EN1": "2. Evangelist",
+                "entry": {
+                    "Evangelist": {
+                        "pronunciation": "evaŋɡeˈlɪst",
+                        "DE_EN": "evangelist"
+                    }
+                }
             },
             "24": {
                 "DE": "Da Jesus diese Rede vollendet hatte, sprach er zu seinen Jüngern:",
                 "EN1": "When Jesus had finished this speech, he said to his disciples:",
                 "entry": {
                     "vollenden": {
-                        "pronunciation": "\/fɔlˈ|ɛndən\/",
+                        "pronunciation": "fɔlˈʔɛndn̩",
                         "Langenscheidt": "to complete, to accomplish",
                         "Cambridge": "erfolgreich zu Ende bringen",
                         "DE_EN": "to achieve, to complete, to finish (off), to perfect"
                     },
                     "Jünger": {
+                        "pronunciation": "ˈjʏŋɐ",
                         "grammar": "der; genitive, singular Jüngers | nominative, plural Jünger",
                         "Langenscheidt": "disciple",
                         "Cambridge": "Anhänger von Jesus, einem Propheten oder einer Lehre",
@@ -204,13 +244,56 @@
         "4": {
             "26": {
                 "DE": "Jesus",
-                "EN1": "Jesus"
+                "EN1": "Jesus",
+                "entry": {
+                    "Jesus": {
+                        "pronunciation": "ˈjeːzʊs",
+                        "DE_EN": "Jesus, Jesu [poet.]"
+                    }
+                }
             },
             "27": {
                 "DE": "Ihr wisset daß nach zweien Tagen Ostern wird, und des Menschen Sohn wird überantwortet werden, daß er gekreuziget werde.",
                 "EN1": "You know that in two days it will be Passover, and the Son of Man will be handed over to be crucified.",
                 "entry": {
+                    "Ostern": {
+                        "pronunciation": "ˈoːstɐn"
+                    },
+                    "an Ostern": {
+                        "DE_EN": "at Easter"
+                    },
+                    "Das ist wie Ostern und Weihnachten zusammen!": {
+                        "DE_EN": "It's as if Christmas had come early!"
+                    },
+                    "die Tage um Ostern (herum)": {
+                        "DE_EN": "the days either side of Easter"
+                    },
+                    "letzte Ostern": {
+                        "DE_EN": "last Easter {sg}"
+                    },
+                    "letztes Ostern": {
+                        "DE_EN": "last Easter"
+                    },
+                    "Ostern mit Schnee": {
+                        "DE_EN": "Easter with snow"
+                    },
+                    "Ostern [regional, österr., schweiz., in Wunschformeln: {pl}]": {
+                        "DE_EN": "Easter"
+                    },
+                    "weiße Ostern": {
+                        "DE_EN": "white Easter {sg}"
+                    },
+                    "Wenn Ostern und Pfingsten auf einen Tag fallen. [Redewendung]": {
+                        "DE_EN": "If pigs could fly. [idiom]"
+                    },
+                    "Wenn Ostern und Pfingsten auf einen Tag fällt. [Redewendung]": {
+                        "DE_EN": "If pigs could fly. [idiom]"
+                    },
+                    "zu Ostern": {
+                        "DE_EN": "at Easter"
+                    },
                     "überantworten": {
+                        "pronunciation": "yːbɐˈʔantˌvɔʁtn̩",
                         "Langenscheidt": "to hand over",
                         "DE_EN": "to sign over"
                     }
@@ -227,10 +310,14 @@
                 "EN1": "Heart's beloved Jesus, how have you transgressed,",
                 "entry": {
                     "verbrechen": {
+                        "pronunciation": "fɛɐ̯ˈbʁɛçn̩",
                         "Langenscheidt": "to be up to, to commit a crime"
                     },
                     "etw. [Akk.] verbrechen [fig.]": {
                         "DE_EN": "to perpetrate sth."
+                    },
+                    "etwas verbrechen": {
+                        "DE_EN": "to commit a crime"
                     }
                 }
             },
@@ -239,11 +326,13 @@
                 "EN1": "that such a harsh sentence has been pronounced?",
                 "entry": {
                     "scharf": {
+                        "pronunciation": "ʃaʁf",
                         "Langenscheidt": "sharp, harsh",
                         "Cambridge": "leicht und gut schneidend, streng",
                         "DE_EN": "acridly, keenly, poignantly, pungently, sharp-edged, sharp, sharply, spicy, trenchantly, virulently  [fig.]"
                     },
                     "Urteil": {
+                        "pronunciation": "ˈʊʁˌtaɪ̯l",
                         "grammar": "judgement, condemnation, sentence",
                         "Cambridge": "begründete Meinung, die man über jdn \/ etw. hat oder äußert, offizielle Entscheidung eines Richters",
                         "DE_EN": "adjudgment, adjudication, assessment [judgment], discretion [judgement], judgement, judgment, sentence"
@@ -255,13 +344,19 @@
                 "EN1": "What is the crime, of what kind of misdeed",
                 "entry": {
                     "Missetat": {
-                        "pronunciation": "\/ˈmɪsətaːt\/",
+                        "pronunciation": "ˈmɪsəˌtaːt",
                         "grammar": "die; genitive, singular Missetat | nominative, plural Missetaten",
                         "Langenscheidt": "misdeed",
                         "Cambridge": "schlechte, verbotene Tat"
                     },
                     "eine Missetat begehen": {
                         "DE_EN": "to commit a deed"
+                    },
+                    "Missetat [geh.] [veraltend]": {
+                        "DE_EN": "evildoing [Br.], malefaction, misdeed, quede [obs.] [evil deed], wrongdoing"
+                    },
+                    "Missetat [veraltend] [geh.]": {
+                        "DE_EN": "iniquity [wicked act]"
                     }
                 }
             },
@@ -270,6 +365,7 @@
                 "EN1": "are you accused?",
                 "entry": {
                     "geraten": {
+                        "pronunciation": "ɡəˈʁaːtn̩",
                         "Langenscheidt": "to get into",
                         "Cambridge": "unbeabsichtigt an einen Ort oder in eine Situation kommen",
                         "DE_EN": "advised, counseled [Am.], counselled [Br.], guessed, turned out  [well, bad etc.]"
@@ -291,16 +387,19 @@
                 "EN1": "Then the high priests and the scribes and the elders of the people gathered in the palace of the high priest, who was named Caiaphas, and took council how with deception they could seize Jesus and kill him. They said, however:",
                 "entry": {
                     "versammeln": {
+                        "pronunciation": "fɛɐ̯ˈzaml̩n",
                         "Langenscheidt": "to gather, to assemble",
                         "Cambridge": "als Gruppe an einem Ort zusammenkommen",
                         "DE_EN": "to congregate, to convene, to convent [obs.], to gather [esp. of people]"
                     },
                     "Schriftgelehrte": {
+                        "pronunciation": "ˈʃʁɪftɡəˌleːɐ̯tə",
                         "grammar": "der",
                         "Langenscheidt": "scribe",
                         "DE_EN": "scribes"
                     },
                     "greifen": {
+                        "pronunciation": "ˈɡʁaɪ̯fn̩",
                         "Langenscheidt": "to seize, to catch",
                         "Cambridge": "etw. mit der Hand nehmen",
                         "DE_EN": "to bite [wheels, screw], to snatch, to take hold of"
@@ -333,15 +432,19 @@
                 "EN1": "Now when Jesus was in Bethany, in the house of Simon the leper, a woman came to him with a cup filled with valuable water; and she poured it upon his head as he sat at the table. When his disciples saw this, they were against it and said:",
                 "entry": {
                     "Aussätziger": {
+                        "pronunciation": "ˈaʊ̯sˌzɛt͡sɪɡɐ",
                         "DE_EN": "lazar [archaic] [leper]"
                     },
                     "treten": {
+                        "pronunciation": "ˈtʁeːtn̩",
                         "DE_EN": "to step, to tread (on)"
                     },
                     "köstlich": {
+                        "pronunciation": "ˈkœstlɪç",
                         "DE_EN": "delectable, delectably, delicate, delicious, deliciously, delightsome, delish [coll.], mouth-watering, toothsome, yum-yum  [coll.]"
                     },
                     "gießen": {
+                        "pronunciation": "ˈɡiːsn̩",
                         "grammar": "3rd, singular, preterit goss | past participle gegossen",
                         "DE_EN": "to cast, to found [metal, glass], to mold [Am.]"
                     },
@@ -361,6 +464,7 @@
                 "EN1": "What purpose does this foolishness serve? This water could have been sold for a high price and given to the poor.",
                 "entry": {
                     "Unrat": {
+                        "pronunciation": "ˈʊnʁaːt",
                         "DE_EN": "dross, filth [fig.], muck"
                     }
                 }
@@ -376,6 +480,7 @@
                 "EN1": "When Jesus heard this, he said to them:",
                 "entry": {
                     "merken": {
+                        "pronunciation": "ˈmɛʁkn̩",
                         "DE_EN": "to bookmark, to notice, to realize [to become aware]"
                     }
                 }
@@ -390,19 +495,44 @@
                 "DE": "Was bekümmert ihr das Weib? Sie hat ein gut Werk an mir getan. Ihr habet allezeitArmen bei euch, mich aber habt ihr nicht allezeit. Daß sie dies Wasser hat aufmeinen Leib gegossen, hat sie getan, daß man mich begraben wird. Wahrlich, ichsage euch: Wo dies Evangelium geprediget wird in der ganzen Welt, da wird manauch sagen zu ihrem Gedächtnis, was sie getan hat.",
                 "EN1": "Why do you trouble the woman? She has done a gooddeed for me. You will have the poor with you always, but you will not alwayshave me. She has poured this water on my body because I will be buried. Truly Isay to you: wherever this Gospel will be preached in the whole world they will tell, in her memory, what she has done.",
                 "entry": {
+                    "bekümmern": {
+                        "pronunciation": "bəˈkʏmɐn"
+                    },
                     "jdn. bekümmern": {
                         "DE_EN": "to distress sb., to trouble sb., to worry sb."
                     },
+                    "jdn. bekümmern [bedrücken]": {
+                        "DE_EN": "to vex sb. [afflict]"
+                    },
+                    "jdn. bekümmern [ärgern, irritieren]": {
+                        "DE_EN": "to fash sb. [Scot.] [vex]"
+                    },
+                    "jdn. bekümmern [ärgern, verdrießen]": {
+                        "DE_EN": "to chagrin sb."
+                    },
+                    "sich [Akk.] (wegen etw. [Gen.]) bekümmern [geh.] [veraltend]": {
+                        "DE_EN": "to worry (about sth.)"
+                    },
+                    "sich [Akk.] um jdn.\/etw. bekümmern [geh.] [veraltend]": {
+                        "DE_EN": "to concern oneself with sb.\/sth."
+                    },
+                    "sich über etw. bekümmern": {
+                        "DE_EN": "to worry about sth."
+                    },
                     "Leib": {
+                        "pronunciation": "laɪ̯p",
                         "DE_EN": "body and limbs, body"
                     },
                     "begraben": {
+                        "pronunciation": "bəˈɡʁaːbn̩",
                         "DE_EN": "buried, entombed, interred, sepulchered  [Am.], sepulchred  [Br.], to inter"
                     },
                     "predigen": {
+                        "pronunciation": "ˈpʁeːdɪɡn̩",
                         "DE_EN": "to jaw [coll.] [to moralize], to preach, to sermonize"
                     },
                     "Gedächtnis": {
+                        "pronunciation": "ɡəˈdɛçtnɪs",
                         "DE_EN": "memory, mind [memory], remembrance, retention"
                     }
                 }
@@ -418,6 +548,7 @@
                 "EN1": "O you dear Savior,",
                 "entry": {
                     "Heiland": {
+                        "pronunciation": "ˈhaɪ̯ˌlant",
                         "DE_EN": "Redeemer, savior [Am.], saviour [Br.]"
                     }
                 }
@@ -427,9 +558,11 @@
                 "EN1": "when your disciples foolishly protest",
                 "entry": {
                     "töricht": {
+                        "pronunciation": "ˈtøːʁɪçt",
                         "DE_EN": "absurd, asinine, daft  [Br.]  [coll.], fatuous, fond [dated for: foolish], foolhardy, foolish, misguided, misguidedly, silly, stupid, unwise"
                     },
                     "streiten": {
+                        "pronunciation": "ˈʃtʁaɪ̯tn̩",
                         "DE_EN": "to altercate [archaic], to bicker [quarrel], to brabble, to brawl, to contest, to differ, to disagree, to dispute, to fratch [N. Engl.], to hassle [coll.] [argue], to have an argument, to litigate, to quarrel, to row [Br.] [coll.] [quarrel], to stickle, to struggle, to wrangle"
                     }
                 }
@@ -439,6 +572,7 @@
                 "EN1": "that this virtuous woman",
                 "entry": {
                     "fromm": {
+                        "pronunciation": "fʁɔm",
                         "DE_EN": "devotional, devout, devoutly, divine, godly, pious, piously, religious, saintly"
                     }
                 }
@@ -448,6 +582,7 @@
                 "EN1": "prepares your body",
                 "entry": {
                     "Salbe": {
+                        "pronunciation": "ˈzalbə",
                         "DE_EN": "balm [ointment], ointment, salve, unguent"
                     }
                 }
@@ -457,10 +592,188 @@
                 "EN1": "with ointment for the grave,",
                 "entry": {
                     "bereiten": {
+                        "pronunciation": "bəˈʁaɪ̯tn̩",
                         "Langenscheidt": "to prepare, to give, to cause"
                     },
                     "(jdm.) Umstände bereiten [geh.]": {
                         "DE_EN": "to cause inconvenience (to sb.)"
+                    },
+                    "(jdm.) Unbehagen bereiten": {
+                        "DE_EN": "to cause (sb.) discomfort"
+                    },
+                    "Atemschwierigkeiten bereiten": {
+                        "DE_EN": "to cause difficulty in breathing"
+                    },
+                    "den Boden bereiten [fig.]": {
+                        "DE_EN": "to sow the seeds [fig.]"
+                    },
+                    "den Boden für etw. bereiten [fig.]": {
+                        "DE_EN": "to lay the ground for sth. [fig.]"
+                    },
+                    "den Weg bereiten [Redewendung] [Pionierarbeit leisten]": {
+                        "DE_EN": "to trailblaze [fig.]"
+                    },
+                    "den Weg für etw. [Akk.] bereiten [fig.] [Redewendung] [Pionierarbeit leisten]": {
+                        "DE_EN": "to blaze the way for sth. [idiom] [to pioneer]"
+                    },
+                    "den Weg für jdn.\/etw. bereiten [fig.]": {
+                        "DE_EN": "to set the stage for sb.\/sth. [fig.]"
+                    },
+                    "ein \/ das Bad bereiten [zubereiten, ansetzen]": {
+                        "DE_EN": "to prepare a \/ the bath"
+                    },
+                    "einem Gerücht ein Ende bereiten": {
+                        "DE_EN": "to scotch a rumour [Br.]"
+                    },
+                    "ein großes Vergnügen bereiten": {
+                        "DE_EN": "to cause great amusement"
+                    },
+                    "etw. [Akk.] bereiten [zubereiten]": {
+                        "DE_EN": "to prepare sth. [meal, medicine etc.]"
+                    },
+                    "etw. [Dat.] den Weg bereiten": {
+                        "DE_EN": "to pioneer sth."
+                    },
+                    "etw. [Dat.] ein Ende bereiten": {
+                        "DE_EN": "to put an end to sth."
+                    },
+                    "Freude bereiten": {
+                        "DE_EN": "to spark joy"
+                    },
+                    "große Freude bereiten": {
+                        "DE_EN": "to give great pleasure"
+                    },
+                    "große Sorge bereiten": {
+                        "DE_EN": "to cause great anxiety"
+                    },
+                    "Ich möchte (dir) keine Unannehmlichkeiten bereiten.": {
+                        "DE_EN": "I don't want to put you out. [I don't want to cause you any trouble.]"
+                    },
+                    "Ich möchte Ihnen keine Unannehmlichkeiten bereiten.": {
+                        "DE_EN": "I have no desire to cause you any trouble."
+                    },
+                    "Ich möchte Ihnen keine Unannehmlichkeiten bereiten. [formelle Anrede]": {
+                        "DE_EN": "I don't want to put you out. [I don't want to cause you any trouble.]"
+                    },
+                    "jdm. (das) Frühstück bereiten": {
+                        "DE_EN": "to fix breakfast for sb. [Am.]"
+                    },
+                    "jdm. (schweren) Kummer bereiten": {
+                        "DE_EN": "to cause sb. (great) sorrow"
+                    },
+                    "jdm.\/etw. den Weg bereiten [fig.] [ermöglichen]": {
+                        "DE_EN": "to pave the way for sb.\/sth. [fig.]"
+                    },
+                    "jdm.\/etw. etw. [Akk.] bereiten [Schmerz, Freude, Mühe, Kummer, Probleme]": {
+                        "DE_EN": "to give sb.\/sth. sth. [pain, joy, trouble, worry, problems]"
+                    },
+                    "jdm. eine Enttäuschung bereiten": {
+                        "DE_EN": "to disappoint sb."
+                    },
+                    "jdm. eine Menge Ärger bereiten": {
+                        "DE_EN": "to cause sb. a lot of trouble"
+                    },
+                    "jdm. einen großen Bahnhof bereiten [Redewendung]": {
+                        "DE_EN": "to roll out the red carpet for sb. [idiom]"
+                    },
+                    "jdm. eine Niederlage bereiten": {
+                        "DE_EN": "to hand sb. a defeat"
+                    },
+                    "jdm. eine unangenehme Überraschung bereiten [z. B. unerwartete Niederlage]": {
+                        "DE_EN": "to pull off an upset against sb."
+                    },
+                    "jdm. eine Überraschung bereiten": {
+                        "DE_EN": "to give sb. a surprise"
+                    },
+                    "jdm. ein herzliches Willkommen bereiten": {
+                        "DE_EN": "to accord sb. a hearty welcome"
+                    },
+                    "jdm. ein Problem bereiten": {
+                        "DE_EN": "to pose a problem to sb., to present sb. with a problem"
+                    },
+                    "jdm. Freude bereiten": {
+                        "DE_EN": "to bring joy to sb., to give sb. pleasure"
+                    },
+                    "jdm. Kopfschmerzen bereiten [auch fig.]": {
+                        "DE_EN": "to give sb. a headache [also fig.], to give sb. headaches [also fig.]"
+                    },
+                    "jdm. Kopfzerbrechen bereiten": {
+                        "DE_EN": "to cause sb. quite a headache [fig.]"
+                    },
+                    "jdm. Kummer bereiten": {
+                        "DE_EN": "to cause sb. pain, to distress sb., to give grief to sb., to grieve sb."
+                    },
+                    "jdm. Ovationen bereiten": {
+                        "DE_EN": "to give sb. an ovation"
+                    },
+                    "jdm. schlaflose Nächte bereiten": {
+                        "DE_EN": "to give sb. sleepless nights"
+                    },
+                    "jdm. Schmerzen bereiten": {
+                        "DE_EN": "to give sb. pain, to inflict pain on sb."
+                    },
+                    "jdm. Schmerzen bereiten [seelisch]": {
+                        "DE_EN": "to pain sb."
+                    },
+                    "jdm. Schwierigkeiten bereiten \/ machen": {
+                        "DE_EN": "to trouble sb."
+                    },
+                    "jdm. Schwierigkeiten bereiten": {
+                        "DE_EN": "to cause difficulty for sb., to hamper sb."
+                    },
+                    "jdm. Sorgen bereiten \/ machen": {
+                        "DE_EN": "to worry sb."
+                    },
+                    "jdm. Sorgen bereiten": {
+                        "DE_EN": "to bother sb."
+                    },
+                    "jdm. ständig Schwierigkeiten bereiten": {
+                        "DE_EN": "to keep sb. in hot water all the time [sl.] [idiom]"
+                    },
+                    "jdm. Umstände bereiten": {
+                        "DE_EN": "to put sb. out [inconvenience]"
+                    },
+                    "jdm. Unannehmlichkeiten bereiten": {
+                        "DE_EN": "to be an inconvenience to sb., to cause sb. inconvenience, to discommode sb. [formal] [cause inconvenience], to inconvenience sb."
+                    },
+                    "jdm. Ungelegenheiten bereiten": {
+                        "DE_EN": "to inconvenience sb."
+                    },
+                    "jdm. Verdruss bereiten": {
+                        "DE_EN": "to cause annoyance to sb."
+                    },
+                    "jdm. Vergnügen bereiten": {
+                        "DE_EN": "to give pleasure to sb., to give sb. pleasure, to pleasure sb. [give pleasure to sb.]"
+                    },
+                    "jdm. Ärger bereiten": {
+                        "DE_EN": "to cause sb. trouble"
+                    },
+                    "Mühe bereiten": {
+                        "DE_EN": "to make work"
+                    },
+                    "Schmerzen bereiten": {
+                        "DE_EN": "to cause pain, to give pain"
+                    },
+                    "Schwierigkeiten bereiten": {
+                        "DE_EN": "to cause difficulties, to make trouble, to pose difficulties"
+                    },
+                    "Unannehmlichkeit bereiten": {
+                        "DE_EN": "to cause inconvenience"
+                    },
+                    "Unordnung bereiten": {
+                        "DE_EN": "to cause disorder"
+                    },
+                    "Unruhe bereiten": {
+                        "DE_EN": "to cause a stir"
+                    },
+                    "Unwohlsein bereiten": {
+                        "DE_EN": "to cause discomfort, to cause uneasiness"
+                    },
+                    "Vergnügen bereiten": {
+                        "DE_EN": "to afford pleasure"
+                    },
+                    "Ärger bereiten": {
+                        "DE_EN": "to bring trouble, to cause trouble, to shit-stir [Br.] [vulg.]"
                     }
                 }
             },
@@ -469,7 +782,7 @@
                 "EN1": "in the meantime let me,",
                 "entry": {
                     "inzwischen": {
-                        "pronunciation": "\/ɪnˈʦvɪʃən\/",
+                        "pronunciation": "ɪnˈt͡svɪʃn̩",
                         "DE_EN": "by now, by that time, by then, in the meantime, meanwhile, since, since then"
                     }
                 }
@@ -496,6 +809,7 @@
                         "Langenscheidt": "repent"
                     },
                     "Reue": {
+                        "pronunciation": "ˈʁɔɪ̯ə",
                         "DE_EN": "compunction [regret], contrition, penitence, regret, remorsefulness, remorse, repentance, ruefulness, rue [archaic] [repentance, regret], sorrow [remorse]"
                     }
                 }
@@ -505,9 +819,11 @@
                 "EN1": "rips the sinful heart in two.",
                 "entry": {
                     "knirschen": {
+                        "pronunciation": "ˈknɪʁʃn̩",
                         "DE_EN": "to crump, to crunch [with teeth], to grate [one's teeth], to graunch [esp. Br.] [coll.], to gride [literary], to scroop, to scrunch [snow, gravel, pebbles]"
                     },
                     "entzwei": {
+                        "pronunciation": "ɛntˈt͡svaɪ̯",
                         "DE_EN": "apart [broken, fallen], asunder [archaic or literary], atwain  [archaic], in half, in pieces, in sunder [apart], in twain  [archaic], in two"
                     }
                 }
@@ -517,9 +833,11 @@
                 "EN1": "Thus the drops of my tears,",
                 "entry": {
                     "Tropf": {
+                        "pronunciation": "tʁɔp͡f",
                         "DE_EN": "drip, IV bag"
                     },
                     "Zähren": {
+                        "pronunciation": "ˈt͡sɛːʁən",
                         "Langenscheidt": "tears"
                     },
                     "Zähren [veraltet für Tränen] [poet.] [hum.]": {
@@ -531,6 +849,9 @@
                 "DE": "Angenehme Spezerei,",
                 "EN1": "desirable spices,",
                 "entry": {
+                    "Spezerei": {
+                        "pronunciation": "ʃpeːt͡səˈʁaɪ̯"
+                    },
                     "Spezerei [veraltet] [Gewürz, bes. überseeisches]": {
                         "DE_EN": "spice [esp. from overseas]"
                     }
@@ -544,6 +865,7 @@
                         "DE_EN": "northern banded groundling [Brachythemis impartita]"
                     },
                     "gebären": {
+                        "pronunciation": "ɡəˈbɛːʁən",
                         "DE_EN": "to bear [to give birth], to birth [chiefly Am. dialect]"
                     }
                 }
@@ -569,6 +891,7 @@
                 "EN1": "What will you give me? I will betray him to you.",
                 "entry": {
                     "verraten": {
+                        "pronunciation": "fɛɐ̯ˈʁaːtn̩",
                         "DE_EN": "betrayed, to reveal [name, details]"
                     }
                 }
@@ -584,15 +907,18 @@
                 "EN1": "And they offered him thirty silver pieces. And from then on he sought opportunity to betray him.",
                 "entry": {
                     "bieten": {
+                        "pronunciation": "ˈbiːtn̩",
                         "DE_EN": "to give [afford, provide], to make a bid, to make an offer for, to proffer, to provide, to tender [money, services, shares]"
                     },
                     "Silberlinge": {
+                        "pronunciation": "ˈzɪlbɐlɪŋə",
                         "DE_EN": "honesties [genus Lunaria], money plants [genus Lunaria], moonworts [genus Lunaria], pieces of silver, satin flowers [genus Lunaria], silver dollars [genus Lunaria]"
                     },
                     "den Punkt erreichen, von dem an es kein Zurück mehr gibt": {
                         "DE_EN": "to reach the point of no return"
                     },
                     "Gelegenheit": {
+                        "pronunciation": "ɡəˈleːɡn̩haɪ̯t",
                         "DE_EN": "chance, innings, instance, occasion, opportunity"
                     }
                 }
@@ -608,6 +934,7 @@
                 "EN1": "Bleed out, you loving heart!",
                 "entry": {
                     "bluten": {
+                        "pronunciation": "ˈbluːtn̩",
                         "DE_EN": "to bleed, to haemorrhage [Br.], to hemorrhage [Am.]"
                     }
                 }
@@ -617,6 +944,7 @@
                 "EN1": "Alas! A child that you raised,",
                 "entry": {
                     "erziehen": {
+                        "pronunciation": "ɛɐ̯ˈt͡siːən",
                         "DE_EN": "to breed [rear and train], to educate"
                     }
                 }
@@ -626,6 +954,7 @@
                 "EN1": "that nursed at your breast,",
                 "entry": {
                     "saugen": {
+                        "pronunciation": "ˈzaʊ̯ɡn̩",
                         "DE_EN": "to draw [water, air etc.], to suck"
                     }
                 }
@@ -635,9 +964,11 @@
                 "EN1": "threatens to murder its caretaker,",
                 "entry": {
                     "drohen": {
+                        "pronunciation": "ˈdʁoːən",
                         "DE_EN": "to menace, to threaten, to threat [archaic]"
                     },
                     "Pfleger": {
+                        "pronunciation": "ˈp͡fleːɡɐ",
                         "DE_EN": "(medical) orderly, caregiver, carer, hospital aide, nurse, tender [of sick person], carers, nurses [male]"
                     }
                 }
@@ -647,6 +978,7 @@
                 "EN1": "since it has become a serpent.",
                 "entry": {
                     "Schlange": {
+                        "pronunciation": "ˈʃlaŋə",
                         "DE_EN": "serpent [literary or archaic] [snake], snake"
                     }
                 }
@@ -702,6 +1034,7 @@
                 "EN1": "And the disciples did as Jesus had commanded them, and prepared the Passover lamb. And in the evening he sat at dinner with the twelve. And as they ate, He said:",
                 "entry": {
                     "befehlen": {
+                        "pronunciation": "bəˈfeːlən",
                         "DE_EN": "to bid [command], to dictate [command]"
                     }
                 }
@@ -727,6 +1060,7 @@
                 "EN1": "And they were very troubled and began, each one among them, to say to him:",
                 "entry": {
                     "anheben": {
+                        "pronunciation": "ˈanˌheːbn̩",
                         "DE_EN": "to accentuate, to elevate, to hoist"
                     }
                 }
@@ -752,6 +1086,7 @@
                 "EN1": "It is I, I should atone,",
                 "entry": {
                     "büßen": {
+                        "pronunciation": "ˈbyːsn̩",
                         "DE_EN": "to atone, to suffer [as punishment, in hell etc.]"
                     }
                 }
@@ -765,6 +1100,7 @@
                 "EN1": "in hell.",
                 "entry": {
                     "Hölle": {
+                        "pronunciation": "ˈhœlə",
                         "DE_EN": "abyss, hades [coll.] [hell], hell, infernal regions {pl}, inferno, netherworld, pandemonium, Tophet [hell]"
                     }
                 }
@@ -774,6 +1110,7 @@
                 "EN1": "The scourges and the bonds",
                 "entry": {
                     "Geißel": {
+                        "pronunciation": "ˈɡaɪ̯sl̩",
                         "DE_EN": "whip"
                     }
                 }
@@ -783,10 +1120,80 @@
                 "EN1": "and what you endured,",
                 "entry": {
                     "ausstehen": {
+                        "pronunciation": "ˈaʊ̯sˌʃteːən",
                         "Langenscheidt": "to stand, to bear, to endure, to suffer"
                     },
                     "Angst ausstehen": {
                         "DE_EN": "to be frightened"
+                    },
+                    "ausstehen [Aufgaben etc.]": {
+                        "DE_EN": "to pend"
+                    },
+                    "ausstehen [fällig sein]": {
+                        "DE_EN": "to be due [money etc.]"
+                    },
+                    "ausstehen [Wertpapiere]": {
+                        "DE_EN": "to be outstanding"
+                    },
+                    "Er kann ihn nicht ausstehen. [ugs.]": {
+                        "DE_EN": "He can't abide him."
+                    },
+                    "Höllenqualen ausstehen": {
+                        "DE_EN": "to go through hell [fig.]"
+                    },
+                    "Höllenqualen ausstehen [fig.]": {
+                        "DE_EN": "to go through purgatory [fig.]"
+                    },
+                    "Ich kann ... nicht ausstehen.": {
+                        "DE_EN": "I can't abide ... . [people]"
+                    },
+                    "Ich kann es nicht mehr ausstehen.": {
+                        "DE_EN": "I can't stand it any longer."
+                    },
+                    "Ich kann ihn nicht ausstehen.": {
+                        "DE_EN": "I can't bear him., I cannot bear him."
+                    },
+                    "Ich kann sie nicht ausstehen.": {
+                        "DE_EN": "I can't stand her."
+                    },
+                    "jdn.\/etw. ausstehen (können)": {
+                        "DE_EN": "to stand sb.\/sth. [coll.] [put up with]"
+                    },
+                    "jdn.\/etw. ausstehen": {
+                        "DE_EN": "to bear sb.\/sth., to suffer sb.\/sth."
+                    },
+                    "jdn.\/etw. ausstehen [ertragen, aushalten]": {
+                        "DE_EN": "to abide sb.\/sth., to endure sb.\/sth."
+                    },
+                    "jdn.\/etw. nicht ausstehen können": {
+                        "DE_EN": "to loathe sb.\/sth."
+                    },
+                    "jdn. auf den Tod nicht ausstehen können [Redewendung]": {
+                        "DE_EN": "to hate sb.'s guts [coll.] [idiom]"
+                    },
+                    "jdn. nicht ausstehen können": {
+                        "DE_EN": "to hate sb.'s guts [coll.] [idiom], to not be able to stand sb."
+                    },
+                    "Nein danke, ich kann Machospielchen nicht ausstehen.": {
+                        "DE_EN": "No, thanks. I don't like cockfights."
+                    },
+                    "noch ausstehen": {
+                        "DE_EN": "to be yet to come, to remain to be done"
+                    },
+                    "noch ausstehen [zu erwarten sein]": {
+                        "DE_EN": "to be still expected"
+                    },
+                    "Sie hatte ihn von Anfang an nicht ausstehen können.": {
+                        "DE_EN": "She had loathed him from the moment she first met him."
+                    },
+                    "Todesqualen ausstehen": {
+                        "DE_EN": "to suffer agonies"
+                    },
+                    "Todesqualen ausstehen [fig.]": {
+                        "DE_EN": "to suffer agony"
+                    },
+                    "Todesängste ausstehen": {
+                        "DE_EN": "to be scared to death"
                     }
                 }
             },
@@ -795,6 +1202,7 @@
                 "EN1": "my soul has deserved.",
                 "entry": {
                     "verdienen": {
+                        "pronunciation": "fɛɐ̯ˈdiːnən",
                         "Langenscheidt": "to earn, to make, to deserve",
                         "DE_EN": "to bring in [earn]"
                     }
@@ -825,15 +1233,19 @@
                 "EN1": "He who has dipped his hand in the bowl with me will betray me. The Son of Man will indeed pass away as it stands written of him; yet woe to the man through whom the Son of Man is betrayed! It would be better for him if this man had never been born.",
                 "entry": {
                     "Schüssel": {
+                        "pronunciation": "ˈʃʏsl̩",
                         "DE_EN": "basin [bowl], bowl, dish, pan, tureen"
                     },
                     "zwar": {
+                        "pronunciation": "t͡svaːɐ̯",
                         "DE_EN": "admittedly, indeed  [admittedly], to be sure"
                     },
                     "Weh": {
+                        "pronunciation": "veː",
                         "DE_EN": "bale [obs., poet.]"
                     },
                     "derselbe": {
+                        "pronunciation": "deːɐ̯ˈzɛlbə",
                         "DE_EN": "idem <id.>, same, the same"
                     }
                 }
@@ -909,6 +1321,7 @@
                 "EN1": "And he took the cup and blessed it, gave it to them and said:",
                 "entry": {
                     "Kelch": {
+                        "pronunciation": "kɛlç",
                         "DE_EN": "calyx, chalice, goblet"
                     }
                 }
@@ -924,20 +1337,22 @@
                 "EN1": "Drink from this, all of you; this is my blood of the new covenant, which is poured out for many for the forgiveness of sins. I say to you: from now on I will not drink again from this fruit of the vine until the day when I drink again with you in my Father's kingdom.",
                 "entry": {
                     "vergießen": {
+                        "pronunciation": "fɛɐ̯ˈɡiːsn̩",
                         "DE_EN": "to cast, to diffuse, to mold [Am.], to mould [Br.]"
                     },
                     "Blut vergießen": {
                         "DE_EN": "to shed blood"
                     },
                     "Vergebung": {
-                        "pronunciation": "\/fɛɐˈɡeːbʊŋ\/",
+                        "pronunciation": "fɛɐ̯ˈɡeːbʊŋ",
                         "DE_EN": "absolution [forgiveness], condonation, forgiveness, remission [forgiveness]"
                     },
                     "Gewächs": {
-                        "pronunciation": "\/ɡəˈvɛks\/",
+                        "pronunciation": "ɡəˈvɛks",
                         "DE_EN": "growth, plant"
                     },
                     "Weinstock": {
+                        "pronunciation": "ˈvaɪ̯nˌʃtɔk",
                         "DE_EN": "grapevine, vine, vine stock"
                     }
                 }
@@ -961,6 +1376,7 @@
                 "EN1": "yet his Testament brings me joy:",
                 "entry": {
                     "erfreuen": {
+                        "pronunciation": "ɛɐ̯ˈfʁɔɪ̯ən",
                         "DE_EN": "to delectate, to delight, to gratify, to please"
                     }
                 }
@@ -969,8 +1385,17 @@
                 "DE": "Sein Fleisch und Blut, o Kostbarkeit,",
                 "EN1": "his flesh and blood, O most precious,",
                 "entry": {
+                    "Kostbarkeit": {
+                        "pronunciation": "ˈkɔstbaːɐ̯kaɪ̯t"
+                    },
                     "Kostbarkeit [Eigenschaft]": {
                         "DE_EN": "costliness, preciousness, valuableness, value"
+                    },
+                    "Kostbarkeit [Gegenstand]": {
+                        "DE_EN": "precious object"
+                    },
+                    "Kostbarkeit [Schatz]": {
+                        "DE_EN": "treasure [very valuable object]"
                     }
                 }
             },
@@ -978,8 +1403,23 @@
                 "DE": "Vermacht er mir in meine Hände.",
                 "EN1": "he bequeaths to my hands.",
                 "entry": {
+                    "vermachen": {
+                        "pronunciation": "fɛɐ̯ˈmaxn̩"
+                    },
                     "etw. [Akk.] vermachen": {
                         "DE_EN": "to will sth. [bequeath]"
+                    },
+                    "jdm. etw. [Akk.] vermachen": {
+                        "DE_EN": "to bequeath sth. to sb., to leave sth. to sb. [bequeath], to make sth. over to sb. [bequeath]"
+                    },
+                    "jdm. sein Vermögen vermachen": {
+                        "DE_EN": "to make over one's estate to sb."
+                    },
+                    "letztwillig vermachen [Grundbesitz]": {
+                        "DE_EN": "to devise [property] [to give by will]"
+                    },
+                    "seine Seele etw. [Dat.] vermachen [veraltet]": {
+                        "DE_EN": "to consecrate one's soul to sth."
                     }
                 }
             },
@@ -992,6 +1432,7 @@
                 "EN1": "he could not wish them harm,",
                 "entry": {
                     "böse": {
+                        "pronunciation": "ˈbøːzə",
                         "DE_EN": "badly, bad [wicked, aggressive], crossly, diabolic, evil, sinister, vicious, wicked"
                     }
                 }
