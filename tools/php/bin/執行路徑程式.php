@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\bin\執行路徑程式.php
+php H:\github\CanonicalTextTrees\tools\php\bin\執行路徑程式.php BACH_CANTATAS
  */
 require_once( 
 	dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .

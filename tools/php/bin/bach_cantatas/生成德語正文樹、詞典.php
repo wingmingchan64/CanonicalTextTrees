@@ -28,7 +28,8 @@ $switches = [
 	'grammar',
 	'Cambridge',
 	'Langenscheidt',
-	'DE_EN'
+	'DE_EN',
+	'Google'
 ];
 
 //$bwv = '244';
@@ -117,6 +118,12 @@ if( in_array( 'DE_EN', $switches ) )
 	$wordlist = json_decode(
 		file_get_contents( $wordlist_file ), true);
 }
+if( in_array( 'Google', $switches ) )
+{
+	$google_file = $german_folder . 'google.json';
+	$Google = json_decode(
+		file_get_contents( $google_file ), true);
+}
 
 //print_r( $樹 );
 
@@ -137,14 +144,6 @@ foreach( $metadata as $path => $terms )
 	
 	foreach( $terms as $term )
 	{
-		/*
-		if( !array_key_exists( $term, $pointer[ 'entry' ] ) )
-		{
-			echo $term, NL;
-			$pointer[ 'entry' ][ $term ] = array();
-		}
-		*/
-		
 		if( in_array( 'pronunciation', $switches ) &&
 			array_key_exists( $term, $pronunciation ) )
 		{
@@ -205,6 +204,14 @@ foreach( $metadata as $path => $terms )
 				}
 			}
 		}
+		if( in_array( 'Google', $switches ) &&
+			array_key_exists( $term, $Google ) )
+		{
+			$pointer[ 'entry' ][ $term ][ 'Google' ]
+				= $Google[ $term ];
+		}
+
+
 	}
 }
 
