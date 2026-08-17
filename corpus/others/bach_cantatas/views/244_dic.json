@@ -31,7 +31,8 @@
                 "entry": {
                     "Töchter": {
                         "pronunciation": "ˈtœçtɐ",
-                        "DE_EN": "daughters"
+                        "DE_EN": "daughters",
+                        "Google": "refers to the Daughters of Zion from the Biblical Song of Solomon"
                     },
                     "Gläubige": {
                         "pronunciation": "ˈɡlɔɪ̯bɪɡə",
@@ -129,7 +130,8 @@
                     "erfunden": {
                         "pronunciation": "ɛɐ̯ˈfʊndn̩",
                         "Langenscheidt": "Partizip Perfekt: erfinden",
-                        "DE_EN": "contrived, devised, fictional, imaginary, invented, made-up, phoney  [coll.], phony  [coll.]"
+                        "DE_EN": "contrived, devised, fictional, imaginary, invented, made-up, phoney  [coll.], phony  [coll.]",
+                        "Google": "found to be"
                     },
                     "erfinden": {
                         "pronunciation": "ɛɐ̯ˈfɪndn̩",
@@ -141,6 +143,15 @@
                 "DE": "Wiewohl du warest verachtet.",
                 "EN1": "however you were scorned.",
                 "entry": {
+                    "wiewohl": {
+                        "pronunciation": "viˈvoːl"
+                    },
+                    "wiewohl [geh.]": {
+                        "DE_EN": "although, even though, much as"
+                    },
+                    "wiewohl [geh.] [obgleich]": {
+                        "DE_EN": "albeit"
+                    },
                     "verachten": {
                         "pronunciation": "fɛɐ̯ˈʔaxtn̩",
                         "Langenscheidt": "to scorn, to scoff at, to dispise",
@@ -166,25 +177,8 @@
                 "DE": "Sonst müßten wir verzagen.",
                 "EN1": "otherwise we would have to despair.",
                 "entry": {
-                    "verzagen": {
-                        "pronunciation": "fɛɐ̯ˈt͡saːɡn̩",
-                        "Langenscheidt": "to loose heart, to despair",
-                        "Cambridge": "den Mut verlieren"
-                    },
-                    "Nicht verzagen.": {
-                        "DE_EN": "Don't give up hope."
-                    },
-                    "verzagen [geh.] [den Mut verlieren]": {
-                        "DE_EN": "to lose heart [idiom], to quail [lose heart]"
-                    },
                     "verzagen [geh.] [die Hoffnung aufgeben]": {
                         "DE_EN": "to give up hope"
-                    },
-                    "verzagen [geh.] [die Zuversicht oder das Selbstvertrauen verlieren]": {
-                        "DE_EN": "to despond [archaic] [lose confidence]"
-                    },
-                    "verzagen [geh.] [verzweifeln]": {
-                        "DE_EN": "to despair, to grow disconsolate"
                     }
                 }
             },
@@ -274,12 +268,6 @@
                     },
                     "letzte Ostern": {
                         "DE_EN": "last Easter {sg}"
-                    },
-                    "letztes Ostern": {
-                        "DE_EN": "last Easter"
-                    },
-                    "Ostern mit Schnee": {
-                        "DE_EN": "Easter with snow"
                     },
                     "überantworten": {
                         "pronunciation": "yːbɐˈʔantˌvɔʁtn̩",
@@ -387,6 +375,9 @@
                         "Langenscheidt": "scribe",
                         "DE_EN": "scribes"
                     },
+                    "mit Listen": {
+                        "Google": "with cunning, trickery, stealth, or deceit; from old German noun List"
+                    },
                     "greifen": {
                         "pronunciation": "ˈɡʁaɪ̯fn̩",
                         "Langenscheidt": "to seize, to catch",
@@ -427,6 +418,9 @@
                     "Betanien \/ Bethanien": {
                         "DE_EN": "Bethany"
                     },
+                    "Bethanien": {
+                        "Google": "Bethany, two miles east of Jerusalem on the slope of the Mount of Olives"
+                    },
                     "Aussätziger": {
                         "pronunciation": "ˈaʊ̯sˌzɛt͡sɪɡɐ",
                         "DE_EN": "lazar [archaic] [leper]"
@@ -443,6 +437,9 @@
                         "pronunciation": "ˈɡiːsn̩",
                         "grammar": "3rd, singular, preterit goss | past participle gegossen",
                         "DE_EN": "to cast, to found [metal, glass], to mold [Am.]"
+                    },
+                    "gießen [ugs.] [heftig regnen]": {
+                        "DE_EN": "to pour down [rain], to sheet down, to shower down"
                     },
                     "unwillig": {
                         "DE_EN": "indignant, loath, loathly, loth  [spv.], reluctant, reluctantly, unwilling, unwillingly"
@@ -505,12 +502,6 @@
                     },
                     "jdn. bekümmern [ärgern, verdrießen]": {
                         "DE_EN": "to chagrin sb."
-                    },
-                    "sich [Akk.] (wegen etw. [Gen.]) bekümmern [geh.] [veraltend]": {
-                        "DE_EN": "to worry (about sth.)"
-                    },
-                    "sich [Akk.] um jdn.\/etw. bekümmern [geh.] [veraltend]": {
-                        "DE_EN": "to concern oneself with sb.\/sth."
                     },
                     "Leib": {
                         "pronunciation": "laɪ̯p",
@@ -599,12 +590,6 @@
                     },
                     "den Boden bereiten [fig.]": {
                         "DE_EN": "to sow the seeds [fig.]"
-                    },
-                    "den Boden für etw. bereiten [fig.]": {
-                        "DE_EN": "to lay the ground for sth. [fig.]"
-                    },
-                    "den Weg bereiten [Redewendung] [Pionierarbeit leisten]": {
-                        "DE_EN": "to trailblaze [fig.]"
                     }
                 }
             },
@@ -633,8 +618,8 @@
                 "EN1": "6. Aria A (Chorus I)"
             },
             "65": {
-                "DE": "Buß und Reu, Buß und Reu",
-                "EN1": "Repentance and regret, repentance and regret",
+                "DE": "Buß und Reu",
+                "EN1": "Repentance and regret",
                 "entry": {
                     "Buß": {
                         "Langenscheidt": "repent"
@@ -660,7 +645,7 @@
                 }
             },
             "67": {
-                "DE": "Das die Tropfen meiner Zähren",
+                "DE": "Daß die Tropfen meiner Zähren",
                 "EN1": "Thus the drops of my tears,",
                 "entry": {
                     "Tropf": {
@@ -711,11 +696,8 @@
                 "DE": "Da ging hin der Zwölfen einer mit Namen Judas Ischarioth zu den Hohenpriestern und sprach:",
                 "EN1": "Then one of the twelve, named Judas Iscariot, went to the high priests and said:",
                 "entry": {
-                    "Judas": {
-                        "pronunciation": "ˈjuːdas",
-                        "DE_EN": "Judas [biblical, also fig., literary]"
-                    },
                     "Judas Ischariot": {
+                        "pronunciation": "ˈjuːdas ɪˈʃarɪoːt",
                         "DE_EN": "Judas Iscariot"
                     }
                 }
@@ -913,7 +895,7 @@
                 "EN1": "9e. Chorus I"
             },
             "109": {
-                "DE": "Herr, bin ichs?",
+                "DE": "Herr, bin ich's?",
                 "EN1": "Lord, is it I?"
             }
         },
@@ -923,7 +905,7 @@
                 "EN1": "10. Chorale"
             },
             "112": {
-                "DE": "Ich bins, ich sollte büßen,",
+                "DE": "Ich bin's, ich sollte büßen,",
                 "EN1": "It is I, I should atone,",
                 "entry": {
                     "büßen": {
@@ -975,12 +957,6 @@
                     },
                     "ausstehen [Wertpapiere]": {
                         "DE_EN": "to be outstanding"
-                    },
-                    "Er kann ihn nicht ausstehen. [ugs.]": {
-                        "DE_EN": "He can't abide him."
-                    },
-                    "Höllenqualen ausstehen": {
-                        "DE_EN": "to go through hell [fig.]"
                     }
                 }
             },
@@ -996,8 +972,8 @@
                 }
             },
             "118": {
-                "DE": "(\"O Welt, sieh heir dein Leben,\" verse 5)",
-                "EN1": "(\"O Welt, sieh heir dein Leben,\" verse 5)"
+                "DE": "(\"O Welt, sieh hier dein Leben,\" verse 5)",
+                "EN1": "(\"O Welt, sieh hier dein Leben,\" verse 5)"
             }
         },
         "27": {
@@ -1023,8 +999,12 @@
                         "pronunciation": "ˈʃʏsl̩",
                         "DE_EN": "basin [bowl], bowl, dish, pan, tureen"
                     },
-                    "tauchet": {
-                        "pronunciation": "ˈtaʊ̯xət"
+                    "tauchen": {
+                        "pronunciation": "ˈtaʊ̯xn̩",
+                        "DE_EN": "to dive [swim underwater], to plunge"
+                    },
+                    "tauchen [eintauchen]": {
+                        "DE_EN": "to dip (in, into)"
                     },
                     "zwar": {
                         "pronunciation": "t͡svaːɐ̯",
@@ -1208,9 +1188,6 @@
                     },
                     "letztwillig vermachen [Grundbesitz]": {
                         "DE_EN": "to devise [property] [to give by will]"
-                    },
-                    "seine Seele etw. [Dat.] vermachen [veraltet]": {
-                        "DE_EN": "to consecrate one's soul to sth."
                     }
                 }
             },
@@ -1389,9 +1366,6 @@
                     },
                     "Quell [fig.]": {
                         "DE_EN": "fountainhead [fig.]"
-                    },
-                    "Quell [geh.]": {
-                        "DE_EN": "source, well [spring, source]"
                     }
                 }
             },
@@ -1417,9 +1391,6 @@
                     },
                     "sich an etw. [Dat.] laben [geh.]": {
                         "DE_EN": "to feast on sth."
-                    },
-                    "sich [Akk.] am Unglück anderer laben [geh.]": {
-                        "DE_EN": "to delight in other people's misfortune"
                     }
                 }
             },
@@ -1631,12 +1602,6 @@
                     },
                     "... und fest fassen. [ugs.] [fest umfassen]": {
                         "DE_EN": "... and grasp firmly."
-                    },
-                    "100 Personen fassen": {
-                        "DE_EN": "to admit 100 persons"
-                    },
-                    "am Markt Fuß fassen": {
-                        "DE_EN": "to break into the market"
                     }
                 }
             },
@@ -1864,9 +1829,6 @@
                     },
                     "etw. [Akk.] erdulden [ertragen]": {
                         "DE_EN": "to brook sth. [formal]"
-                    },
-                    "jdn.\/etw. erdulden": {
-                        "DE_EN": "to tolerate sb.\/sth."
                     }
                 }
             },
@@ -1964,9 +1926,6 @@
                     },
                     "Es ist schade drum.": {
                         "DE_EN": "It's (such) a shame."
-                    },
-                    "Um nicht lange drum herum zu reden, ...": {
-                        "DE_EN": "Not to put too fine a point on it, ..."
                     },
                     "verdienstlich": {
                         "pronunciation": "fɛɐ̯ˈdiːnstlɪç",
@@ -2123,12 +2082,6 @@
                     },
                     "sich weigern, einen Betrag anzunehmen": {
                         "DE_EN": "to refuse to accept a sum"
-                    },
-                    "sich weigern, etw. anzunehmen": {
-                        "DE_EN": "to refuse to accept sth."
-                    },
-                    "zustimmen, etw. anzunehmen": {
-                        "DE_EN": "to agree to accept sth."
                     }
                 }
             },
@@ -2200,12 +2153,6 @@
                     },
                     "sich [Akk.] dem Trunk ergeben haben": {
                         "DE_EN": "to have taken to drink [addicted]"
-                    },
-                    "Trunk frischen Wassers [veraltet] [noch geh.]": {
-                        "DE_EN": "drink of fresh water"
-                    },
-                    "Trunk [geh.] [alkoholisch]": {
-                        "DE_EN": "libation [hum.] [alcoholic drink]"
                     },
                     "versüßen": {
                         "pronunciation": "fɛɐ̯ˈzyːsn̩"
@@ -2342,12 +2289,6 @@
                     "jdn. züchtigen": {
                         "DE_EN": "to chasten sb. [chastise]"
                     },
-                    "jdn. züchtigen [geh.]": {
-                        "DE_EN": "to birch sb. [punishment using a birch stick], to castigate sb. [archaic] [physically], to chastise sb. [physically], to give sb. the strap, to mete out punishment to sb. [physical]"
-                    },
-                    "körperlich züchtigen": {
-                        "DE_EN": "to chastise"
-                    },
                     "Maß": {
                         "pronunciation": "maːs",
                         "DE_EN": "amount, dimension, dosage, gage [Am.] [spv.] [gauge], mete"
@@ -2376,12 +2317,6 @@
                     },
                     "Auf sein Wort kann man vertrauen.": {
                         "DE_EN": "His word is his bond."
-                    },
-                    "dem Gefühl vertrauen": {
-                        "DE_EN": "to trust the feeling"
-                    },
-                    "dem Glück vertrauen": {
-                        "DE_EN": "to trust to luck"
                     },
                     "auf jdn.\/etw. bauen [fig.]": {
                         "DE_EN": "to rely on sb.\/sth."
@@ -2446,12 +2381,6 @@
                     },
                     "siehe <s.> [Verweis in Texten; z. B. ”siehe Seite 99”]": {
                         "DE_EN": "see [reference in texts; e.g. ”see page 99”]"
-                    },
-                    "siehe Abbildung <s. Abb.>": {
-                        "DE_EN": "see figure <see fig.>"
-                    },
-                    "siehe Anhang [eines Buches etc.]": {
-                        "DE_EN": "see appendix [of a book etc.]"
                     }
                 }
             }
@@ -2799,7 +2728,17 @@
             },
             "357": {
                 "DE": "Da verließen ihn alle Jünger und flohen.",
-                "EN1": "Then all the disciples deserted him and fled."
+                "EN1": "Then all the disciples deserted him and fled.",
+                "entry": {
+                    "verlassen": {
+                        "pronunciation": "fɛɐ̯ˈlasn̩",
+                        "DE_EN": "forlornly, forsaken, loose [deserted], to evacuate, to file out, to loose [abandon, forsake]"
+                    },
+                    "fliehen": {
+                        "pronunciation": "ˈfliːən",
+                        "DE_EN": "to abscond [flee], to flee, to fly [flee], to scud, to take flight"
+                    }
+                }
             }
         },
         "79": {
@@ -2809,19 +2748,63 @@
             },
             "360": {
                 "DE": "O Mensch, bewein dein Sünde groß,",
-                "EN1": "O mankind, mourn your great sins,"
+                "EN1": "O mankind, mourn your great sins,",
+                "entry": {
+                    "beweinen": {
+                        "pronunciation": "bəˈvaɪ̯nən",
+                        "DE_EN": "to beweep, to mourn"
+                    }
+                }
             },
             "361": {
                 "DE": "Darum Christus seins Vaters Schoß",
-                "EN1": "for which Christ left his Father's bosom"
+                "EN1": "for which Christ left his Father's bosom",
+                "entry": {
+                    "seins": {
+                        "pronunciation": "zaɪ̯ns",
+                        "Google": "archaic genitive for seines"
+                    },
+                    "Es ist nicht das Ziel des Krieges für dein Land zu sterben, sondern den anderen Bastard für seins sterben zu lassen.": {
+                        "DE_EN": "The object of war is not to die for your country but to make the other bastard die for his. [George S. Patton Jr. - General of the US Army]"
+                    }
+                }
             },
             "362": {
-                "DE": "Ä ußert und kam auf Erden;",
-                "EN1": "and came to earth;"
+                "DE": "Äußert und kam auf Erden;",
+                "EN1": "and came to earth;",
+                "entry": {
+                    "äußern": {
+                        "pronunciation": "ˈɔɪ̯sɐn",
+                        "Cambridge": "to express",
+                        "Google": "self-emptying, entäußern"
+                    },
+                    "(gegen jdn.\/etw.) Bedenken äußern": {
+                        "DE_EN": "to raise concerns (over sb.\/sth.)"
+                    },
+                    "(mit Vorsicht) äußern [zu sagen wagen]": {
+                        "DE_EN": "to venture [risk the remark]"
+                    },
+                    "Bedenken äußern": {
+                        "DE_EN": "to voice misgivings"
+                    },
+                    "Bemerkungen äußern": {
+                        "DE_EN": "to address one's remarks"
+                    }
+                }
             },
             "363": {
                 "DE": "Von einer Jungfrau rein und zart",
-                "EN1": "from a virgin pure and tender"
+                "EN1": "from a virgin pure and tender",
+                "entry": {
+                    "rein": {
+                        "pronunciation": "ʁaɪ̯n",
+                        "DE_EN": "chastely, immaculately, kosher, pure, purely, sheerly, specklessly, uncorrupt"
+                    },
+                    "zart": {
+                        "pronunciation": "t͡saːɐ̯t",
+                        "DE_EN": "dainty, delicate, delicately, feathery, fine [delicate, slight], flimsy, frail, gentle, gently, slight, soft  [skin, lips etc.], tender, tenderly, wispy  [girl]"
+                    }
+                }
             },
             "364": {
                 "DE": "Für uns er hie geboren ward,",
@@ -2829,7 +2812,13 @@
             },
             "365": {
                 "DE": "Er wollt der Mittler werden,",
-                "EN1": "he wished to become our Intercessor,"
+                "EN1": "he wished to become our Intercessor,",
+                "entry": {
+                    "Mittler": {
+                        "pronunciation": "ˈmɪtlɐ",
+                        "DE_EN": "broker, go-between, intermediary, mediator"
+                    }
+                }
             },
             "366": {
                 "DE": "Den Toten er das Leben gab",
@@ -2837,19 +2826,65 @@
             },
             "367": {
                 "DE": "Und legt dabei all Krankheit ab",
-                "EN1": "and laid aside all sickness"
+                "EN1": "and laid aside all sickness",
+                "entry": {
+                    "ablegen": {
+                        "pronunciation": "ˈapˌleːɡn̩",
+                        "DE_EN": "to place down, to put out to sea [idiom], to store"
+                    }
+                }
             },
             "368": {
                 "DE": "Bis sich die Zeit herdrange,",
-                "EN1": "until the time approached"
+                "EN1": "until the time approached",
+                "entry": {
+                    "herdrängen": {
+                        "Google": "herdrange, the subjunctive form; to draw near"
+                    },
+                    "her": {
+                        "pronunciation": "heːɐ̯"
+                    },
+                    "auf dem Stuhl hin und her rutschen": {
+                        "DE_EN": "to fidget (around) on one's chair, to shift around on one's chair"
+                    },
+                    "Auf der Party ging es heiß her. [ugs.]": {
+                        "DE_EN": "The party became hot and heavy. [Am.] [coll.]"
+                    },
+                    "Auf der Party ging es hoch her. [ugs.] [Redewendung]": {
+                        "DE_EN": "Everyone had great fun at the party."
+                    },
+                    "Bei der Debatte ging es heiß her. [ugs.]": {
+                        "DE_EN": "The sparks really flew in the debate. [coll.]"
+                    },
+                    "drängen": {
+                        "pronunciation": "ˈdʁɛŋən",
+                        "DE_EN": "to coax, to edge (on), to press, to rush"
+                    }
+                }
             },
             "369": {
                 "DE": "Daß er für uns geopfert würd,",
-                "EN1": "that he would be offered for us,"
+                "EN1": "that he would be sacrificed for us,",
+                "entry": {
+                    "opfern": {
+                        "pronunciation": "ˈɔp͡fɐn",
+                        "DE_EN": "to donate, to make a sacrifice, to offer sacrifice, to sacrifice"
+                    }
+                }
             },
             "370": {
                 "DE": "Trüg unser Sünden schwere Bürd",
-                "EN1": "bearing the heavy burden of our sins"
+                "EN1": "bearing the heavy burden of our sins",
+                "entry": {
+                    "trüg": {
+                        "pronunciation": "tʁyːk",
+                        "Google": "archaic subjective\/past of tragen"
+                    },
+                    "Bürde": {
+                        "pronunciation": "ˈbʏʁdə",
+                        "DE_EN": "albatross [fig.] [burden or handicap], burden, liability [burden], load [burden], onus [burden]"
+                    }
+                }
             },
             "371": {
                 "DE": "Wohl an dem Kreuze lange.",

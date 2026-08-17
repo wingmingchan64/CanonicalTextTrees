@@ -196,7 +196,7 @@ foreach( $metadata as $path => $terms )
 						$pointer[ 'entry' ][ $k ][ 'DE_EN' ] = $wordlist[ $k ];
 						$counter++;
 
-						if( $counter > 5 )
+						if( $counter > 3 )
 						{
 							break;
 						}
