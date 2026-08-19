@@ -32,9 +32,6 @@ $switches = [
 	'Google'
 ];
 
-//$bwv = '244';
-
-
 $de_filename = $bwv . '_DE';
 $de_file = $trees_folder . $de_filename . '.json';
 $en1_filename = $bwv . '_EN1';
