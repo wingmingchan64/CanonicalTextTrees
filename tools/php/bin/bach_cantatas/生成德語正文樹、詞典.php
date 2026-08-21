@@ -36,6 +36,8 @@ $de_filename = $bwv . '_DE';
 $de_file = $trees_folder . $de_filename . '.json';
 $en1_filename = $bwv . '_EN1';
 $en1_file = $trees_folder . $en1_filename . '.json';
+$en2_filename = $bwv . '_EN2';
+$en2_file = $trees_folder . $en2_filename . '.json';
 
 if( file_exists( $de_file ) )
 {
@@ -51,6 +53,13 @@ if( file_exists( $en1_file ) )
 			file_get_contents( $en1_file ), true );
 }
 
+if( file_exists( $en2_file ) )
+{
+	$en2_tree = 
+		json_decode(
+			file_get_contents( $en2_file ), true );
+}
+
 $樹 = array( $bwv => array() );
 
 foreach( $de_tree[ $de_filename ] as $k => $v )
@@ -61,6 +70,8 @@ foreach( $de_tree[ $de_filename ] as $k => $v )
 			$de_tree[ $de_filename ][ '篇名' ];
 		$樹[ $bwv ][ '篇名' ][ 'EN1' ] = 
 			$en1_tree[ $en1_filename ][ '篇名' ];
+		$樹[ $bwv ][ '篇名' ][ 'EN2' ] = 
+			$en2_tree[ $en2_filename ][ '篇名' ];
 	}
 	else
 	{
@@ -70,6 +81,8 @@ foreach( $de_tree[ $de_filename ] as $k => $v )
 				$de_tree[ $de_filename ][ $k ][ $line ];
 			$樹[ $bwv ][ $k ][ $line ][ 'EN1' ] = 
 				$en1_tree[ $en1_filename ][ $k ][ $line ];
+			$樹[ $bwv ][ $k ][ $line ][ 'EN2' ] = 
+				$en2_tree[ $en2_filename ][ $k ][ $line ];
 		}
 	}
 }
