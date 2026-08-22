@@ -3,7 +3,17 @@
         "篇名": {
             "DE": "BWV 244 - Matthäus-Passion",
             "EN1": "BWV 244 - St. Matthew Passion",
-            "EN2": "St. Matthew Passion (BWV 244)"
+            "EN2": "St. Matthew Passion (BWV 244)",
+            "entry": {
+                "Matthäus": {
+                    "pronunciation": "maˈtɛːʊs",
+                    "DE_EN": "Matthew"
+                },
+                "Passion": {
+                    "pronunciation": "paˈsi̯oːn",
+                    "DE_EN": "passion"
+                }
+            }
         },
         "1": {
             "3": {
@@ -21,12 +31,34 @@
             "6": {
                 "DE": "(Töchter Zion und Gläubige Seelen)",
                 "EN1": "(Daughters of Zion and Faithful Souls)",
-                "EN2": "(The Daughter Zion, the Believers)"
+                "EN2": "(The Daughter Zion, the Believers)",
+                "entry": {
+                    "Töchter": {
+                        "pronunciation": "ˈtœçtɐ",
+                        "DE_EN": "daughters",
+                        "Google": "refers to the Daughters of Zion from the Biblical Song of Solomon"
+                    },
+                    "Gläubige": {
+                        "pronunciation": "ˈɡlɔɪ̯bɪɡə",
+                        "grammar": "der; genitive, singular Gläubigen | nominative, plural Gläubigen",
+                        "Langenscheidt": "believer",
+                        "Cambridge": "religiöser Mensch",
+                        "DE_EN": "believer [female], believers"
+                    }
+                }
             },
             "7": {
                 "DE": "Kommt, ihr Töchter, helft mir klagen,",
                 "EN1": "Come, daughters, help me lament,",
-                "EN2": "Come, you Daughters of Zion, help me lament;"
+                "EN2": "Come, you Daughters of Zion, help me lament;",
+                "entry": {
+                    "klagen": {
+                        "pronunciation": "ˈklaːɡn̩",
+                        "Langenscheidt": "to complain, to lament",
+                        "Cambridge": "äußern, dass man unter etw. leidet",
+                        "DE_EN": "to complain, to file a suit, to go to law, to lament, to litigate, to sue (at law)"
+                    }
+                }
             },
             "8": {
                 "DE": "Sehet! - Wen? - den Bräutigam!",
@@ -41,17 +73,45 @@
             "10": {
                 "DE": "Sehet! - Was? - seht die Geduld,",
                 "EN1": "Behold! - what? - behold the patience,",
-                "EN2": "look - At what? - look at the patience;"
+                "EN2": "look - At what? - look at the patience;",
+                "entry": {
+                    "Geduld": {
+                        "pronunciation": "ˈɡədʊlt",
+                        "grammar": "die; genitive, singular Geduld",
+                        "Langenscheidt": "patience",
+                        "Cambridge": "Fähigkeit, auf etw. zu warten oder Nachsicht zu zeigen",
+                        "DE_EN": "endurance, forbearance, longanimity, patience"
+                    }
+                }
             },
             "11": {
                 "DE": "Seht! - Wohin? - auf unsre Schuld.",
                 "EN1": "look! - where? - at our guilt.",
-                "EN2": "look - Where? - on our guilt;"
+                "EN2": "look - Where? - on our guilt;",
+                "entry": {
+                    "Schuld": {
+                        "pronunciation": "ʃʊlt",
+                        "grammar": "die; genitive, singular Schuld | nominative , plural Schulden",
+                        "Langenscheidt": "blame, guilt, sin, debt, obligation",
+                        "Cambridge": "Zustand, schuldig zu sein",
+                        "DE_EN": "charge, culpability, due, guiltiness, iniquity [guilt: Heb. 'āwôn], liability [guilt]"
+                    }
+                }
             },
             "12": {
                 "DE": "Sehet ihn aus Lieb und Huld",
                 "EN1": "See him, out of love and graciousness",
-                "EN2": "look at him, out of love and favour,"
+                "EN2": "look at him, out of love and favour,",
+                "entry": {
+                    "Huld": {
+                        "pronunciation": "hʊlt",
+                        "grammar": "die",
+                        "Langenscheidt": "favor, grace"
+                    },
+                    "Huld [veraltet, noch ironisch] [geh.]": {
+                        "DE_EN": "benevolence, favor [Am.], favour [Br.], grace [of a king, lady etc.]"
+                    }
+                }
             },
             "13": {
                 "DE": "Holz zum Kreuze selber tragen.",
@@ -66,32 +126,96 @@
             "15": {
                 "DE": "Am Stamm des Kreuzes geschlachtet,",
                 "EN1": "slaughtered on the trunk of the Cross,",
-                "EN2": "slaughtered on the beam of the cross,"
+                "EN2": "slaughtered on the beam of the cross,",
+                "entry": {
+                    "schlachten": {
+                        "pronunciation": "ˈʃlaxtn̩",
+                        "Langenscheidt": "to slaughter",
+                        "Cambridge": "ein Tier töten und zerlegen, um dessen Fleisch für die Ernährung zu verwenden",
+                        "DE_EN": "to butcher, to slaughter"
+                    }
+                }
             },
             "16": {
                 "DE": "Allzeit erfunden geduldig,",
                 "EN1": "patient at all times,",
-                "EN2": "always found to be patient,"
+                "EN2": "always found to be patient,",
+                "entry": {
+                    "erfunden": {
+                        "pronunciation": "ɛɐ̯ˈfʊndn̩",
+                        "Langenscheidt": "Partizip Perfekt: erfinden",
+                        "DE_EN": "contrived, devised, fictional, imaginary, invented, made-up, phoney  [coll.], phony  [coll.]",
+                        "Google": "found to be"
+                    },
+                    "erfinden": {
+                        "pronunciation": "ɛɐ̯ˈfɪndn̩",
+                        "DE_EN": "to devise, to forge [invent], to invent"
+                    }
+                }
             },
             "17": {
                 "DE": "Wiewohl du warest verachtet.",
                 "EN1": "however you were scorned.",
-                "EN2": "however much you were despised."
+                "EN2": "however much you were despised.",
+                "entry": {
+                    "wiewohl": {
+                        "pronunciation": "viˈvoːl"
+                    },
+                    "wiewohl [geh.]": {
+                        "DE_EN": "although, even though, much as"
+                    },
+                    "wiewohl [geh.] [obgleich]": {
+                        "DE_EN": "albeit"
+                    },
+                    "verachten": {
+                        "pronunciation": "fɛɐ̯ˈʔaxtn̩",
+                        "Langenscheidt": "to scorn, to scoff at, to dispise",
+                        "Cambridge": "als schlecht und minderwertig betrachten",
+                        "DE_EN": "to condemn, to disdain, to disparage, to regard \/ treat with contempt, to spurn"
+                    }
+                }
             },
             "18": {
                 "DE": "All Sünd hast du getragen,",
                 "EN1": "you have borne all sins,",
-                "EN2": "you have borne all sin;"
+                "EN2": "you have borne all sin;",
+                "entry": {
+                    "Sünde": {
+                        "pronunciation": "ˈzʏndə",
+                        "grammar": "die; genitive, singular Sünde | nominative, plural Sünden",
+                        "Langenscheidt": "sin",
+                        "Cambridge": "Verstoß gegen die Regeln der Religion",
+                        "DE_EN": "evil, piacle [obs.] [sin], sin, transgression"
+                    }
+                }
             },
             "19": {
                 "DE": "Sonst müßten wir verzagen.",
                 "EN1": "otherwise we would have to despair.",
-                "EN2": "otherwise, we would have to despair."
+                "EN2": "otherwise, we would have to despair.",
+                "entry": {
+                    "verzagen [geh.] [die Hoffnung aufgeben]": {
+                        "DE_EN": "to give up hope"
+                    }
+                }
             },
             "20": {
                 "DE": "Erbarm dich unser, o Jesu.",
                 "EN1": "Have mercy on us, O Jesus.",
-                "EN2": "Have mercy on us, O Jesus!"
+                "EN2": "Have mercy on us, O Jesus!",
+                "entry": {
+                    "erbarmen": {
+                        "pronunciation": "ɛɐ̯ˈbaʁmən",
+                        "Langenscheidt": "to take pity",
+                        "Cambridge": "Mitleid mit jdm empfinden und ihm helfen"
+                    },
+                    "jdn. erbarmen [österr., sonst selten] [jds. Mitleid erregen]": {
+                        "DE_EN": "to arouse sb.'s pity"
+                    },
+                    "sich [Akk.] jds. erbarmen [geh.]": {
+                        "DE_EN": "to take pity on sb."
+                    }
+                }
             },
             "21": {
                 "DE": "(\"O Lamm Gottes unschuldig,\" verse 1)",
@@ -103,24 +227,77 @@
             "23": {
                 "DE": "2. Evangelist",
                 "EN1": "2. Evangelist",
-                "EN2": "2. Evangelist"
+                "EN2": "2. Evangelist",
+                "entry": {
+                    "Evangelist": {
+                        "pronunciation": "evaŋɡeˈlɪst",
+                        "DE_EN": "evangelist"
+                    }
+                }
             },
             "24": {
                 "DE": "Da Jesus diese Rede vollendet hatte, sprach er zu seinen Jüngern:",
                 "EN1": "When Jesus had finished this speech, he said to his disciples:",
-                "EN2": "When Jesus had brought this discourse to a close, he said to his disciples:"
+                "EN2": "When Jesus had brought this discourse to a close, he said to his disciples:",
+                "entry": {
+                    "vollenden": {
+                        "pronunciation": "fɔlˈʔɛndn̩",
+                        "Langenscheidt": "to complete, to accomplish",
+                        "Cambridge": "erfolgreich zu Ende bringen",
+                        "DE_EN": "to achieve, to complete, to finish (off), to perfect"
+                    },
+                    "Jünger": {
+                        "pronunciation": "ˈjʏŋɐ",
+                        "grammar": "der; genitive, singular Jüngers | nominative, plural Jünger",
+                        "Langenscheidt": "disciple",
+                        "Cambridge": "Anhänger von Jesus, einem Propheten oder einer Lehre",
+                        "DE_EN": "disciple"
+                    }
+                }
             }
         },
         "4": {
             "26": {
                 "DE": "Jesus",
                 "EN1": "Jesus",
-                "EN2": "Jesus"
+                "EN2": "Jesus",
+                "entry": {
+                    "Jesus": {
+                        "pronunciation": "ˈjeːzʊs",
+                        "DE_EN": "Jesus, Jesu [poet.]"
+                    },
+                    "Jesu": {
+                        "pronunciation": "ˈjeːzu",
+                        "DE_EN": "Jesus', of Jesus"
+                    }
+                }
             },
             "27": {
                 "DE": "Ihr wisset daß nach zweien Tagen Ostern wird, und des Menschen Sohn wird überantwortet werden, daß er gekreuziget werde.",
                 "EN1": "You know that in two days it will be Passover, and the Son of Man will be handed over to be crucified.",
-                "EN2": "You know that after two days it will be Passover, and the Son of Man will be handed over, so that he may be crucified."
+                "EN2": "You know that after two days it will be Passover, and the Son of Man will be handed over, so that he may be crucified.",
+                "entry": {
+                    "Ostern": {
+                        "pronunciation": "ˈoːstɐn"
+                    },
+                    "an Ostern": {
+                        "DE_EN": "at Easter"
+                    },
+                    "Das ist wie Ostern und Weihnachten zusammen!": {
+                        "DE_EN": "It's as if Christmas had come early!"
+                    },
+                    "die Tage um Ostern (herum)": {
+                        "DE_EN": "the days either side of Easter"
+                    },
+                    "letzte Ostern": {
+                        "DE_EN": "last Easter {sg}"
+                    },
+                    "überantworten": {
+                        "pronunciation": "yːbɐˈʔantˌvɔʁtn̩",
+                        "Langenscheidt": "to hand over",
+                        "DE_EN": "to sign over"
+                    }
+                }
             }
         },
         "5": {
@@ -132,22 +309,73 @@
             "30": {
                 "DE": "Herzliebster Jesu, was hast du verbrochen,",
                 "EN1": "Heart's beloved Jesus, how have you transgressed,",
-                "EN2": "Most beloved Jesus, what wrong have you committed,"
+                "EN2": "Most beloved Jesus, what wrong have you committed,",
+                "entry": {
+                    "verbrechen": {
+                        "pronunciation": "fɛɐ̯ˈbʁɛçn̩",
+                        "Langenscheidt": "to be up to, to commit a crime"
+                    },
+                    "etw. [Akk.] verbrechen [fig.]": {
+                        "DE_EN": "to perpetrate sth."
+                    },
+                    "etwas verbrechen": {
+                        "DE_EN": "to commit a crime"
+                    }
+                }
             },
             "31": {
                 "DE": "Daß man ein solch scharf Urteil hat gesprochen?",
                 "EN1": "that such a harsh sentence has been pronounced?",
-                "EN2": "that such a severe judgment is pronounced?"
+                "EN2": "that such a severe judgment is pronounced?",
+                "entry": {
+                    "scharf": {
+                        "pronunciation": "ʃaʁf",
+                        "Langenscheidt": "sharp, harsh",
+                        "Cambridge": "leicht und gut schneidend, streng",
+                        "DE_EN": "acridly, keenly, poignantly, pungently, sharp-edged, sharp, sharply, spicy, trenchantly, virulently  [fig.]"
+                    },
+                    "Urteil": {
+                        "pronunciation": "ˈʊʁˌtaɪ̯l",
+                        "grammar": "judgement, condemnation, sentence",
+                        "Cambridge": "begründete Meinung, die man über jdn \/ etw. hat oder äußert, offizielle Entscheidung eines Richters",
+                        "DE_EN": "adjudgment, adjudication, assessment [judgment], discretion [judgement], judgement, judgment, sentence"
+                    }
+                }
             },
             "32": {
                 "DE": "Was ist die Schuld, in was für Missetaten",
                 "EN1": "What is the crime, of what kind of misdeed",
-                "EN2": "What is the trespass; for what sort of misdeeds"
+                "EN2": "What is the trespass; for what sort of misdeeds",
+                "entry": {
+                    "Missetat": {
+                        "pronunciation": "ˈmɪsəˌtaːt",
+                        "grammar": "die; genitive, singular Missetat | nominative, plural Missetaten",
+                        "Langenscheidt": "misdeed",
+                        "Cambridge": "schlechte, verbotene Tat"
+                    },
+                    "eine Missetat begehen": {
+                        "DE_EN": "to commit a deed"
+                    },
+                    "Missetat [geh.] [veraltend]": {
+                        "DE_EN": "evildoing [Br.], malefaction, misdeed, quede [obs.] [evil deed], wrongdoing"
+                    },
+                    "Missetat [veraltend] [geh.]": {
+                        "DE_EN": "iniquity [wicked act]"
+                    }
+                }
             },
             "33": {
                 "DE": "Bist du geraten?",
                 "EN1": "are you accused?",
-                "EN2": "have you be caught?"
+                "EN2": "have you be caught?",
+                "entry": {
+                    "geraten": {
+                        "pronunciation": "ɡəˈʁaːtn̩",
+                        "Langenscheidt": "to get into",
+                        "Cambridge": "unbeabsichtigt an einen Ort oder in eine Situation kommen",
+                        "DE_EN": "advised, counseled [Am.], counselled [Br.], guessed, turned out  [well, bad etc.]"
+                    }
+                }
             },
             "34": {
                 "DE": "(\"Herzliebster Jesu,\" verse 1)",
@@ -164,7 +392,30 @@
             "37": {
                 "DE": "Da versammleten sich die Hohenpriester und Schriftgelehrten und die Ältesten im Volk in den Palast des Hohenpriesters, der da hieß Kaiphas, und hielten Rat, wie sie Jesum mit Listen griffen und töteten. Sie sprachen aber:",
                 "EN1": "Then the high priests and the scribes and the elders of the people gathered in the palace of the high priest, who was named Caiaphas, and took council how with deception they could seize Jesus and kill him. They said, however:",
-                "EN2": "Then the chief priests and the scripture experts and the elders among the people gathered in the palace of the high priest, who was called Caiaphas, and held council on how with cunning they might seize and kill Jesus. But they said:"
+                "EN2": "Then the chief priests and the scripture experts and the elders among the people gathered in the palace of the high priest, who was called Caiaphas, and held council on how with cunning they might seize and kill Jesus. But they said:",
+                "entry": {
+                    "versammeln": {
+                        "pronunciation": "fɛɐ̯ˈzaml̩n",
+                        "Langenscheidt": "to gather, to assemble",
+                        "Cambridge": "als Gruppe an einem Ort zusammenkommen",
+                        "DE_EN": "to congregate, to convene, to convent [obs.], to gather [esp. of people]"
+                    },
+                    "Schriftgelehrte": {
+                        "pronunciation": "ˈʃʁɪftɡəˌleːɐ̯tə",
+                        "grammar": "der",
+                        "Langenscheidt": "scribe",
+                        "DE_EN": "scribes"
+                    },
+                    "mit Listen": {
+                        "Google": "with cunning, trickery, stealth, or deceit; from old German noun List"
+                    },
+                    "greifen": {
+                        "pronunciation": "ˈɡʁaɪ̯fn̩",
+                        "Langenscheidt": "to seize, to catch",
+                        "Cambridge": "etw. mit der Hand nehmen",
+                        "DE_EN": "to bite [wheels, screw], to snatch, to take hold of"
+                    }
+                }
             }
         },
         "7": {
@@ -176,7 +427,16 @@
             "40": {
                 "DE": "Ja nicht auf das Fest, auf daß nicht ein Aufruhr werde im Volk.",
                 "EN1": "Not, indeed, during the festival, so that there will not be an uproar among the people.",
-                "EN2": "By no means during the festival, so that there won't be an insurrection among the people."
+                "EN2": "By no means during the festival, so that there won't be an insurrection among the people.",
+                "entry": {
+                    "Aufruhr": {
+                        "pronunciation": "ˈaʊ̯fˌʁuːʁ",
+                        "DE_EN": "agitation [row, rebellion], bedlam, brouhaha, cataclysm, civil commotion, clamor [Am.], clamour [Br.], coil [obs.], combustion [fig.], commotion, convulsion, fracas, furore [Br.], furor [Am.], hurly-burly, insurgence, insurgency, insurrection, mutiny, pother, rabblement, racket [uproar], rebellion, revolt, riot, row [esp. Br.] [coll.] [uproar], sedition, seditions, storm [outcry], stramash [Scot.], tumult, turmoil, upheaval, uproar"
+                    },
+                    "Aufruhre": {
+                        "pronunciation": "ˈaʊ̯fˌʁuːʁə"
+                    }
+                }
             }
         },
         "8": {
@@ -188,7 +448,38 @@
             "43": {
                 "DE": "Da nun Jesus war zu Bethanien, im Hause Simonis des Aussätzigen, trat zu ihm ein Weib, die hatte ein Glas mit köstlichem Wasser und goß es auf sein Haupt, da er zu Tische saß. Da das seine Jünger sahen, wurden sie unwillig und sprachen:",
                 "EN1": "Now when Jesus was in Bethany, in the house of Simon the leper, a woman came to him with a cup filled with valuable water; and she poured it upon his head as he sat at the table. When his disciples saw this, they were against it and said:",
-                "EN2": "Now when Jesus was at Bethany, in the house of Simon the leper, a woman who had a glass jar with precious water appoach him and poured it on his head, as he sat at table. When his disciples saw that, they became angry and said:"
+                "EN2": "Now when Jesus was at Bethany, in the house of Simon the leper, a woman who had a glass jar with precious water appoach him and poured it on his head, as he sat at table. When his disciples saw that, they became angry and said:",
+                "entry": {
+                    "Betanien \/ Bethanien": {
+                        "DE_EN": "Bethany"
+                    },
+                    "Bethanien": {
+                        "Google": "Bethany, two miles east of Jerusalem on the slope of the Mount of Olives"
+                    },
+                    "Aussätziger": {
+                        "pronunciation": "ˈaʊ̯sˌzɛt͡sɪɡɐ",
+                        "DE_EN": "lazar [archaic] [leper]"
+                    },
+                    "treten": {
+                        "pronunciation": "ˈtʁeːtn̩",
+                        "DE_EN": "to step, to tread (on)"
+                    },
+                    "köstlich": {
+                        "pronunciation": "ˈkœstlɪç",
+                        "DE_EN": "delectable, delectably, delicate, delicious, deliciously, delightsome, delish [coll.], mouth-watering, toothsome, yum-yum  [coll.]"
+                    },
+                    "gießen": {
+                        "pronunciation": "ˈɡiːsn̩",
+                        "grammar": "3rd, singular, preterit goss | past participle gegossen",
+                        "DE_EN": "to cast, to found [metal, glass], to mold [Am.]"
+                    },
+                    "gießen [ugs.] [heftig regnen]": {
+                        "DE_EN": "to pour down [rain], to sheet down, to shower down"
+                    },
+                    "unwillig": {
+                        "DE_EN": "indignant, loath, loathly, loth  [spv.], reluctant, reluctantly, unwilling, unwillingly"
+                    }
+                }
             }
         },
         "9": {
@@ -200,7 +491,13 @@
             "46": {
                 "DE": "Wozu dienet dieser Unrat? Dieses Wasser hätte mögen teuer verkauft und den Armen gegeben werden.",
                 "EN1": "What purpose does this foolishness serve? This water could have been sold for a high price and given to the poor.",
-                "EN2": "What purpose does this waste serve? This water might have been sold for a great sum and given to the poor."
+                "EN2": "What purpose does this waste serve? This water might have been sold for a great sum and given to the poor.",
+                "entry": {
+                    "Unrat": {
+                        "pronunciation": "ˈʊnʁaːt",
+                        "DE_EN": "dross, filth [fig.], muck"
+                    }
+                }
             }
         },
         "10": {
@@ -212,7 +509,13 @@
             "49": {
                 "DE": "Da das Jesus merkete, sprach er zu ihnen:",
                 "EN1": "When Jesus heard this, he said to them:",
-                "EN2": "When Jesus noticed that, he said to them:"
+                "EN2": "When Jesus noticed that, he said to them:",
+                "entry": {
+                    "merken": {
+                        "pronunciation": "ˈmɛʁkn̩",
+                        "DE_EN": "to bookmark, to notice, to realize [to become aware]"
+                    }
+                }
             }
         },
         "11": {
@@ -224,7 +527,40 @@
             "52": {
                 "DE": "Was bekümmert ihr das Weib? Sie hat ein gut Werk an mir getan. Ihr habet allezeitArmen bei euch, mich aber habt ihr nicht allezeit. Daß sie dies Wasser hat aufmeinen Leib gegossen, hat sie getan, daß man mich begraben wird. Wahrlich, ichsage euch: Wo dies Evangelium geprediget wird in der ganzen Welt, da wird man auch sagen zu ihrem Gedächtnis, was sie getan hat.",
                 "EN1": "Why do you trouble the woman? She has done a good deed for me. You will have the poor with you always, but you will not always have me. She has poured this water on my body because I will be buried. Truly I say to you: wherever this Gospel will be preached in the whole world they will tell, in her memory, what she has done.",
-                "EN2": "Why do you trouble the woman? She has done me a good deed. The poor you will always have with you; but me you will not always have. The reason why she has poured this water on my body is that I am going to be buried. Truly, I say to you: wherever this good news is preached in the entire world, they will also, in memorial of her, tell of what she has done."
+                "EN2": "Why do you trouble the woman? She has done me a good deed. The poor you will always have with you; but me you will not always have. The reason why she has poured this water on my body is that I am going to be buried. Truly, I say to you: wherever this good news is preached in the entire world, they will also, in memorial of her, tell of what she has done.",
+                "entry": {
+                    "bekümmern": {
+                        "pronunciation": "bəˈkʏmɐn"
+                    },
+                    "jdn. bekümmern": {
+                        "DE_EN": "to distress sb., to trouble sb., to worry sb."
+                    },
+                    "jdn. bekümmern [bedrücken]": {
+                        "DE_EN": "to vex sb. [afflict]"
+                    },
+                    "jdn. bekümmern [ärgern, irritieren]": {
+                        "DE_EN": "to fash sb. [Scot.] [vex]"
+                    },
+                    "jdn. bekümmern [ärgern, verdrießen]": {
+                        "DE_EN": "to chagrin sb."
+                    },
+                    "Leib": {
+                        "pronunciation": "laɪ̯p",
+                        "DE_EN": "body and limbs, body"
+                    },
+                    "begraben": {
+                        "pronunciation": "bəˈɡʁaːbn̩",
+                        "DE_EN": "buried, entombed, interred, sepulchered  [Am.], sepulchred  [Br.], to inter"
+                    },
+                    "predigen": {
+                        "pronunciation": "ˈpʁeːdɪɡn̩",
+                        "DE_EN": "to jaw [coll.] [to moralize], to preach, to sermonize"
+                    },
+                    "Gedächtnis": {
+                        "pronunciation": "ɡəˈdɛçtnɪs",
+                        "DE_EN": "memory, mind [memory], remembrance, retention"
+                    }
+                }
             }
         },
         "12": {
@@ -236,32 +572,84 @@
             "55": {
                 "DE": "Du lieber Heiland du,",
                 "EN1": "O you dear Savior,",
-                "EN2": "You dear Saviour, you:"
+                "EN2": "You dear Saviour, you:",
+                "entry": {
+                    "Heiland": {
+                        "pronunciation": "ˈhaɪ̯ˌlant",
+                        "DE_EN": "Redeemer, savior [Am.], saviour [Br.]"
+                    }
+                }
             },
             "56": {
                 "DE": "Wenn deiner Jünger töricht streiten,",
                 "EN1": "when your disciples foolishly protest",
-                "EN2": "if your disciples foolishly pick a quarrel"
+                "EN2": "if your disciples foolishly pick a quarrel",
+                "entry": {
+                    "töricht": {
+                        "pronunciation": "ˈtøːʁɪçt",
+                        "DE_EN": "absurd, asinine, daft  [Br.]  [coll.], fatuous, fond [dated for: foolish], foolhardy, foolish, misguided, misguidedly, silly, stupid, unwise"
+                    },
+                    "streiten": {
+                        "pronunciation": "ˈʃtʁaɪ̯tn̩",
+                        "DE_EN": "to altercate [archaic], to bicker [quarrel], to brabble, to brawl, to contest, to differ, to disagree, to dispute, to fratch [N. Engl.], to hassle [coll.] [argue], to have an argument, to litigate, to quarrel, to row [Br.] [coll.] [quarrel], to stickle, to struggle, to wrangle"
+                    }
+                }
             },
             "57": {
                 "DE": "Daß diese fromme Weib",
                 "EN1": "that this virtuous woman",
-                "EN2": "because this good woman wants to prepare"
+                "EN2": "because this good woman wants to prepare",
+                "entry": {
+                    "fromm": {
+                        "pronunciation": "fʁɔm",
+                        "DE_EN": "devotional, devout, devoutly, divine, godly, pious, piously, religious, saintly"
+                    }
+                }
             },
             "58": {
                 "DE": "Mit Salben deinen Leib",
                 "EN1": "prepares your body",
-                "EN2": "your body with salve"
+                "EN2": "your body with salve",
+                "entry": {
+                    "Salbe": {
+                        "pronunciation": "ˈzalbə",
+                        "DE_EN": "balm [ointment], ointment, salve, unguent"
+                    }
+                }
             },
             "59": {
                 "DE": "zum Grabe will bereiten,",
                 "EN1": "with ointment for the grave,",
-                "EN2": "for the grave,"
+                "EN2": "for the grave,",
+                "entry": {
+                    "bereiten": {
+                        "pronunciation": "bəˈʁaɪ̯tn̩",
+                        "Langenscheidt": "to prepare, to give, to cause"
+                    },
+                    "(jdm.) Umstände bereiten [geh.]": {
+                        "DE_EN": "to cause inconvenience (to sb.)"
+                    },
+                    "(jdm.) Unbehagen bereiten": {
+                        "DE_EN": "to cause (sb.) discomfort"
+                    },
+                    "Atemschwierigkeiten bereiten": {
+                        "DE_EN": "to cause difficulty in breathing"
+                    },
+                    "den Boden bereiten [fig.]": {
+                        "DE_EN": "to sow the seeds [fig.]"
+                    }
+                }
             },
             "60": {
                 "DE": "So lasse mir inzwischen zu,",
                 "EN1": "in the meantime let me,",
-                "EN2": "then let me in the meantime pour,"
+                "EN2": "then let me in the meantime pour,",
+                "entry": {
+                    "inzwischen": {
+                        "pronunciation": "ɪnˈt͡svɪʃn̩",
+                        "DE_EN": "by now, by that time, by then, in the meantime, meanwhile, since, since then"
+                    }
+                }
             },
             "61": {
                 "DE": "Von meiner Augen Tränenflüssen",
@@ -283,27 +671,76 @@
             "65": {
                 "DE": "Buß und Reu",
                 "EN1": "Repentance and regret",
-                "EN2": "Penitence and remorse"
+                "EN2": "Penitence and remorse",
+                "entry": {
+                    "Buß": {
+                        "Langenscheidt": "repent"
+                    },
+                    "Reue": {
+                        "pronunciation": "ˈʁɔɪ̯ə",
+                        "DE_EN": "compunction [regret], contrition, penitence, regret, remorsefulness, remorse, repentance, ruefulness, rue [archaic] [repentance, regret], sorrow [remorse]"
+                    }
+                }
             },
             "66": {
                 "DE": "Knirscht das Sündenherz entzwei.",
                 "EN1": "rips the sinful heart in two.",
-                "EN2": "grinds my sinful heart in pieces,"
+                "EN2": "grinds my sinful heart in pieces,",
+                "entry": {
+                    "knirschen": {
+                        "pronunciation": "ˈknɪʁʃn̩",
+                        "DE_EN": "to crump, to crunch [with teeth], to grate [one's teeth], to graunch [esp. Br.] [coll.], to gride [literary], to scroop, to scrunch [snow, gravel, pebbles]"
+                    },
+                    "entzwei": {
+                        "pronunciation": "ɛntˈt͡svaɪ̯",
+                        "DE_EN": "apart [broken, fallen], asunder [archaic or literary], atwain  [archaic], in half, in pieces, in sunder [apart], in twain  [archaic], in two"
+                    }
+                }
             },
             "67": {
                 "DE": "Daß die Tropfen meiner Zähren",
                 "EN1": "Thus the drops of my tears,",
-                "EN2": "so that my teardrops bring forth"
+                "EN2": "so that my teardrops bring forth",
+                "entry": {
+                    "Tropf": {
+                        "pronunciation": "tʁɔp͡f",
+                        "DE_EN": "drip, IV bag"
+                    },
+                    "Zähren": {
+                        "pronunciation": "ˈt͡sɛːʁən",
+                        "Langenscheidt": "tears"
+                    },
+                    "Zähren [veraltet für Tränen] [poet.] [hum.]": {
+                        "DE_EN": "brine [obs.] [poet.]"
+                    }
+                }
             },
             "68": {
                 "DE": "Angenehme Spezerei,",
                 "EN1": "desirable spices,",
-                "EN2": "spices acceptable"
+                "EN2": "spices acceptable",
+                "entry": {
+                    "Spezerei": {
+                        "pronunciation": "ʃpeːt͡səˈʁaɪ̯"
+                    },
+                    "Spezerei [veraltet] [Gewürz, bes. überseeisches]": {
+                        "DE_EN": "spice [esp. from overseas]"
+                    }
+                }
             },
             "69": {
                 "DE": "Treuer Jesu, dir gebären.",
                 "EN1": "are brought to you, loving Jesus.",
-                "EN2": "to you, faithful Jesus."
+                "EN2": "to you, faithful Jesus.",
+                "entry": {
+                    "Nördlicher Treuer Kurzpfeil [Libellenart]": {
+                        "DE_EN": "northern banded groundling [Brachythemis impartita]"
+                    },
+                    "gebären": {
+                        "pronunciation": "ɡəˈbɛːʁən",
+                        "DE_EN": "to bear [to give birth], to birth [chiefly Am. dialect]"
+                    }
+                }
             }
         },
         "14": {
@@ -315,7 +752,13 @@
             "72": {
                 "DE": "Da ging hin der Zwölfen einer mit Namen Judas Ischarioth zu den Hohenpriestern und sprach:",
                 "EN1": "Then one of the twelve, named Judas Iscariot, went to the high priests and said:",
-                "EN2": "Then one of the Twelve, named Judas Iscariot, went up to the chief priests and said:"
+                "EN2": "Then one of the Twelve, named Judas Iscariot, went up to the chief priests and said:",
+                "entry": {
+                    "Judas Ischariot": {
+                        "pronunciation": "ˈjuːdas ɪˈʃarɪoːt",
+                        "DE_EN": "Judas Iscariot"
+                    }
+                }
             }
         },
         "15": {
@@ -327,7 +770,13 @@
             "75": {
                 "DE": "Was wollt ihr mir geben? Ich will ihn euch verraten.",
                 "EN1": "What will you give me? I will betray him to you.",
-                "EN2": "What will you give me? I will betray him to you."
+                "EN2": "What will you give me? I will betray him to you.",
+                "entry": {
+                    "verraten": {
+                        "pronunciation": "fɛɐ̯ˈʁaːtn̩",
+                        "DE_EN": "betrayed, to reveal [name, details]"
+                    }
+                }
             }
         },
         "16": {
@@ -339,7 +788,24 @@
             "78": {
                 "DE": "Und sie boten ihm dreißig Silberlinge. Und von dem an suchte er Gelegenheit, daß er ihn verriete.",
                 "EN1": "And they offered him thirty silver pieces. And from then on he sought opportunity to betray him.",
-                "EN2": "And they offered him thirty pieces of silver. And from then on he sought opportunity where he might betray him."
+                "EN2": "And they offered him thirty pieces of silver. And from then on he sought opportunity where he might betray him.",
+                "entry": {
+                    "bieten": {
+                        "pronunciation": "ˈbiːtn̩",
+                        "DE_EN": "to give [afford, provide], to make a bid, to make an offer for, to proffer, to provide, to tender [money, services, shares]"
+                    },
+                    "Silberlinge": {
+                        "pronunciation": "ˈzɪlbɐlɪŋə",
+                        "DE_EN": "honesties [genus Lunaria], money plants [genus Lunaria], moonworts [genus Lunaria], pieces of silver, satin flowers [genus Lunaria], silver dollars [genus Lunaria]"
+                    },
+                    "den Punkt erreichen, von dem an es kein Zurück mehr gibt": {
+                        "DE_EN": "to reach the point of no return"
+                    },
+                    "Gelegenheit": {
+                        "pronunciation": "ɡəˈleːɡn̩haɪ̯t",
+                        "DE_EN": "chance, innings, instance, occasion, opportunity"
+                    }
+                }
             }
         },
         "17": {
@@ -351,27 +817,61 @@
             "81": {
                 "DE": "Blute nur, du liebes Herz!",
                 "EN1": "Bleed out, you loving heart!",
-                "EN2": "Bleed away, you loving heart!"
+                "EN2": "Bleed away, you loving heart!",
+                "entry": {
+                    "bluten": {
+                        "pronunciation": "ˈbluːtn̩",
+                        "DE_EN": "to bleed, to haemorrhage [Br.], to hemorrhage [Am.]"
+                    }
+                }
             },
             "82": {
                 "DE": "Ach! ein Kind, das du erzogen,",
                 "EN1": "Alas! A child that you raised,",
-                "EN2": "Oh! a child that you have reared,"
+                "EN2": "Oh! a child that you have reared,",
+                "entry": {
+                    "erziehen": {
+                        "pronunciation": "ɛɐ̯ˈt͡siːən",
+                        "DE_EN": "to breed [rear and train], to educate"
+                    }
+                }
             },
             "83": {
                 "DE": "Das an deiner Brust gesogen,",
                 "EN1": "that nursed at your breast,",
-                "EN2": "who has suckled at your breast,"
+                "EN2": "who has suckled at your breast,",
+                "entry": {
+                    "saugen": {
+                        "pronunciation": "ˈzaʊ̯ɡn̩",
+                        "DE_EN": "to draw [water, air etc.], to suck"
+                    }
+                }
             },
             "84": {
                 "DE": "Droht den Pfleger zu ermorden,",
                 "EN1": "threatens to murder its caretaker,",
-                "EN2": "threatens to murder its caretaker,"
+                "EN2": "threatens to murder its caretaker,",
+                "entry": {
+                    "drohen": {
+                        "pronunciation": "ˈdʁoːən",
+                        "DE_EN": "to menace, to threaten, to threat [archaic]"
+                    },
+                    "Pfleger": {
+                        "pronunciation": "ˈp͡fleːɡɐ",
+                        "DE_EN": "(medical) orderly, caregiver, carer, hospital aide, nurse, tender [of sick person], carers, nurses [male]"
+                    }
+                }
             },
             "85": {
                 "DE": "Denn es ist zur Schlange worden.",
                 "EN1": "since it has become a serpent.",
-                "EN2": "for the child has become a serpent."
+                "EN2": "for the child has become a serpent.",
+                "entry": {
+                    "Schlange": {
+                        "pronunciation": "ˈʃlaŋə",
+                        "DE_EN": "serpent [literary or archaic] [snake], snake"
+                    }
+                }
             }
         },
         "18": {
@@ -431,7 +931,13 @@
             "100": {
                 "DE": "Und die Jünger täten, wie ihnen Jesus befohlen hatte, und bereiteten das Osterlamm. Und am Abend satzte er sich zu Tische mit den Zwölfen. Und da sie aßen, sprach er:",
                 "EN1": "And the disciples did as Jesus had commanded them, and prepared the Passover lamb. And in the evening he sat at dinner with the twelve. And as they ate, He said:",
-                "EN2": "And the disciples did as Jesus had commanded them, and prepared the Passover lamb. And in the evening he sat down at table with the Twelve. And as they ate, He said:"
+                "EN2": "And the disciples did as Jesus had commanded them, and prepared the Passover lamb. And in the evening he sat down at table with the Twelve. And as they ate, He said:",
+                "entry": {
+                    "befehlen": {
+                        "pronunciation": "bəˈfeːlən",
+                        "DE_EN": "to bid [command], to dictate [command]"
+                    }
+                }
             }
         },
         "23": {
@@ -455,7 +961,14 @@
             "106": {
                 "DE": "Und sie wurden sehr betrübt und huben an, ein jeglicher unter ihnen, und sagten zu ihm:",
                 "EN1": "And they were very troubled and began, each one among them, to say to him:",
-                "EN2": "And they became very distressed, and started, each and every one among them, to say to him:"
+                "EN2": "And they became very distressed, and started, each and every one among them, to say to him:",
+                "entry": {
+                    "anheben": {
+                        "pronunciation": "ˈanˌheːbn̩",
+                        "Langenscheidt": "to begin, to start",
+                        "DE_EN": "to accentuate, to elevate, to hoist"
+                    }
+                }
             }
         },
         "25": {
@@ -479,7 +992,13 @@
             "112": {
                 "DE": "Ich bin's, ich sollte büßen,",
                 "EN1": "It is I, I should atone,",
-                "EN2": "I am the one, I should atone:"
+                "EN2": "I am the one, I should atone:",
+                "entry": {
+                    "büßen": {
+                        "pronunciation": "ˈbyːsn̩",
+                        "DE_EN": "to atone, to suffer [as punishment, in hell etc.]"
+                    }
+                }
             },
             "113": {
                 "DE": "An Händen und an Füßen",
@@ -489,22 +1008,59 @@
             "114": {
                 "DE": "Gebunden in der Höll.",
                 "EN1": "in hell.",
-                "EN2": "in hell."
+                "EN2": "in hell.",
+                "entry": {
+                    "Hölle": {
+                        "pronunciation": "ˈhœlə",
+                        "DE_EN": "abyss, hades [coll.] [hell], hell, infernal regions {pl}, inferno, netherworld, pandemonium, Tophet [hell]"
+                    }
+                }
             },
             "115": {
                 "DE": "Die Geißeln und die Banden",
                 "EN1": "The scourges and the bonds",
-                "EN2": "The scourges and the bonds"
+                "EN2": "The scourges and the bonds",
+                "entry": {
+                    "Geißel": {
+                        "pronunciation": "ˈɡaɪ̯sl̩",
+                        "DE_EN": "whip"
+                    }
+                }
             },
             "116": {
                 "DE": "Und was du ausgestanden,",
                 "EN1": "and what you endured,",
-                "EN2": "and what you have endured -"
+                "EN2": "and what you have endured -",
+                "entry": {
+                    "ausstehen": {
+                        "pronunciation": "ˈaʊ̯sˌʃteːən",
+                        "Langenscheidt": "to stand, to bear, to endure, to suffer"
+                    },
+                    "Angst ausstehen": {
+                        "DE_EN": "to be frightened"
+                    },
+                    "ausstehen [Aufgaben etc.]": {
+                        "DE_EN": "to pend"
+                    },
+                    "ausstehen [fällig sein]": {
+                        "DE_EN": "to be due [money etc.]"
+                    },
+                    "ausstehen [Wertpapiere]": {
+                        "DE_EN": "to be outstanding"
+                    }
+                }
             },
             "117": {
                 "DE": "Das hat verdienet meine Seel.",
                 "EN1": "my soul has deserved.",
-                "EN2": "my soul has merited that."
+                "EN2": "my soul has merited that.",
+                "entry": {
+                    "verdienen": {
+                        "pronunciation": "fɛɐ̯ˈdiːnən",
+                        "Langenscheidt": "to earn, to make, to deserve",
+                        "DE_EN": "to bring in [earn]"
+                    }
+                }
             },
             "118": {
                 "DE": "(\"O Welt, sieh hier dein Leben,\" verse 5)",
@@ -533,7 +1089,32 @@
             "124": {
                 "DE": "Der mit der Hand mit mir in die Schüssel tauchet, der wird mich verraten. Des Menschen Sohn gehet zwar dahin, wie von ihm geschrieben stehet; doch wehe dem Menschen, durch welchen des Menschen Sohn verraten wird! Es wäre ihm besser, daß derselbige Mensch noch nie geboren wäre.",
                 "EN1": "He who has dipped his hand in the bowl with me will betray me. The Son of Man will indeed pass away as it stands written of him; yet woe to the man through whom the Son of Man is betrayed! It would be better for him if this man had never been born.",
-                "EN2": "He who dips his hand in the bowl with me will betray me. The Son of Man is going forth, indeed, as it is written of him; yet, woe to the man by whom the Son of Man is betrayed! It would be better for him if this same man had never even been born."
+                "EN2": "He who dips his hand in the bowl with me will betray me. The Son of Man is going forth, indeed, as it is written of him; yet, woe to the man by whom the Son of Man is betrayed! It would be better for him if this same man had never even been born.",
+                "entry": {
+                    "Schüssel": {
+                        "pronunciation": "ˈʃʏsl̩",
+                        "DE_EN": "basin [bowl], bowl, dish, pan, tureen"
+                    },
+                    "tauchen": {
+                        "pronunciation": "ˈtaʊ̯xn̩",
+                        "DE_EN": "to dive [swim underwater], to plunge"
+                    },
+                    "tauchen [eintauchen]": {
+                        "DE_EN": "to dip (in, into)"
+                    },
+                    "zwar": {
+                        "pronunciation": "t͡svaːɐ̯",
+                        "DE_EN": "admittedly, indeed  [admittedly], to be sure"
+                    },
+                    "Weh": {
+                        "pronunciation": "veː",
+                        "DE_EN": "bale [obs., poet.]"
+                    },
+                    "derselbe": {
+                        "pronunciation": "deːɐ̯ˈzɛlbə",
+                        "DE_EN": "idem <id.>, same, the same"
+                    }
+                }
             }
         },
         "29": {
@@ -617,7 +1198,14 @@
             "145": {
                 "DE": "Und er nahm den Kelch und dankete, gab ihnen den und sprach:",
                 "EN1": "And he took the cup and blessed it, gave it to them and said:",
-                "EN2": "And he took the cup and gave thanks, handing it to them and saying:"
+                "EN2": "And he took the cup and gave thanks, handing it to them and saying:",
+                "entry": {
+                    "Kelch": {
+                        "pronunciation": "kɛlç",
+                        "DE_EN": "calyx, chalice, goblet",
+                        "Google": "A biblical metaphor for an assigned fate, severe trial, or suffering"
+                    }
+                }
             }
         },
         "36": {
@@ -629,7 +1217,28 @@
             "148": {
                 "DE": "Trinket alle daraus; das ist mein Blut des neuen Testaments, welches vergossen wird für viele zur Vergebung der Sünden. Ich sage euch: Ich werde von nun an nicht mehr von diesem Gewächs des Weinstocks trinken bis an den Tag, da ich's neu trinken werde mit euch in meines Vaters Reich.",
                 "EN1": "Drink from this, all of you; this is my blood of the new covenant, which is poured out for many for the forgiveness of sins. I say to you: from now on I will not drink again from this fruit of the vine until the day when I drink again with you in my Father's kingdom.",
-                "EN2": "Drink from this, all of you; this is my blood of the new testament, which is shed for many for the forgiveness of sins. I say to you: from now on I shall  drink no more from this fruit of the grapevine, until the day when I shall drink it new with you in my Father's kingdom."
+                "EN2": "Drink from this, all of you; this is my blood of the new testament, which is shed for many for the forgiveness of sins. I say to you: from now on I shall  drink no more from this fruit of the grapevine, until the day when I shall drink it new with you in my Father's kingdom.",
+                "entry": {
+                    "vergießen": {
+                        "pronunciation": "fɛɐ̯ˈɡiːsn̩",
+                        "DE_EN": "to cast, to diffuse, to mold [Am.], to mould [Br.]"
+                    },
+                    "Blut vergießen": {
+                        "DE_EN": "to shed blood"
+                    },
+                    "Vergebung": {
+                        "pronunciation": "fɛɐ̯ˈɡeːbʊŋ",
+                        "DE_EN": "absolution [forgiveness], condonation, forgiveness, remission [forgiveness]"
+                    },
+                    "Gewächs": {
+                        "pronunciation": "ɡəˈvɛks",
+                        "DE_EN": "growth, plant"
+                    },
+                    "Weinstock": {
+                        "pronunciation": "ˈvaɪ̯nˌʃtɔk",
+                        "DE_EN": "grapevine, vine, vine stock"
+                    }
+                }
             }
         },
         "37": {
@@ -651,17 +1260,54 @@
             "153": {
                 "DE": "so macht mich doch sein Testament erfreut:",
                 "EN1": "yet his Testament brings me joy:",
-                "EN2": "still his Testament makes me glad:"
+                "EN2": "still his Testament makes me glad:",
+                "entry": {
+                    "erfreuen": {
+                        "pronunciation": "ɛɐ̯ˈfʁɔɪ̯ən",
+                        "DE_EN": "to delectate, to delight, to gratify, to please"
+                    }
+                }
             },
             "154": {
                 "DE": "Sein Fleisch und Blut, o Kostbarkeit,",
                 "EN1": "his flesh and blood, O most precious,",
-                "EN2": "his flesh and blood - o treasure -"
+                "EN2": "his flesh and blood - o treasure -",
+                "entry": {
+                    "Kostbarkeit": {
+                        "pronunciation": "ˈkɔstbaːɐ̯kaɪ̯t"
+                    },
+                    "Kostbarkeit [Eigenschaft]": {
+                        "DE_EN": "costliness, preciousness, valuableness, value"
+                    },
+                    "Kostbarkeit [Gegenstand]": {
+                        "DE_EN": "precious object"
+                    },
+                    "Kostbarkeit [Schatz]": {
+                        "DE_EN": "treasure [very valuable object]"
+                    }
+                }
             },
             "155": {
                 "DE": "Vermacht er mir in meine Hände.",
                 "EN1": "he bequeaths to my hands.",
-                "EN2": "he passes on to me, into my hands."
+                "EN2": "he passes on to me, into my hands.",
+                "entry": {
+                    "vermachen": {
+                        "pronunciation": "fɛɐ̯ˈmaxn̩"
+                    },
+                    "etw. [Akk.] vermachen": {
+                        "DE_EN": "to will sth. [bequeath]"
+                    },
+                    "jdm. etw. [Akk.] vermachen": {
+                        "DE_EN": "to bequeath sth. to sb., to leave sth. to sb. [bequeath], to make sth. over to sb. [bequeath]"
+                    },
+                    "jdm. sein Vermögen vermachen": {
+                        "DE_EN": "to make over one's estate to sb."
+                    },
+                    "letztwillig vermachen [Grundbesitz]": {
+                        "DE_EN": "to devise [property] [to give by will]"
+                    }
+                }
             },
             "156": {
                 "DE": "Wie er es auf der Welt mit denen Seinen",
@@ -671,7 +1317,17 @@
             "157": {
                 "DE": "Nicht böse können meinen,",
                 "EN1": "he could not wish them harm,",
-                "EN2": "he cannot mean any harm,"
+                "EN2": "he cannot mean any harm,",
+                "entry": {
+                    "böse": {
+                        "pronunciation": "ˈbøːzə",
+                        "DE_EN": "badly, bad [wicked, aggressive], crossly, diabolic, evil, sinister, vicious, wicked"
+                    },
+                    "meinen": {
+                        "pronunciation": "ˈmaɪ̯nən",
+                        "DE_EN": "to allude, to deem, to fancy [think, believe], to intend, to mean, to reckon"
+                    }
+                }
             },
             "158": {
                 "DE": "so liebt er sie bis an das Ende.",
@@ -693,22 +1349,44 @@
             "162": {
                 "DE": "Senke dich, mein Heil, hinein!",
                 "EN1": "sink within, my Savior!",
-                "EN2": "sink into it, my Salvation!"
+                "EN2": "sink into it, my Salvation!",
+                "entry": {
+                    "senken": {
+                        "pronunciation": "ˈzɛŋkn̩",
+                        "DE_EN": "to bring down, to decline [diminish], to depress, to dip, to lower, to plunge, to reduce, to sag, to slant"
+                    }
+                }
             },
             "163": {
                 "DE": "Ich will mich in dir versenken;",
                 "EN1": "I will sink into you;",
-                "EN2": "I will immerse myself in you;"
+                "EN2": "I will immerse myself in you;",
+                "entry": {
+                    "versenken": {
+                        "pronunciation": "fɛɐ̯ˈzɛŋkn̩",
+                        "DE_EN": "to engulf, to plunge"
+                    }
+                }
             },
             "164": {
                 "DE": "Ist dir gleich die Welt zu klein,",
                 "EN1": "although the world is too small for you,",
-                "EN2": "even if to you the world is too small,"
+                "EN2": "even if to you the world is too small,",
+                "entry": {
+                    "ist...gleich": {
+                        "Google": "even if"
+                    }
+                }
             },
             "165": {
                 "DE": "Ei, so sollst du mir allein",
                 "EN1": "ah, you alone shall be for me",
-                "EN2": "ah then to me you shall alone"
+                "EN2": "ah then to me you shall alone",
+                "entry": {
+                    "ei": {
+                        "pronunciation": "aɪ̯"
+                    }
+                }
             },
             "166": {
                 "DE": "Mehr als Welt und Himmel sein.",
@@ -725,7 +1403,16 @@
             "169": {
                 "DE": "Und da sie den Lobgesang gesprochen hatten, gingen sie hinaus an den Ölberg. Da sprach Jesus zu ihnen:",
                 "EN1": "And when they had spoken the benediction, they went out to the Mount of Olives. Then Jesus said to them:",
-                "EN2": "And after they had rendered the song of praise, they went out to the Mount of Olives. Then Jesus said to them:"
+                "EN2": "And after they had rendered the song of praise, they went out to the Mount of Olives. Then Jesus said to them:",
+                "entry": {
+                    "Lobgesang": {
+                        "pronunciation": "ˈloːpɡəˌzaŋ",
+                        "DE_EN": "anthem, canticle, doxology, hymn (of praise), laud, ode, paean, pean [Am.], song of praise"
+                    },
+                    "Ölberg": {
+                        "DE_EN": "(Mount) Olivet, Mount of Olives"
+                    }
+                }
             }
         },
         "40": {
@@ -737,7 +1424,37 @@
             "172": {
                 "DE": "In dieser Nacht werdet ihr euch alle ärgern an mir. Denn es stehet geschrieben: \"Ich werde den Hirten schlagen, und die Schafe der Herde werden sich zerstreuen.\" Wenn ich aber auferstehe, will ich vor euch hingehen in Galiläam.",
                 "EN1": "Tonight you will all be angry at me. For it is written: \"I will strike the shepherd, and the sheep of the flock will be scattered.\" When, however, I rise again, I shall go before you into Galilee.",
-                "EN2": "This very night you will all be offended at me. For it is written: \"I will strike the shepherd, and the sheep of the flock will be scattered.\" But when I rise again from the dead, I will go forth before you to Galilee."
+                "EN2": "This very night you will all be offended at me. For it is written: \"I will strike the shepherd, and the sheep of the flock will be scattered.\" But when I rise again from the dead, I will go forth before you to Galilee.",
+                "entry": {
+                    "ärgern": {
+                        "pronunciation": "ˈɛʁɡɐn",
+                        "DE_EN": "to anger, to bring trouble upon, to cause trouble, to chagrin, to exasperate, to huff, to irritate, to madden [make angry], to roil, to spite, to worry"
+                    },
+                    "Hirt": {
+                        "pronunciation": "hɪʁt",
+                        "DE_EN": "herder, herdsman, stockman"
+                    },
+                    "Schaf": {
+                        "pronunciation": "ʃaːf",
+                        "DE_EN": "jumbuck [Aus.] [Aboriginal], sheep [Ovis]"
+                    },
+                    "Herde": {
+                        "pronunciation": "ˈhɛʁdə",
+                        "DE_EN": "drove, mob [Aus.] [NZ], stoves"
+                    },
+                    "zerstreuen": {
+                        "pronunciation": "ˌt͡sɛɐ̯ˈʃtʁɔɪ̯ən",
+                        "DE_EN": "to diffuse, to disaggregate, to dissipate [doubts etc.], to intersperse"
+                    },
+                    "auferstehen": {
+                        "pronunciation": "ˈaʊ̯fʔɛɐ̯ˌʃteːən",
+                        "DE_EN": "to arise, to resurge, to revive"
+                    },
+                    "Galiläa": {
+                        "pronunciation": "ɡaliˈlɛːa",
+                        "DE_EN": "Galilee"
+                    }
+                }
             }
         },
         "41": {
@@ -749,7 +1466,17 @@
             "175": {
                 "DE": "Erkenne mich, mein Hüter,",
                 "EN1": "Acknowledge me, my Guardian,",
-                "EN2": "Recognise me, my Guardian,"
+                "EN2": "Recognise me, my Guardian,",
+                "entry": {
+                    "erkennen": {
+                        "pronunciation": "ɛɐ̯ˈkɛnən",
+                        "DE_EN": "to identify, to ken [Scot., N. Engl.], to register [identify, recognise]"
+                    },
+                    "Hüter": {
+                        "pronunciation": "ˈhyːtɐ",
+                        "DE_EN": "custodian, guardian, keeper, tender [carer], upholder, guardians"
+                    }
+                }
             },
             "176": {
                 "DE": "Mein Hirte, nimm mich an!",
@@ -759,7 +1486,24 @@
             "177": {
                 "DE": "Von dir, Quell aller Güter,",
                 "EN1": "From you, source of all goodness,",
-                "EN2": "From you, source of all good things,"
+                "EN2": "From you, source of all good things,",
+                "entry": {
+                    "Quell": {
+                        "pronunciation": "kvɛl"
+                    },
+                    "Der Ursprung \/ Der ewige Quell": {
+                        "DE_EN": "The Fountainhead [Ayn Rand]"
+                    },
+                    "ein Quell steter Heiterkeit": {
+                        "DE_EN": "a source of constant amusement"
+                    },
+                    "Quell des Lebens": {
+                        "DE_EN": "source of life"
+                    },
+                    "Quell [fig.]": {
+                        "DE_EN": "fountainhead [fig.]"
+                    }
+                }
             },
             "178": {
                 "DE": "Ist mir viel Guts getan.",
@@ -769,22 +1513,61 @@
             "179": {
                 "DE": "Dein Mund hat mich gelabet",
                 "EN1": "Your mouth has nourished me",
-                "EN2": "Your mouth has refreshed me"
+                "EN2": "Your mouth has refreshed me",
+                "entry": {
+                    "laben": {
+                        "pronunciation": "ˈlaːbn̩"
+                    },
+                    "das Auge laben [geh.] [veraltend]": {
+                        "DE_EN": "to delight the eye"
+                    },
+                    "jdn. laben [fig.]": {
+                        "DE_EN": "to comfort sb. [refresh, cheer up]"
+                    },
+                    "jdn. laben [geh.] [erquicken, erfrischen]": {
+                        "DE_EN": "to refresh sb."
+                    },
+                    "sich an etw. [Dat.] laben [geh.]": {
+                        "DE_EN": "to feast on sth."
+                    }
+                }
             },
             "180": {
                 "DE": "Mit Milch und süßer Kost,",
                 "EN1": "with milk and sweet sustenance;",
-                "EN2": "with milk and sweet fare;"
+                "EN2": "with milk and sweet fare;",
+                "entry": {
+                    "Kost": {
+                        "pronunciation": "kɔst",
+                        "DE_EN": "boarding, commons [food], diet, food [fare, diet], table [food and drink, fare], victuals food"
+                    }
+                }
             },
             "181": {
                 "DE": "Dein Geist hat mich begabet",
                 "EN1": "your spirit has lavished upon me",
-                "EN2": "your spirit has endowed me"
+                "EN2": "your spirit has endowed me",
+                "entry": {
+                    "begaben": {
+                        "pronunciation": "bəˈɡaːbn̩",
+                        "Google": "to gift, to endow"
+                    }
+                }
             },
             "182": {
                 "DE": "Mit mancher Himmelslust.",
                 "EN1": "much heavenly joy.",
-                "EN2": "with many a heavenly delight."
+                "EN2": "with many a heavenly delight.",
+                "entry": {
+                    "manch": {
+                        "pronunciation": "manç",
+                        "DE_EN": "many a"
+                    },
+                    "Lust": {
+                        "pronunciation": "lʊst",
+                        "DE_EN": "appetite, delight, inclination, itch [coll.] [urge], lust, passion, sexual pleasure, wish, zestfulness"
+                    }
+                }
             },
             "183": {
                 "DE": "(\"O Haupt voll Blut und Wunden,\" verse 5)",
@@ -813,7 +1596,13 @@
             "189": {
                 "DE": "Wenn sie auch alle sich an dir ärgerten, so will ich doch mich nimmermehr ärgern.",
                 "EN1": "Even though everyone will be angry at you, yet I will never be angry.",
-                "EN2": "Even were they all to be offended at you, still I will never be offended."
+                "EN2": "Even were they all to be offended at you, still I will never be offended.",
+                "entry": {
+                    "nimmermehr": {
+                        "pronunciation": "ˈnɪmɐˌmeːɐ̯",
+                        "DE_EN": "nevermore"
+                    }
+                }
             }
         },
         "44": {
@@ -837,7 +1626,22 @@
             "195": {
                 "DE": "Wahrlich, ich sage dir: in dieser Nacht, ehe der Hahn krähet, wirst du mich dreimal verleugnen.",
                 "EN1": "Truly, I say to you: tonight, before the cock crows, you will deny me three times.",
-                "EN2": "Truly, I say to you: this very night, before the cock crows, you will disavow me three times."
+                "EN2": "Truly, I say to you: this very night, before the cock crows, you will disavow me three times.",
+                "entry": {
+                    "krähen": {
+                        "pronunciation": "ˈkʁɛːən"
+                    },
+                    "krähen [auch Kleinkind]": {
+                        "DE_EN": "to crow"
+                    },
+                    "krähen [Baby]": {
+                        "DE_EN": "to coo"
+                    },
+                    "verleugnen": {
+                        "pronunciation": "fɛɐ̯ˈlɔɪ̯ɡnən",
+                        "DE_EN": "to renege [archaic]"
+                    }
+                }
             }
         },
         "46": {
@@ -873,7 +1677,13 @@
             "204": {
                 "DE": "Desgleichen sagten auch alle Jünger.",
                 "EN1": "All the other disciples also said the same.",
-                "EN2": "All the disciples said similar things."
+                "EN2": "All the disciples said similar things.",
+                "entry": {
+                    "desgleichen": {
+                        "pronunciation": "dɛsˈɡlaɪ̯çn̩",
+                        "DE_EN": "likewise, the likes of which [postpos.] [coll.]"
+                    }
+                }
             }
         },
         "49": {
@@ -900,27 +1710,76 @@
             "210": {
                 "DE": "Wenn dir dein Herze bricht.",
                 "EN1": "even as your heart breaks.",
-                "EN2": "When your heart breaks."
+                "EN2": "When your heart breaks.",
+                "entry": {
+                    "brechen": {
+                        "pronunciation": "ˈbʁɛçn̩",
+                        "DE_EN": "to break, to burst, to crack, to fracture, to infract, to rupture"
+                    }
+                }
             },
             "211": {
                 "DE": "Wenn dein Herz wird erblassen",
                 "EN1": "When your heart grows pale",
-                "EN2": "When your heart turns pale"
+                "EN2": "When your heart turns pale",
+                "entry": {
+                    "erblassen": {
+                        "pronunciation": "ɛɐ̯ˈblasn̩",
+                        "DE_EN": "to blench [spv.] [chiefly dialect], to go pale, to pale"
+                    }
+                }
             },
             "212": {
                 "DE": "Im letzten Todesstoß,",
                 "EN1": "at the last stroke of death,",
-                "EN2": "in the final deathblow,"
+                "EN2": "in the final deathblow,",
+                "entry": {
+                    "Stoß": {
+                        "pronunciation": "ʃtoːs",
+                        "DE_EN": "biff [coll.], burst, face, face of work, hit, hunch [push, shove] [rare], jab, knock [push, shove], poke [jab], shot, splice, stroke [push], working face"
+                    },
+                    "Todesstoß": {
+                        "pronunciation": "ˈtoːdəsˌʃtoːs",
+                        "DE_EN": "I Can See You [Karen Rose], death blow, deathblow, finishing blow, killing stroke, mortal blow, quietus [archaic]"
+                    }
+                }
             },
             "213": {
                 "DE": "Alsdenn will ich dich fassen,",
                 "EN1": "Then I will hold you fast",
-                "EN2": "Then I will embrace you"
+                "EN2": "Then I will embrace you",
+                "entry": {
+                    "alsdenn [veraltet]": {
+                        "DE_EN": "thereupon"
+                    },
+                    "fassen": {
+                        "pronunciation": "ˈfasn̩"
+                    },
+                    "(festen) Fuß fassen": {
+                        "DE_EN": "to become established"
+                    },
+                    "(festen) Fuß fassen [auch fig.]": {
+                        "DE_EN": "to gain a foothold [also fig.]"
+                    },
+                    "(gute) Vorsätze fassen": {
+                        "DE_EN": "to make resolutions"
+                    },
+                    "... und fest fassen. [ugs.] [fest umfassen]": {
+                        "DE_EN": "... and grasp firmly."
+                    }
+                }
             },
             "214": {
                 "DE": "In meinen Arm und Schoß.",
                 "EN1": "In my arm and bosom.",
-                "EN2": "in my arm and bosom."
+                "EN2": "in my arm and bosom.",
+                "entry": {
+                    "Schoß": {
+                        "pronunciation": "ʃoːs",
+                        "DE_EN": "lap [of a sitting person]",
+                        "Google": "In older German literature, it is often translated as 'bosom'"
+                    }
+                }
             },
             "215": {
                 "DE": "(\"O Haupt voll Blut und Wunden,\" verse 6)",
@@ -937,7 +1796,19 @@
             "218": {
                 "DE": "Da kam Jesus mit ihnen zu einem Hofe, der hieß Gethsemane, und sprach zu seinen Jüngern:",
                 "EN1": "Then Jesus came with them to a garden, which was called Gethsemane, and spoke to his disciples:",
-                "EN2": "Then Jesus came with them to a villa, which was called Gethsemane, and said to his disciples:"
+                "EN2": "Then Jesus came with them to a villa, which was called Gethsemane, and said to his disciples:",
+                "entry": {
+                    "Hof": {
+                        "pronunciation": "hoːf",
+                        "DE_EN": "aureole [because of haze], corona, court"
+                    },
+                    "Gethsemane": {
+                        "pronunciation": "geˈtseːmane"
+                    },
+                    "Garten Gethsemane": {
+                        "DE_EN": "Garden of Gethsemane"
+                    }
+                }
             }
         },
         "51": {
@@ -949,7 +1820,13 @@
             "221": {
                 "DE": "Setzet euch hie, bis daß ich dort hingehe und bete.",
                 "EN1": "Sit here while I go over there and pray.",
-                "EN2": "Sit here, until I go over there and pray."
+                "EN2": "Sit here, until I go over there and pray.",
+                "entry": {
+                    "beten": {
+                        "pronunciation": "ˈbeːtn̩",
+                        "DE_EN": "to be praying, to daven [Yiddish] [pray], to pray"
+                    }
+                }
             }
         },
         "52": {
@@ -961,7 +1838,19 @@
             "224": {
                 "DE": "Und nahm zu sich Petrum und die zween Söhne Zebedäi und fing an zu trauern und zu zagen. Da sprach Jesus zu ihnen:",
                 "EN1": "And he took Peter and the two sons of Zebedee with him, and began to mourn and despair. Then Jesus said to them:",
-                "EN2": "And he took with him Peter and the two sons of Zebedee  and began to grieve and lose heart. Then Jesus said to them:"
+                "EN2": "And he took with him Peter and the two sons of Zebedee  and began to grieve and lose heart. Then Jesus said to them:",
+                "entry": {
+                    "zween [veraltet] [mittelhochd.] [männliche Form für zwei]": {
+                        "DE_EN": "two"
+                    },
+                    "Zebedäi": {
+                        "Google": "genitive case of Zebedäus"
+                    },
+                    "Zebedäus": {
+                        "pronunciation": "tsebeˈdɛːʊs",
+                        "DE_EN": "Zebedee"
+                    }
+                }
             }
         },
         "53": {
@@ -990,27 +1879,73 @@
             "231": {
                 "DE": "Hier zittert das gequälte Herz;",
                 "EN1": "Here the tormented heart trembles;",
-                "EN2": "Here the afflicted heart trembles;"
+                "EN2": "Here the afflicted heart trembles;",
+                "entry": {
+                    "zittern": {
+                        "pronunciation": "ˈt͡sɪtɐn",
+                        "DE_EN": "to dither [archaic, dialect], to jitter, to quake, to quaver [person, voice], to quiver, to shake, to shiver, to shudder, to tremble, to vibrate, to wobble [of the voice]"
+                    },
+                    "gequält": {
+                        "pronunciation": "ɡəˈkvɛːlt",
+                        "DE_EN": "afflicted, agonised  [Br.], agonized, annoyed, distressed  [desperate], excruciated, hagridden, harassed, harrowed [look etc.], haunted [look], pained, smitten, tantalised  [Br.], tantalized, tormented, tortured, vexed, worried"
+                    }
+                }
             },
             "232": {
                 "DE": "wie sinkt es hin, wie bleicht sein Angesicht!",
                 "EN1": "how it sinks down, how his face pales!",
-                "EN2": "how it sinks to the ground, how his face pales!"
+                "EN2": "how it sinks to the ground, how his face pales!",
+                "entry": {
+                    "bleichen": {
+                        "pronunciation": "ˈblaɪ̯çn̩",
+                        "DE_EN": "to blanch, to bleach, to etiolate [fig.] [skin etc.], to fade, to lighten in color [Am.], to lighten in colour [Br.], to whiten"
+                    }
+                }
             },
             "233": {
                 "DE": "Was ist die Ursach aller solcher Plagen?",
                 "EN1": "What is the cause of all this trouble?",
-                "EN2": "What is the cause of all this torments?"
+                "EN2": "What is the cause of all this torments?",
+                "entry": {
+                    "Ursache": {
+                        "pronunciation": "ˈuːɐ̯ˌzaxə",
+                        "DE_EN": "account [ground, basis], bottom, cause, principle, reason [cause, motive], root"
+                    },
+                    "Plage": {
+                        "pronunciation": "ˈplaːɡə",
+                        "DE_EN": "trouble, worry"
+                    }
+                }
             },
             "234": {
                 "DE": "Der Richter führt ihn vor Gericht.",
                 "EN1": "The Judge leads him before judgment.",
-                "EN2": "The Judge leads him before judgment seat."
+                "EN2": "The Judge leads him before judgment seat.",
+                "entry": {
+                    "Richter": {
+                        "pronunciation": "ˈʁɪçtɐ",
+                        "DE_EN": "bench, cadi [in Islamic countries: judge], judge <J.>, jurist [Am.: judge], Bench, judges, judiciary {sg}, magistrates"
+                    },
+                    "führen": {
+                        "pronunciation": "ˈfyːʁən",
+                        "DE_EN": "to direct, to lead, to steer"
+                    },
+                    "Gericht": {
+                        "pronunciation": "ɡəˈʁɪçt",
+                        "DE_EN": "bar, court, forum, judgment"
+                    }
+                }
             },
             "235": {
                 "DE": "Da ist kein Trost, kein Helfer nicht.",
                 "EN1": "No comfort, no helper is there.",
-                "EN2": "There is no comfort, no helper, none."
+                "EN2": "There is no comfort, no helper, none.",
+                "entry": {
+                    "Trost": {
+                        "pronunciation": "tʁoːst",
+                        "DE_EN": "comfort [consolation, solace], consolation, solace, word of comfort, word of consolation"
+                    }
+                }
             },
             "236": {
                 "DE": "Ach! meine Sünden haben dich geschlagen;",
@@ -1020,22 +1955,68 @@
             "237": {
                 "DE": "Er leidet alle Höllenqualen,",
                 "EN1": "He suffers all the torments of Hell,",
-                "EN2": "He suffers all the sorrows of hell,"
+                "EN2": "He suffers all the sorrows of hell,",
+                "entry": {
+                    "Qual": {
+                        "pronunciation": "kvaːl",
+                        "DE_EN": "Blaze [Richard Bachman], affliction, agony, anguish, bother, distress [anguish], dolor [Am.], dolour [Br.], excruciation, misery, ordeal, pain, torment, torture, vexation"
+                    }
+                }
             },
             "238": {
                 "DE": "Er soll vor fremden Raub bezahlen.",
                 "EN1": "he must pay for the crimes of others.",
-                "EN2": "he is expected to pay for others' robbery."
+                "EN2": "he is expected to pay for others' robbery.",
+                "entry": {
+                    "fremd": {
+                        "pronunciation": "fʁɛmt",
+                        "DE_EN": "alien, external, extraneous, extrinsic, extrinsical, foreign, new [alien, strange], other, outside [non-local, external, not one's own], tramontane [foreign]"
+                    },
+                    "Raub": {
+                        "pronunciation": "ʁaʊ̯p",
+                        "DE_EN": "deprivation, heist, pilferage, plunder [act of plundering], predation, robbery"
+                    },
+                    "bezahlen": {
+                        "pronunciation": "bəˈt͡saːlən",
+                        "DE_EN": "to check out [settle one's bill, pay for one's purchases], to defray, to disburse, to discharge [debt], to pay up, to pay, to settle up [coll.]"
+                    }
+                }
             },
             "239": {
                 "DE": "Ich, ach, Herr Jesu, habe dies verschuldet,",
                 "EN1": "I, alas, Lord Jesus, have earned this,",
-                "EN2": "I, oh Lord Jesus, am at fault for this torment,"
+                "EN2": "I, oh Lord Jesus, am at fault for this torment,",
+                "entry": {
+                    "verschulden": {
+                        "pronunciation": "fɛɐ̯ˈʃʊldn̩",
+                        "DE_EN": "to encumber with debts"
+                    },
+                    "habe...verschuldet": {
+                        "Google": "have caused, am to blame for, have deserved"
+                    }
+                }
             },
             "240": {
                 "DE": "was du erduldet.",
                 "EN1": "that you endure.",
-                "EN2": "that you are enduring."
+                "EN2": "that you are enduring.",
+                "entry": {
+                    "erdulden": {
+                        "pronunciation": "ɛɐ̯ˈdʊldn̩"
+                    },
+                    "Beleidigungen erdulden": {
+                        "DE_EN": "to accept insults"
+                    },
+                    "eine Beleidigung erdulden": {
+                        "DE_EN": "to put up with an insult"
+                    },
+                    "etw. [Akk.] erdulden": {
+                        "DE_EN": "to endure sth., to suffer sth. [endure, bear], to thole sth. [Scot., N. Engl. or archaic], to undergo sth."
+                    },
+                    "etw. [Akk.] erdulden [ertragen]": {
+                        "DE_EN": "to brook sth. [formal]"
+                    }
+                }
             },
             "241": {
                 "DE": "Ach, könnte meine Liebe dir,",
@@ -1045,12 +2026,29 @@
             "242": {
                 "DE": "Mein Heil, dein Zittern und dein Zagen",
                 "EN1": "my Savior, diminish or bring aid",
-                "EN2": "my Salvation, to alleviate or help you to bear"
+                "EN2": "my Salvation, to alleviate or help you to bear",
+                "entry": {
+                    "zagen": {
+                        "pronunciation": "ˈt͡saːɡn̩"
+                    },
+                    "zagen [geh.]": {
+                        "DE_EN": "to hesitate"
+                    },
+                    "zagen [geh.] [ängstlich zögern]": {
+                        "DE_EN": "to be apprehensive [and hesitant]"
+                    }
+                }
             },
             "243": {
                 "DE": "vermindern oder helfen tragen,",
                 "EN1": "to your trembling and your despair,",
-                "EN2": "your trembling and your faintheartedness,"
+                "EN2": "your trembling and your faintheartedness,",
+                "entry": {
+                    "vermindern": {
+                        "pronunciation": "fɛɐ̯ˈmɪndɐn",
+                        "DE_EN": "to abate, to allay, to alleviate, to bate, to decrease, to decrement, to degrade, to deplete [reduce], to derogate, to lessen, to minimise [Br.], to reduce, to shrink"
+                    }
+                }
             },
             "244": {
                 "DE": "Wie gerne blieb ich hier!",
@@ -1087,17 +2085,51 @@
             "251": {
                 "DE": "Büßet seine Seelennot;",
                 "EN1": "is atoned for by his soul's anguish;",
-                "EN2": "the anguish of his soul atones;"
+                "EN2": "the anguish of his soul atones;",
+                "entry": {
+                    "Seelennot": {
+                        "Langenscheidt": "mental agony"
+                    }
+                }
             },
             "252": {
                 "DE": "Sein Trauren machet mich voll Freuden.",
                 "EN1": "his sorrow makes me full of joy.",
-                "EN2": "his grieving makes me joyful."
+                "EN2": "his grieving makes me joyful.",
+                "entry": {
+                    "Trauren": {
+                        "Google": "archaic spelling of 'Trauern'"
+                    },
+                    "Trauern": {
+                        "DE_EN": "mourning"
+                    }
+                }
             },
             "253": {
                 "DE": "- Drum muß uns sein verdienstlich Leiden",
                 "EN1": "- Therefore his deserved suffering",
-                "EN2": "- That is why to us his meritorious suffering"
+                "EN2": "- That is why to us his meritorious suffering",
+                "entry": {
+                    "drum": {
+                        "pronunciation": "dʁʊm"
+                    },
+                    "Da mach ich mir keinen Kopf drum. [ugs.]": {
+                        "DE_EN": "I'm not going to lose any sleep over it. [coll.]"
+                    },
+                    "drum herumreden [ugs.]": {
+                        "DE_EN": "to circumlocute"
+                    },
+                    "drum [ugs.]": {
+                        "DE_EN": "for that reason, so"
+                    },
+                    "Es ist schade drum.": {
+                        "DE_EN": "It's (such) a shame."
+                    },
+                    "verdienstlich": {
+                        "pronunciation": "fɛɐ̯ˈdiːnstlɪç",
+                        "DE_EN": "meritorious, meritoriously"
+                    }
+                }
             },
             "254": {
                 "DE": "Recht bitter und doch süße sein. -",
@@ -1114,7 +2146,17 @@
             "257": {
                 "DE": "Und ging hin ein wenig, fiel nieder auf sein Angesicht und betete und sprach:",
                 "EN1": "And went away a bit, fell down on his face and prayed and said:",
-                "EN2": "And Jesus went forward a little, fell down on his face, and prayed, saying:"
+                "EN2": "And Jesus went forward a little, fell down on his face, and prayed, saying:",
+                "entry": {
+                    "hingehen": {
+                        "pronunciation": "ˈhɪnˌɡeːən",
+                        "DE_EN": "to go forth, to go there, to go [to somewhere]"
+                    },
+                    "fallen nieder": {
+                        "pronunciation": "ˌfalən ˈniːdɐ",
+                        "Google": "fall down"
+                    }
+                }
             }
         },
         "57": {
@@ -1126,7 +2168,14 @@
             "260": {
                 "DE": "Mein Vater, ist's möglich, so gehe diese Kelch von mir; doch nicht wie ich will, sondern wie du willt.",
                 "EN1": "My Father, if it is possible, let this cup pass from me; yet not as I will it, rather as you wish.",
-                "EN2": "My Father, if it is possible, then make this cup pass from me; yet, not as I will, but rather as you will."
+                "EN2": "My Father, if it is possible, then make this cup pass from me; yet, not as I will, but rather as you will.",
+                "entry": {
+                    "Kelch": {
+                        "pronunciation": "kɛlç",
+                        "DE_EN": "calyx, chalice, goblet",
+                        "Google": "A biblical metaphor for an assigned fate, severe trial, or suffering"
+                    }
+                }
             }
         },
         "58": {
@@ -1143,7 +2192,13 @@
             "264": {
                 "DE": "Dadurch erhebt er sich und alle",
                 "EN1": "through this he lifts up himself and everyone",
-                "EN2": "thereby he lifts me and everyone"
+                "EN2": "thereby he lifts me and everyone",
+                "entry": {
+                    "hinauf": {
+                        "pronunciation": "hɪˈnaʊ̯f",
+                        "DE_EN": "above [direction], to the top, upstairs, upwards, up [to higher position, place]"
+                    }
+                }
             },
             "265": {
                 "DE": "von unserm Falle",
@@ -1178,12 +2233,28 @@
             "271": {
                 "DE": "Gegossen sind und häßlich stinken,",
                 "EN1": "are poured and which stink horribly,",
-                "EN2": "are poured, stinking repulsively,"
+                "EN2": "are poured, stinking repulsively,",
+                "entry": {
+                    "hässlich": {
+                        "pronunciation": "ˈhɛslɪç",
+                        "DE_EN": "beastly, deformedly, hideous, ill-favored  [Am.], ill-favoured  [Br.], nasty, uglily, ugly, unsightly"
+                    }
+                }
             },
             "272": {
                 "DE": "Weil es dem lieben Gott gefällt.",
                 "EN1": "since it is pleasing to our loving God.",
-                "EN2": "since it is our dear God's will."
+                "EN2": "since it is our dear God's will.",
+                "entry": {
+                    "weil": {
+                        "pronunciation": "vaɪ̯l",
+                        "DE_EN": "as, b\/c [short form of ”because” in text messages], bc [internet slang for: because], because, cos  [Br.]  [coll.] [because], coz  [Br.]  [coll.] [because], cuz [sl.], due to the fact that, for the simple reason that, forwhy [archaic] [because], for [because], inasmuch as, insomuch as [because], since"
+                    },
+                    "gefallen": {
+                        "pronunciation": "ɡəˈfalən",
+                        "DE_EN": "dropped [fallen], fallen, to be pleasing, to delight, to oblige, tumbled"
+                    }
+                }
             }
         },
         "59": {
@@ -1195,17 +2266,51 @@
             "275": {
                 "DE": "Gerne will ich mich bequemen,",
                 "EN1": "Gladly will I compel myself",
-                "EN2": "Happily will I be so kind as"
+                "EN2": "Happily will I be so kind as",
+                "entry": {
+                    "bequemen": {
+                        "pronunciation": "bəˈkveːmən"
+                    },
+                    "sich [Akk.] etw. [Dat.] bequemen [veraltet] [sich fügen]": {
+                        "DE_EN": "to comply with sth."
+                    }
+                }
             },
             "276": {
                 "DE": "Kreuz und Becher anzunehmen,",
                 "EN1": "to take on the Cross and the Chalice,",
-                "EN2": "to accept the cross and cup,"
+                "EN2": "to accept the cross and cup,",
+                "entry": {
+                    "Becher": {
+                        "pronunciation": "ˈbɛçɐ",
+                        "DE_EN": "cup [esp. without handle], jar, beakers, cups, tumblers"
+                    },
+                    "anzunehmen": {
+                        "pronunciation": "ˈant͡suˌneːmən"
+                    },
+                    "Es gibt gute Gründe anzunehmen ...": {
+                        "DE_EN": "There is a good case to believe ..."
+                    },
+                    "geneigt sein, etw. anzunehmen": {
+                        "DE_EN": "to be disposed to accept sth., to be inclined to accept sth."
+                    },
+                    "mit großer Sicherheit anzunehmen sein": {
+                        "DE_EN": "to be a moral certainty"
+                    },
+                    "sich weigern, einen Betrag anzunehmen": {
+                        "DE_EN": "to refuse to accept a sum"
+                    }
+                }
             },
             "277": {
                 "DE": "Trink ich doch dem Heiland nach.",
                 "EN1": "yet I drink after the Savior.",
-                "EN2": "indeed, I drink following the example of the Saviour."
+                "EN2": "indeed, I drink following the example of the Saviour.",
+                "entry": {
+                    "jemandem nach [verben]": {
+                        "Google": "to copy or follow someone's action"
+                    }
+                }
             },
             "278": {
                 "DE": "Denn sein Mund,",
@@ -1215,22 +2320,79 @@
             "279": {
                 "DE": "Der mit Milch und Honig fließet,",
                 "EN1": "which flows with milk and honey,",
-                "EN2": "which flows with milk and honey,"
+                "EN2": "which flows with milk and honey,",
+                "entry": {
+                    "fließen": {
+                        "pronunciation": "ˈfliːsn̩",
+                        "DE_EN": "to course [blood, tears etc.], to flow, to funnel [of liquids], to pour, to run [flow], to stream, to tide"
+                    }
+                }
             },
             "280": {
                 "DE": "Hat den Grund",
                 "EN1": "has sweetened the grounds",
-                "EN2": "has sweetened the grounds"
+                "EN2": "has sweetened the grounds",
+                "entry": {
+                    "fließen": {
+                        "pronunciation": "ˈfliːsn̩",
+                        "DE_EN": "to course [blood, tears etc.], to flow, to funnel [of liquids], to pour, to run [flow], to stream, to tide"
+                    }
+                }
             },
             "281": {
                 "DE": "und des Leidens herbe Schmach",
                 "EN1": "and the bitter taste of sorrow,",
-                "EN2": "and the bitter humiliation of suffering,"
+                "EN2": "and the bitter humiliation of suffering,",
+                "entry": {
+                    "herb": {
+                        "pronunciation": "hɛʁp",
+                        "DE_EN": "brut  [of wine, esp. champagne], dry, harshly, not sweet, tartly, tart  [flavour]"
+                    },
+                    "Schmach": {
+                        "pronunciation": "ʃmaːx",
+                        "DE_EN": "contumely, disgrace, dishonor [Am.], dishonour [Br.], ignominiousness, ignominy, infamy, opprobrium, scandal"
+                    },
+                    "des Leidens herbe Schmach": {
+                        "Google": "suffering's bitter disgrace"
+                    }
+                }
             },
             "282": {
                 "DE": "Durch den ersten Trunk versüßet.",
                 "EN1": "through his first sip.",
-                "EN2": "by the first sip."
+                "EN2": "by the first sip.",
+                "entry": {
+                    "Trunk": {
+                        "pronunciation": "tʁʊŋk"
+                    },
+                    "dem Trunk ergeben": {
+                        "DE_EN": "bibacious"
+                    },
+                    "Frunk [Kofferwort aus Front (vorne) und Trunk (Kofferraum im amerik. Englisch)]": {
+                        "DE_EN": "frunk [portmanteau of front and trunk]"
+                    },
+                    "kühler Trunk": {
+                        "DE_EN": "cool drink"
+                    },
+                    "sich [Akk.] dem Trunk ergeben haben": {
+                        "DE_EN": "to have taken to drink [addicted]"
+                    },
+                    "versüßen": {
+                        "pronunciation": "fɛɐ̯ˈzyːsn̩"
+                    },
+                    "die Pille versüßen [fig.]": {
+                        "DE_EN": "to sugar-coat the pill [Am.] [fig.] [to make something bad seem less unpleasant], to sugar the pill [fig.] [to make something bad seem less unpleasant], to sweeten the pill [fig.] [to make something bad seem less unpleasant]"
+                    },
+                    "etw. [Akk.] versüßen": {
+                        "DE_EN": "to soothe sth. [make pleasant]"
+                    },
+                    "etw. [Akk.] versüßen [selten: süß machen; meist fig.: angenehmer machen]": {
+                        "DE_EN": "to sweeten sth. [also fig.: make more agreeable]"
+                    },
+                    "sich [Dat.] etw. [Akk.] versüßen [fig.]": {
+                        "DE_EN": "to sweeten sth. for oneself [fig.]"
+                    }
+                }
             }
         },
         "60": {
@@ -1254,7 +2416,14 @@
             "288": {
                 "DE": "Könnet ihr denn nicht eine Stunde mit mir wachen? Wachet, und betet, daß ihr nicht in Anfechtung fallet! Der Geist ist willig, aber das Fleisch ist schwach.",
                 "EN1": "Couldn't you then remain awake with me one hour? Stay awake, and pray, so that you do not fall into temptation! The spirit is willing, but the flesh is weak.",
-                "EN2": "Were you all unable, to stay alert with me for one hour? Stay alert and pray, that you all do not fall into adversity! The spirit is willing, but the flesh is weak."
+                "EN2": "Were you all unable, to stay alert with me for one hour? Stay alert and pray, that you all do not fall into adversity! The spirit is willing, but the flesh is weak.",
+                "entry": {
+                    "Anfechtung": {
+                        "pronunciation": "ˈanˌfɛçtʊŋ",
+                        "Langenscheidt": "temptation",
+                        "DE_EN": "appeal, challenge, contestation, contesting, impeachment, impugnment"
+                    }
+                }
             }
         },
         "62": {
@@ -1266,7 +2435,12 @@
             "291": {
                 "DE": "Zum andernmal ging er hin, betete und sprach:",
                 "EN1": "For a second time he went away, prayed and said:",
-                "EN2": "For a second time he went forward and prayed, saying:"
+                "EN2": "For a second time he went forward and prayed, saying:",
+                "entry": {
+                    "zum andernmal": {
+                        "Google": "anderen Mal, for the second time"
+                    }
+                }
             }
         },
         "63": {
@@ -1278,7 +2452,23 @@
             "294": {
                 "DE": "Mein Vater, ists nicht möglich, daß dieser Kelch von mir gehe, ich trinke ihn denn, so geschehe dein Wille.",
                 "EN1": "My Father, if it is not possible that this cup pass away from me, then I will drink it; thus may your will be done.",
-                "EN2": "My Father, if it is not possible for this cup to pass  from me unless I drink it, then your will be done."
+                "EN2": "My Father, if it is not possible for this cup to pass  from me unless I drink it, then your will be done.",
+                "entry": {
+                    "geschehen": {
+                        "pronunciation": "ɡəˈʃeːən",
+                        "DE_EN": "happened, occurred, taken place, to be effected [take place], to befall, to betide [literary], to come to pass, to happen, to occur [event], to take place, to transpire [happen], transpired [happened]"
+                    },
+                    "geschehe": {
+                        "pronunciation": "ɡəˈʃeːə",
+                        "Google": "the subjunctive form (Konjunktiv I) of the verb geschehen, used here as an imperative or wish"
+                    },
+                    "Dein Wille geschehe.": {
+                        "DE_EN": "Thy will be done."
+                    },
+                    "Ihr Wille geschehe": {
+                        "DE_EN": "A Word for After Dying [Ann Granger]"
+                    }
+                }
             }
         },
         "64": {
@@ -1300,7 +2490,12 @@
             "299": {
                 "DE": "Zu helfen den' er ist bereit,",
                 "EN1": "he is ready to help those",
-                "EN2": "he is prepared to save those"
+                "EN2": "he is prepared to save those",
+                "entry": {
+                    "den'": {
+                        "Google": "denen"
+                    }
+                }
             },
             "300": {
                 "DE": "Die an ihn glauben feste.",
@@ -1315,17 +2510,68 @@
             "302": {
                 "DE": "Und züchtiget mit Maßen.",
                 "EN1": "and punishes with measure.",
-                "EN2": "and chastises in measure."
+                "EN2": "and chastises in measure.",
+                "entry": {
+                    "züchtigen": {
+                        "pronunciation": "ˈt͡sʏçtɪɡn̩"
+                    },
+                    "ein Kind züchtigen [geh.]": {
+                        "DE_EN": "to birch a child [dated]"
+                    },
+                    "jdn. für seine Fehler züchtigen [geh.]": {
+                        "DE_EN": "to chastise sb. for his faults"
+                    },
+                    "jdn. schwer züchtigen": {
+                        "DE_EN": "to chastise sb. severely"
+                    },
+                    "jdn. züchtigen": {
+                        "DE_EN": "to chasten sb. [chastise]"
+                    },
+                    "Maß": {
+                        "pronunciation": "maːs",
+                        "DE_EN": "amount, dimension, dosage, gage [Am.] [spv.] [gauge], mete"
+                    },
+                    "mit Maßen": {
+                        "DE_EN": "in moderation",
+                        "Google": "with moderation \/ in due measure"
+                    }
+                }
             },
             "303": {
                 "DE": "Wer Gott vertraut, fest auf ihn baut,",
                 "EN1": "Who trusts in God, rely upon him firmly,",
-                "EN2": "Whoever trusts in God, and builds upon Him steadfastly,"
+                "EN2": "Whoever trusts in God, and builds upon Him steadfastly,",
+                "entry": {
+                    "vertrauen": {
+                        "pronunciation": "fɛɐ̯ˈtʁaʊ̯ən"
+                    },
+                    "auf Gott vertrauen": {
+                        "DE_EN": "to place \/ put one's trust in God"
+                    },
+                    "Auf Gott vertrauen wir.": {
+                        "DE_EN": "In God We Trust."
+                    },
+                    "auf jdn.\/etw. vertrauen": {
+                        "DE_EN": "to bank on sb.\/sth., to confide in sb.\/sth., to put stock in sb.\/sth. [idiom], to rely on sb.\/sth., to trust in sb.\/sth."
+                    },
+                    "Auf sein Wort kann man vertrauen.": {
+                        "DE_EN": "His word is his bond."
+                    },
+                    "auf jdn.\/etw. bauen [fig.]": {
+                        "DE_EN": "to rely on sb.\/sth."
+                    }
+                }
             },
             "304": {
                 "DE": "Den will er nicht verlassen.",
                 "EN1": "God will never abandon.",
-                "EN2": "him He will not forsake."
+                "EN2": "him He will not forsake.",
+                "entry": {
+                    "verlassen": {
+                        "pronunciation": "fɛɐ̯ˈlasn̩",
+                        "DE_EN": "forlornly, forsaken, loose [deserted], to evacuate, to file out, to loose [abandon, forsake]"
+                    }
+                }
             },
             "305": {
                 "DE": "(\"Was mein Gott will, das g'scheh allzeit,\" verse 1)",
@@ -1342,7 +2588,13 @@
             "308": {
                 "DE": "Und er kam und fand sie aber schlafend, und ihre Augen waren voll Schlafs. Und er ließ sie und ging abermal hin und betete zum drittenmal und redete dieselbigen Worte. Da kam er zu seinen Jüngern und sprach zu ihnen:",
                 "EN1": "And he came back and found them sleeping, nevertheless, and their eyes were full of sleep. And he left them and went away another time and prayed for the third time, and spoke the same words. Then he came back to his disciples and said to them:",
-                "EN2": "And he came and found them asleep again, and their eyes were heavy with sleep. And he left them and went forward once more and prayed for the third time, speaking the same words. Then he came to his disciples and said to them:"
+                "EN2": "And he came and found them asleep again, and their eyes were heavy with sleep. And he left them and went forward once more and prayed for the third time, speaking the same words. Then he came to his disciples and said to them:",
+                "entry": {
+                    "abermals": {
+                        "pronunciation": "ˈaːbɐmaːls",
+                        "DE_EN": "again, anew, once again, once more"
+                    }
+                }
             }
         },
         "66": {
@@ -1354,7 +2606,28 @@
             "311": {
                 "DE": "Ach! Wollt ihr nun schlafen und ruhen? Siehe, die Stunde ist hie, daß des Menschen Sohn in der Sünder Hände überantwortet wird. Stehet auf, lasset uns gehen; siehe, er ist da der mich verrät.",
                 "EN1": "Alas! Do you wish to sleep and rest now? Behold, the hour has come, when the Son of Man is to be handed over into the hands of sinners. Get up, let us go; see, he who betrays me is here.",
-                "EN2": "Oh! do you now want to sleep and rest? Look, the hour is here when the Son of Man will be given over into the hands of the sinners. Get up, let's go; look, there he is, the one who will betray me."
+                "EN2": "Oh! do you now want to sleep and rest? Look, the hour is here when the Son of Man will be given over into the hands of the sinners. Get up, let's go; look, there he is, the one who will betray me.",
+                "entry": {
+                    "ruhen": {
+                        "pronunciation": "ˈʁuːən",
+                        "DE_EN": "to repose, to rest"
+                    },
+                    "siehe": {
+                        "pronunciation": "ˈziːə"
+                    },
+                    "Oberster Gerichtshof des Vereinigten Königreichs [ab 2009; davor siehe House of Lords]": {
+                        "DE_EN": "Supreme Court of the United Kingdom"
+                    },
+                    "Richter des Obersten Gerichtshofs [des Vereinigten Königreichs] [ab 2009; davor siehe Lord of Appeal in Ordinary]": {
+                        "DE_EN": "Justice of the Supreme Court [of the United Kingdom]"
+                    },
+                    "Richter des Obersten Gerichtshofs [des Vereinigten Königreichs] [ab 2009; davor siehe Lords of Appeal in Ordinary]": {
+                        "DE_EN": "Justices of the Supreme Court [of the United Kingdom]"
+                    },
+                    "siehe <s.> [Verweis in Texten; z. B. ”siehe Seite 99”]": {
+                        "DE_EN": "see [reference in texts; e.g. ”see page 99”]"
+                    }
+                }
             }
         },
         "67": {
@@ -1366,7 +2639,29 @@
             "314": {
                 "DE": "Und als er noch redete, siehe, da kam Judas, der Zwölfen einer, und mit ihm einer große Schar mit Schwerten und mit Stangen von den Hohenpriester und Ältesten des Volks. Und der Verräter hatte ihnen ein Zeichen gegeben und gesagt: \"Welchen ich küssen werde, der ists, den greifet!\" Und alsbald trat er zu Jesu und sprach:",
                 "EN1": "And as he was speaking, behold, there came Judas, one of the twelve, and with him a large troop from the high priest and the elders of the people with swords and spears. And the betrayer had given them a sign and said: \"The one that I will kiss is him; seize him!\" And just then he stepped forward to Jesus and said:",
-                "EN2": "And while he was still speaking, look: Judas, one of the twelve, came, and with him a great band, with swords and clubs, from the chief priests and the elders of the people. And the betrayer had given them a sign, saying: \"The man I shall kiss, he is the one - seize him!\" And immediately he approached Jesus and said:"
+                "EN2": "And while he was still speaking, look: Judas, one of the twelve, came, and with him a great band, with swords and clubs, from the chief priests and the elders of the people. And the betrayer had given them a sign, saying: \"The man I shall kiss, he is the one - seize him!\" And immediately he approached Jesus and said:",
+                "entry": {
+                    "Schar": {
+                        "pronunciation": "ʃaːɐ̯",
+                        "DE_EN": "band, bevy, clutch, crowd, drove, flight [birds], flock, gaggle, horde, passel [Am.] [coll.], posse [coll.], regiment [group of people], sheaf [family], shoal, skein, swarm, troop"
+                    },
+                    "Schwert": {
+                        "pronunciation": "ʃvɛʁt",
+                        "DE_EN": "blade, brand [archaic], daggerboard [windsurfing], sword"
+                    },
+                    "Stange": {
+                        "pronunciation": "ˈʃtaŋə",
+                        "DE_EN": "bar, perch [for bird], pole, rod, rod [beer glass, 0.3 or 0.25 l], staff, stem [beer glass, 0.3 or 0.25 l], stick, stick [beer glass, 0.3 or 0.25 l]"
+                    },
+                    "Zeichen": {
+                        "pronunciation": "ˈt͡saɪ̯çn̩",
+                        "DE_EN": "emblem, glyph, sign, token [sign], chars [coll.] [characters], imprint [fig.], indicia {pl}, signs"
+                    },
+                    "alsbald": {
+                        "pronunciation": "alsˈbalt",
+                        "DE_EN": "belive  [Scot.], quickly [soon afterwards]"
+                    }
+                }
             }
         },
         "68": {
@@ -1378,7 +2673,15 @@
             "317": {
                 "DE": "Gegrüßet seist du, Rabbi!",
                 "EN1": "Greetings to you, Rabbi!",
-                "EN2": "Greetings to you, rabbi!"
+                "EN2": "Greetings to you, rabbi!",
+                "entry": {
+                    "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir.": {
+                        "DE_EN": "Hail Mary, full of grace, the Lord is with thee."
+                    },
+                    "Gegrüßet seist du, Maria": {
+                        "DE_EN": "Hail Mary"
+                    }
+                }
             }
         },
         "69": {
@@ -1414,7 +2717,13 @@
             "326": {
                 "DE": "Da traten sie hinzu und legte die Hände an Jesum und griffen ihn.",
                 "EN1": "Then they stepped forward and laid hands on Jesus and seized him.",
-                "EN2": "Then they stepped forward and laid their hands on Jesus and seized him."
+                "EN2": "Then they stepped forward and laid their hands on Jesus and seized him.",
+                "entry": {
+                    "legen": {
+                        "pronunciation": "ˈleːɡŋ̩",
+                        "DE_EN": "to lay, to place, to position, to put, to set, to stick"
+                    }
+                }
             }
         },
         "72": {
@@ -1426,12 +2735,23 @@
             "329": {
                 "DE": "So ist mein Jesus nun gefangen.",
                 "EN1": "Thus my Jesus is now captured.",
-                "EN2": "My Jesus is now captured, then."
+                "EN2": "My Jesus is now captured, then.",
+                "entry": {
+                    "gefangen": {
+                        "pronunciation": "ɡəˈfaŋən",
+                        "DE_EN": "captive, captured, caught, ensnared, trapped"
+                    }
+                }
             },
             "330": {
                 "DE": "-Laßt ihn, haltet, bindet nicht! -",
                 "EN1": "- Leave him, stop, don't bind him! -",
-                "EN2": "Leave him, stop, don't bind him!"
+                "EN2": "Leave him, stop, don't bind him!",
+                "entry": {
+                    "Laßt ihn": {
+                        "Google": "Lasst ihn, leave him alone"
+                    }
+                }
             },
             "331": {
                 "DE": "Mond und Licht",
@@ -1441,7 +2761,17 @@
             "332": {
                 "DE": "Ist vor Schmerzen untergangen,",
                 "EN1": "for sorrow have set,",
-                "EN2": "has set in agony,"
+                "EN2": "has set in agony,",
+                "entry": {
+                    "Schmerzen": {
+                        "pronunciation": "ˈʃmɛʁt͡sn̩",
+                        "DE_EN": "aches and pains, aches, ache {sg}, pains, pain {sg}, pangs"
+                    },
+                    "untergehen": {
+                        "pronunciation": "ˈʊntɐˌɡeːən",
+                        "DE_EN": "to be destroyed, to founder, to go down, to perish, to sink"
+                    }
+                }
             },
             "333": {
                 "DE": "Weil mein Jesus ist gefangen.",
@@ -1463,27 +2793,81 @@
             "337": {
                 "DE": "Sind Blitze, sind Donner",
                 "EN1": "Are lightning and thunder",
-                "EN2": "Are lightning and thunder"
+                "EN2": "Are lightning and thunder",
+                "entry": {
+                    "Blitz": {
+                        "pronunciation": "blɪt͡s",
+                        "DE_EN": "(optical) flash, bolt of lightning, bolt [thunderbolt], fire-flaught [Scot.] [obs.] [flash of lightning], flashing, flash, levin [archaic], lighten [Scot.], lightning flash, lightning, strike, thunderbolt"
+                    },
+                    "Donner": {
+                        "pronunciation": "ˈd̥ɔnːr̩",
+                        "DE_EN": "thunder"
+                    }
+                }
             },
             "338": {
                 "DE": "in Wolken verschwunden?",
                 "EN1": "extinguished in the clouds?",
-                "EN2": "vanished in the clouds?"
+                "EN2": "vanished in the clouds?",
+                "entry": {
+                    "Wolke": {
+                        "pronunciation": "ˈvɔlkə",
+                        "DE_EN": "cloud"
+                    },
+                    "verschwinden": {
+                        "pronunciation": "fɛɐ̯ˈʃvɪndn̩",
+                        "DE_EN": "to abscond, to bail out (of) [sl.] [disappear], to come off, to come out, to disappear, to dissolve [disappear], to go away [vanish, disappear], to go missing, to take a long hike off a short pier [coll.], to vanish"
+                    }
+                }
             },
             "339": {
                 "DE": "Eröffne den feurigen Abgrund, o Hölle,",
                 "EN1": "Open the fiery abyss, O Hell,",
-                "EN2": "Open up the fiery bottomless pit, O hell;"
+                "EN2": "Open up the fiery bottomless pit, O hell;",
+                "entry": {
+                    "eröffnen": {
+                        "pronunciation": "ɛɐ̯ˈʔœfnən",
+                        "DE_EN": "to establish, to initialise [Br..], to initialize, to introduce, to open up, to open, to start off [discussion, conversation, season], to unclose"
+                    },
+                    "Abgrund": {
+                        "pronunciation": "ˈapˌɡʁʊnt",
+                        "DE_EN": "abysm [literary], abyss, bottomless pit, chasm, deep, fovea, precipice"
+                    }
+                }
             },
             "340": {
                 "DE": "Zertrümmre, verderbe, verschlinge, zerschelle",
                 "EN1": "crush, destroy, devour, smash",
-                "EN2": "smash, ruin, swallow up, break to pieces"
+                "EN2": "smash, ruin, swallow up, break to pieces",
+                "entry": {
+                    "zertrümmern": {
+                        "pronunciation": "t͡sɛɐ̯ˈtʁʏmɐn",
+                        "DE_EN": "to break to smithereens, to dash to pieces, to pound"
+                    },
+                    "verderben": {
+                        "pronunciation": "fɛɐ̯ˈdɛʁbn̩",
+                        "DE_EN": "to abase, to addle, to barbarize, to canker, to corrupt, to damn, to debase, to decay, to defile, to degenerate, to demoralize, to deteriorate, to go bad, to mess up, to perish [rot or decay], to poison [corrupt], to spoil, to vitiate, to vulgarise [Br.], to vulgarize"
+                    },
+                    "verschlingen": {
+                        "pronunciation": "fɛɐ̯ˈʃlɪŋən",
+                        "DE_EN": "to gulp down, to gulp, to suck under [completely]"
+                    },
+                    "zerschellen": {
+                        "pronunciation": "ˌt͡sɛɐ̯ˈʃɛlən",
+                        "DE_EN": "to be smashed, to burst [ship, plane] [also fig.], to shatter, to smash to pieces"
+                    }
+                }
             },
             "341": {
                 "DE": "Mit plötzlicher Wut",
                 "EN1": "with sudden rage",
-                "EN2": "with sudden fury"
+                "EN2": "with sudden fury",
+                "entry": {
+                    "Wut": {
+                        "pronunciation": "vuːt",
+                        "DE_EN": "66º North [Michael Ridpath], Fury [Salman Rushdie], anger, angriness, bate [Br.] [dated] [coll.] [spv.] [bait] [an angry mood, a rage], birse [esp. Scot.] [anger, rage], dander, emportment [rare] [anger, fury], enragedness, fume [fig.], furiousness, fury, incensement, infuriation, irateness, ire, rabidness, rage [anger], spleen [fury], temper, umbrage [offence, ire], wrath [literary or hum.]"
+                    }
+                }
             },
             "342": {
                 "DE": "Den falschen Verräter, das mördrische Blut!",
@@ -1500,7 +2884,30 @@
             "345": {
                 "DE": "Und siehe, einer aus denen, die mit Jesu waren, reckete die Hand aus, und schlug des Hohenpriesters Knecht und hieb ihm ein Ohr ab. Da sprach Jesus zu ihm:",
                 "EN1": "And behold, one of those who were with Jesus stretched out his hand and struck a servant of the high priest, and cut off his ear. Then Jesus said to him:",
-                "EN2": "And look: one of those who were with Jesus, put his hand out upon his sword, and struck the high priest's servant, cutting off one of his ears. Then Jesus said to him:"
+                "EN2": "And look: one of those who were with Jesus, put his hand out upon his sword, and struck the high priest's servant, cutting off one of his ears. Then Jesus said to him:",
+                "entry": {
+                    "recken": {
+                        "pronunciation": "ˈʁɛkn̩",
+                        "DE_EN": "to draw out, to forge down, to strain"
+                    },
+                    "schlagen": {
+                        "pronunciation": "ˈʃlaːɡŋ̩",
+                        "DE_EN": "to colaphize [obs.] [buffet], to flap [wings, doors, shutters], to knock (at), to slat [strike, beat], to strike out [hit out], to thrash, to whack [coll.], to whap [coll.] [rare] [spv. of whop], to whop [Am.] [coll.]"
+                    },
+                    "Knecht": {
+                        "pronunciation": "knɛçt",
+                        "DE_EN": "churl [archaic] [farm labourer], farm hand [live-in], farm labourer [Br.] [live-in], menial [servant]"
+                    },
+                    "abheben": {
+                        "pronunciation": "ˈapˌheːbn̩",
+                        "Langenscheidt": "to cut off",
+                        "DE_EN": "to blast off [space rocket], to get airborne, to lift off, to take off"
+                    },
+                    "Ohr": {
+                        "pronunciation": "oːɐ̯",
+                        "DE_EN": "earhole [Br.] [coll.], ear, lug [N. Engl.] [Scot.]"
+                    }
+                }
             }
         },
         "75": {
@@ -1512,7 +2919,33 @@
             "348": {
                 "DE": "Stecke dein Schwert an seinen Ort; denn wer das Schwert nimmt, der soll durchs Schwert umkommen. Oder meinest du, daß ich nicht könnte meinen Vater bitten, daß er mir zuschickte mehr denn zwölf Legion Engel? Wie würde aber die Schrift erfüllet? Es muß also gehen.",
                 "EN1": "Put your sword back in its place; for whoever takes the sword will perish through the sword. Or do you think that I could not ask my Father to send me more than twelve legions of angels? How would the scripture be fulfilled then? It must happen thus.",
-                "EN2": "Put your sword back in its place; for whoever takes up the sword, he shall perish by the sword. Or do you think that I couldn't ask of my Father that he send me more than twelve legions of angels? But how then would scripture be fulfilled? This is the way it has to go."
+                "EN2": "Put your sword back in its place; for whoever takes up the sword, he shall perish by the sword. Or do you think that I couldn't ask of my Father that he send me more than twelve legions of angels? But how then would scripture be fulfilled? This is the way it has to go.",
+                "entry": {
+                    "stecken": {
+                        "pronunciation": "ˈʃtɛkn̩",
+                        "DE_EN": "to plunge [to thrust], to put, to stick, to thrust, to tuck [put]"
+                    },
+                    "umkommen": {
+                        "pronunciation": "ˈʊmˌkɔmən",
+                        "DE_EN": "to be killed, to lose one's life, to meet one's death, to perish"
+                    },
+                    "zuschicken": {
+                        "pronunciation": "ˈt͡suːˌʃɪkn̩"
+                    },
+                    "Ich lasse es mir zuschicken.": {
+                        "DE_EN": "I have it sent to me."
+                    },
+                    "jdm.\/etw. etw. zuschicken": {
+                        "DE_EN": "to send sth. to sb.\/sth."
+                    },
+                    "jdm. etw. zuschicken": {
+                        "DE_EN": "to send sb. sth."
+                    },
+                    "erfüllen": {
+                        "pronunciation": "ɛɐ̯ˈfʏlən",
+                        "DE_EN": "to grant"
+                    }
+                }
             }
         },
         "76": {
@@ -1524,7 +2957,13 @@
             "351": {
                 "DE": "Zu der Stund sprach Jesus zu den Scharen:",
                 "EN1": "At the time Jesus said to the crowd:",
-                "EN2": "At that hour Jesus said to the bands:"
+                "EN2": "At that hour Jesus said to the bands:",
+                "entry": {
+                    "Scharen": {
+                        "pronunciation": "ˈʃaːʁən",
+                        "DE_EN": "multitudes [of people, animals]"
+                    }
+                }
             }
         },
         "77": {
@@ -1536,7 +2975,27 @@
             "354": {
                 "DE": "Ihr seid ausgegangen als zu einem Mörder, mit Schwerten und mit Stangen, mich zu fahen; bin ich doch täglich bei euch gesessen und habe gelehret im Tempel, und ihr habt mich nicht gegriffen. Aber das ist alles geschehen, daß erfüllet würden die Schriften der Propheten.",
                 "EN1": "You have come out as if to a murderer, with swords and spears to take me; yet I have daily sat among you and have taught in the Temple, and you did not arrest me. However all of this has happened in order to fulfill the writings of the prophets.",
-                "EN2": "You have gone out with swords and with clubs to ensnare me, as though to a murderer; yet daily in the Temple I have sat with you teaching, and you did not seize me. But all of this has taken place, that the scriptures of of the prophets would be fulfilled."
+                "EN2": "You have gone out with swords and with clubs to ensnare me, as though to a murderer; yet daily in the Temple I have sat with you teaching, and you did not seize me. But all of this has taken place, that the scriptures of of the prophets would be fulfilled.",
+                "entry": {
+                    "fahen": {
+                        "pronunciation": "ˈfaːən"
+                    },
+                    "jdn.\/etw. fahen [veraltet] [einfangen]": {
+                        "DE_EN": "to catch sb.\/sth. [capture]"
+                    },
+                    "sitzen": {
+                        "pronunciation": "ˈzɪt͡sn̩",
+                        "DE_EN": "to be based [business], to be sat [coll.] [to be sitting], to be seated, to fit, to sit"
+                    },
+                    "lehren": {
+                        "pronunciation": "ˈleːʁən",
+                        "DE_EN": "to learn [archaic or coll.], to teach"
+                    },
+                    "Prophet": {
+                        "pronunciation": "ˌpʁoˈfeːt",
+                        "DE_EN": "predictor, prophet, revelator, seer"
+                    }
+                }
             }
         },
         "78": {
@@ -1548,7 +3007,17 @@
             "357": {
                 "DE": "Da verließen ihn alle Jünger und flohen.",
                 "EN1": "Then all the disciples deserted him and fled.",
-                "EN2": "Then all the disciples deserted him and fled."
+                "EN2": "Then all the disciples deserted him and fled.",
+                "entry": {
+                    "verlassen": {
+                        "pronunciation": "fɛɐ̯ˈlasn̩",
+                        "DE_EN": "forlornly, forsaken, loose [deserted], to evacuate, to file out, to loose [abandon, forsake]"
+                    },
+                    "fliehen": {
+                        "pronunciation": "ˈfliːən",
+                        "DE_EN": "to abscond [flee], to flee, to fly [flee], to scud, to take flight"
+                    }
+                }
             }
         },
         "79": {
@@ -1560,22 +3029,66 @@
             "360": {
                 "DE": "O Mensch, bewein dein Sünde groß,",
                 "EN1": "O mankind, mourn your great sins,",
-                "EN2": "O humankind, bewail your great sin,"
+                "EN2": "O humankind, bewail your great sin,",
+                "entry": {
+                    "beweinen": {
+                        "pronunciation": "bəˈvaɪ̯nən",
+                        "DE_EN": "to beweep, to mourn"
+                    }
+                }
             },
             "361": {
                 "DE": "Darum Christus seins Vaters Schoß",
                 "EN1": "for which Christ left his Father's bosom",
-                "EN2": "for which Christ gave up his Father's bosom"
+                "EN2": "for which Christ gave up his Father's bosom",
+                "entry": {
+                    "seins": {
+                        "pronunciation": "zaɪ̯ns",
+                        "Google": "archaic genitive for seines"
+                    },
+                    "Es ist nicht das Ziel des Krieges für dein Land zu sterben, sondern den anderen Bastard für seins sterben zu lassen.": {
+                        "DE_EN": "The object of war is not to die for your country but to make the other bastard die for his. [George S. Patton Jr. - General of the US Army]"
+                    }
+                }
             },
             "362": {
                 "DE": "Äußert und kam auf Erden;",
                 "EN1": "and came to earth;",
-                "EN2": "and came to earth,"
+                "EN2": "and came to earth,",
+                "entry": {
+                    "äußern": {
+                        "pronunciation": "ˈɔɪ̯sɐn",
+                        "Cambridge": "to express",
+                        "Google": "self-emptying, entäußern"
+                    },
+                    "(gegen jdn.\/etw.) Bedenken äußern": {
+                        "DE_EN": "to raise concerns (over sb.\/sth.)"
+                    },
+                    "(mit Vorsicht) äußern [zu sagen wagen]": {
+                        "DE_EN": "to venture [risk the remark]"
+                    },
+                    "Bedenken äußern": {
+                        "DE_EN": "to voice misgivings"
+                    },
+                    "Bemerkungen äußern": {
+                        "DE_EN": "to address one's remarks"
+                    }
+                }
             },
             "363": {
                 "DE": "Von einer Jungfrau rein und zart",
                 "EN1": "from a virgin pure and tender",
-                "EN2": "Of a virgin pure and tender"
+                "EN2": "Of a virgin pure and tender",
+                "entry": {
+                    "rein": {
+                        "pronunciation": "ʁaɪ̯n",
+                        "DE_EN": "chastely, immaculately, kosher, pure, purely, sheerly, specklessly, uncorrupt"
+                    },
+                    "zart": {
+                        "pronunciation": "t͡saːɐ̯t",
+                        "DE_EN": "dainty, delicate, delicately, feathery, fine [delicate, slight], flimsy, frail, gentle, gently, slight, soft  [skin, lips etc.], tender, tenderly, wispy  [girl]"
+                    }
+                }
             },
             "364": {
                 "DE": "Für uns er hie geboren ward,",
@@ -1585,7 +3098,13 @@
             "365": {
                 "DE": "Er wollt der Mittler werden,",
                 "EN1": "he wished to become our Intercessor,",
-                "EN2": "it was his will that he become the mediator,"
+                "EN2": "it was his will that he become the mediator,",
+                "entry": {
+                    "Mittler": {
+                        "pronunciation": "ˈmɪtlɐ",
+                        "DE_EN": "broker, go-between, intermediary, mediator"
+                    }
+                }
             },
             "366": {
                 "DE": "Den Toten er das Leben gab",
@@ -1595,22 +3114,68 @@
             "367": {
                 "DE": "Und legt dabei all Krankheit ab",
                 "EN1": "and laid aside all sickness",
-                "EN2": "and in so doing put away all illness"
+                "EN2": "and in so doing put away all illness",
+                "entry": {
+                    "ablegen": {
+                        "pronunciation": "ˈapˌleːɡn̩",
+                        "DE_EN": "to place down, to put out to sea [idiom], to store"
+                    }
+                }
             },
             "368": {
                 "DE": "Bis sich die Zeit herdrange,",
                 "EN1": "until the time approached",
-                "EN2": "until the time pressed forth"
+                "EN2": "until the time pressed forth",
+                "entry": {
+                    "herdrängen": {
+                        "Google": "herdrange, the subjunctive form; to draw near"
+                    },
+                    "her": {
+                        "pronunciation": "heːɐ̯"
+                    },
+                    "auf dem Stuhl hin und her rutschen": {
+                        "DE_EN": "to fidget (around) on one's chair, to shift around on one's chair"
+                    },
+                    "Auf der Party ging es heiß her. [ugs.]": {
+                        "DE_EN": "The party became hot and heavy. [Am.] [coll.]"
+                    },
+                    "Auf der Party ging es hoch her. [ugs.] [Redewendung]": {
+                        "DE_EN": "Everyone had great fun at the party."
+                    },
+                    "Bei der Debatte ging es heiß her. [ugs.]": {
+                        "DE_EN": "The sparks really flew in the debate. [coll.]"
+                    },
+                    "drängen": {
+                        "pronunciation": "ˈdʁɛŋən",
+                        "DE_EN": "to coax, to edge (on), to press, to rush"
+                    }
+                }
             },
             "369": {
                 "DE": "Daß er für uns geopfert würd,",
                 "EN1": "that he would be sacrificed for us,",
-                "EN2": "that he would be sacrificed for us,"
+                "EN2": "that he would be sacrificed for us,",
+                "entry": {
+                    "opfern": {
+                        "pronunciation": "ˈɔp͡fɐn",
+                        "DE_EN": "to donate, to make a sacrifice, to offer sacrifice, to sacrifice"
+                    }
+                }
             },
             "370": {
                 "DE": "Trüg unser Sünden schwere Bürd",
                 "EN1": "bearing the heavy burden of our sins",
-                "EN2": "bearing the heavy burden of our sins"
+                "EN2": "bearing the heavy burden of our sins",
+                "entry": {
+                    "trüg": {
+                        "pronunciation": "tʁyːk",
+                        "Google": "archaic subjective\/past of tragen"
+                    },
+                    "Bürde": {
+                        "pronunciation": "ˈbʏʁdə",
+                        "DE_EN": "albatross [fig.] [burden or handicap], burden, liability [burden], load [burden], onus [burden]"
+                    }
+                }
             },
             "371": {
                 "DE": "Wohl an dem Kreuze lange.",
@@ -1639,7 +3204,18 @@
             "377": {
                 "DE": "Ach, nun ist mein Jesus hin!",
                 "EN1": "Alas, now my Jesus is gone!",
-                "EN2": "Oh, now my Jesus is gone!"
+                "EN2": "Oh, now my Jesus is gone!",
+                "entry": {
+                    "hin sein": {
+                        "Cambridge": "tot sein"
+                    },
+                    "hin sein [ugs.]": {
+                        "DE_EN": "to be broken, to be shot [coll.]"
+                    },
+                    "hin sein [ugs.] [kaputt sein]": {
+                        "DE_EN": "to have had it [coll.] [be beyond repair]"
+                    }
+                }
             },
             "378": {
                 "DE": "- Wo ist denn dein Freund hingegangen,",
@@ -1649,22 +3225,48 @@
             "379": {
                 "DE": "O du Schönste unter den Weibern? -",
                 "EN1": "O most beautiful among women? -",
-                "EN2": "O you most beautiful among women?"
+                "EN2": "O you most beautiful among women?",
+                "entry": {
+                    "unter [+Dat.] [inmitten, zwischen]": {
+                        "DE_EN": "among"
+                    }
+                }
             },
             "380": {
                 "DE": "Ist es möglich, kann ich schauen?",
                 "EN1": "Is it possible, can I behold it?",
-                "EN2": "Is it possible, can I bear to look?"
+                "EN2": "Is it possible, can I bear to look?",
+                "entry": {
+                    "schauen": {
+                        "pronunciation": "ˈʃaʊ̯ən",
+                        "DE_EN": "to look"
+                    }
+                }
             },
             "381": {
                 "DE": "- Wo hat sich dein Freund hingewandt? -",
                 "EN1": "- Which way has your beloved turned? -",
-                "EN2": "Where has your beloved turned to?"
+                "EN2": "Where has your beloved turned to?",
+                "entry": {
+                    "sich [Akk.] zu jdm. hinwenden": {
+                        "DE_EN": "to turn towards sb."
+                    }
+                }
             },
             "382": {
                 "DE": "Ach! mein Lamm in Tigerklauen,",
                 "EN1": "Alas! my lamb in the claws of a tiger;",
-                "EN2": "Oh! my lamb in tiger-claws,"
+                "EN2": "Oh! my lamb in tiger-claws,",
+                "entry": {
+                    "Tiger": {
+                        "pronunciation": "ˈtiːɡɐ",
+                        "DE_EN": "tiger [Panthera tigris], tigers"
+                    },
+                    "Klauen": {
+                        "pronunciation": "ˈklaʊ̯ən",
+                        "DE_EN": "claws, hoofs"
+                    }
+                }
             },
             "383": {
                 "DE": "Ach! wo ist mein Jesus hin?",
@@ -1684,7 +3286,13 @@
             "386": {
                 "DE": "Wenn sie mich wird ängstlich fragen:",
                 "EN1": "when she asks me anxiously:",
-                "EN2": "when it anxiously questions me?"
+                "EN2": "when it anxiously questions me?",
+                "entry": {
+                    "ängstlich": {
+                        "pronunciation": "ˈɛŋstlɪç",
+                        "DE_EN": "afraid, anxiously, apprehensively, chicken-hearted  [coll.], chickenhearted  [coll.], fearful, fearfully, meticulous, nervously, poor-spirited, pusillanimously, scrupulous, scrupulously, shy  [easily frightened, timid], skittish [of a horse], timidly, tremulous, trepid, uneasily, weak-spirited"
+                    }
+                }
             },
             "387": {
                 "DE": "Ach! wo ist mein Jesus hin?",
@@ -1706,7 +3314,34 @@
             "391": {
                 "DE": "Die aber Jesum gegriffen hatten, führeten ihn zu dem Hohenpriester Kaiphas, dahin die Schriftgelehrten und Ältesten sich versammlet hatten. Petrus aber folgete ihm nach von ferne bis in den Palast des Hohenpriesters und ging hinein und satzte sich bei die Knechte, auf daß er sähe, wo es hinaus wollte. Die Hohenpriester aber und Ältesten und der ganze Rat suchten falsche Zeugnis wider Jesum, auf daß sie ihn töteten, und funden keines.",
                 "EN1": "But after they had arrested Jesus, they brought him to the High Priest Caiaphas, where the scribes and the elders had gathered. Peter, however, followed him from afar to the palace of the high priest, and went inside and sat with the servants, so he could see how it came out. The high priests, however, and the elders, and the entire council sought false witness against Jesus, so that they could put him to death, and found none.",
-                "EN2": "But those who had seized Jesus led him to the high priest Caiaphas, where the scripture experts and elders had gathered. But Peter followed him from a distance, up to the palace of the high priest, and went in and sat with the servants, so he might see where this would end up. But the chief priests and elders and the entire council sought false testimony against Jesus, so that they might kill him, and they found none."
+                "EN2": "But those who had seized Jesus led him to the high priest Caiaphas, where the scripture experts and elders had gathered. But Peter followed him from a distance, up to the palace of the high priest, and went in and sat with the servants, so he might see where this would end up. But the chief priests and elders and the entire council sought false testimony against Jesus, so that they might kill him, and they found none.",
+                "entry": {
+                    "jdm. nachfolgen": {
+                        "DE_EN": "to come after sb., to follow sb., to succeed sb."
+                    },
+                    "auf dass": {
+                        "pronunciation": "aʊ̯f ˈdas"
+                    },
+                    "auf dass wir niemals vergessen mögen": {
+                        "DE_EN": "lest we forget [idiom]"
+                    },
+                    "auf dass [veraltend]": {
+                        "DE_EN": "so that, so [in order that]"
+                    },
+                    "Richtet nicht, auf dass ihr nicht gerichtet werdet.": {
+                        "DE_EN": "Judge not, that ye be not judged."
+                    },
+                    "sähe": {
+                        "pronunciation": "ˈzɛːə",
+                        "grammar": "subjunctive of sehen"
+                    },
+                    "jd.\/etw. sähe": {
+                        "DE_EN": "sb.\/sth. would see"
+                    },
+                    "wo es hinaus wollte": {
+                        "Google": "where it was heading"
+                    }
+                }
             }
         },
         "83": {
@@ -1718,7 +3353,17 @@
             "394": {
                 "DE": "Mir hat die Welt trüglich gericht'",
                 "EN1": "The world has judged me deceitfully,",
-                "EN2": "For me the world has miscarried justice"
+                "EN2": "For me the world has miscarried justice",
+                "entry": {
+                    "trügerisch": {
+                        "pronunciation": "ˈtʁyːɡəʁɪʃ",
+                        "DE_EN": "deceitful, deceptive, deceptively, delusive, delusory, elusive, elusively, elusorily, elusory, fallacious, fallaciously, false [fallacious], illusionary, illusive, meretricious, misleadingly, phantasmal, phantasmic, specious, speciously, trappy, treacherous"
+                    },
+                    "richten": {
+                        "pronunciation": "ˈʁɪçtn̩",
+                        "DE_EN": "to judge, to top out"
+                    }
+                }
             },
             "395": {
                 "DE": "Mit Lügen und mit falschem Gdicht,",
@@ -1728,12 +3373,32 @@
             "396": {
                 "DE": "Viel Netz und heimlich Stricke.",
                 "EN1": "many traps and secret snares.",
-                "EN2": "with many nets and secret snares."
+                "EN2": "with many nets and secret snares.",
+                "entry": {
+                    "Netz": {
+                        "pronunciation": "nɛt͡s",
+                        "DE_EN": "mesh, meshwork, net, omentum"
+                    },
+                    "heimlich": {
+                        "pronunciation": "ˈhaɪ̯mlɪç",
+                        "DE_EN": "backdoor [secret], by stealth, clandestine, clandestinely, covertly, covert [surveillance], cryptical, furtive, furtively, hidden, hole-and-corner [coll.] [attr.] [kept secret], in secret, on the QT [coll.], on the quiet, on the sly, privily, secret, secretively, secretly, sneakily, stealthily, stealthy, surreptitious, surreptitiously, thievishly, underhand, underhanded, underhandedly"
+                    },
+                    "Stricke": {
+                        "pronunciation": "ˈʃtʁɪkə",
+                        "DE_EN": "cords, halters, ropes"
+                    }
+                }
             },
             "397": {
                 "DE": "Herr, nimm mein wahr",
                 "EN1": "Lord, perceive me truthfully",
-                "EN2": "Lord, attend to me"
+                "EN2": "Lord, attend to me",
+                "entry": {
+                    "wahrnehmen": {
+                        "pronunciation": "ˈvaːɐ̯ˌneːmən",
+                        "DE_EN": "to appreciate [be aware of], to detect, to perceive"
+                    }
+                }
             },
             "398": {
                 "DE": "In dieser Gfahr,",
@@ -1743,7 +3408,17 @@
             "399": {
                 "DE": "Bhüt mich für falschen Tücken!",
                 "EN1": "protect me from malicious falsehoods!",
-                "EN2": "guard me in the face of malice!"
+                "EN2": "guard me in the face of malice!",
+                "entry": {
+                    "behüten": {
+                        "pronunciation": "bəˈhyːtn̩",
+                        "DE_EN": "to guard"
+                    },
+                    "Tücken": {
+                        "pronunciation": "ˈtʏkn̩",
+                        "DE_EN": "pitfalls"
+                    }
+                }
             },
             "400": {
                 "DE": "(\"In dich hab ich gehoffet, Herr,\" verse 5)",
@@ -1760,7 +3435,20 @@
             "403": {
                 "DE": "Und wiewohl viel falsche Zeugen herzutraten, funden sie doch keins. Zuletzt traten herzu zween falsche Zeugen und sprachen:",
                 "EN1": "And although many false witnesses came forward, they found none. Finally two false witnesses came forward and said:",
-                "EN2": "And although many false testifiers stepped forward, they found none. Finally, two false testifiers stepped forward, declaring:"
+                "EN2": "And although many false testifiers stepped forward, they found none. Finally, two false testifiers stepped forward, declaring:",
+                "entry": {
+                    "Zeuge": {
+                        "pronunciation": "ˈt͡sɔɪ̯ɡə",
+                        "DE_EN": "attester, attestor, evidencer, voucher [person], witness, wit [sl.]"
+                    },
+                    "herzutreten [veraltet]": {
+                        "DE_EN": "to approach"
+                    },
+                    "zuletzt": {
+                        "pronunciation": "t͡suˈlɛt͡st",
+                        "DE_EN": "at last, finally, hindermost [dated], in a final step, last, lastly, lately, most recently, recently"
+                    }
+                }
             }
         },
         "85": {
@@ -1796,7 +3484,12 @@
             "412": {
                 "DE": "Antwortest du nichts zu dem, das diese wider dich zeugen?",
                 "EN1": "Do you answer nothing to this, that they say against you?",
-                "EN2": "Do you answer nothing to what these men are testifying against you?"
+                "EN2": "Do you answer nothing to what these men are testifying against you?",
+                "entry": {
+                    "wider [+Akk.]": {
+                        "DE_EN": "against, contra"
+                    }
+                }
             }
         },
         "88": {
@@ -1808,7 +3501,13 @@
             "415": {
                 "DE": "Aber Jesus schwieg stille.",
                 "EN1": "But Jesus was silent.",
-                "EN2": "But Jesus remained silent."
+                "EN2": "But Jesus remained silent.",
+                "entry": {
+                    "schweigen": {
+                        "pronunciation": "ˈʃvaɪ̯ɡn̩",
+                        "DE_EN": "to be silent, to hold one's peace, to keep quiet, to keep silence, to keep silent, to keep still, to remain silent, to say nothing, to silence [rare] [to cease speaking]"
+                    }
+                }
             }
         },
         "89": {
@@ -1840,22 +3539,41 @@
             "422": {
                 "DE": "vor uns zum Leiden sei geneigt,",
                 "EN1": "is bent on suffering for us,",
-                "EN2": "is inclined to suffer for us,"
+                "EN2": "is inclined to suffer for us,",
+                "entry": {
+                    "geneigt": {
+                        "pronunciation": "ɡəˈnaɪ̯kt",
+                        "DE_EN": "inclinable, inclinational, inclined, leaned, leant  [Br.], prone, sloped"
+                    }
+                }
             },
             "423": {
                 "DE": "Und daß wir in dergleichen Pein",
                 "EN1": "and that we, in the same trouble,",
-                "EN2": "and that we in similar pain"
+                "EN2": "and that we in similar pain",
+                "entry": []
             },
             "424": {
                 "DE": "Ihm sollen ähnlich sein",
                 "EN1": "should be like him",
-                "EN2": "should be like him"
+                "EN2": "should be like him",
+                "entry": {
+                    "ähnlich": {
+                        "pronunciation": "ˈɛːnlɪç",
+                        "DE_EN": "akin, alike, analogical, conformable, like, likely  [archaic], likewise, related, resemblant, resembling, similar, similarly"
+                    }
+                }
             },
             "425": {
                 "DE": "Und in Verfolgung stille schweigen.",
                 "EN1": "and keep silent under persecution.",
-                "EN2": "and remain silent in persecution."
+                "EN2": "and remain silent in persecution.",
+                "entry": {
+                    "Verfolgung": {
+                        "pronunciation": "fɛɐ̯ˈfɔlɡʊŋ",
+                        "DE_EN": "persecution, pogrom, prosecution, pursuit, tracing"
+                    }
+                }
             }
         },
         "90": {
@@ -1872,7 +3590,16 @@
             "429": {
                 "DE": "Wenn mich falsche Zungen stechen.",
                 "EN1": "When false tongues pierce.",
-                "EN2": "When false tongues stab me."
+                "EN2": "When false tongues stab me.",
+                "entry": {
+                    "Zunge": {
+                        "pronunciation": "ˈt͡sʊŋə",
+                        "DE_EN": "lingua, tongue [Lingua \/ Glossa]"
+                    },
+                    "jdn.\/etw. stechen": {
+                        "DE_EN": "to jab sb.\/sth., to prick sb.\/sth., to stab sb.\/sth., to sting sb.\/sth. [insect]"
+                    }
+                }
             },
             "430": {
                 "DE": "Leid ich wider meine Schuld",
@@ -1882,17 +3609,38 @@
             "431": {
                 "DE": "Schimpf und Spott,",
                 "EN1": "shame and scorn,",
-                "EN2": "disgrace and derision,"
+                "EN2": "disgrace and derision,",
+                "entry": {
+                    "Schimpf": {
+                        "pronunciation": "ʃɪmp͡f",
+                        "DE_EN": "dishonor [Am.], dishonour [Br.], ignominy"
+                    },
+                    "Spott": {
+                        "pronunciation": "ʃpɔt",
+                        "DE_EN": "derision, derisiveness, fleer, jeer, mockery, mocking, persiflage, ridicule, sarcasm, scoff, scorn [verbal], skit, sneer, sport [mockery], taunt"
+                    }
+                }
             },
             "432": {
                 "DE": "Ei, so mag der liebe Gott",
                 "EN1": "indeed, dear God shall",
-                "EN2": "ah, then may our dear God avenge"
+                "EN2": "ah, then may our dear God avenge",
+                "entry": {
+                    "mag rächen": {
+                        "Google": "archaic permissive, potential, or optative auxiliary verb; möge (subjunctive)"
+                    }
+                }
             },
             "433": {
                 "DE": "Meines Herzens Unschuld rächen.",
                 "EN1": "revenge the innocence of my heart.",
-                "EN2": "my heart's innocence."
+                "EN2": "my heart's innocence.",
+                "entry": {
+                    "rächen": {
+                        "pronunciation": "ˈʁɛːçŋ̩",
+                        "DE_EN": "to avenge, to retaliate"
+                    }
+                }
             }
         },
         "91": {
@@ -1916,7 +3664,15 @@
             "439": {
                 "DE": "Ich beschwöre dich bei dem lebendigen Gott, daß du uns sagest, ob du seiest Christus, der Sohn Gottes?",
                 "EN1": "I adjure you by the living God to tell us whether you are the Christ, the Son of God!",
-                "EN2": "I adjure you by the living God that you tell us whether you are the Christ, the Son of God!"
+                "EN2": "I adjure you by the living God that you tell us whether you are the Christ, the Son of God!",
+                "entry": {
+                    "beschwöre": {
+                        "pronunciation": "bəˈʃvøːʁə"
+                    },
+                    "jdn. beschwören [anflehen, ersuchen]": {
+                        "DE_EN": "to adjure sb. [entreat]"
+                    }
+                }
             }
         },
         "93": {
@@ -1952,7 +3708,12 @@
             "448": {
                 "DE": "Da zerriß der Hohepriester seine Kleider und sprach:",
                 "EN1": "Then the high priest tore his garments and said:",
-                "EN2": "Then the high priest rent his clothing and said:"
+                "EN2": "Then the high priest rent his clothing and said:",
+                "entry": {
+                    "etw. [Akk.] zerreißen": {
+                        "DE_EN": "to rend sth. [esp. one's own clothing], to rip sth. to pieces, to rip sth. up, to shred sth., to tear sth. to shreds, to tear sth. up, to tear sth."
+                    }
+                }
             }
         },
         "96": {
@@ -1964,7 +3725,31 @@
             "451": {
                 "DE": "Er hat Gott gelästert; was dürfen wir weiter Zeugnis? Siehe, itzt habt ihr seine Gotteslästerung gehöret. Was dünket euch?",
                 "EN1": "He has blasphemed God; what further witness do we need? Behold, now you have heard his blasphemy. What do you think?",
-                "EN2": "He has blasphemed God; what further need do we have of testimony? Look, now you have heard his blasphemy of God. What does it seem to you?"
+                "EN2": "He has blasphemed God; what further need do we have of testimony? Look, now you have heard his blasphemy of God. What does it seem to you?",
+                "entry": {
+                    "gelästert": {
+                        "pronunciation": "ɡəˈlɛstɐt"
+                    },
+                    "lästern": {
+                        "pronunciation": "ˈlɛstɐn",
+                        "DE_EN": "to blaspheme, to malign, to rail, to slander"
+                    },
+                    "itzt [veraltet] [jetzt]": {
+                        "DE_EN": "now"
+                    },
+                    "dünken": {
+                        "pronunciation": "ˈdʏŋkŋ̩"
+                    },
+                    "dünken [veraltend]": {
+                        "DE_EN": "to seem, to think"
+                    },
+                    "jdn. \/ [seltener:] jdm. seltsam dünken [geh.] [veraltend]": {
+                        "DE_EN": "to seem strange to sb."
+                    },
+                    "sich [Akk.] dünken [geh.] [veraltend]": {
+                        "DE_EN": "to consider oneself [regard]"
+                    }
+                }
             }
         },
         "97": {
@@ -2000,7 +3785,16 @@
             "460": {
                 "DE": "Da speieten sie aus in sein Angesicht und schlugen ihn mit Fäusten. Etliche aber schlugen ihn ins Angesicht und sprachen:",
                 "EN1": "Then they spit in his face and struck him with fists. Some of them, however, struck him in the face and said:",
-                "EN2": "Then they spat out in his face and struck him with fists. But some struck him in the face and said:"
+                "EN2": "Then they spat out in his face and struck him with fists. But some struck him in the face and said:",
+                "entry": {
+                    "etw. [Akk.] ausspeien": {
+                        "DE_EN": "to spit sth. out"
+                    },
+                    "etliche": {
+                        "pronunciation": "ˈɛtlɪçə",
+                        "DE_EN": "a number of, quite a few, quite a number of, several"
+                    }
+                }
             }
         },
         "100": {
@@ -2012,7 +3806,13 @@
             "463": {
                 "DE": "Weissage uns, Christe, wer ists, der dich schlug?",
                 "EN1": "Prophesy to us, Christ, who is it who strikes you?",
-                "EN2": "Prophesy to us, Christ: who is it the one that struck you?"
+                "EN2": "Prophesy to us, Christ: who is it the one that struck you?",
+                "entry": {
+                    "weissagen": {
+                        "pronunciation": "ˈvaɪ̯sˌzaːɡn̩",
+                        "DE_EN": "to foretell, to predict, to prophesy"
+                    }
+                }
             }
         },
         "101": {
@@ -2029,12 +3829,27 @@
             "467": {
                 "DE": "Mein Heil, und dich mit Plagen",
                 "EN1": "my Savior, and with torments",
-                "EN2": "my Salvation, and beat you up"
+                "EN2": "my Salvation, and beat you up",
+                "entry": {
+                    "Plage": {
+                        "pronunciation": "ˈplaːɡə",
+                        "DE_EN": "trouble, worry"
+                    }
+                }
             },
             "468": {
                 "DE": "So übel zugericht'?",
                 "EN1": "so evilly used you?",
-                "EN2": "so badly, causing plague-spots?"
+                "EN2": "so badly, causing plague-spots?",
+                "entry": {
+                    "übel": {
+                        "pronunciation": "ˈyːbl̩",
+                        "DE_EN": "bad, disgusting, disreputably, evil, evilly, festy [Aus.] [sl.], ill, nasty, nauseous, noxious  [repugnant], smelly, uglily, ugly, unpleasant, vicious, wicked"
+                    },
+                    "übel zugerichtet": {
+                        "DE_EN": "battered"
+                    }
+                }
             },
             "469": {
                 "DE": "Du bist ja nicht ein Sünder",
@@ -2066,7 +3881,13 @@
             "475": {
                 "DE": "Petrus aber saß draußen im Palast; und es trat zu ihm eine Magd und sprach:",
                 "EN1": "Peter, however, sat outside of the palace; and a maid came up to him and said:",
-                "EN2": "But Peter sat outside, in the courtyard of the palace; and a maid approached him and said:"
+                "EN2": "But Peter sat outside, in the courtyard of the palace; and a maid approached him and said:",
+                "entry": {
+                    "Magd": {
+                        "pronunciation": "maːkt",
+                        "DE_EN": "farmgirl, maid, maidservant"
+                    }
+                }
             }
         },
         "103": {
@@ -2090,7 +3911,13 @@
             "481": {
                 "DE": "Er leugnete aber vor ihnen allen und sprach:",
                 "EN1": "He denied it however before them all and said:",
-                "EN2": "He he denied it before them all, saying:"
+                "EN2": "He he denied it before them all, saying:",
+                "entry": {
+                    "leugnen": {
+                        "pronunciation": "ˈlɔɪ̯ɡnən",
+                        "DE_EN": "to abnegate, to deny, to disavow, to gainsay, to negate"
+                    }
+                }
             }
         },
         "105": {
@@ -2138,7 +3965,13 @@
             "493": {
                 "DE": "Und er leugnete abermal und schwur dazu:",
                 "EN1": "And he denied again, and swore to it:",
-                "EN2": "And he denied it once more, taking an oath to it:"
+                "EN2": "And he denied it once more, taking an oath to it:",
+                "entry": {
+                    "schwören": {
+                        "pronunciation": "ˈʃvøːʁən",
+                        "DE_EN": "to confirm on oath, to make an oath, to pledge, to swan [Am. dialect: to swear], to swear [oath], to take an oath, to vow, to vum [dial.]"
+                    }
+                }
             }
         },
         "109": {
@@ -2162,7 +3995,14 @@
             "499": {
                 "DE": "Und über eine kleine Weile traten hinzu, die da stunden, und sprachen zu Petro:",
                 "EN1": "And after a little while people standing around came up and said to Peter:",
-                "EN2": "And after a little while, those who were standing there stepped forward and said to Peter:"
+                "EN2": "And after a little while, those who were standing there stepped forward and said to Peter:",
+                "entry": {
+                    "stunden": {
+                        "pronunciation": "ˈʃtʊndn̩",
+                        "DE_EN": "to grant a respite (for payment)",
+                        "Google": "the archaic past-tense plural form of stehen"
+                    }
+                }
             }
         },
         "111": {
@@ -2186,7 +4026,17 @@
             "505": {
                 "DE": "Da hub er an sich zu verfluchen und zu schwören:",
                 "EN1": "Then he began to curse and swear:",
-                "EN2": "Then he started to curse at himself and to take an oath:"
+                "EN2": "Then he started to curse at himself and to take an oath:",
+                "entry": {
+                    "anheben": {
+                        "pronunciation": "ˈanˌheːbn̩",
+                        "Langenscheidt": "to begin, to start",
+                        "DE_EN": "to accentuate, to elevate, to hoist"
+                    },
+                    "jdn.\/etw. verfluchen": {
+                        "DE_EN": "to curse sb.\/sth., to damn sb.\/sth. [curse]"
+                    }
+                }
             }
         },
         "113": {
@@ -2210,7 +4060,24 @@
             "511": {
                 "DE": "Und alsbald krähete der Hahn. Da dachte Petrus an die Worte Jesu, da er zu ihm sagte: \"Ehe der Hahn krähen wird, wirst du mich dreimal verleugnen.\" Und ging heraus und weinete bitterlich.",
                 "EN1": "And just then the cock crew. Then Peter remembered the words of Jesus, when he said to him: \"Before the cock crows, you will deny me three times.\" And he went out and wept bitterly.",
-                "EN2": "And immediately the cock crowed. Then Peter remembered the words of Jesus, when he said to him: \"Before the cock has crowed, you will disavow me three times.\" And Peter went out and wept bitterly."
+                "EN2": "And immediately the cock crowed. Then Peter remembered the words of Jesus, when he said to him: \"Before the cock has crowed, you will disavow me three times.\" And Peter went out and wept bitterly.",
+                "entry": {
+                    "dachte": {
+                        "pronunciation": "ˈdaxtə"
+                    },
+                    "das, woran ich dachte": {
+                        "DE_EN": "what I had in mind"
+                    },
+                    "Das dachte ich mir.": {
+                        "DE_EN": "I anticipated as much., I thought so."
+                    },
+                    "Das dachte ich mir schon.": {
+                        "DE_EN": "I might have known it."
+                    },
+                    "Er dachte nach, was das Wort wohl bedeuten möge.": {
+                        "DE_EN": "He wondered what the word could possibly mean."
+                    }
+                }
             }
         },
         "115": {
@@ -2254,22 +4121,49 @@
             "521": {
                 "DE": "Bin ich gleich von dir gewichen,",
                 "EN1": "Although I have been separated from you,",
-                "EN2": "Though I have turned aside from you,"
+                "EN2": "Though I have turned aside from you,",
+                "entry": {
+                    "bin...gleich": {
+                        "Google": "although"
+                    },
+                    "weichen": {
+                        "pronunciation": "ˈvaɪ̯çn̩",
+                        "DE_EN": "to go away [abate \/ yield], to move [yield, give way], to smooth, to vanish, to yield [give way]"
+                    }
+                }
             },
             "522": {
                 "DE": "Stell ich mich doch wieder ein;",
                 "EN1": "yet I bring myself back again;",
-                "EN2": "I do, indeed, come back;"
+                "EN2": "I do, indeed, come back;",
+                "entry": {
+                    "sich einstellen": {
+                        "Google": "to appear, to show up"
+                    }
+                }
             },
             "523": {
                 "DE": "Hat uns doch dein Sohn verglichen",
                 "EN1": "even so your Son set the example for us",
-                "EN2": "Your Son has indeed reconciled the ledger for us"
+                "EN2": "Your Son has indeed reconciled the ledger for us",
+                "entry": {
+                    "verglichen": {
+                        "pronunciation": "fɛɐ̯ˈɡlɪçn̩",
+                        "DE_EN": "compared, likened",
+                        "Google": "vergleichen, archaic context, to reconcile, to settle"
+                    }
+                }
             },
             "524": {
                 "DE": "Durch sein Angst und Todespein.",
                 "EN1": "through his anguish and mortal pain.",
-                "EN2": "by his fear, and his death pains."
+                "EN2": "by his fear, and his death pains.",
+                "entry": {
+                    "durch": {
+                        "pronunciation": "dʊʁç",
+                        "DE_EN": "done  [fully cooked], per, through, thru [Am.] [coll.] [through], via, well done"
+                    }
+                }
             },
             "525": {
                 "DE": "Ich verleugne nicht die Schuld,",
@@ -2289,7 +4183,13 @@
             "528": {
                 "DE": "Die ich stets in mir befinde.",
                 "EN1": "that I constantly discover in me.",
-                "EN2": "that I find ever within myself."
+                "EN2": "that I find ever within myself.",
+                "entry": {
+                    "stets": {
+                        "pronunciation": "ʃteːt͡s",
+                        "DE_EN": "always, at all times, azways [Jam.], constantly, continually, ever, invariably, steadily, unfailingly"
+                    }
+                }
             },
             "529": {
                 "DE": "(\"Werde munter, mein Gemüte,\" verse 6)",

@@ -99,6 +99,7 @@
 	"244,57,260":["Kelch"],
 	"244,58,264":["erheben"],
 	"244,58,264":["hinauf"],
+	"244,58,266":["Gnade"],
 	"244,58,271":["hässlich"],
 	"244,58,272":["weil","gefallen"],
 	"244,59,275":["bequemen"],
@@ -178,7 +179,9 @@
 	"244,112,505":["anheben","jdn./etw. verfluchen"],
 	"244,114,511":["dachte"],
 	"244,116,521":["bin...gleich","weichen"],
-	"244,116,522":"sich einstellen",
-	"244,116,523":"verglichen",
+	"244,116,522":["sich einstellen"],
+	"244,116,523":["verglichen"],
+	"244,116,524":["durch"],
+	"244,116,528":["stets"]
 
 }
