@@ -175,6 +175,10 @@
 	"244,104,481":["leugnen"],
 	"244,108,493":["schwören"],
 	"244,110,499":["stunden"],
-	"244,112,505":["anheben","jdn./etw. verfluchen"]
+	"244,112,505":["anheben","jdn./etw. verfluchen"],
+	"244,114,511":["dachte"],
+	"244,116,521":["bin...gleich","weichen"],
+	"244,116,522":"sich einstellen",
+	"244,116,523":"verglichen",
 
 }
