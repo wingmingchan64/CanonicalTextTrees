@@ -17,6 +17,11 @@
     "title": "詞典",
     "display_title": "詞典"
   },
+  "CIEN_ANOS":{
+    "folder": "corpus/others/cien_anos_de_soledad",
+    "title": "Cien años de soledad",
+    "display_title": "Gabriel García Márquez: Cien años de soledad"
+  },
   "CJTDSJ":{
     "folder": "corpus/dufu/唱經堂杜詩解",
     "title": "唱經堂杜詩解",
