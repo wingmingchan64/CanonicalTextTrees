@@ -1,0 +1,49 @@
+<?php
+/*
+php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.php 0042
+*/
+require_once(
+	dirname( __DIR__, 5 ) . DIRECTORY_SEPARATOR .
+	'Dufu-Analysis' . DIRECTORY_SEPARATOR .
+	'tools' . DIRECTORY_SEPARATOR .
+	"php" . DIRECTORY_SEPARATOR .
+	"lib" . DIRECTORY_SEPARATOR .
+	"函式.php" );
+	
+check_argv( $argv, 2, 提供默文檔碼 );
+//$默文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
+$默文檔碼 = '0042';
+$版文檔碼 = '0004';
+
+$著述碼 = 'WANGZHU';
+$正文樹 = 提取基準正文樹( $默文檔碼 );
+$mm_tree = 提取後設資料樹( $著述碼, $版文檔碼 );
+$paths = array();
+記錄後設資料樹路徑( $mm_tree );
+添加標點符號( $正文樹 );
+
+foreach( $paths as $path )
+{
+	$parts = explode( '_', $path );
+	$默路徑 = explode( ',', $parts[ 3 ] );
+	$異文 = 提取ctt正文( $parts[ 4 ] );
+	$op = $parts[ 5 ];
+	$pointer = &$正文樹;
+	
+	foreach( $默路徑 as $step )
+	{
+		$pointer = &$pointer[ $step ];
+	}
+	if( $op == 'replace' )
+	{
+		$pointer = $異文;
+	}
+	else
+	{
+		$pointer .= $異文;
+	}
+}
+
+echo $正文樹[ $默文檔碼 ][ 詩題 ], NL, NL;
+echo 攤平樹文字_略過鍵( $正文樹, array( 詩題 ) );
+?>

@@ -145,6 +145,11 @@
     "title": "分門集註杜工部詩",
     "display_title": "《分門集註杜工部詩》"
   },
+  "FRENCH":{
+    "folder": "corpus/others/french",
+    "title": "French",
+    "display_title": "French"
+  },
   "FSTY":{
     "folder": "corpus/classical/風俗通義",
     "title": "風俗通義",
@@ -227,6 +232,12 @@
     "title": "老子",
     "display_title": "《老子》",
     "aliases": ["道德經", "《道德經》"]
+  },
+  "LE_COMTE":{
+    "folder": "corpus/others/le_comte_de_monte_cristo",
+    "title": "Le comte de Monte-cristo",
+    "display_title": "Le comte de Monte-cristo",
+    "author": "Alexandre Dumas"
   },
   "LUNYU":{
     "folder": "corpus/classical/論語",
