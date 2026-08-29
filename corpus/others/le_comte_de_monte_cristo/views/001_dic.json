@@ -1,7 +1,7 @@
 {
     "001": {
         "篇名": {
-            "FR": "I – Marseille. – L’arrivée."
+            "FR": "Chapitre I Marseille. L’arrivée."
         },
         "1": {
             "3": {
@@ -475,7 +475,31 @@
         },
         "22": {
             "45": {
-                "FR": "« Nous lui avons fait les funérailles ordinaires, et il repose, décemment enveloppé dans un hamac, avec un boulet de trente-six aux pieds et un à la tête, à la hauteur de l’île d’El Giglio. Nous rapportons à sa veuve sa croix d’honneur et son épée. C’était bien la peine, continua le jeune homme avec un sourire mélancolique, de faire dix ans la guerre aux Anglais pour en arriver à mourir, comme tout le monde, dans son lit."
+                "FR": "« Nous lui avons fait les funérailles ordinaires, et il repose, décemment enveloppé dans un hamac, avec un boulet de trente-six aux pieds et un à la tête, à la hauteur de l’île d’El Giglio. Nous rapportons à sa veuve sa croix d’honneur et son épée. C’était bien la peine, continua le jeune homme avec un sourire mélancolique, de faire dix ans la guerre aux Anglais pour en arriver à mourir, comme tout le monde, dans son lit.",
+                "entry": {
+                    "décemment": {
+                        "FR_EN": "decently, decorously, modestly, respectably"
+                    },
+                    "envelopper": {
+                        "pronunciation": "ɑ̃vlɔpe"
+                    },
+                    "envelopper la baie du regard": {
+                        "FR_EN": "to gaze around at the bay"
+                    },
+                    "envelopper qc.": {
+                        "FR_EN": "to envelop sth."
+                    },
+                    "envelopper qc. [brume]": {
+                        "FR_EN": "to veil sth."
+                    },
+                    "envelopper qc. [mystère, secret]": {
+                        "FR_EN": "to surround sth."
+                    },
+                    "hamac": {
+                        "pronunciation": "amak",
+                        "FR_EN": "hammock"
+                    }
+                }
             }
         },
         "23": {
