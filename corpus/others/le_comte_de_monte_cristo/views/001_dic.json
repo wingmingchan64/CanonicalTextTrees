@@ -9,6 +9,7 @@
                 "entry": {
                     "vigie": {
                         "pronunciation": "viʒi",
+                        "LeRobert": "Matelot placé en observation dans la mâture ou à la proue d'un navire, Son poste d'observation",
                         "FR_EN": "crow's nest, lookout"
                     },
                     "signala": {
@@ -478,10 +479,12 @@
                 "FR": "« Nous lui avons fait les funérailles ordinaires, et il repose, décemment enveloppé dans un hamac, avec un boulet de trente-six aux pieds et un à la tête, à la hauteur de l’île d’El Giglio. Nous rapportons à sa veuve sa croix d’honneur et son épée. C’était bien la peine, continua le jeune homme avec un sourire mélancolique, de faire dix ans la guerre aux Anglais pour en arriver à mourir, comme tout le monde, dans son lit.",
                 "entry": {
                     "décemment": {
+                        "LeRobert": "D'une manière décente, Raisonnablement",
                         "FR_EN": "decently, decorously, modestly, respectably"
                     },
                     "envelopper": {
-                        "pronunciation": "ɑ̃vlɔpe"
+                        "pronunciation": "ɑ̃vlɔpe",
+                        "LeRobert": "Entourer d'une chose souple qui couvre de tous côtés, Entourer complètement, entourer de qqch. qui cache"
                     },
                     "envelopper la baie du regard": {
                         "FR_EN": "to gaze around at the bay"
@@ -497,19 +500,70 @@
                     },
                     "hamac": {
                         "pronunciation": "amak",
+                        "LeRobert": "Rectangle de toile ou de filet suspendu par deux extrémités, utilisé comme lit",
                         "FR_EN": "hammock"
+                    },
+                    "boulet": {
+                        "pronunciation": "bulɛ",
+                        "LeRobert": "Projectile sphérique de métal dont on chargeait les canons, Boule de métal qu'on attachait aux pieds de condamnés",
+                        "FR_EN": "cannonball [also: cannon-ball]"
+                    },
+                    "rapporter qc. [ici]": {
+                        "FR_EN": "to bring sth. back"
+                    },
+                    "veuve": {
+                        "pronunciation": "vœv",
+                        "FR_EN": "widow"
+                    },
+                    "épée": {
+                        "FR_EN": "epee, sword"
+                    },
+                    "C’était bien la peine": {
+                        "Google": "That was a waste of time!"
                     }
                 }
             }
         },
         "23": {
             "47": {
-                "FR": "– Dame ! que voulez-vous, monsieur Edmond, reprit l’armateur qui paraissait se consoler de plus en plus, nous sommes tous mortels, et il faut bien que les anciens fassent place aux nouveaux, sans cela il n’y aurait pas d’avancement ; et du moment que vous m’assurez que la cargaison…"
+                "FR": "– Dame ! que voulez-vous, monsieur Edmond, reprit l’armateur qui paraissait se consoler de plus en plus, nous sommes tous mortels, et il faut bien que les anciens fassent place aux nouveaux, sans cela il n’y aurait pas d’avancement ; et du moment que vous m’assurez que la cargaison…",
+                "entry": {
+                    "Dame ! [fam.] [vieux]": {
+                        "FR_EN": "Upon my word! [coll.]"
+                    },
+                    "faire place à qn.\/qc.": {
+                        "FR_EN": "to give way to sb.\/sth."
+                    },
+                    "faire place à": {
+                        "Google": "to make room for"
+                    },
+                    "du moment que": {
+                        "FR_EN": "because, provided (that), since"
+                    },
+                    "cargaison": {
+                        "pronunciation": "kargɛzɔ̃"
+                    },
+                    "cargaison [charge]": {
+                        "FR_EN": "cargo"
+                    },
+                    "décharger la cargaison d'un navire": {
+                        "FR_EN": "to unload the cargo off a ship"
+                    }
+                }
             }
         },
         "24": {
             "49": {
-                "FR": "– Est en bon état, monsieur Morrel, je vous en réponds. Voici un voyage que je vous donne le conseil de ne point escompter pour 25.000 francs de bénéfice. »"
+                "FR": "– Est en bon état, monsieur Morrel, je vous en réponds. Voici un voyage que je vous donne le conseil de ne point escompter pour 25.000 francs de bénéfice. »",
+                "entry": {
+                    "conseil": {
+                        "pronunciation": "kɔ̃sɛj",
+                        "FR_EN": "advice, counsel [(piece of) advice]"
+                    },
+                    "escompter pour": {
+                        "Google": "to value, trade away, or write off a future gain (Don't go selling your shares or writing off this trip thinking it was a failure; I have run the numbers, and you are going to make a massive profit of at least 25,000 francs.)"
+                    }
+                }
             }
         },
         "25": {
@@ -519,7 +573,22 @@
         },
         "26": {
             "53": {
-                "FR": "« Range à carguer les voiles de hune, le foc et la brigantine ! cria le jeune marin ; faites penaud ! »"
+                "FR": "« Range à carguer les voiles de hune, le foc et la brigantine ! cria le jeune marin ; faites penaud ! »",
+                "entry": {
+                    "carguer": {
+                        "pronunciation": "karge",
+                        "LeRobert": "Serrer (les voiles) contre leurs vergues ou contre le mât au moyen de cordages"
+                    },
+                    "serrer qc.": {
+                        "FR_EN": "to tighten sth."
+                    },
+                    "mât de hune": {
+                        "FR_EN": "topmast"
+                    },
+                    "faites penaud !": {
+                        "Google": "faites péneau ! Get the anchor ready to drop!"
+                    }
+                }
             }
         },
         "27": {
@@ -719,7 +788,21 @@
         },
         "66": {
             "133": {
-                "FR": "– Il m’a fait des questions sur le bâtiment, sur l’époque de son départ pour Marseille, sur la route qu’il avait suivie et sur la cargaison qu’il portait. Je crois que s’il eût été vide, et que j’en eusse été le maître, son intention eût été de l’acheter ; mais je lui ai dit que je n’étais que simple second, et que le bâtiment appartenait à la maison Morrel et fils. « Ah ! ah ! a-t-il dit, je la connais. Les Morrel sont armateurs de père en fils, et il y avait un Morrel qui servait dans le même régiment que moi lorsque j’étais en garnison à Valence. »"
+                "FR": "– Il m’a fait des questions sur le bâtiment, sur l’époque de son départ pour Marseille, sur la route qu’il avait suivie et sur la cargaison qu’il portait. Je crois que s’il eût été vide, et que j’en eusse été le maître, son intention eût été de l’acheter ; mais je lui ai dit que je n’étais que simple second, et que le bâtiment appartenait à la maison Morrel et fils. « Ah ! ah ! a-t-il dit, je la connais. Les Morrel sont armateurs de père en fils, et il y avait un Morrel qui servait dans le même régiment que moi lorsque j’étais en garnison à Valence. »",
+                "entry": {
+                    "Aimez-vous Brahms ? [auteure : Françoise Sagan (1959)]": {
+                        "FR_EN": "Goodbye Again [director: Anatole Litvak (1961)]"
+                    },
+                    "Allez-vous à la selle régulièrement ? [loc.]": {
+                        "FR_EN": "Are you regular ? [idiom] [Do you have regular bowel movements?]"
+                    },
+                    "Alors, ça carbure ? [fam.]": {
+                        "FR_EN": "How's it going?"
+                    },
+                    "arriver  [survenir, se passer]": {
+                        "FR_EN": "to occur"
+                    }
+                }
             }
         },
         "67": {

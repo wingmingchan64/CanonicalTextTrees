@@ -26,6 +26,7 @@ $doc_id = trim( $argv[ 1 ] );
 $switches = [
 	'pronunciation',
 	'Cambridge',
+	'LeRobert',
 	'FR_EN',
 	'Google'
 ];
@@ -108,14 +109,15 @@ if( in_array( 'grammar', $switches ) )
 	$grammar = json_decode(
 		file_get_contents( $grammar_file ), true);
 }
-if( in_array( 'Langenscheidt', $switches ) )
-{
-	$Langenscheidt_file = $german_folder . 
-		'Langenscheidt.json';
-	$Langenscheidt = json_decode(
-		file_get_contents( $Langenscheidt_file ), true);
-}
 */
+if( in_array( 'LeRobert', $switches ) )
+{
+	$LeRobert_file = $french_folder . 
+		'LeRobert.json';
+	$LeRobert = json_decode(
+		file_get_contents( $LeRobert_file ), true);
+}
+
 if( in_array( 'Cambridge', $switches ) )
 {
 	$Cambridge_file = $french_folder . 'Cambridge.json';
@@ -169,13 +171,13 @@ foreach( $metadata as $path => $terms )
 			$pointer[ 'entry' ][ $term ][ 'grammar' ]
 				= $grammar[ $term ];
 		}
-		if( in_array( 'Langenscheidt', $switches ) &&
-			array_key_exists( $term, $Langenscheidt ) )
-		{
-			$pointer[ 'entry' ][ $term ][ 'Langenscheidt' ]
-				= $Langenscheidt[ $term ];
-		}
 		*/
+		if( in_array( 'LeRobert', $switches ) &&
+			array_key_exists( $term, $LeRobert ) )
+		{
+			$pointer[ 'entry' ][ $term ][ 'LeRobert' ]
+				= $LeRobert[ $term ];
+		}
 		
 		if( in_array( 'Cambridge', $switches ) &&
 			array_key_exists( $term, $Cambridge ) )
