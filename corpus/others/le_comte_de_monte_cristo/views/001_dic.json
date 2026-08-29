@@ -603,22 +603,87 @@
         },
         "29": {
             "59": {
-                "FR": "Au dernier commandement, toutes les voiles s’abaissèrent, et le navire s’avança d’une façon presque insensible, ne marchant plus que par l’impulsion donnée."
+                "FR": "Au dernier commandement, toutes les voiles s’abaissèrent, et le navire s’avança d’une façon presque insensible, ne marchant plus que par l’impulsion donnée.",
+                "entry": {
+                    "s'abaisser": {
+                        "FR_EN": "to abase oneself, to be lowered, to demean oneself, to humble oneself"
+                    }
+                }
             }
         },
         "30": {
             "61": {
-                "FR": "« Et maintenant, si vous voulez monter, monsieur Morrel, dit Dantès voyant l’impatience de l’armateur, voici votre comptable, M. Danglars, qui sort de sa cabine, et qui vous donnera tous les renseignements que vous pouvez désirer. Quant à moi, il faut que je veille au mouillage et que je mette le navire en deuil. »"
+                "FR": "« Et maintenant, si vous voulez monter, monsieur Morrel, dit Dantès voyant l’impatience de l’armateur, voici votre comptable, M. Danglars, qui sort de sa cabine, et qui vous donnera tous les renseignements que vous pouvez désirer. Quant à moi, il faut que je veille au mouillage et que je mette le navire en deuil. »",
+                "entry": {
+                    "comptable": {
+                        "pronunciation": "kɔ̃tabl",
+                        "FR_EN": "accountant [female], accountant"
+                    },
+                    "en deuil": {
+                        "FR_EN": "in mourning"
+                    },
+                    "se fit dire": {
+                        "Google": "allowed himself to be told"
+                    }
+                }
             }
         },
         "31": {
             "63": {
-                "FR": "L’armateur ne se le fit pas dire deux fois. Il saisit un câble que lui jeta Dantès, et, avec une dextérité qui eût fait honneur à un homme de mer, il gravit les échelons cloués sur le flanc rebondi du bâtiment, tandis que celui-ci, retournant à son poste de second, cédait la conversation à celui qu’il avait annoncé sous le nom de Danglars, et qui, sortant de sa cabine, s’avançait effectivement au-devant de l’armateur."
+                "FR": "L’armateur ne se le fit pas dire deux fois. Il saisit un câble que lui jeta Dantès, et, avec une dextérité qui eût fait honneur à un homme de mer, il gravit les échelons cloués sur le flanc rebondi du bâtiment, tandis que celui-ci, retournant à son poste de second, cédait la conversation à celui qu’il avait annoncé sous le nom de Danglars, et qui, sortant de sa cabine, s’avançait effectivement au-devant de l’armateur.",
+                "entry": {
+                    "saisir qc.": {
+                        "FR_EN": "to foreclose (on) sth., to get hold of sth., to grab sth., to seize sth., to snatch sth."
+                    },
+                    "câble": {
+                        "pronunciation": "kɑbl",
+                        "FR_EN": "cable, flex [Br.] [electric cable]"
+                    },
+                    "gravir qc.": {
+                        "FR_EN": "to climb sth."
+                    },
+                    "échelon salarial": {
+                        "FR_EN": "pay grade"
+                    },
+                    "échelon supérieur": {
+                        "FR_EN": "higher level, upper echelon"
+                    },
+                    "échelon [d'échelle]": {
+                        "FR_EN": "rung"
+                    },
+                    "échelon [niveau]": {
+                        "FR_EN": "level"
+                    },
+                    "clouer qc.": {
+                        "FR_EN": "to nail sth. (down)"
+                    },
+                    "rebondi": {
+                        "pronunciation": "rœbɔ̃di"
+                    },
+                    "rebondi [bien rond]": {
+                        "FR_EN": "well-rounded"
+                    },
+                    "ventre rebondi": {
+                        "FR_EN": "pot belly"
+                    },
+                    "céder": {
+                        "FR_EN": "to give in, to give up, to yield"
+                    },
+                    "effectivement [en effet]": {
+                        "FR_EN": "actually [indeed], indeed"
+                    }
+                }
             }
         },
         "32": {
             "65": {
-                "FR": "Le nouveau venu était un homme de vingt-cinq à vingt-six ans, d’une figure assez sombre, obséquieux envers ses supérieurs, insolent envers ses subordonnés : aussi, outre son titre d’agent comptable, qui est toujours un motif de répulsion pour les matelots, était-il généralement aussi mal vu de l’équipage qu’Edmond Dantès au contraire en était aimé."
+                "FR": "Le nouveau venu était un homme de vingt-cinq à vingt-six ans, d’une figure assez sombre, obséquieux envers ses supérieurs, insolent envers ses subordonnés : aussi, outre son titre d’agent comptable, qui est toujours un motif de répulsion pour les matelots, était-il généralement aussi mal vu de l’équipage qu’Edmond Dantès au contraire en était aimé.",
+                "entry": {
+                    "outre": {
+                        "pronunciation": "utr",
+                        "FR_EN": "apart from [other than], besides, in addition to, other than, goatskin"
+                    }
+                }
             }
         },
         "33": {
@@ -633,27 +698,66 @@
         },
         "35": {
             "71": {
-                "FR": "– Et un excellent marin surtout, vieilli entre le ciel et l’eau, comme il convient à un homme chargé des intérêts d’une maison aussi importante que maison Morrel et fils, répondit Danglars."
+                "FR": "– Et un excellent marin surtout, vieilli entre le ciel et l’eau, comme il convient à un homme chargé des intérêts d’une maison aussi importante que maison Morrel et fils, répondit Danglars.",
+                "entry": {
+                    "convenir à qc.": {
+                        "FR_EN": "to correspond to sth., to dovetail with sth., to fit in with sth., to match sth."
+                    },
+                    "maison [entreprise]": {
+                        "FR_EN": "company [firm]"
+                    }
+                }
             }
         },
         "36": {
             "73": {
-                "FR": "– Mais, dit l’armateur, suivant des yeux Dantès qui cherchait son mouillage, mais il me semble qu’il n’y a pas besoin d’être si vieux marin que vous le dites, Danglars, pour connaître son métier, et voici notre ami Edmond qui fait le sien, ce me semble, en homme qui n’a besoin de demander des conseils à personne."
+                "FR": "– Mais, dit l’armateur, suivant des yeux Dantès qui cherchait son mouillage, mais il me semble qu’il n’y a pas besoin d’être si vieux marin que vous le dites, Danglars, pour connaître son métier, et voici notre ami Edmond qui fait le sien, ce me semble, en homme qui n’a besoin de demander des conseils à personne.",
+                "entry": {
+                    "fait le sien": {
+                        "Google": "Remplir son rôle, faire sa part, accomplir son devoir ou son travail"
+                    },
+                    "en homme [loc.]": {
+                        "FR_EN": "like a man [idiom]"
+                    }
+                }
             }
         },
         "37": {
             "75": {
-                "FR": "– Oui, dit Danglars en jetant sur Dantès un regard oblique où brilla un éclair de haine, oui, c’est jeune, et cela ne doute de rien. À peine le capitaine a-t-il été mort qu’il a pris le commandement sans consulter personne, et qu’il nous a fait perdre un jour et demi à l’île d’Elbe au lieu de revenir directement à Marseille."
+                "FR": "– Oui, dit Danglars en jetant sur Dantès un regard oblique où brilla un éclair de haine, oui, c’est jeune, et cela ne doute de rien. À peine le capitaine a-t-il été mort qu’il a pris le commandement sans consulter personne, et qu’il nous a fait perdre un jour et demi à l’île d’Elbe au lieu de revenir directement à Marseille.",
+                "entry": {
+                    "haine": {
+                        "pronunciation": "ɛn",
+                        "FR_EN": "hate, hatred"
+                    },
+                    "à peine": {
+                        "FR_EN": "barely, concisely, curtly, hardly, scantily, scarcely, tersely"
+                    }
+                }
             }
         },
         "38": {
             "77": {
-                "FR": "– Quant à prendre le commandement du navire, dit l’armateur, c’était son devoir comme second ; quant à perdre un jour et demi à l’île d’Elbe, il a eu tort ; à moins que le navire n’ait eu quelque avarie à réparer."
+                "FR": "– Quant à prendre le commandement du navire, dit l’armateur, c’était son devoir comme second ; quant à perdre un jour et demi à l’île d’Elbe, il a eu tort ; à moins que le navire n’ait eu quelque avarie à réparer.",
+                "entry": {
+                    "quant à": {
+                        "FR_EN": "as for, as regards, with regard to"
+                    },
+                    "avarie": {
+                        "pronunciation": "avari",
+                        "FR_EN": "damage, shipping damage, transport damage"
+                    }
+                }
             }
         },
         "39": {
             "79": {
-                "FR": "– Le navire se portait comme je me porte, et comme je désire que vous vous portiez, monsieur Morrel ; et cette journée et demie a été perdue par pur caprice, pour le plaisir d’aller à terre, voilà tout."
+                "FR": "– Le navire se portait comme je me porte, et comme je désire que vous vous portiez, monsieur Morrel ; et cette journée et demie a été perdue par pur caprice, pour le plaisir d’aller à terre, voilà tout.",
+                "entry": {
+                    "se porter bien": {
+                        "FR_EN": "to be doing well"
+                    }
+                }
             }
         },
         "40": {
@@ -673,12 +777,36 @@
         },
         "43": {
             "87": {
-                "FR": "Aussitôt l’ancre tomba, et la chaîne fila avec bruit. Dantès resta à son poste, malgré la présence du pilote, jusqu’à ce que cette dernière manœuvre fût terminée ; puis alors :"
+                "FR": "Aussitôt l’ancre tomba, et la chaîne fila avec bruit. Dantès resta à son poste, malgré la présence du pilote, jusqu’à ce que cette dernière manœuvre fût terminée ; puis alors :",
+                "entry": {
+                    "filer [fam.]": {
+                        "FR_EN": "to bolt [flee] [coll.], to dash off, to run [go], to scarper [coll.] [Br.], to scram [coll.], to skedaddle [coll.] [Am.]"
+                    },
+                    "malgré": {
+                        "FR_EN": "despite, in spite of"
+                    }
+                }
             }
         },
         "44": {
             "89": {
-                "FR": "« Abaissez la flamme à mi-mât, mettez le pavillon en berne, croisez les vergues !"
+                "FR": "« Abaissez la flamme à mi-mât, mettez le pavillon en berne, croisez les vergues !",
+                "entry": {
+                    "flamme": {
+                        "pronunciation": "flam",
+                        "FR_EN": "flame, pennon [pennant]"
+                    },
+                    "pavillon": {
+                        "pronunciation": "pavijɔ̃",
+                        "FR_EN": "bungalow, detached house [with a bigger garden than in town], flag, lodge"
+                    },
+                    "mettre qc. en berne [le hisser à mi-hauteur] [drapeau, pavillon]": {
+                        "FR_EN": "to fly sth. at half mast [flag]"
+                    },
+                    "croisez les vergues": {
+                        "Google": "crossing the yards was a global naval signal for deep mourning"
+                    }
+                }
             }
         },
         "45": {
@@ -688,17 +816,33 @@
         },
         "46": {
             "93": {
-                "FR": "– Et il l’est de fait, dit l’armateur."
+                "FR": "– Et il l’est de fait, dit l’armateur.",
+                "entry": {
+                    "de fait [en vérité]": {
+                        "FR_EN": "in fact"
+                    }
+                }
             }
         },
         "47": {
             "95": {
-                "FR": "– Oui, sauf votre signature et celle de votre associé, monsieur Morrel."
+                "FR": "– Oui, sauf votre signature et celle de votre associé, monsieur Morrel.",
+                "entry": {
+                    "sauf": {
+                        "pronunciation": "sof",
+                        "FR_EN": "except (for), with the exception of"
+                    }
+                }
             }
         },
         "48": {
             "97": {
-                "FR": "– Dame ! pourquoi ne le laisserions-nous pas à ce poste ? dit l’armateur. Il est jeune, je le sais bien, mais il me paraît tout à la chose, et fort expérimenté dans son état. »"
+                "FR": "– Dame ! pourquoi ne le laisserions-nous pas à ce poste ? dit l’armateur. Il est jeune, je le sais bien, mais il me paraît tout à la chose, et fort expérimenté dans son état. »",
+                "entry": {
+                    "tout à la chose": {
+                        "Google": "totally focused on his business"
+                    }
+                }
             }
         },
         "49": {
@@ -713,7 +857,12 @@
         },
         "51": {
             "103": {
-                "FR": "Danglars fit un pas en arrière."
+                "FR": "Danglars fit un pas en arrière.",
+                "entry": {
+                    "en arrière": {
+                        "FR_EN": "backward, backwards"
+                    }
+                }
             }
         },
         "52": {
@@ -723,7 +872,15 @@
         },
         "53": {
             "107": {
-                "FR": "– Je l’ignore, monsieur ; c’était pour accomplir un dernier ordre du capitaine Leclère, qui, en mourant, m’avait remis un paquet pour le grand maréchal Bertrand."
+                "FR": "– Je l’ignore, monsieur ; c’était pour accomplir un dernier ordre du capitaine Leclère, qui, en mourant, m’avait remis un paquet pour le grand maréchal Bertrand.",
+                "entry": {
+                    "ignorer qc. [ne pas savoir]": {
+                        "FR_EN": "to not know sth."
+                    },
+                    "maréchal": {
+                        "FR_EN": "field marshal [Br.]"
+                    }
+                }
             }
         },
         "54": {
@@ -753,12 +910,26 @@
         },
         "59": {
             "119": {
-                "FR": "« Et comment va l’Empereur ? demanda-t-il vivement."
+                "FR": "« Et comment va l’Empereur ? demanda-t-il vivement.",
+                "entry": {
+                    "empereur": {
+                        "pronunciation": "ɑ̃prœr",
+                        "FR_EN": "emperor"
+                    }
+                }
             }
         },
         "60": {
             "121": {
-                "FR": "– Bien, autant que j’aie pu en juger par mes yeux."
+                "FR": "– Bien, autant que j’aie pu en juger par mes yeux.",
+                "entry": {
+                    "autant que": {
+                        "FR_EN": "just as"
+                    },
+                    "juger qn.\/qc.": {
+                        "FR_EN": "to judge sb.\/sth."
+                    }
+                }
             }
         },
         "61": {
@@ -790,29 +961,53 @@
             "133": {
                 "FR": "– Il m’a fait des questions sur le bâtiment, sur l’époque de son départ pour Marseille, sur la route qu’il avait suivie et sur la cargaison qu’il portait. Je crois que s’il eût été vide, et que j’en eusse été le maître, son intention eût été de l’acheter ; mais je lui ai dit que je n’étais que simple second, et que le bâtiment appartenait à la maison Morrel et fils. « Ah ! ah ! a-t-il dit, je la connais. Les Morrel sont armateurs de père en fils, et il y avait un Morrel qui servait dans le même régiment que moi lorsque j’étais en garnison à Valence. »",
                 "entry": {
-                    "Aimez-vous Brahms ? [auteure : Françoise Sagan (1959)]": {
-                        "FR_EN": "Goodbye Again [director: Anatole Litvak (1961)]"
+                    "époque [période quelconque]": {
+                        "FR_EN": "time"
                     },
-                    "Allez-vous à la selle régulièrement ? [loc.]": {
-                        "FR_EN": "Are you regular ? [idiom] [Do you have regular bowel movements?]"
+                    "Valence [en Espagne]": {
+                        "FR_EN": "Valencia"
                     },
-                    "Alors, ça carbure ? [fam.]": {
-                        "FR_EN": "How's it going?"
+                    "Valence [en France]": {
+                        "FR_EN": "Valence"
                     },
-                    "arriver  [survenir, se passer]": {
-                        "FR_EN": "to occur"
+                    "Valence": {
+                        "Google": "44.92498191997531, 4.909426499973838"
                     }
                 }
             }
         },
         "67": {
             "135": {
-                "FR": "– C’est pardieu vrai ! s’écria l’armateur tout joyeux ; c’était Policar Morrel, mon oncle, qui est devenu capitaine. Dantès, vous direz à mon oncle que l’Empereur s’est souvenu de lui, et vous le verrez pleurer, le vieux grognard. Allons, allons, continua l’armateur en frappant amicalement sur l’épaule du jeune homme, vous avez bien fait, Dantès, de suivre les instructions du capitaine Leclère et de vous arrêter à l’île d’Elbe, quoique, si l’on savait que vous avez remis un paquet au maréchal et causé avec l’Empereur, cela pourrait vous compromettre."
+                "FR": "– C’est pardieu vrai ! s’écria l’armateur tout joyeux ; c’était Policar Morrel, mon oncle, qui est devenu capitaine. Dantès, vous direz à mon oncle que l’Empereur s’est souvenu de lui, et vous le verrez pleurer, le vieux grognard. Allons, allons, continua l’armateur en frappant amicalement sur l’épaule du jeune homme, vous avez bien fait, Dantès, de suivre les instructions du capitaine Leclère et de vous arrêter à l’île d’Elbe, quoique, si l’on savait que vous avez remis un paquet au maréchal et causé avec l’Empereur, cela pourrait vous compromettre.",
+                "entry": {
+                    "verrez": {
+                        "pronunciation": "vɛre",
+                        "LeRobert": "Futur Simple of voir"
+                    },
+                    "Vous ne le verrez plus jamais.": {
+                        "FR_EN": "You'll never (ever) see him again."
+                    },
+                    "grognard": {
+                        "pronunciation": "grɔɲar",
+                        "FR_EN": "[soldier of the Old Guard of Napoleon I]"
+                    },
+                    "quoique [+subj.]": {
+                        "FR_EN": "albeit [formal], although, as [though], even though, though, whereas"
+                    },
+                    "causer [fam.]": {
+                        "FR_EN": "to talk"
+                    }
+                }
             }
         },
         "68": {
             "137": {
-                "FR": "– En quoi voulez-vous, monsieur, que cela me compromette ? dit Dantès : je ne sais pas même ce que je portais, et l’Empereur ne m’a fait que les questions qu’il eût faites au premier venu. Mais, pardon, reprit Dantès, voici la santé et la douane qui nous arrivent ; vous permettez, n’est-ce pas ?"
+                "FR": "– En quoi voulez-vous, monsieur, que cela me compromette ? dit Dantès : je ne sais pas même ce que je portais, et l’Empereur ne m’a fait que les questions qu’il eût faites au premier venu. Mais, pardon, reprit Dantès, voici la santé et la douane qui nous arrivent ; vous permettez, n’est-ce pas ?",
+                "entry": {
+                    "le premier venu": {
+                        "FR_EN": "anybody, the first comer, the first man who comes along"
+                    }
+                }
             }
         },
         "69": {
@@ -827,7 +1022,12 @@
         },
         "71": {
             "143": {
-                "FR": "« Eh bien, demanda-t-il, il paraît qu’il vous a donné de bonnes raisons de son mouillage à Porto-Ferrajo ?"
+                "FR": "« Eh bien, demanda-t-il, il paraît qu’il vous a donné de bonnes raisons de son mouillage à Porto-Ferrajo ?",
+                "entry": {
+                    "Porto-Ferrajo": {
+                        "Google": "42.81334108510354, 10.309934003957308"
+                    }
+                }
             }
         },
         "72": {
@@ -837,12 +1037,22 @@
         },
         "73": {
             "147": {
-                "FR": "– Ah ! tant mieux, répondit celui-ci, car c’est toujours pénible de voir un camarade qui ne fait pas son devoir."
+                "FR": "– Ah ! tant mieux, répondit celui-ci, car c’est toujours pénible de voir un camarade qui ne fait pas son devoir.",
+                "entry": {
+                    "pénible": {
+                        "FR_EN": "burdensome, onerous, painful [effort], troublesome"
+                    }
+                }
             }
         },
         "74": {
             "149": {
-                "FR": "– Dantès a fait le sien, répondit l’armateur, et il n’y a rien à dire. C’était le capitaine Leclère qui lui avait ordonné cette relâche."
+                "FR": "– Dantès a fait le sien, répondit l’armateur, et il n’y a rien à dire. C’était le capitaine Leclère qui lui avait ordonné cette relâche.",
+                "entry": {
+                    "relâche [bateau]": {
+                        "FR_EN": "port of call"
+                    }
+                }
             }
         },
         "75": {
@@ -892,7 +1102,12 @@
         },
         "84": {
             "169": {
-                "FR": "« Je passais devant la porte du capitaine qui était entrouverte, et je lui ai vu remettre ce paquet et cette lettre à Dantès."
+                "FR": "« Je passais devant la porte du capitaine qui était entrouverte, et je lui ai vu remettre ce paquet et cette lettre à Dantès.",
+                "entry": {
+                    "s'entrouvrir": {
+                        "FR_EN": "to come ajar [door], to half-open [door, flower etc.]"
+                    }
+                }
             }
         },
         "85": {
@@ -932,7 +1147,24 @@
         },
         "92": {
             "185": {
-                "FR": "– Non, j’ai donné aux douaniers la liste de marchandises ; et quant à la consigne, elle avait envoyé avec le pilote côtier un homme à qui j’ai remis nos papiers."
+                "FR": "– Non, j’ai donné aux douaniers la liste de marchandises ; et quant à la consigne, elle avait envoyé avec le pilote côtier un homme à qui j’ai remis nos papiers.",
+                "entry": {
+                    "appliquer la consigne": {
+                        "FR_EN": "to comply with orders"
+                    },
+                    "passer la consigne à qn. [loc.]": {
+                        "FR_EN": "to pass the word on to sb. [idiom]"
+                    },
+                    "respecter la consigne": {
+                        "FR_EN": "to comply with orders"
+                    },
+                    "la consigne": {
+                        "Google": "the Health and Port Authority office"
+                    },
+                    "envoyer qc.": {
+                        "FR_EN": "to send sth., to submit sth."
+                    }
+                }
             }
         },
         "93": {
@@ -942,7 +1174,12 @@
         },
         "94": {
             "189": {
-                "FR": "Dantès jeta un regard rapide autour de lui."
+                "FR": "Dantès jeta un regard rapide autour de lui.",
+                "entry": {
+                    "Dantès jeta un regard rapide autour de lui": {
+                        "Google": "Dantès is so overwhelmed with joy and disbelief that he looks around himself at the ship, the sea, and the sky."
+                    }
+                }
             }
         },
         "95": {
@@ -957,7 +1194,16 @@
         },
         "97": {
             "195": {
-                "FR": "– Excusez-moi, monsieur Morrel, excusez-moi, je vous prie, mais je dois ma première visite à mon père. Je n’en suis pas moins reconnaissant de l’honneur que vous me faites."
+                "FR": "– Excusez-moi, monsieur Morrel, excusez-moi, je vous prie, mais je dois ma première visite à mon père. Je n’en suis pas moins reconnaissant de l’honneur que vous me faites.",
+                "entry": {
+                    "ne... en être pas moins": {
+                        "Google": "to be nonetheless [adjective], or to be just as [adjective] despite that"
+                    },
+                    "reconnaissant": {
+                        "pronunciation": "rœkɔnɛsɑ̃",
+                        "FR_EN": "appreciative, grateful, thankful"
+                    }
+                }
             }
         },
         "98": {
@@ -972,7 +1218,12 @@
         },
         "100": {
             "201": {
-                "FR": "– Mais je crois que oui, mon cher Edmond, quoique je ne l’aie pas aperçu."
+                "FR": "– Mais je crois que oui, mon cher Edmond, quoique je ne l’aie pas aperçu.",
+                "entry": {
+                    "apercevoir qn.\/qc.": {
+                        "FR_EN": "to become aware of sb.\/sth., to behold sb.\/sth. [literary or archaic], to catch a glimpse of sb.\/sth., to catch sight of sb.\/sth. [idiom], to get sight of sb.\/sth., to lay eyes on sb.\/sth. [coll.] [idiom], to notice sb.\/sth., to see sb.\/sth., to spot sb.\/sth. [catch sight of], to take notice of sb.\/sth."
+                    }
+                }
             }
         },
         "101": {
@@ -982,7 +1233,12 @@
         },
         "102": {
             "205": {
-                "FR": "– Cela prouve au moins qu’il n’a manqué de rien pendant votre absence. »"
+                "FR": "– Cela prouve au moins qu’il n’a manqué de rien pendant votre absence. »",
+                "entry": {
+                    "manquer de qc.": {
+                        "FR_EN": "to lack sth."
+                    }
+                }
             }
         },
         "103": {
@@ -992,7 +1248,13 @@
         },
         "104": {
             "209": {
-                "FR": "« Mon père est fier, monsieur, et, eût-il manqué de tout, je doute qu’il eût demandé quelque chose à qui que ce soit au monde, excepté à Dieu."
+                "FR": "« Mon père est fier, monsieur, et, eût-il manqué de tout, je doute qu’il eût demandé quelque chose à qui que ce soit au monde, excepté à Dieu.",
+                "entry": {
+                    "fier": {
+                        "pronunciation": "fje",
+                        "FR_EN": "proud"
+                    }
+                }
             }
         },
         "105": {
@@ -1017,7 +1279,15 @@
         },
         "109": {
             "219": {
-                "FR": "« Ah ! ah ! dit l’armateur, cela ne m’étonne plus, qu’elle soit venue trois fois me demander des nouvelles du Pharaon. Peste ! Edmond, vous n’êtes point à plaindre, et vous avez là une jolie maîtresse !"
+                "FR": "« Ah ! ah ! dit l’armateur, cela ne m’étonne plus, qu’elle soit venue trois fois me demander des nouvelles du Pharaon. Peste ! Edmond, vous n’êtes point à plaindre, et vous avez là une jolie maîtresse !",
+                "entry": {
+                    "s'étonner": {
+                        "FR_EN": "to be astonished"
+                    },
+                    "Peste !": {
+                        "Google": "Good heavens!"
+                    }
+                }
             }
         },
         "110": {
@@ -1042,7 +1312,17 @@
         },
         "114": {
             "229": {
-                "FR": "– Non, monsieur ; j’ai tous mes appointements du voyage, c’est-à-dire près de trois mois de solde."
+                "FR": "– Non, monsieur ; j’ai tous mes appointements du voyage, c’est-à-dire près de trois mois de solde.",
+                "entry": {
+                    "appointements": {
+                        "pronunciation": "apwɛ̃tmɑ̃",
+                        "Cambridge": "salary"
+                    },
+                    "solde": {
+                        "pronunciation": "sɔld",
+                        "FR_EN": "salary [esp. in civil service, army], balance"
+                    }
+                }
             }
         },
         "115": {
@@ -1082,7 +1362,15 @@
         },
         "122": {
             "245": {
-                "FR": "– Il lui eût été impossible d’écrire, monsieur ; mais cela me rappelle que j’aurai un congé de quinze jours à vous demander."
+                "FR": "– Il lui eût été impossible d’écrire, monsieur ; mais cela me rappelle que j’aurai un congé de quinze jours à vous demander.",
+                "entry": {
+                    "se rappeler qc.": {
+                        "FR_EN": "to recall sth. [remember], to remember sth. [recall]"
+                    },
+                    "congé": {
+                        "FR_EN": "holiday [Br.], vacation [Am.]"
+                    }
+                }
             }
         },
         "123": {
@@ -1097,7 +1385,12 @@
         },
         "125": {
             "251": {
-                "FR": "– Bon, bon ! vous prendrez le temps que vous voudrez, Dantès ; le temps de décharger le bâtiment nous prendra bien six semaines, et nous ne nous remettrons guère en mer avant trois mois… Seulement, dans trois mois, il faudra que vous soyez là. Le Pharaon, continua l’armateur en frappant sur l’épaule du jeune marin, ne pourrait pas repartir sans son capitaine."
+                "FR": "– Bon, bon ! vous prendrez le temps que vous voudrez, Dantès ; le temps de décharger le bâtiment nous prendra bien six semaines, et nous ne nous remettrons guère en mer avant trois mois… Seulement, dans trois mois, il faudra que vous soyez là. Le Pharaon, continua l’armateur en frappant sur l’épaule du jeune marin, ne pourrait pas repartir sans son capitaine.",
+                "entry": {
+                    "ne ... guère": {
+                        "FR_EN": "hardly"
+                    }
+                }
             }
         },
         "126": {
@@ -1107,7 +1400,26 @@
         },
         "127": {
             "255": {
-                "FR": "– Si j’étais seul, je vous tendrais la main, mon cher Dantès, et je vous dirais : « C’est fait. » Mais j’ai un associé, et vous savez le proverbe italien : Che a compagne a padrone. Mais la moitié de la besogne est faite au moins, puisque sur deux voix vous en avez déjà une. Rapportez-vous-en à moi pour avoir l’autre, et je ferai de mon mieux."
+                "FR": "– Si j’étais seul, je vous tendrais la main, mon cher Dantès, et je vous dirais : « C’est fait. » Mais j’ai un associé, et vous savez le proverbe italien : Che a compagne a padrone. Mais la moitié de la besogne est faite au moins, puisque sur deux voix vous en avez déjà une. Rapportez-vous-en à moi pour avoir l’autre, et je ferai de mon mieux.",
+                "entry": {
+                    "Che a compagne a padrone": {
+                        "Google": "Chi ha compagno ha padrone, He who has a partner has a master"
+                    },
+                    "moitié": {
+                        "FR_EN": "half"
+                    },
+                    "besogne": {
+                        "pronunciation": "bœzɔɲ",
+                        "FR_EN": "chore, job [task], task, work [task]"
+                    },
+                    "voix": {
+                        "pronunciation": "vwa",
+                        "FR_EN": "voice, vote"
+                    },
+                    "s'en rapporter à quelqu'un": {
+                        "Google": "to leave a matter in someone's hands"
+                    }
+                }
             }
         },
         "128": {
@@ -1117,7 +1429,15 @@
         },
         "129": {
             "259": {
-                "FR": "– C’est bien, c’est bien, Edmond, il y a un Dieu a ciel pour les braves gens, que diable ! Allez voir votre père, allez voir Mercédès, et revenez me trouver après."
+                "FR": "– C’est bien, c’est bien, Edmond, il y a un Dieu a ciel pour les braves gens, que diable ! Allez voir votre père, allez voir Mercédès, et revenez me trouver après.",
+                "entry": {
+                    "brave [avant le nom]": {
+                        "FR_EN": "fine [good], good [nice]"
+                    },
+                    "que diable !": {
+                        "Google": "by God!"
+                    }
+                }
             }
         },
         "130": {
@@ -1127,12 +1447,28 @@
         },
         "131": {
             "263": {
-                "FR": "– Non, merci ; je reste à régler mes comptes avec Danglars. Avez-vous été content de lui pendant le voyage ?"
+                "FR": "– Non, merci ; je reste à régler mes comptes avec Danglars. Avez-vous été content de lui pendant le voyage ?",
+                "entry": {
+                    "régler qc. [dette, compte, affaire]": {
+                        "FR_EN": "to settle sth. [debt, account, dispute]"
+                    }
+                }
             }
         },
         "132": {
             "265": {
-                "FR": "– C’est selon le sens que vous attachez à cette question, monsieur. Si c’est comme bon camarade, non, car je crois qu’il ne m’aime pas depuis le jour où j’ai eu la bêtise, à la suite d’une petite querelle que nous avions eue ensemble, de lui proposer de nous arrêter dix minutes à l’île de Monte-Cristo pour vider cette querelle ; proposition que j’avais eu tort de lui faire, et qu’il avait eu, lui, raison de refuser. Si c’est comme comptable que vous me faites cette question je crois qu’il n’y a rien à dire et que vous serez content de la façon dont sa besogne est faite."
+                "FR": "– C’est selon le sens que vous attachez à cette question, monsieur. Si c’est comme bon camarade, non, car je crois qu’il ne m’aime pas depuis le jour où j’ai eu la bêtise, à la suite d’une petite querelle que nous avions eue ensemble, de lui proposer de nous arrêter dix minutes à l’île de Monte-Cristo pour vider cette querelle ; proposition que j’avais eu tort de lui faire, et qu’il avait eu, lui, raison de refuser. Si c’est comme comptable que vous me faites cette question je crois qu’il n’y a rien à dire et que vous serez content de la façon dont sa besogne est faite.",
+                "entry": {
+                    "selon qc.": {
+                        "FR_EN": "depending on sth."
+                    },
+                    "bêtise": {
+                        "FR_EN": "baloney [coll.], bullshit [vulg.], codswallop [Br.] [coll.], foolishness, hogwash [coll.] [twaddle], hooey [coll.], malarkey {sg} [coll.] [also: malarky], nonsense, rubbish [esp. Br.] [nonsense], stupidity, twaddle [coll.]"
+                    },
+                    "vider qc. [mettre fin à]": {
+                        "FR_EN": "to settle sth. (once and for all)"
+                    }
+                }
             }
         },
         "133": {
@@ -1197,7 +1533,12 @@
         },
         "145": {
             "291": {
-                "FR": "Seulement, il y avait une grande différence dans l’expression de ce double regard qui suivait le même homme."
+                "FR": "Seulement, il y avait une grande différence dans l’expression de ce double regard qui suivait le même homme.",
+                "entry": {
+                    "régler qc. [dette, compte, affaire]": {
+                        "FR_EN": "to settle sth. [debt, account, dispute]"
+                    }
+                }
             }
         }
     }
