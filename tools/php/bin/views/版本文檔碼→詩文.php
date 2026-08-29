@@ -13,9 +13,8 @@ require_once(
 check_argv( $argv, 3, "必須提供默文檔碼、版文檔碼" );
 $默文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
 $版文檔碼 = fix_doc_id( trim( $argv[ 2 ] ) );
-
-$著述碼 = 'WANGZHU';
-$正文樹 = 提取基準正文樹( $默文檔碼 );
+$著述碼   = 'WANGZHU';
+$正文樹   = 提取基準正文樹( $默文檔碼 );
 $mm_tree = 提取後設資料樹( $著述碼, $版文檔碼 );
 $paths = array();
 記錄後設資料樹路徑( $mm_tree );
@@ -37,7 +36,7 @@ foreach( $paths as $path )
 	{
 		$pointer = $異文;
 	}
-	else
+	else // insert
 	{
 		$pointer .= $異文;
 	}
