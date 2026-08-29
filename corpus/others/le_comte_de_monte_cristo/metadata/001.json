@@ -56,8 +56,10 @@
 	"001,127,255":["Che a compagne a padrone","moitié","besogne","voix","s'en rapporter à quelqu'un"],
 	"001,129,259":["brave [avant le nom]","que diable !"],
 	"001,131,263":["régler qc. [dette, compte, affaire]"],
-	"001,132,265":["selon qc.","bêtise","vider qc. [mettre fin à]"],
-	
-	
-	"001,145,291":["régler qc. [dette, compte, affaire]"]
+	"001,132,265":["selon qc.","bêtise","vider qc. [mettre fin à]","tort"],
+	"001,135,271":["charbon"],
+	"001,136,273":["congé [arrêt de travail]"],
+	"001,138,277":["canot"],
+	"001,142,285":["alla","poupe","se pencher","rame","embarcation [petit bateau]","obstruer","espèce","rangée","quai d’Orléans"],
+	"001,143,287":["dalle","bariolé","encombrer qc. [obstruer]"]
 }

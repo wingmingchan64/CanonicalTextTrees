@@ -1467,6 +1467,21 @@
                     },
                     "vider qc. [mettre fin à]": {
                         "FR_EN": "to settle sth. (once and for all)"
+                    },
+                    "tort": {
+                        "pronunciation": "tɔr"
+                    },
+                    "accuser à tort qn. de qc.": {
+                        "FR_EN": "to falsely accuse sb. of doing sth., to wrongfully accuse sb. of doing sth."
+                    },
+                    "avoir grandement tort": {
+                        "FR_EN": "to be quite wrong"
+                    },
+                    "avoir le tort de faire qc.": {
+                        "FR_EN": "to make the mistake of doing sth."
+                    },
+                    "avoir tort de faire qc. [loc.]": {
+                        "FR_EN": "to be wrong to do sth."
                     }
                 }
             }
@@ -1483,12 +1498,23 @@
         },
         "135": {
             "271": {
-                "FR": "– Allons, allons, Dantès, je vois qu’en tout point vous êtes un brave garçon. Que je ne vous retienne plus : allez, car je vois que vous êtes sur des charbons."
+                "FR": "– Allons, allons, Dantès, je vois qu’en tout point vous êtes un brave garçon. Que je ne vous retienne plus : allez, car je vois que vous êtes sur des charbons.",
+                "entry": {
+                    "charbon": {
+                        "pronunciation": "ʃarbɔ̃",
+                        "FR_EN": "coal [domestic]"
+                    }
+                }
             }
         },
         "136": {
             "273": {
-                "FR": "– J’ai donc mon congé ? demanda Dantès."
+                "FR": "– J’ai donc mon congé ? demanda Dantès.",
+                "entry": {
+                    "congé [arrêt de travail]": {
+                        "FR_EN": "leave [time off from work]"
+                    }
+                }
             }
         },
         "137": {
@@ -1498,7 +1524,13 @@
         },
         "138": {
             "277": {
-                "FR": "– Vous permettez que je prenne votre canot ?"
+                "FR": "– Vous permettez que je prenne votre canot ?",
+                "entry": {
+                    "canot": {
+                        "pronunciation": "kano",
+                        "FR_EN": "dinghy"
+                    }
+                }
             }
         },
         "139": {
@@ -1518,12 +1550,76 @@
         },
         "142": {
             "285": {
-                "FR": "Le jeune marin sauta dans le canot, alla s’asseoir à la poupe, et donna l’ordre d’aborder à la Canebière. Deux matelots se penchèrent aussitôt sur leurs rames, et l’embarcation glissa aussi rapidement qu’il est possible de le faire, au milieu des mille barques qui obstruent l’espèce de rue étroite qui conduit, entre deux rangées de navires, de l’entrée du port au quai d’Orléans."
+                "FR": "Le jeune marin sauta dans le canot, alla s’asseoir à la poupe, et donna l’ordre d’aborder à la Canebière. Deux matelots se penchèrent aussitôt sur leurs rames, et l’embarcation glissa aussi rapidement qu’il est possible de le faire, au milieu des mille barques qui obstruent l’espèce de rue étroite qui conduit, entre deux rangées de navires, de l’entrée du port au quai d’Orléans.",
+                "entry": {
+                    "alla": {
+                        "pronunciation": "ala",
+                        "LeRobert": "Passé Simple of aller"
+                    },
+                    "poupe": {
+                        "pronunciation": "pup",
+                        "FR_EN": "poop, stern"
+                    },
+                    "se pencher": {
+                        "FR_EN": "to bend down"
+                    },
+                    "rame": {
+                        "pronunciation": "ram"
+                    },
+                    "ne pas en ficher une rame [fam.]": {
+                        "FR_EN": "to do bugger all [Br.] [coll.]"
+                    },
+                    "rame (de wagons)": {
+                        "FR_EN": "train unit"
+                    },
+                    "rame de haricots": {
+                        "FR_EN": "bean-stalk, beanstalk"
+                    },
+                    "rame de métro": {
+                        "FR_EN": "underground train"
+                    },
+                    "embarcation [petit bateau]": {
+                        "FR_EN": "craft [small boat], small boat"
+                    },
+                    "obstruer": {
+                        "pronunciation": "ɔpstrye"
+                    },
+                    "obstruer qc. [boucher]": {
+                        "FR_EN": "to block sth. [plug]"
+                    },
+                    "obstruer qn.\/qc.": {
+                        "FR_EN": "to obstruct sb.\/sth."
+                    },
+                    "espèce": {
+                        "FR_EN": "kind [type], sort [type], species, type"
+                    },
+                    "rangée": {
+                        "FR_EN": "line [row]"
+                    },
+                    "quai d’Orléans": {
+                        "Google": "48.85175300471636, 2.354042203788363"
+                    }
+                }
             }
         },
         "143": {
             "287": {
-                "FR": "L’armateur le suivit des yeux en souriant, jusqu’au bord, le vit sauter sur les dalles du quai, et se perdre aussitôt au milieu de la foule bariolée qui, de cinq heures du matin à neuf heures du soir, encombre cette fameuse rue de la Canebière, dont les Phocéens modernes sont si fiers, qu’ils disent avec le plus grand sérieux du monde et avec cet accent qui donne tant de caractère à ce qu’ils disent : « Si Paris avait la Canebière, Paris serait un petit Marseille. »"
+                "FR": "L’armateur le suivit des yeux en souriant, jusqu’au bord, le vit sauter sur les dalles du quai, et se perdre aussitôt au milieu de la foule bariolée qui, de cinq heures du matin à neuf heures du soir, encombre cette fameuse rue de la Canebière, dont les Phocéens modernes sont si fiers, qu’ils disent avec le plus grand sérieux du monde et avec cet accent qui donne tant de caractère à ce qu’ils disent : « Si Paris avait la Canebière, Paris serait un petit Marseille. »",
+                "entry": {
+                    "dalle": {
+                        "pronunciation": "dal",
+                        "FR_EN": "flagstone [on floors, esp. indoors], flag [flagstone], slab, slab of stone"
+                    },
+                    "bariolé [tissu]": {
+                        "FR_EN": "multicolored [Am.], multicoloured [Br.]"
+                    },
+                    "criquet bariolé [Arcyptera fusca]": {
+                        "FR_EN": "large banded grasshopper"
+                    },
+                    "encombrer qc. [obstruer]": {
+                        "FR_EN": "to block sth., to hamper sth., to hobble sth. [hamper, restrict], to obstruct sth., to restrict sth."
+                    }
+                }
             }
         },
         "144": {
@@ -1535,8 +1631,9 @@
             "291": {
                 "FR": "Seulement, il y avait une grande différence dans l’expression de ce double regard qui suivait le même homme.",
                 "entry": {
-                    "régler qc. [dette, compte, affaire]": {
-                        "FR_EN": "to settle sth. [debt, account, dispute]"
+                    "dalle": {
+                        "pronunciation": "dal",
+                        "FR_EN": "flagstone [on floors, esp. indoors], flag [flagstone], slab, slab of stone"
                     }
                 }
             }
