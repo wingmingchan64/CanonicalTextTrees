@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.php 0042
+php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.php 42 4
 */
 require_once(
 	dirname( __DIR__, 5 ) . DIRECTORY_SEPARATOR .
@@ -10,10 +10,9 @@ require_once(
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
 	
-check_argv( $argv, 2, 提供默文檔碼 );
-//$默文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
-$默文檔碼 = '0042';
-$版文檔碼 = '0004';
+check_argv( $argv, 3, "必須提供默文檔碼、版文檔碼" );
+$默文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
+$版文檔碼 = fix_doc_id( trim( $argv[ 2 ] ) );
 
 $著述碼 = 'WANGZHU';
 $正文樹 = 提取基準正文樹( $默文檔碼 );
