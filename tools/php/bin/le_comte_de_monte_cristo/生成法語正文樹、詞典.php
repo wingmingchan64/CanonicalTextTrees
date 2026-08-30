@@ -24,11 +24,13 @@ $views_folder = $folder . 'views' . DIRECTORY_SEPARATOR;
 check_argv( $argv, 2, "Must provide the doc id." );
 $doc_id = trim( $argv[ 1 ] );
 $switches = [
+
 	'pronunciation',
 	'Cambridge',
 	'LeRobert',
 	'FR_EN',
 	'Google'
+
 ];
 
 $fr_filename = $doc_id;
@@ -151,7 +153,8 @@ foreach( $metadata as $path => $terms )
 		$pointer = &$pointer[ $step ];
 	}
 	
-	if( !array_key_exists( 'entry', $pointer ) )
+	if( count( $switches ) > 0 &&
+		!array_key_exists( 'entry', $pointer ) )
 	{
 		$pointer[ 'entry' ] = array();
 	}

@@ -13,6 +13,9 @@
                     "Montecristo": {
                         "Google": "42.33159133647173, 10.308323261483979"
                     },
+                    "1815": {
+                        "Google": "mille huit cent quinze"
+                    },
                     "vigie": {
                         "pronunciation": "viʒi",
                         "LeRobert": "Matelot placé en observation dans la mâture ou à la proue d'un navire, Son poste d'observation",
@@ -24,14 +27,27 @@
                     "trois-mâts": {
                         "FR_EN": "three-master [sailing ship], three masted ship"
                     },
+                    "mât": {
+                        "pronunciation": "ma",
+                        "FR_EN": "flag pole, flagpole, flagstaff, mast"
+                    },
+                    "Smyrne": {
+                        "pronunciation": "smirn",
+                        "Google": "Smyrna, an ancient and historic port city on the Aegean coast of Anatolia that is known today as İzmir, Turkey."
+                    },
                     "martin-chasseur de Smyrne [Halcyon smyrnensis]": {
                         "FR_EN": "white-breasted kingfisher, white-throated kingfisher"
                     },
                     "raisin de Smyrne": {
                         "FR_EN": "sultana"
                     },
-                    "Smyrne": {
-                        "Google": "Smyrna, an ancient and historic port city on the Aegean coast of Anatolia that is known today as İzmir, Turkey."
+                    "Trieste": {
+                        "pronunciation": "trijɛst",
+                        "FR_EN": "Trieste"
+                    },
+                    "Naples": {
+                        "pronunciation": "napl",
+                        "FR_EN": "Naples"
                     }
                 }
             }
@@ -112,6 +128,10 @@
                     "fort Saint-Jean": {
                         "Google": "43.295357557401054, 5.361706811823599"
                     },
+                    "construit": {
+                        "pronunciation": "kɔ̃strµi",
+                        "FR_EN": "built"
+                    },
                     "gréer qc. [navire]": {
                         "FR_EN": "to rig sth. [boat]"
                     },
@@ -128,6 +148,10 @@
                         "pronunciation": "ʃɑ̃tje",
                         "FR_EN": "face, work site [construction area], workyard"
                     },
+                    "Phocée": {
+                        "pronunciation": "fɔse",
+                        "Google": "Marseille"
+                    },
                     "armateur": {
                         "pronunciation": "armatœr",
                         "FR_EN": "shipowner, ship owner"
@@ -139,22 +163,11 @@
             "9": {
                 "FR": "Cependant ce bâtiment s’avançait ; il avait heureusement franchi le détroit que quelque secousse volcanique a creusé entre l’île de Calasareigne et l’île de Jaros ; il avait doublé Pomègue, et il s’avançait sous ses trois huniers, son grand foc et sa brigantine, mais si lentement et d’une allure si triste, que les curieux, avec cet instinct qui pressent un malheur, se demandaient quel accident pouvait être arrivé à bord. Néanmoins les experts en navigation reconnaissaient que si un accident était arrivé, ce ne pouvait être au bâtiment lui-même ; car il s’avançait dans toutes les conditions d’un navire parfaitement gouverné : son ancre était en mouillage, ses haubans de beaupré décrochés ; et près du pilote, qui s’apprêtait à diriger le Pharaon par l’étroite entrée du port de Marseille, était un jeune homme au geste rapide et à l’œil actif, qui surveillait chaque mouvement du navire et répétait chaque ordre du pilote.",
                 "entry": {
-                    "franchir": {
-                        "pronunciation": "frɑ̃ʃir"
-                    },
-                    "franchir l'arrivée": {
-                        "FR_EN": "to cross the goal line"
-                    },
-                    "franchir la barre": {
-                        "FR_EN": "to clear the bar"
-                    },
-                    "franchir la ligne de but [football]": {
-                        "FR_EN": "to cross the goal line [football]"
-                    },
-                    "franchir la ligne jaune [fig.]": {
-                        "FR_EN": "to cross a boundary [mostly fig.] [e.g. moral boundary]"
+                    "franchir qc. [fleuve, montagne]": {
+                        "FR_EN": "to negotiate sth. [river, mountain]"
                     },
                     "détroit": {
+                        "pronunciation": "detrwa",
                         "FR_EN": "sound, straight [archaic] [strait], strait"
                     },
                     "secousse": {
@@ -166,8 +179,17 @@
                         "pronunciation": "krøze",
                         "FR_EN": "to excavate [dig], to grub [dig]"
                     },
+                    "île de Calasareigne": {
+                        "pronunciation": "kalasɛrɛɲ",
+                        "Google": "43.187727729511025, 5.385541844959939"
+                    },
+                    "île de Jaros": {
+                        "pronunciation": "ʒaro",
+                        "Google": "43.20015882845726, 5.357291570302889"
+                    },
                     "doubler": {
-                        "pronunciation": "duble"
+                        "pronunciation": "duble",
+                        "LeRobert": "Dépasser en contournant"
                     },
                     "doubler (qc.)": {
                         "FR_EN": "to double (sth.)"
@@ -181,12 +203,17 @@
                     "doubler qn.\/qc.": {
                         "FR_EN": "to pass sb.\/sth. [overtake]"
                     },
+                    "Pomègue": {
+                        "pronunciation": "pɔmɛɡ",
+                        "Google": "43.27073251421628, 5.298995650423757"
+                    },
                     "hunier": {
                         "pronunciation": "ynje",
                         "FR_EN": "topsail"
                     },
                     "foc": {
-                        "pronunciation": "fok"
+                        "pronunciation": "fok",
+                        "Google": "jib, a triangular headsail set ahead of the main mast"
                     },
                     "foc d'artimon": {
                         "FR_EN": "mizzen staysail"
@@ -198,7 +225,8 @@
                         "FR_EN": "to jib sth. [sail \/ boom]"
                     },
                     "brigantine": {
-                        "pronunciation": "brigɑ̃tin"
+                        "pronunciation": "brigɑ̃tin",
+                        "Google": "Square-rigged on the foremast, but fore-and-aft rigged on the mainmast"
                     },
                     "allure": {
                         "pronunciation": "alyr",
@@ -220,7 +248,8 @@
                         "FR_EN": "shroud"
                     },
                     "beaupré": {
-                        "FR_EN": "bowsprit"
+                        "FR_EN": "bowsprit",
+                        "Google": "bowsprit, a long pole or spar that sticks out from the front (bow) of a sailing ship; bowsprit shrouds, ropes, wires, or rods that run from the outer end of a ship's bowsprit to the sides of the hull to prevent lateral (sideways) swaying"
                     },
                     "se décrocher [rideau]": {
                         "FR_EN": "to come down"
@@ -253,6 +282,21 @@
                         "pronunciation": "atɛ̃",
                         "FR_EN": "achieved, affected"
                     },
+                    "atteindre": {
+                        "pronunciation": "atɛ̃dr"
+                    },
+                    "atteindre l'âge adulte": {
+                        "FR_EN": "to reach maturity"
+                    },
+                    "atteindre l'âge de la retraite": {
+                        "FR_EN": "to reach retirement age"
+                    },
+                    "atteindre la centaine": {
+                        "FR_EN": "to reach treble figures [coll.]"
+                    },
+                    "atteindre la majorité": {
+                        "FR_EN": "to come of age"
+                    },
                     "de sorte que [de manière]": {
                         "FR_EN": "in such a way that"
                     },
@@ -273,20 +317,24 @@
                     "venir au-devant de qn.": {
                         "FR_EN": "to come towards sb."
                     },
-                    "atteindre": {
-                        "pronunciation": "atɛ̃dr"
+                    "atteignit": {
+                        "pronunciation": "atɛɲi",
+                        "Google": "past historic\/literary tense of atteindre [to reach]"
                     },
-                    "atteindre l'âge adulte": {
-                        "FR_EN": "to reach maturity"
+                    "anse": {
+                        "pronunciation": "ɑ̃s"
                     },
-                    "atteindre l'âge de la retraite": {
-                        "FR_EN": "to reach retirement age"
+                    "anse de panier": {
+                        "FR_EN": "basket arch"
                     },
-                    "atteindre la centaine": {
-                        "FR_EN": "to reach treble figures [coll.]"
+                    "anse [petite baie]": {
+                        "FR_EN": "cove"
                     },
-                    "atteindre la majorité": {
-                        "FR_EN": "to come of age"
+                    "anse [tasse, panier]": {
+                        "FR_EN": "handle [of cup, basket, etc.]"
+                    },
+                    "cruche à anse": {
+                        "FR_EN": "jug (with handle \/ handles)"
                     },
                     "anse de la Réserve": {
                         "Google": "A real, historical cove located at the entrance of the Old Port in Marseille"
