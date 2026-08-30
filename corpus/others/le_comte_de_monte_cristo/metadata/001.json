@@ -1,6 +1,6 @@
 {
-	"001,1,3":["vigie","signala","trois-mâts","Smyrne"],
-	"001,2,5":["côtier","raser","aborder","navire","cap","cap de Morgion"],
+	"001,1,3":["Montecristo","vigie","signala","trois-mâts","Smyrne"],
+	"001,2,5":["côtier","raser","aborder","alla","navire","cap","cap de Morgion"],
 	"001,3,7":["plate-forme","fort Saint-Jean","gréer","arrimer","chantier","armateur"],
 	"001,4,9":["franchir","détroit","secousse","creuser","doubler","hunier","foc","brigantine","allure","reconnaître qc. [erreur, problème]","ancre","mouillage","hauban","beaupré","se décrocher [rideau]","s'apprêter à faire qc.","étroit","geste"],
 	"001,5,11":["planer sur qn./qc. [tristesse, menace, doute]","foule","atteint","de sorte que [de manière]","sauter","ramer","au-devant de","atteindre","anse de la Réserve"],
@@ -60,6 +60,6 @@
 	"001,135,271":["charbon"],
 	"001,136,273":["congé [arrêt de travail]"],
 	"001,138,277":["canot"],
-	"001,142,285":["alla","poupe","se pencher","rame","embarcation [petit bateau]","obstruer","espèce","rangée","quai d’Orléans"],
+	"001,142,285":["poupe","se pencher","rame","embarcation [petit bateau]","obstruer","espèce","rangée","quai d’Orléans"],
 	"001,143,287":["dalle","bariolé","encombrer qc. [obstruer]"]
 }

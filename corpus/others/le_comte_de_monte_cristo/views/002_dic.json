@@ -1,0 +1,649 @@
+{
+    "002": {
+        "篇名": {
+            "FR": "Chapitre II Le père et le fils"
+        },
+        "1": {
+            "3": {
+                "FR": "Laissons Danglars, aux prises avec le génie de la haine, essayer de souffler contre son camarade quelque maligne supposition à l’oreille de l’armateur, et suivons Dantès, qui, après avoir parcouru la Canebière dans toute sa longueur, prend la rue de Noailles, entre dans une petite maison située du côté gauche des Allées de Meilhan, monte vivement les quatre étages d’un escalier obscur, et, se retenant à la rampe d’une main, comprimant de l’autre les battements de son cœur, s’arrête devant une porte entre baillée, qui laisse voir jusqu’au fond d’une petite chambre.",
+                "entry": {
+                    "laisser": {
+                        "pronunciation": "lɛse"
+                    },
+                    "C'est à prendre ou à laisser. [loc.]": {
+                        "FR_EN": "Take it or leave it. [idiom]"
+                    },
+                    "disparaître sans laisser de traces": {
+                        "FR_EN": "to disappear without trace"
+                    },
+                    "débiter qc. [liquide : laisser passer]": {
+                        "FR_EN": "to discharge sth. [liquid: let flow]"
+                    },
+                    "Il ne faut rien laisser au hasard. [loc.]": {
+                        "FR_EN": "Leave nothing to chance. [idiom]"
+                    }
+                }
+            }
+        },
+        "2": {
+            "5": {
+                "FR": "Cette chambre était celle qu’habitait le père de Dantès."
+            }
+        },
+        "3": {
+            "7": {
+                "FR": "La nouvelle de l’arrivée du Pharaon n’était encore parvenue au vieillard, qui s’occupait, monté sur une chaise, à palissader d’une main tremblante quelques capucines mêlées de clématites, qui montaient en grimpant le long du treillage de sa fenêtre."
+            }
+        },
+        "4": {
+            "9": {
+                "FR": "Tout à coup il se sentit prendre à bras-le-corps, et une voix bien connue s’écria derrière lui :"
+            }
+        },
+        "5": {
+            "11": {
+                "FR": "« Mon père, mon bon père ! »"
+            }
+        },
+        "6": {
+            "13": {
+                "FR": "Le vieillard jeta un cri et se retourna ; puis, voyant son fils, il se laissa aller dans ses bras, tout tremblant et tout pâle."
+            }
+        },
+        "7": {
+            "15": {
+                "FR": "« Qu’as-tu donc, père ? s’écria le jeune homme inquiet ; serais-tu malade ?"
+            }
+        },
+        "8": {
+            "17": {
+                "FR": "– Non, non, mon cher Edmond, mon fils, mon enfant, non ; mais je ne t’attendais pas, et la joie, le saisissement de te revoir ainsi à l’improviste… mon Dieu ! il me semble que je vais mourir !"
+            }
+        },
+        "9": {
+            "19": {
+                "FR": "– Eh bien, remets-toi donc, père ! c’est moi, bien moi ! On dit toujours que la joie ne fait pas mal, et voilà pourquoi je suis entré ici sans préparation. Voyons, souris-moi, au lieu de me regarder comme tu le fais, avec des yeux égarés. Je reviens et nous allons être heureux."
+            }
+        },
+        "10": {
+            "21": {
+                "FR": "– Ah ! tant mieux, garçon ! reprit le vieillard, mais comment allons-nous être heureux ? tu ne me quittes donc plus ? Voyons, conte-moi ton bonheur."
+            }
+        },
+        "11": {
+            "23": {
+                "FR": "– Que le Seigneur me pardonne, dit le jeune homme, de me réjouir d’un bonheur fait avec le deuil d’une famille ! Mais Dieu sait que je n’eusse pas désiré ce bonheur ; il arrive, et je n’ai pas la force de m’en affliger : le brave capitaine Leclère est mort, mon père, et il est probable que, par la protection de M. Morrel, je vais avoir sa place. Comprenez-vous, mon père ? capitaine à vingt ans ! avec cent louis d’appointements et une part dans les bénéfices ! n’est-ce pas plus que ne pouvait vraiment l’espérer un pauvre matelot comme moi ?"
+            }
+        },
+        "12": {
+            "25": {
+                "FR": "– Oui, mon fils, oui, en effet, dit le vieillard, c’est heureux."
+            }
+        },
+        "13": {
+            "27": {
+                "FR": "– Aussi je veux que du premier argent que je toucherai vous ayez une petite maison, avec un jardin pour planter vos clématites, vos capucines et vos chèvrefeuilles… Mais, qu’as-tu donc, père, on dirait que tu te trouves mal ?"
+            }
+        },
+        "14": {
+            "29": {
+                "FR": "– Patience, patience ! ce ne sera rien. »"
+            }
+        },
+        "15": {
+            "31": {
+                "FR": "Et, les forces manquant au vieillard, il se renversa en arrière."
+            }
+        },
+        "16": {
+            "33": {
+                "FR": "« Voyons ! voyons ! dit le jeune homme, un verre de vin, mon père ; cela vous ranimera ; où mettez-vous votre vin ?"
+            }
+        },
+        "17": {
+            "35": {
+                "FR": "– Non, merci, ne cherche pas ; je n’en ai pas besoin, dit le vieillard essayant de retenir son fils."
+            }
+        },
+        "18": {
+            "37": {
+                "FR": "– Si fait, si fait, père, indiquez-moi l’endroit. »"
+            }
+        },
+        "19": {
+            "39": {
+                "FR": "Et il ouvrit deux ou trois armoires."
+            }
+        },
+        "20": {
+            "41": {
+                "FR": "« Inutile… dit le vieillard, il n’y a plus de vin."
+            }
+        },
+        "21": {
+            "43": {
+                "FR": "– Comment, il n’y a plus de vin ! dit en pâlissant à son tour Dantès, regardant alternativement les joues creuses et blêmes du vieillard et les armoires vides, comment, il n’y a plus de vin ! Auriez-vous manqué d’argent, mon père ?"
+            }
+        },
+        "22": {
+            "45": {
+                "FR": "– Je n’ai manqué de rien, puisque te voilà, dit le vieillard."
+            }
+        },
+        "23": {
+            "47": {
+                "FR": "– Cependant, balbutia Dantès en essuyant la sueur qui coulait de son front, cependant je vous avais laissé deux cents francs, il y a trois mois, en partant."
+            }
+        },
+        "24": {
+            "49": {
+                "FR": "– Oui, oui, Edmond, c’est vrai ; mais tu avais oublié en partant une petite dette chez le voisin Caderousse ; il me l’a rappelée, en me disant que si je ne payais pas pour toi il irait se faire payer chez M. Morrel. Alors, tu comprends, de peur que cela te fît du tort…"
+            }
+        },
+        "25": {
+            "51": {
+                "FR": "– Eh bien ?"
+            }
+        },
+        "26": {
+            "53": {
+                "FR": "– Eh bien, j’ai payé, moi."
+            }
+        },
+        "27": {
+            "55": {
+                "FR": "– Mais, s’écria Dantès, c’était cent quarante francs que je devais à Caderousse !"
+            }
+        },
+        "28": {
+            "57": {
+                "FR": "– Oui, balbutia le vieillard."
+            }
+        },
+        "29": {
+            "59": {
+                "FR": "– Et vous les avez donnés sur les deux cent francs que je vous avais laissés ? »"
+            }
+        },
+        "30": {
+            "61": {
+                "FR": "Le vieillard fit un signe de tête."
+            }
+        },
+        "31": {
+            "63": {
+                "FR": "« De sorte que vous avez vécu trois mois avec soixante francs ! murmura le jeune homme."
+            }
+        },
+        "32": {
+            "65": {
+                "FR": "– Tu sais combien il me faut peu de chose, dit vieillard."
+            }
+        },
+        "33": {
+            "67": {
+                "FR": "– Oh ! mon Dieu, mon Dieu, pardonnez-moi ! s’écria Edmond en se jetant à genoux devant le bonhomme."
+            }
+        },
+        "34": {
+            "69": {
+                "FR": "– Que fais-tu donc ?"
+            }
+        },
+        "35": {
+            "71": {
+                "FR": "– Oh ! vous m’avez déchiré le cœur."
+            }
+        },
+        "36": {
+            "73": {
+                "FR": "– Bah ! te voilà, dit le vieillard en souriant ; maintenant tout est oublié, car tout est bien."
+            }
+        },
+        "37": {
+            "75": {
+                "FR": "– Oui, me voilà, dit le jeune homme, me voilà avec un bel avenir et un peu d’argent. Tenez, père, dit-il, prenez, prenez, et envoyez chercher tout de suite quelque chose. »"
+            }
+        },
+        "38": {
+            "77": {
+                "FR": "Et il vida sur la table ses poches, qui contenaient une douzaine de pièces d’or, cinq ou six écus de cinq francs et de la menue monnaie."
+            }
+        },
+        "39": {
+            "79": {
+                "FR": "Le visage du vieux Dantès s’épanouit."
+            }
+        },
+        "40": {
+            "81": {
+                "FR": "« À qui cela ? dit-il."
+            }
+        },
+        "41": {
+            "83": {
+                "FR": "– Mais, à moi !… à toi !… à nous !… Prends, achète des provisions, sois heureux, demain il y en a d’autres."
+            }
+        },
+        "42": {
+            "85": {
+                "FR": "– Doucement, doucement, dit le vieillard en souriant ; avec ta permission, j’userai modérément de la bourse : on croirait, si l’on me voyait acheter trop de choses à la fois, que j’ai été obligé d’attendre le retour pour les acheter."
+            }
+        },
+        "43": {
+            "87": {
+                "FR": "– Fais comme tu voudras ; mais, avant toutes choses, prends une servante, père ; je ne veux pas que tu restes seul. J’ai du café de contrebande et d’excellent tabac dans un petit coffre de la cale, tu l’auras dès demain. Mais chut ! voici quelqu’un."
+            }
+        },
+        "44": {
+            "89": {
+                "FR": "– C’est Caderousse qui aura appris ton arrivée, et qui vient sans doute te faire son compliment de bon retour."
+            }
+        },
+        "45": {
+            "91": {
+                "FR": "– Bon, encore des lèvres qui disent une chose tandis que le cœur en pense une autre, murmura Edmond ; mais, n’importe, c’est un voisin qui nous a rendu service autrefois, qu’il soit le bienvenu. »"
+            }
+        },
+        "46": {
+            "93": {
+                "FR": "En effet, au moment où Edmond achevait la phrase à voix basse, on vit apparaître encadrée par la porte du palier, la tête noire et barbue de Caderousse. C’était un homme de vingt-cinq à vingt-six ans ; il tenait à sa main un morceau de drap, qu’en sa qualité de tailleur il s’apprêtait à changer en un revers d’habit."
+            }
+        },
+        "47": {
+            "95": {
+                "FR": "« Eh ! te voilà donc revenu, Edmond ? dit-il avec un accent marseillais des plus prononcés et avec un large sourire qui découvrait ses dents blanches comme de l’ivoire."
+            }
+        },
+        "48": {
+            "97": {
+                "FR": "– Comme vous voyez, voisin Caderousse, et prêt à vous être agréable en quelque chose que ce soit, répondit Dantès en dissimulant mal sa froideur sous cette offre de service."
+            }
+        },
+        "49": {
+            "99": {
+                "FR": "– Merci, merci ; heureusement, je n’ai besoin de rien, et ce sont même quelquefois les autres qui ont besoin de moi. (Dantès fit un mouvement.) Je ne te dis pas cela pour toi, garçon ; je t’ai prêté de l’argent, tu me l’as rendu ; cela se fait entre bons voisins, et nous sommes quittes."
+            }
+        },
+        "50": {
+            "101": {
+                "FR": "– On n’est jamais quitte envers ceux qui nous ont obligés, dit Dantès, car lorsqu’on ne leur doit plus l’argent, on leur doit la reconnaissance."
+            }
+        },
+        "51": {
+            "103": {
+                "FR": "– À quoi bon parler de cela ! Ce qui est passé est passé. Parlons de ton heureux retour, garçon. J’étais donc allé comme cela sur le port pour rassortir du drap marron, lorsque je rencontrai l’ami Danglars."
+            }
+        },
+        "52": {
+            "105": {
+                "FR": "« – Toi, à Marseille ?"
+            }
+        },
+        "53": {
+            "107": {
+                "FR": "« – Eh oui, tout de même, me répondit-il."
+            }
+        },
+        "54": {
+            "109": {
+                "FR": "« – Je te croyais à Smyrne."
+            }
+        },
+        "55": {
+            "111": {
+                "FR": "« – J’y pourrais être, car j’en reviens."
+            }
+        },
+        "56": {
+            "113": {
+                "FR": "« – Et Edmond, où est-il donc, le petit ?"
+            }
+        },
+        "57": {
+            "115": {
+                "FR": "« – Mais chez son père, sans doute, répondit Danglars ; et alors je suis venu, continua Caderousse, pour avoir le plaisir de serrer la main à un ami."
+            }
+        },
+        "58": {
+            "117": {
+                "FR": "– Ce bon Caderousse, dit le vieillard, il nous aime tant."
+            }
+        },
+        "59": {
+            "119": {
+                "FR": "– Certainement que je vous aime, et que je vous estime encore, attendu que les honnêtes gens sont rares ! Mais il paraît que tu deviens riche, garçon ? » continua le tailleur en jetant un regard oblique sur la poignée d’or et d’argent que Dantès avait déposée sur la table."
+            }
+        },
+        "60": {
+            "121": {
+                "FR": "Le jeune homme remarqua l’éclair de convoitise qui illumina les yeux noirs de son voisin."
+            }
+        },
+        "61": {
+            "123": {
+                "FR": "« Eh ! mon Dieu ! dit-il négligemment, cet argent n’est point à moi ; je manifestais au père la crainte qu’il n’eût manqué de quelque chose en mon absence, et pour me rassurer, il a vidé sa bourse sur la table. Allons, père, continua Dantès, remettez cet argent dans votre tirelire ; à moins que le voisin Caderousse n’en ait besoin à son tour, auquel cas il est bien à son service."
+            }
+        },
+        "62": {
+            "125": {
+                "FR": "– Non pas, garçon, dit Caderousse, je n’ai besoin de rien, et, Dieu merci l’état nourrit son homme. Garde ton argent, garde : on n’en a jamais de trop ; ce qui n’empêche pas que je ne te sois obligé de ton offre comme si j’en profitais."
+            }
+        },
+        "63": {
+            "127": {
+                "FR": "– C’était de bon cœur, dit Dantès."
+            }
+        },
+        "64": {
+            "129": {
+                "FR": "– Je n’en doute pas. Eh bien, te voilà donc au mieux avec M. Morrel, câlin que tu es ?"
+            }
+        },
+        "65": {
+            "131": {
+                "FR": "– M. Morrel a toujours eu beaucoup de bonté pour moi, répondit Dantès."
+            }
+        },
+        "66": {
+            "133": {
+                "FR": "– En ce cas, tu as tort de refuser son dîner."
+            }
+        },
+        "67": {
+            "135": {
+                "FR": "– Comment, refuser son dîner ? reprit le vieux Dantès ; il t’avait donc invité à dîner ?"
+            }
+        },
+        "68": {
+            "137": {
+                "FR": "– Oui, mon père, reprit Edmond en souriant de l’étonnement que causait à son père l’excès de l’honneur dont il était l’objet."
+            }
+        },
+        "69": {
+            "139": {
+                "FR": "– Et pourquoi donc as-tu refusé, fils ? demanda le vieillard."
+            }
+        },
+        "70": {
+            "141": {
+                "FR": "– Pour revenir plus tôt près de vous, mon père, répondit le jeune homme ; j’avais hâte de vous voir."
+            }
+        },
+        "71": {
+            "143": {
+                "FR": "– Cela l’aura contrarié, ce bon M. Morrel, reprit Caderousse ; et quand on vise à être capitaine, c’est un tort que de contrarier son armateur."
+            }
+        },
+        "72": {
+            "145": {
+                "FR": "– Je lui ai expliqué la cause de mon refus, reprit Dantès, et il l’a comprise, je l’espère."
+            }
+        },
+        "73": {
+            "147": {
+                "FR": "– Ah ! c’est que, pour être capitaine, il faut un peu flatter ses patrons."
+            }
+        },
+        "74": {
+            "149": {
+                "FR": "– J’espère être capitaine sans cela, répondit Dantès."
+            }
+        },
+        "75": {
+            "151": {
+                "FR": "– Tant mieux, tant mieux ! cela fera plaisir à tous les anciens amis, et je sais quelqu’un là-bas, derrière la citadelle de Saint-Nicolas, qui n’en sera pas fâché."
+            }
+        },
+        "76": {
+            "153": {
+                "FR": "– Mercédès ? dit le vieillard."
+            }
+        },
+        "77": {
+            "155": {
+                "FR": "– Oui, mon père, reprit Dantès, et, avec permission, maintenant que je vous ai vu, maintenant que je sais que vous vous portez bien et que vous avez tout ce qu’il vous faut, je vous demanderai la permission d’aller faire visite aux Catalans."
+            }
+        },
+        "78": {
+            "157": {
+                "FR": "– Va, mon enfant, dit le vieux Dantès, et que Dieu te bénisse dans ta femme comme il m’a béni dans mon fils."
+            }
+        },
+        "79": {
+            "159": {
+                "FR": "– Sa femme ! dit Caderousse ; comme vous y allez, père Dantès ! elle ne l’est pas encore, ce me semble !"
+            }
+        },
+        "80": {
+            "161": {
+                "FR": "– Non ; mais, selon toute probabilité, répondit Edmond, elle ne tardera pas à le devenir."
+            }
+        },
+        "81": {
+            "163": {
+                "FR": "– N’importe, n’importe, dit Caderousse, tu as bien fait de te dépêcher, garçon."
+            }
+        },
+        "82": {
+            "165": {
+                "FR": "– Pourquoi cela ?"
+            }
+        },
+        "83": {
+            "167": {
+                "FR": "– Parce que la Mercédès est une belle fille, et que les belles filles ne manquent pas d’amoureux ; celle-là surtout, ils la suivent par douzaines."
+            }
+        },
+        "84": {
+            "169": {
+                "FR": "– Vraiment, dit Edmond avec un sourire sous lequel perçait une légère nuance d’inquiétude."
+            }
+        },
+        "85": {
+            "171": {
+                "FR": "– Oh ! oui, reprit Caderousse, et de beaux partis même ; mais, tu comprends, tu vas être capitaine, on n’aura garde de te refuser, toi !"
+            }
+        },
+        "86": {
+            "173": {
+                "FR": "– Ce qui veut dire, reprit Dantès avec un sourire qui dissimulait mal son inquiétude, que si je n’étais pas capitaine…"
+            }
+        },
+        "87": {
+            "175": {
+                "FR": "– Eh ! eh ! fit Caderousse."
+            }
+        },
+        "88": {
+            "177": {
+                "FR": "– Allons, allons, dit le jeune homme, j’ai meilleure opinion que vous des femmes en général, et de Mercédès en particulier, et, j’en suis convaincu, que je sois capitaine ou non, elle me restera fidèle."
+            }
+        },
+        "89": {
+            "179": {
+                "FR": "– Tant mieux ! tant mieux ! dit Caderousse, c’est toujours, quand on va se marier, une bonne chose que d’avoir la foi, mais, n’importe ; crois-moi, garçon, ne perds pas de temps à aller lui annoncer ton arrivée et à lui faire part de tes espérances."
+            }
+        },
+        "90": {
+            "181": {
+                "FR": "– J’y vais », dit Edmond."
+            }
+        },
+        "91": {
+            "183": {
+                "FR": "Il embrassa son père, salua Caderousse d’un signe et sortit. Caderousse resta un instant encore ; puis, prenant congé du vieux Dantès, il descendit à son tour et alla rejoindre Danglars, qui l’attendait au coin de la rue Senac."
+            }
+        },
+        "92": {
+            "185": {
+                "FR": "– Eh bien, dit Danglars, l’as-tu vu ?"
+            }
+        },
+        "93": {
+            "187": {
+                "FR": "– Je le quitte, dit Caderousse."
+            }
+        },
+        "94": {
+            "189": {
+                "FR": "– Et t’a-t-il parlé de son espérance d’être capitaine ?"
+            }
+        },
+        "95": {
+            "191": {
+                "FR": "– Il en parle comme s’il l’était déjà."
+            }
+        },
+        "96": {
+            "193": {
+                "FR": "– Patience ! dit Danglars, il se presse un peu trop, ce me semble."
+            }
+        },
+        "97": {
+            "195": {
+                "FR": "– Dame ! il paraît que la chose lui est promise par M. Morrel."
+            }
+        },
+        "98": {
+            "197": {
+                "FR": "– De sorte qu’il est bien joyeux ?"
+            }
+        },
+        "99": {
+            "199": {
+                "FR": "– C’est-à-dire qu’il en est insolent ; il m’a déjà fait ses offres de service comme si c’était un grand personnage ; il m’a offert de me prêter de l’argent comme s’il était un banquier."
+            }
+        },
+        "100": {
+            "201": {
+                "FR": "– Et vous avez refusé ?"
+            }
+        },
+        "101": {
+            "203": {
+                "FR": "– Parfaitement ; quoique j’eusse bien pu accepter, attendu que c’est moi qui lui ai mis à la main les premières pièces blanches qu’il a maniées. Mais maintenant M. Dantès n’aura plus besoin de personne, il va être capitaine."
+            }
+        },
+        "102": {
+            "205": {
+                "FR": "– Bah ! dit Danglars, il ne l’est pas encore."
+            }
+        },
+        "103": {
+            "207": {
+                "FR": "– Ma foi, ce serait bien fait qu’il ne le fût pas, dit Caderousse, ou sans cela il n’y aura plus moyen de lui parler."
+            }
+        },
+        "104": {
+            "209": {
+                "FR": "– Que si nous le voulons bien, dit Danglars, il restera ce qu’il est, et peut-être même deviendra moins qu’il n’est."
+            }
+        },
+        "105": {
+            "211": {
+                "FR": "– Que dis-tu ?"
+            }
+        },
+        "106": {
+            "213": {
+                "FR": "– Rien, je me parle à moi-même. Et il est toujours amoureux de la belle Catalane ?"
+            }
+        },
+        "107": {
+            "215": {
+                "FR": "– Amoureux fou. Il y est allé ; mais ou je me trompe fort, ou il aura du désagrément de ce côté-là."
+            }
+        },
+        "108": {
+            "217": {
+                "FR": "– Explique-toi."
+            }
+        },
+        "109": {
+            "219": {
+                "FR": "– À quoi bon ?"
+            }
+        },
+        "110": {
+            "221": {
+                "FR": "– C’est plus important que tu ne crois. Tu n’aimes pas Dantès, hein ?"
+            }
+        },
+        "111": {
+            "223": {
+                "FR": "– Je n’aime pas les arrogants."
+            }
+        },
+        "112": {
+            "225": {
+                "FR": "– Eh bien, alors ! dis-moi ce que tu sais relativement à la Catalane."
+            }
+        },
+        "113": {
+            "227": {
+                "FR": "– Je ne sais rien de bien positif ; seulement j’ai vu des choses qui me font croire, comme je te l’ai dit, que le futur capitaine aura du désagrément aux environs du chemin des Vieilles-Infirmeries."
+            }
+        },
+        "114": {
+            "229": {
+                "FR": "– Qu’as-tu vu ? allons, dis."
+            }
+        },
+        "115": {
+            "231": {
+                "FR": "– Eh bien, j’ai vu que toutes les fois que Mercédès vient en ville, elle y vient accompagnée d’un grand gaillard de Catalan à l’œil noir, à la peau rouge, très brun, très ardent, et qu’elle appelle mon cousin."
+            }
+        },
+        "116": {
+            "233": {
+                "FR": "– Ah ! vraiment ! et crois-tu que ce cousin lui fasse la cour ?"
+            }
+        },
+        "117": {
+            "235": {
+                "FR": "– Je le suppose : que diable peut faire un grand garçon de vingt et un ans à une belle fille de dix-sept ?"
+            }
+        },
+        "118": {
+            "237": {
+                "FR": "– Et tu dis que Dantès est allé aux Catalans ?"
+            }
+        },
+        "119": {
+            "239": {
+                "FR": "– Il est parti devant moi."
+            }
+        },
+        "120": {
+            "241": {
+                "FR": "– Si nous allions du même côté, nous nous arrêterions à la Réserve, et, tout en buvant un verre de vin de La Malgue, nous attendrions des nouvelles."
+            }
+        },
+        "121": {
+            "243": {
+                "FR": "– Et qui nous en donnera ?"
+            }
+        },
+        "122": {
+            "245": {
+                "FR": "– Nous serons sur la route, et nous verrons sur le visage de Dantès ce qui se sera passé."
+            }
+        },
+        "123": {
+            "247": {
+                "FR": "– Allons, dit Caderousse ; mais c’est toi qui paies ?"
+            }
+        },
+        "124": {
+            "249": {
+                "FR": "– Certainement, » répondit Danglars."
+            }
+        },
+        "125": {
+            "251": {
+                "FR": "Et tous deux s’acheminèrent d’un pas rapide vers l’endroit indiqué. Arrivés là, ils se firent apporter une bouteille et deux verres. Le père Pamphile venait de voir passer Dantès il n’y avait pas dix minutes. Certains que Dantès était aux Catalans, ils s’assirent sous le feuillage naissant des platanes et des sycomores, dans les branches desquels une bande joyeuse d’oiseaux chantaient un des premiers beaux jours de printemps."
+            }
+        }
+    }
+}

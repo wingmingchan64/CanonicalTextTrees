@@ -7,6 +7,12 @@
             "3": {
                 "FR": "Le 24 février 1815, la vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, Trieste et Naples.",
                 "entry": {
+                    "Montecristo [île italienne]": {
+                        "FR_EN": "Montecristo [also: Monte Cristo]"
+                    },
+                    "Montecristo": {
+                        "Google": "42.33159133647173, 10.308323261483979"
+                    },
                     "vigie": {
                         "pronunciation": "viʒi",
                         "LeRobert": "Matelot placé en observation dans la mâture ou à la proue d'un navire, Son poste d'observation",
@@ -76,6 +82,10 @@
                     },
                     "aborder qc. [commencer à traiter]": {
                         "FR_EN": "to tackle sth. [question, problem]"
+                    },
+                    "alla": {
+                        "pronunciation": "ala",
+                        "LeRobert": "Passé Simple of aller"
                     },
                     "navire": {
                         "pronunciation": "navir",
@@ -1552,10 +1562,6 @@
             "285": {
                 "FR": "Le jeune marin sauta dans le canot, alla s’asseoir à la poupe, et donna l’ordre d’aborder à la Canebière. Deux matelots se penchèrent aussitôt sur leurs rames, et l’embarcation glissa aussi rapidement qu’il est possible de le faire, au milieu des mille barques qui obstruent l’espèce de rue étroite qui conduit, entre deux rangées de navires, de l’entrée du port au quai d’Orléans.",
                 "entry": {
-                    "alla": {
-                        "pronunciation": "ala",
-                        "LeRobert": "Passé Simple of aller"
-                    },
                     "poupe": {
                         "pronunciation": "pup",
                         "FR_EN": "poop, stern"
@@ -1629,13 +1635,7 @@
         },
         "145": {
             "291": {
-                "FR": "Seulement, il y avait une grande différence dans l’expression de ce double regard qui suivait le même homme.",
-                "entry": {
-                    "dalle": {
-                        "pronunciation": "dal",
-                        "FR_EN": "flagstone [on floors, esp. indoors], flag [flagstone], slab, slab of stone"
-                    }
-                }
+                "FR": "Seulement, il y avait une grande différence dans l’expression de ce double regard qui suivait le même homme."
             }
         }
     }
