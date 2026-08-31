@@ -658,22 +658,56 @@
         },
         "61": {
             "123": {
-                "FR": "« Eh ! mon Dieu ! dit-il négligemment, cet argent n’est point à moi ; je manifestais au père la crainte qu’il n’eût manqué de quelque chose en mon absence, et pour me rassurer, il a vidé sa bourse sur la table. Allons, père, continua Dantès, remettez cet argent dans votre tirelire ; à moins que le voisin Caderousse n’en ait besoin à son tour, auquel cas il est bien à son service."
+                "FR": "« Eh ! mon Dieu ! dit-il négligemment, cet argent n’est point à moi ; je manifestais au père la crainte qu’il n’eût manqué de quelque chose en mon absence, et pour me rassurer, il a vidé sa bourse sur la table. Allons, père, continua Dantès, remettez cet argent dans votre tirelire ; à moins que le voisin Caderousse n’en ait besoin à son tour, auquel cas il est bien à son service.",
+                "entry": {
+                    "négligemment": {
+                        "FR_EN": "carelessly, casually, negligently, sloppily [coll.]"
+                    },
+                    "bourse": {
+                        "pronunciation": "burs",
+                        "FR_EN": "stock exchange"
+                    },
+                    "tirelire": {
+                        "pronunciation": "tirlir",
+                        "FR_EN": "piggy bank"
+                    },
+                    "à moins que ... ne [+subj.]": {
+                        "FR_EN": "unless ..."
+                    }
+                }
             }
         },
         "62": {
             "125": {
-                "FR": "– Non pas, garçon, dit Caderousse, je n’ai besoin de rien, et, Dieu merci l’état nourrit son homme. Garde ton argent, garde : on n’en a jamais de trop ; ce qui n’empêche pas que je ne te sois obligé de ton offre comme si j’en profitais."
+                "FR": "– Non pas, garçon, dit Caderousse, je n’ai besoin de rien, et, Dieu merci l’état nourrit son homme. Garde ton argent, garde : on n’en a jamais de trop ; ce qui n’empêche pas que je ne te sois obligé de ton offre comme si j’en profitais.",
+                "entry": {
+                    "ce qui n’empêche pas que": {
+                        "Google": "which does not stop the fact that, nevertheless"
+                    }
+                }
             }
         },
         "63": {
             "127": {
-                "FR": "– C’était de bon cœur, dit Dantès."
+                "FR": "– C’était de bon cœur, dit Dantès.",
+                "entry": {
+                    "faire qc. de bon cœur": {
+                        "FR_EN": "to do sth. willingly, to do sth. with a will, to do sth. with goodwill"
+                    }
+                }
             }
         },
         "64": {
             "129": {
-                "FR": "– Je n’en doute pas. Eh bien, te voilà donc au mieux avec M. Morrel, câlin que tu es ?"
+                "FR": "– Je n’en doute pas. Eh bien, te voilà donc au mieux avec M. Morrel, câlin que tu es ?",
+                "entry": {
+                    "au mieux": {
+                        "FR_EN": "at best, at most, at the best, at the most, ideally, in the best case"
+                    },
+                    "câlin": {
+                        "FR_EN": "affectionate, cuddle, hug"
+                    }
+                }
             }
         },
         "65": {
@@ -703,12 +737,22 @@
         },
         "70": {
             "141": {
-                "FR": "– Pour revenir plus tôt près de vous, mon père, répondit le jeune homme ; j’avais hâte de vous voir."
+                "FR": "– Pour revenir plus tôt près de vous, mon père, répondit le jeune homme ; j’avais hâte de vous voir.",
+                "entry": {
+                    "hâter qc. [accélérer]": {
+                        "FR_EN": "to accelerate sth., to hasten sth., to quicken sth., to speed sth. up"
+                    }
+                }
             }
         },
         "71": {
             "143": {
-                "FR": "– Cela l’aura contrarié, ce bon M. Morrel, reprit Caderousse ; et quand on vise à être capitaine, c’est un tort que de contrarier son armateur."
+                "FR": "– Cela l’aura contrarié, ce bon M. Morrel, reprit Caderousse ; et quand on vise à être capitaine, c’est un tort que de contrarier son armateur.",
+                "entry": {
+                    "viser à qc.": {
+                        "FR_EN": "to aim at sth."
+                    }
+                }
             }
         },
         "72": {
@@ -728,7 +772,15 @@
         },
         "75": {
             "151": {
-                "FR": "– Tant mieux, tant mieux ! cela fera plaisir à tous les anciens amis, et je sais quelqu’un là-bas, derrière la citadelle de Saint-Nicolas, qui n’en sera pas fâché."
+                "FR": "– Tant mieux, tant mieux ! cela fera plaisir à tous les anciens amis, et je sais quelqu’un là-bas, derrière la citadelle de Saint-Nicolas, qui n’en sera pas fâché.",
+                "entry": {
+                    "citadelle de Saint-Nicolas": {
+                        "Google": "43.29112590552294, 5.362558414633651"
+                    },
+                    "fâché": {
+                        "FR_EN": "angry, miffed [coll.]"
+                    }
+                }
             }
         },
         "76": {
@@ -743,22 +795,60 @@
         },
         "78": {
             "157": {
-                "FR": "– Va, mon enfant, dit le vieux Dantès, et que Dieu te bénisse dans ta femme comme il m’a béni dans mon fils."
+                "FR": "– Va, mon enfant, dit le vieux Dantès, et que Dieu te bénisse dans ta femme comme il m’a béni dans mon fils.",
+                "entry": {
+                    "bénir Dieu de qc": {
+                        "FR_EN": "to praise God for sth."
+                    },
+                    "bénir Dieu pour qc": {
+                        "FR_EN": "to praise God for sth."
+                    },
+                    "bénir qc.": {
+                        "FR_EN": "to say a blessing over sth."
+                    },
+                    "bénir qc. [moment, occasion]": {
+                        "FR_EN": "to be grateful for sth., to thank God for sth."
+                    }
+                }
             }
         },
         "79": {
             "159": {
-                "FR": "– Sa femme ! dit Caderousse ; comme vous y allez, père Dantès ! elle ne l’est pas encore, ce me semble !"
+                "FR": "– Sa femme ! dit Caderousse ; comme vous y allez, père Dantès ! elle ne l’est pas encore, ce me semble !",
+                "entry": {
+                    "comme vous y allez": {
+                        "Google": "That's a bit much, You're exaggerating,"
+                    }
+                }
             }
         },
         "80": {
             "161": {
-                "FR": "– Non ; mais, selon toute probabilité, répondit Edmond, elle ne tardera pas à le devenir."
+                "FR": "– Non ; mais, selon toute probabilité, répondit Edmond, elle ne tardera pas à le devenir.",
+                "entry": {
+                    "ne pas tarder à": {
+                        "Cambridge": "to be just about to"
+                    }
+                }
             }
         },
         "81": {
             "163": {
-                "FR": "– N’importe, n’importe, dit Caderousse, tu as bien fait de te dépêcher, garçon."
+                "FR": "– N’importe, n’importe, dit Caderousse, tu as bien fait de te dépêcher, garçon.",
+                "entry": {
+                    "dépêcher des troupes en renfort": {
+                        "FR_EN": "to dispatch troops as reinforcements"
+                    },
+                    "dépêcher qn.\/qc. [messager, etc.]": {
+                        "FR_EN": "to send sb.\/sth."
+                    },
+                    "dépêcher qn. auprès de qn.": {
+                        "FR_EN": "to dispatch sb. to see sb."
+                    },
+                    "dépêcher qn. sur place": {
+                        "FR_EN": "to dispatch sb. to the scene"
+                    }
+                }
             }
         },
         "82": {
@@ -778,7 +868,12 @@
         },
         "85": {
             "171": {
-                "FR": "– Oh ! oui, reprit Caderousse, et de beaux partis même ; mais, tu comprends, tu vas être capitaine, on n’aura garde de te refuser, toi !"
+                "FR": "– Oh ! oui, reprit Caderousse, et de beaux partis même ; mais, tu comprends, tu vas être capitaine, on n’aura garde de te refuser, toi !",
+                "entry": {
+                    "on n’aura garde de te refuser": {
+                        "Google": "We wouldn’t dream of refusing you"
+                    }
+                }
             }
         },
         "86": {
@@ -798,7 +893,16 @@
         },
         "89": {
             "179": {
-                "FR": "– Tant mieux ! tant mieux ! dit Caderousse, c’est toujours, quand on va se marier, une bonne chose que d’avoir la foi, mais, n’importe ; crois-moi, garçon, ne perds pas de temps à aller lui annoncer ton arrivée et à lui faire part de tes espérances."
+                "FR": "– Tant mieux ! tant mieux ! dit Caderousse, c’est toujours, quand on va se marier, une bonne chose que d’avoir la foi, mais, n’importe ; crois-moi, garçon, ne perds pas de temps à aller lui annoncer ton arrivée et à lui faire part de tes espérances.",
+                "entry": {
+                    "foi": {
+                        "pronunciation": "fwa",
+                        "FR_EN": "(religious) conviction, belief, creed [faith], faith, persuasion, religious faith"
+                    },
+                    "faire part de qqch à qqn": {
+                        "Cambridge": "informer qqn de qqch"
+                    }
+                }
             }
         },
         "90": {
@@ -833,7 +937,24 @@
         },
         "96": {
             "193": {
-                "FR": "– Patience ! dit Danglars, il se presse un peu trop, ce me semble."
+                "FR": "– Patience ! dit Danglars, il se presse un peu trop, ce me semble.",
+                "entry": {
+                    "se presser": {
+                        "Cambridge": "to hurry"
+                    },
+                    "entrer sans se presser": {
+                        "FR_EN": "to stroll in"
+                    },
+                    "faire le tour du village sans se presser": {
+                        "FR_EN": "to potter around the village"
+                    },
+                    "sans se presser": {
+                        "FR_EN": "at a leisurely pace, in a leisurely way, leisurely, unhurriedly"
+                    },
+                    "se presser autour de qn.\/qc.": {
+                        "FR_EN": "to crowd around sb.\/sth., to swarm around sb.\/sth."
+                    }
+                }
             }
         },
         "97": {
@@ -858,7 +979,15 @@
         },
         "101": {
             "203": {
-                "FR": "– Parfaitement ; quoique j’eusse bien pu accepter, attendu que c’est moi qui lui ai mis à la main les premières pièces blanches qu’il a maniées. Mais maintenant M. Dantès n’aura plus besoin de personne, il va être capitaine."
+                "FR": "– Parfaitement ; quoique j’eusse bien pu accepter, attendu que c’est moi qui lui ai mis à la main les premières pièces blanches qu’il a maniées. Mais maintenant M. Dantès n’aura plus besoin de personne, il va être capitaine.",
+                "entry": {
+                    "manier qc.": {
+                        "FR_EN": "to handle sth."
+                    },
+                    "qu’il a maniées": {
+                        "Google": "qu’il a touchées, qu’il a manipulées"
+                    }
+                }
             }
         },
         "102": {
@@ -888,7 +1017,15 @@
         },
         "107": {
             "215": {
-                "FR": "– Amoureux fou. Il y est allé ; mais ou je me trompe fort, ou il aura du désagrément de ce côté-là."
+                "FR": "– Amoureux fou. Il y est allé ; mais ou je me trompe fort, ou il aura du désagrément de ce côté-là.",
+                "entry": {
+                    "désagrément": {
+                        "FR_EN": "inconvenience, unpleasantness"
+                    },
+                    "côté": {
+                        "FR_EN": "side"
+                    }
+                }
             }
         },
         "108": {
