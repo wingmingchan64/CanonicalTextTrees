@@ -23,10 +23,9 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
 	 
-$conversion_table = array(
-	"ç" => "%C3%A7"
-);
+
 $term = "manger";
+$term = urlencode( $term );
 $pattern = '/<meta name="description" content=".+?translate:(.+?)>/';
 $match = array();
 $url = "https://dictionary.cambridge.org/dictionary/french-english/${term}";
