@@ -790,7 +790,12 @@
         },
         "77": {
             "155": {
-                "FR": "– Oui, mon père, reprit Dantès, et, avec permission, maintenant que je vous ai vu, maintenant que je sais que vous vous portez bien et que vous avez tout ce qu’il vous faut, je vous demanderai la permission d’aller faire visite aux Catalans."
+                "FR": "– Oui, mon père, reprit Dantès, et, avec permission, maintenant que je vous ai vu, maintenant que je sais que vous vous portez bien et que vous avez tout ce qu’il vous faut, je vous demanderai la permission d’aller faire visite aux Catalans.",
+                "entry": {
+                    "Catalans": {
+                        "Google": "43.290738822651605, 5.355444328731845"
+                    }
+                }
             }
         },
         "78": {
@@ -1040,17 +1045,33 @@
         },
         "110": {
             "221": {
-                "FR": "– C’est plus important que tu ne crois. Tu n’aimes pas Dantès, hein ?"
+                "FR": "– C’est plus important que tu ne crois. Tu n’aimes pas Dantès, hein ?",
+                "entry": {
+                    "Hein ? [fam.]": {
+                        "FR_EN": "Huh? [coll.], What? [coll.]"
+                    }
+                }
             }
         },
         "111": {
             "223": {
-                "FR": "– Je n’aime pas les arrogants."
+                "FR": "– Je n’aime pas les arrogants.",
+                "entry": {
+                    "arrogant": {
+                        "pronunciation": "arɔgɑ̃",
+                        "FR_EN": "arrogant, uppity [coll.], arrogant person"
+                    }
+                }
             }
         },
         "112": {
             "225": {
-                "FR": "– Eh bien, alors ! dis-moi ce que tu sais relativement à la Catalane."
+                "FR": "– Eh bien, alors ! dis-moi ce que tu sais relativement à la Catalane.",
+                "entry": {
+                    "relativement à": {
+                        "FR_EN": "in relation to, relative to"
+                    }
+                }
             }
         },
         "113": {
@@ -1065,7 +1086,13 @@
         },
         "115": {
             "231": {
-                "FR": "– Eh bien, j’ai vu que toutes les fois que Mercédès vient en ville, elle y vient accompagnée d’un grand gaillard de Catalan à l’œil noir, à la peau rouge, très brun, très ardent, et qu’elle appelle mon cousin."
+                "FR": "– Eh bien, j’ai vu que toutes les fois que Mercédès vient en ville, elle y vient accompagnée d’un grand gaillard de Catalan à l’œil noir, à la peau rouge, très brun, très ardent, et qu’elle appelle mon cousin.",
+                "entry": {
+                    "gaillard": {
+                        "pronunciation": "gajar",
+                        "FR_EN": "strapping fellow"
+                    }
+                }
             }
         },
         "116": {
@@ -1115,7 +1142,39 @@
         },
         "125": {
             "251": {
-                "FR": "Et tous deux s’acheminèrent d’un pas rapide vers l’endroit indiqué. Arrivés là, ils se firent apporter une bouteille et deux verres. Le père Pamphile venait de voir passer Dantès il n’y avait pas dix minutes. Certains que Dantès était aux Catalans, ils s’assirent sous le feuillage naissant des platanes et des sycomores, dans les branches desquels une bande joyeuse d’oiseaux chantaient un des premiers beaux jours de printemps."
+                "FR": "Et tous deux s’acheminèrent d’un pas rapide vers l’endroit indiqué. Arrivés là, ils se firent apporter une bouteille et deux verres. Le père Pamphile venait de voir passer Dantès il n’y avait pas dix minutes. Certains que Dantès était aux Catalans, ils s’assirent sous le feuillage naissant des platanes et des sycomores, dans les branches desquels une bande joyeuse d’oiseaux chantaient un des premiers beaux jours de printemps.",
+                "entry": {
+                    "s'acheminer": {
+                        "FR_EN": "to make one's way [idiom]"
+                    },
+                    "venir de faire qc.": {
+                        "FR_EN": "to have just done sth."
+                    },
+                    "naître": {
+                        "FR_EN": "to be born"
+                    },
+                    "platane": {
+                        "pronunciation": "platan",
+                        "FR_EN": "plane tree"
+                    },
+                    "sycomore": {
+                        "pronunciation": "sikɔmɔr",
+                        "FR_EN": "sycamore"
+                    },
+                    "branche": {
+                        "pronunciation": "brɑ̃ʃ",
+                        "FR_EN": "branch"
+                    },
+                    "desquels": {
+                        "pronunciation": "dekɛl"
+                    },
+                    "Les cartonniers à côté desquels ...": {
+                        "FR_EN": "The filing cabinets beside which ..."
+                    },
+                    "Les hommes à côté desquels ...": {
+                        "FR_EN": "The men beside whom ..."
+                    }
+                }
             }
         }
     }
