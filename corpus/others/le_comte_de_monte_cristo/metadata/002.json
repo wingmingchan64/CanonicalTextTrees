@@ -1,3 +1,27 @@
 {
-	"002,1,3":["laisser","prise"]
+	"002,1,3":["laisser qn. [quitter]","prise","génie [esprit]","souffler qc. à l'oreille de qn.","parcourir qc. [distance]","se retenir","rampe","comprimer"],
+	"002,3,7":["monter sur qc.","palissader","capucine","clématite","grimpant","treillage"],
+	"002,8,17":["saisissement","à l'improviste","se remettre [s'améliorer]","égaré"],
+	"002,11,23":["deuil","s'affliger de qc."],
+	"002,13,27":["chèvrefeuille","se trouver"],
+	"002,15,31":["se renverser"],
+	"002,16,33":["se ranimer"],
+	"002,21,43":["pâlir","joue","creuse","blême"],
+	"002,23,47":["balbutier","essuyer","sueur"],
+	"002,31,63":["de (telle) sorte que"],
+	"002,33,67":["genoux"],
+	"002,35,71":["m'","déchirer qc."],
+	"002,37,75":["avenir"],
+	"002,38,77":["écu"],
+	"002,39,79":["s'épanouir"],
+	"002,43,87":["chut"],
+	"002,45,91":["lèvre"],
+	"002,46,93":["achever qc.","encadré","palier","barbue","drap","en qualité de","s'apprêter à faire qc.","revers","habit"],
+	"002,48,97":["quelque chose que ce soit","dissimulant","froideur"],
+	"002,49,99":["quitte"],
+	"002,50,101":["devoir qc. à qn.","reconnaissance"],
+	"002,51,103":["rassortir","rencontrer qn./qc.","À quoi bon parler de cela !"],
+	"002,57,115":["serrer la main de qn."],
+	"002,59,119":["attendu que"],
+	"002,60,121":["remarquer qn./qc.","convoitise [ambition, gourmandise]"]
 }

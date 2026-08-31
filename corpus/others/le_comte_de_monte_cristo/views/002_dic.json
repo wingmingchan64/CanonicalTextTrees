@@ -5,22 +5,45 @@
         },
         "1": {
             "3": {
-                "FR": "Laissons Danglars, aux prises avec le génie de la haine, essayer de souffler contre son camarade quelque maligne supposition à l’oreille de l’armateur, et suivons Dantès, qui, après avoir parcouru la Canebière dans toute sa longueur, prend la rue de Noailles, entre dans une petite maison située du côté gauche des Allées de Meilhan, monte vivement les quatre étages d’un escalier obscur, et, se retenant à la rampe d’une main, comprimant de l’autre les battements de son cœur, s’arrête devant une porte entre baillée, qui laisse voir jusqu’au fond d’une petite chambre.",
+                "FR": "Laissons Danglars, aux prises avec le génie de la haine, essayer de souffler contre son camarade quelque maligne supposition à l’oreille de l’armateur, et suivons Dantès, qui, après avoir parcouru la Canebière dans toute sa longueur, prend la rue de Noailles, entre dans une petite maison située du côté gauche des Allées de Meilhan, monte vivement les quatre étages d’un escalier obscur, et, se retenant à la rampe d’une main, comprimant de l’autre les battements de son cœur, s’arrête devant une porte entrebâillée, qui laisse voir jusqu’au fond d’une petite chambre.",
                 "entry": {
-                    "laisser": {
-                        "pronunciation": "lɛse"
+                    "laisser qn. [quitter]": {
+                        "FR_EN": "to leave sb. [go away]"
                     },
-                    "C'est à prendre ou à laisser. [loc.]": {
-                        "FR_EN": "Take it or leave it. [idiom]"
+                    "prise": {
+                        "pronunciation": "priz",
+                        "FR_EN": "capture [of a town], catch [of fish etc.], grasp, grip, haul [of fish etc.], hold [grip], purchase [grip]"
                     },
-                    "disparaître sans laisser de traces": {
-                        "FR_EN": "to disappear without trace"
+                    "génie [esprit]": {
+                        "FR_EN": "spirit"
                     },
-                    "débiter qc. [liquide : laisser passer]": {
-                        "FR_EN": "to discharge sth. [liquid: let flow]"
+                    "souffler qc. à l'oreille de qn.": {
+                        "FR_EN": "to whisper sth. into sb.'s ear"
                     },
-                    "Il ne faut rien laisser au hasard. [loc.]": {
-                        "FR_EN": "Leave nothing to chance. [idiom]"
+                    "parcourir qc. [distance]": {
+                        "FR_EN": "to cover sth. [distance]"
+                    },
+                    "se retenir": {
+                        "FR_EN": "to contain oneself, to hang back, to hold back, to hold on, to restrain oneself"
+                    },
+                    "rampe": {
+                        "pronunciation": "rɑ̃p",
+                        "FR_EN": "balustrade, banister, bannister [spv.], footlights {pl} [floor-level stage lighting], gradient [up], handrail"
+                    },
+                    "comprimer": {
+                        "pronunciation": "kɔ̃prime"
+                    },
+                    "comprimer qc.": {
+                        "FR_EN": "to compress sth., to pack sth."
+                    },
+                    "comprimer qc. [budget]": {
+                        "FR_EN": "to cut sth."
+                    },
+                    "comprimer qc. [gaspillage]": {
+                        "FR_EN": "to compact sth."
+                    },
+                    "comprimer qc. [pâte]": {
+                        "FR_EN": "to squeeze sth."
                     }
                 }
             }
@@ -32,7 +55,35 @@
         },
         "3": {
             "7": {
-                "FR": "La nouvelle de l’arrivée du Pharaon n’était encore parvenue au vieillard, qui s’occupait, monté sur une chaise, à palissader d’une main tremblante quelques capucines mêlées de clématites, qui montaient en grimpant le long du treillage de sa fenêtre."
+                "FR": "La nouvelle de l’arrivée du Pharaon n’était pas encore parvenue au vieillard, qui s’occupait, monté sur une chaise, à palissader d’une main tremblante quelques capucines mêlées de clématites, qui montaient en grimpant le long du treillage de sa fenêtre.",
+                "entry": {
+                    "monter sur qc.": {
+                        "FR_EN": "to ascend sth. [a mountain, the throne, the pulpit, the scaffold], to board sth. [the train, the ship, the plane], to climb sth. [a mountain, a tower], to mount sth. [a hill, a horse, a bicycle, the throne], to scale sth. [e.g. a mountain]"
+                    },
+                    "palissader": {
+                        "Google": "to trellis"
+                    },
+                    "capucine": {
+                        "pronunciation": "kapysin"
+                    },
+                    "capucine [genre Tropaeolum]": {
+                        "FR_EN": "nasturtium"
+                    },
+                    "piéride de la capucine [Pieris cheiranthi]": {
+                        "FR_EN": "Canary Islands large white [butterfly]"
+                    },
+                    "clématite [genus Clematis]": {
+                        "FR_EN": "clematis"
+                    },
+                    "grimpant": {
+                        "pronunciation": "grɛ̃pɑ̃",
+                        "FR_EN": "climbing"
+                    },
+                    "treillage": {
+                        "pronunciation": "trɛjaʒ",
+                        "FR_EN": "trellis"
+                    }
+                }
             }
         },
         "4": {
@@ -57,22 +108,45 @@
         },
         "8": {
             "17": {
-                "FR": "– Non, non, mon cher Edmond, mon fils, mon enfant, non ; mais je ne t’attendais pas, et la joie, le saisissement de te revoir ainsi à l’improviste… mon Dieu ! il me semble que je vais mourir !"
+                "FR": "– Non, non, mon cher Edmond, mon fils, mon enfant, non ; mais je ne t’attendais pas, et la joie, le saisissement de te revoir ainsi à l’improviste… Ah ! mon Dieu ! il me semble que je vais mourir !",
+                "entry": {
+                    "saisissement": {
+                        "pronunciation": "sezismɑ̃"
+                    },
+                    "à l'improviste": {
+                        "FR_EN": "ad-lib, extemporaneously, off the cuff [coll.] [extemporaneously, without preparation], off the top of one's head [idiom], unexpectedly, without preparation"
+                    },
+                    "se remettre [s'améliorer]": {
+                        "FR_EN": "to get better"
+                    },
+                    "égaré": {
+                        "FR_EN": "wild [look]"
+                    }
+                }
             }
         },
         "9": {
             "19": {
-                "FR": "– Eh bien, remets-toi donc, père ! c’est moi, bien moi ! On dit toujours que la joie ne fait pas mal, et voilà pourquoi je suis entré ici sans préparation. Voyons, souris-moi, au lieu de me regarder comme tu le fais, avec des yeux égarés. Je reviens et nous allons être heureux."
+                "FR": "– Eh bien, remets-toi donc, père ! c’est moi, bien moi ! On dit toujours que la joie ne fait pas de mal, et voilà pourquoi je suis entré ici sans préparation. Voyons, souris-moi, au lieu de me regarder comme tu le fais, avec des yeux égarés. Je reviens et nous allons être heureux."
             }
         },
         "10": {
             "21": {
-                "FR": "– Ah ! tant mieux, garçon ! reprit le vieillard, mais comment allons-nous être heureux ? tu ne me quittes donc plus ? Voyons, conte-moi ton bonheur."
+                "FR": "– Ah ! tant mieux, garçon ! reprit le vieillard, mais comment allons nous être heureux ? tu ne me quittes donc plus ? Voyons, conte-moi ton bonheur."
             }
         },
         "11": {
             "23": {
-                "FR": "– Que le Seigneur me pardonne, dit le jeune homme, de me réjouir d’un bonheur fait avec le deuil d’une famille ! Mais Dieu sait que je n’eusse pas désiré ce bonheur ; il arrive, et je n’ai pas la force de m’en affliger : le brave capitaine Leclère est mort, mon père, et il est probable que, par la protection de M. Morrel, je vais avoir sa place. Comprenez-vous, mon père ? capitaine à vingt ans ! avec cent louis d’appointements et une part dans les bénéfices ! n’est-ce pas plus que ne pouvait vraiment l’espérer un pauvre matelot comme moi ?"
+                "FR": "– Que le Seigneur me pardonne, dit le jeune homme, de me réjouir d’un bonheur fait avec le deuil d’une famille ! Mais Dieu sait que je n’eusse pas désiré ce bonheur ; il arrive, et je n’ai pas la force de m’en affliger : le brave capitaine Leclère est mort, mon père, et il est probable que, par la protection de M. Morrel, je vais avoir sa place. Comprenez-vous, mon père ? capitaine à vingt ans ! avec cent louis d’appointements et une part dans les bénéfices ! n’est-ce pas plus que ne pouvait vraiment l’espérer un pauvre matelot comme moi ?",
+                "entry": {
+                    "deuil": {
+                        "pronunciation": "dœj",
+                        "FR_EN": "bereavement, mourning"
+                    },
+                    "s'affliger de qc.": {
+                        "FR_EN": "to be distressed about sth., to be distressed by sth."
+                    }
+                }
             }
         },
         "12": {
@@ -82,7 +156,15 @@
         },
         "13": {
             "27": {
-                "FR": "– Aussi je veux que du premier argent que je toucherai vous ayez une petite maison, avec un jardin pour planter vos clématites, vos capucines et vos chèvrefeuilles… Mais, qu’as-tu donc, père, on dirait que tu te trouves mal ?"
+                "FR": "– Aussi je veux que du premier argent que je toucherai vous ayez une petite maison, avec un jardin pour planter vos clématites, vos capucines et vos chèvrefeuilles… Mais, qu’as-tu donc, père, on dirait que tu te trouves mal ?",
+                "entry": {
+                    "chèvrefeuille": {
+                        "FR_EN": "honeysuckle"
+                    },
+                    "se trouver": {
+                        "FR_EN": "to be [be situated]"
+                    }
+                }
             }
         },
         "14": {
@@ -92,12 +174,34 @@
         },
         "15": {
             "31": {
-                "FR": "Et, les forces manquant au vieillard, il se renversa en arrière."
+                "FR": "Et, les forces manquant au vieillard, il se renversa en arrière.",
+                "entry": {
+                    "se renverser": {
+                        "Cambridge": "to lie back"
+                    },
+                    "se renverser dans un fauteuil": {
+                        "FR_EN": "to lie back in an armchair"
+                    },
+                    "se renverser [bateau etc.]": {
+                        "FR_EN": "to capsize [boat etc.]"
+                    },
+                    "se renverser [bateau]": {
+                        "FR_EN": "to tip over [boat]"
+                    },
+                    "se renverser [liquide, contenu]": {
+                        "FR_EN": "to spill"
+                    }
+                }
             }
         },
         "16": {
             "33": {
-                "FR": "« Voyons ! voyons ! dit le jeune homme, un verre de vin, mon père ; cela vous ranimera ; où mettez-vous votre vin ?"
+                "FR": "« Voyons ! voyons ! dit le jeune homme, un verre de vin, mon père ; cela vous ranimera ; où mettez-vous votre vin ?",
+                "entry": {
+                    "se ranimer": {
+                        "FR_EN": "to come round, to regain consciousness"
+                    }
+                }
             }
         },
         "17": {
@@ -122,7 +226,36 @@
         },
         "21": {
             "43": {
-                "FR": "– Comment, il n’y a plus de vin ! dit en pâlissant à son tour Dantès, regardant alternativement les joues creuses et blêmes du vieillard et les armoires vides, comment, il n’y a plus de vin ! Auriez-vous manqué d’argent, mon père ?"
+                "FR": "– Comment, il n’y a plus de vin ! dit en pâlissant à son tour Dantès, regardant alternativement les joues creuses et blêmes du vieillard et les armoires vides, comment, il n’y a plus de vin ! Auriez-vous manqué d’argent, mon père ?",
+                "entry": {
+                    "pâlir": {
+                        "FR_EN": "to become pale, to grow pale, to turn pale"
+                    },
+                    "joue": {
+                        "pronunciation": "ʒu",
+                        "FR_EN": "cheek"
+                    },
+                    "creuse": {
+                        "pronunciation": "krøz",
+                        "Google": "sunken"
+                    },
+                    "aiguille creuse": {
+                        "FR_EN": "hollow needle"
+                    },
+                    "assiette creuse": {
+                        "FR_EN": "soup dish"
+                    },
+                    "assiette creuse [potage]": {
+                        "FR_EN": "bowl"
+                    },
+                    "cheville pour cloison creuse": {
+                        "FR_EN": "cavity fixing"
+                    },
+                    "blême": {
+                        "FR_EN": "pale [wan], wan",
+                        "Google": "Pale, wan, or sickly-looking"
+                    }
+                }
             }
         },
         "22": {
@@ -132,7 +265,43 @@
         },
         "23": {
             "47": {
-                "FR": "– Cependant, balbutia Dantès en essuyant la sueur qui coulait de son front, cependant je vous avais laissé deux cents francs, il y a trois mois, en partant."
+                "FR": "– Cependant, balbutia Dantès en essuyant la sueur qui coulait de son front, cependant je vous avais laissé deux cents francs, il y a trois mois, en partant.",
+                "entry": {
+                    "balbutier": {
+                        "pronunciation": "balbysje"
+                    },
+                    "balbutier (qc.)": {
+                        "FR_EN": "to stammer (sth.)"
+                    },
+                    "balbutier qc.": {
+                        "FR_EN": "to stammer sth. out"
+                    },
+                    "balbutier une prière": {
+                        "FR_EN": "to mumble a prayer"
+                    },
+                    "balbutier [bègue]": {
+                        "FR_EN": "to stutter"
+                    },
+                    "essuyer": {
+                        "pronunciation": "ɛsµije"
+                    },
+                    "essuyer (la vaisselle)": {
+                        "FR_EN": "to dry up (the dishes) [Br.]"
+                    },
+                    "essuyer des déboires": {
+                        "FR_EN": "to meet with setbacks, to suffer setbacks"
+                    },
+                    "essuyer des reproches de la part de qn.": {
+                        "FR_EN": "to be criticised by sb. [Br.], to be criticized by sb. [Am.] [Can.], to come under attack from sb."
+                    },
+                    "essuyer la sueur de son front": {
+                        "FR_EN": "to wipe the sweat from one's brow"
+                    },
+                    "sueur": {
+                        "pronunciation": "sµœr",
+                        "FR_EN": "sweat"
+                    }
+                }
             }
         },
         "24": {
@@ -172,7 +341,12 @@
         },
         "31": {
             "63": {
-                "FR": "« De sorte que vous avez vécu trois mois avec soixante francs ! murmura le jeune homme."
+                "FR": "« De sorte que vous avez vécu trois mois avec soixante francs ! murmura le jeune homme.",
+                "entry": {
+                    "de (telle) sorte que": {
+                        "FR_EN": "in order that, so as to, with the result that"
+                    }
+                }
             }
         },
         "32": {
@@ -182,7 +356,13 @@
         },
         "33": {
             "67": {
-                "FR": "– Oh ! mon Dieu, mon Dieu, pardonnez-moi ! s’écria Edmond en se jetant à genoux devant le bonhomme."
+                "FR": "– Oh ! mon Dieu, mon Dieu, pardonnez-moi ! s’écria Edmond en se jetant à genoux devant le bonhomme.",
+                "entry": {
+                    "genoux": {
+                        "pronunciation": "ʒœnu",
+                        "FR_EN": "knees, lap {sg} [of a sitting person]"
+                    }
+                }
             }
         },
         "34": {
@@ -192,7 +372,15 @@
         },
         "35": {
             "71": {
-                "FR": "– Oh ! vous m’avez déchiré le cœur."
+                "FR": "– Oh ! vous m’avez déchiré le cœur.",
+                "entry": {
+                    "m'": {
+                        "Google": "indirect object"
+                    },
+                    "déchirer qc.": {
+                        "FR_EN": "to break sth. up, to rip sth. up, to rip sth., to rupture sth., to tear sth. up, to tear sth. [rip]"
+                    }
+                }
             }
         },
         "36": {
@@ -202,17 +390,33 @@
         },
         "37": {
             "75": {
-                "FR": "– Oui, me voilà, dit le jeune homme, me voilà avec un bel avenir et un peu d’argent. Tenez, père, dit-il, prenez, prenez, et envoyez chercher tout de suite quelque chose. »"
+                "FR": "– Oui, me voilà, dit le jeune homme, me voilà avec un bel avenir et un peu d’argent. Tenez, père, dit-il, prenez, prenez, et envoyez chercher tout de suite quelque chose. »",
+                "entry": {
+                    "avenir": {
+                        "pronunciation": "avnir",
+                        "FR_EN": "future"
+                    }
+                }
             }
         },
         "38": {
             "77": {
-                "FR": "Et il vida sur la table ses poches, qui contenaient une douzaine de pièces d’or, cinq ou six écus de cinq francs et de la menue monnaie."
+                "FR": "Et il vida sur la table ses poches, qui contenaient une douzaine de pièces d’or, cinq ou six écus de cinq francs et de la menue monnaie.",
+                "entry": {
+                    "écu": {
+                        "Google": "crown, 5-franc coin"
+                    }
+                }
             }
         },
         "39": {
             "79": {
-                "FR": "Le visage du vieux Dantès s’épanouit."
+                "FR": "Le visage du vieux Dantès s’épanouit.",
+                "entry": {
+                    "s'épanouir": {
+                        "FR_EN": "to come out [bloom], to fulfil oneself, to open out [bloom]"
+                    }
+                }
             }
         },
         "40": {
@@ -232,7 +436,13 @@
         },
         "43": {
             "87": {
-                "FR": "– Fais comme tu voudras ; mais, avant toutes choses, prends une servante, père ; je ne veux pas que tu restes seul. J’ai du café de contrebande et d’excellent tabac dans un petit coffre de la cale, tu l’auras dès demain. Mais chut ! voici quelqu’un."
+                "FR": "– Fais comme tu voudras ; mais, avant toutes choses, prends une servante, père ; je ne veux pas que tu restes seul. J’ai du café de contrebande et d’excellent tabac dans un petit coffre de la cale, tu l’auras dès demain. Mais chut ! voici quelqu’un.",
+                "entry": {
+                    "chut": {
+                        "pronunciation": "ʃyt",
+                        "Cambridge": "sh"
+                    }
+                }
             }
         },
         "44": {
@@ -242,12 +452,68 @@
         },
         "45": {
             "91": {
-                "FR": "– Bon, encore des lèvres qui disent une chose tandis que le cœur en pense une autre, murmura Edmond ; mais, n’importe, c’est un voisin qui nous a rendu service autrefois, qu’il soit le bienvenu. »"
+                "FR": "– Bon, encore des lèvres qui disent une chose tandis que le cœur en pense une autre, murmura Edmond ; mais, n’importe, c’est un voisin qui nous a rendu service autrefois, qu’il soit le bienvenu. »",
+                "entry": {
+                    "lèvre": {
+                        "FR_EN": "lip"
+                    }
+                }
             }
         },
         "46": {
             "93": {
-                "FR": "En effet, au moment où Edmond achevait la phrase à voix basse, on vit apparaître encadrée par la porte du palier, la tête noire et barbue de Caderousse. C’était un homme de vingt-cinq à vingt-six ans ; il tenait à sa main un morceau de drap, qu’en sa qualité de tailleur il s’apprêtait à changer en un revers d’habit."
+                "FR": "En effet, au moment où Edmond achevait la phrase à voix basse, on vit apparaître encadrée par la porte du palier, la tête noire et barbue de Caderousse. C’était un homme de vingt-cinq à vingt-six ans ; il tenait à sa main un morceau de drap, qu’en sa qualité de tailleur il s’apprêtait à changer en un revers d’habit.",
+                "entry": {
+                    "achever qc.": {
+                        "FR_EN": "to accomplish sth., to complete sth. [achieve]"
+                    },
+                    "encadré": {
+                        "FR_EN": "framed, supervised"
+                    },
+                    "palier": {
+                        "pronunciation": "palje"
+                    },
+                    "douches sur le palier": {
+                        "FR_EN": "showers on the landing"
+                    },
+                    "douche {f} sur le palier": {
+                        "FR_EN": "shower on the landing [on same floor but in separate room to bedroom]"
+                    },
+                    "franchir un palier supplémentaire": {
+                        "FR_EN": "to go one stage further"
+                    },
+                    "palier (de décompression) [en plongée]": {
+                        "FR_EN": "(decompression) stage"
+                    },
+                    "barbue": {
+                        "pronunciation": "barby"
+                    },
+                    "barbue [Scophthalmus rhombus]": {
+                        "FR_EN": "brill"
+                    },
+                    "outarde barbue [Otis tarda]": {
+                        "FR_EN": "great bustard"
+                    },
+                    "drap": {
+                        "pronunciation": "dra",
+                        "FR_EN": "cloth, drape [covering], sheet [bed sheet]"
+                    },
+                    "en qualité de": {
+                        "Cambridge": "as"
+                    },
+                    "s'apprêter à faire qc.": {
+                        "FR_EN": "to be just about to do sth., to get ready to do sth., to prepare to do sth."
+                    },
+                    "revers": {
+                        "pronunciation": "rœvɛr",
+                        "FR_EN": "back-hand, backhand (stroke), lapel"
+                    },
+                    "habit": {
+                        "pronunciation": "abi",
+                        "FR_EN": "garment",
+                        "Google": "A coat or suit jacket (in 19th-century French context)"
+                    }
+                }
             }
         },
         "47": {
@@ -257,22 +523,73 @@
         },
         "48": {
             "97": {
-                "FR": "– Comme vous voyez, voisin Caderousse, et prêt à vous être agréable en quelque chose que ce soit, répondit Dantès en dissimulant mal sa froideur sous cette offre de service."
+                "FR": "– Comme vous voyez, voisin Caderousse, et prêt à vous être agréable en quelque chose que ce soit, répondit Dantès en dissimulant mal sa froideur sous cette offre de service.",
+                "entry": {
+                    "quelque chose que ce soit": {
+                        "Google": "in whatever it may be"
+                    },
+                    "dissimulant": {
+                        "pronunciation": "disimylɑ̃",
+                        "FR_EN": "concealing, hiding, tucking away"
+                    },
+                    "froideur": {
+                        "pronunciation": "frwadœr"
+                    },
+                    "accueillir qn.\/qc. avec froideur": {
+                        "FR_EN": "to give sb.\/sth. a cool reception"
+                    },
+                    "avec froideur": {
+                        "FR_EN": "coolly, frostily [fig.]"
+                    },
+                    "froideur [impassibilité]": {
+                        "FR_EN": "callousness, coldness [unfeelingness], frigidity, insensitivity, lack of emotion, unfeelingness"
+                    },
+                    "froideur [fig.]": {
+                        "FR_EN": "distance [fig.] [aloofness]"
+                    }
+                }
             }
         },
         "49": {
             "99": {
-                "FR": "– Merci, merci ; heureusement, je n’ai besoin de rien, et ce sont même quelquefois les autres qui ont besoin de moi. (Dantès fit un mouvement.) Je ne te dis pas cela pour toi, garçon ; je t’ai prêté de l’argent, tu me l’as rendu ; cela se fait entre bons voisins, et nous sommes quittes."
+                "FR": "– Merci, merci ; heureusement, je n’ai besoin de rien, et ce sont même quelquefois les autres qui ont besoin de moi. (Dantès fit un mouvement.) Je ne te dis pas cela pour toi, garçon ; je t’ai prêté de l’argent, tu me l’as rendu ; cela se fait entre bons voisins, et nous sommes quittes.",
+                "entry": {
+                    "quitte": {
+                        "pronunciation": "kit",
+                        "FR_EN": "even [having nothing due on either side or having exacted full revenge], quits"
+                    }
+                }
             }
         },
         "50": {
             "101": {
-                "FR": "– On n’est jamais quitte envers ceux qui nous ont obligés, dit Dantès, car lorsqu’on ne leur doit plus l’argent, on leur doit la reconnaissance."
+                "FR": "– On n’est jamais quitte envers ceux qui nous ont obligés, dit Dantès, car lorsqu’on ne leur doit plus l’argent, on leur doit la reconnaissance.",
+                "entry": {
+                    "devoir qc. à qn.": {
+                        "FR_EN": "to owe sth. to sb."
+                    },
+                    "reconnaissance": {
+                        "pronunciation": "rœkɔnɛsɑ̃s",
+                        "FR_EN": "acknowledgement, approval, recognition, reconnaissance [military survey or survey of a region], thankfulness"
+                    }
+                }
             }
         },
         "51": {
             "103": {
-                "FR": "– À quoi bon parler de cela ! Ce qui est passé est passé. Parlons de ton heureux retour, garçon. J’étais donc allé comme cela sur le port pour rassortir du drap marron, lorsque je rencontrai l’ami Danglars."
+                "FR": "– À quoi bon parler de cela ! Ce qui est passé est passé. Parlons de ton heureux retour, garçon. J’étais donc allé comme cela sur le port pour rassortir du drap marron, lorsque je rencontrai l’ami Danglars.",
+                "entry": {
+                    "rassortir": {
+                        "pronunciation": "rasɔrtir",
+                        "Google": "réassortir, to find or put together items that match or coordinate well with things you already own"
+                    },
+                    "rencontrer qn.\/qc.": {
+                        "FR_EN": "to encounter sb.\/sth., to meet sb.\/sth. [encounter]"
+                    },
+                    "À quoi bon parler de cela !": {
+                        "Google": "What's the point of talking about that!"
+                    }
+                }
             }
         },
         "52": {
@@ -302,7 +619,12 @@
         },
         "57": {
             "115": {
-                "FR": "« – Mais chez son père, sans doute, répondit Danglars ; et alors je suis venu, continua Caderousse, pour avoir le plaisir de serrer la main à un ami."
+                "FR": "« – Mais chez son père, sans doute, répondit Danglars ; et alors je suis venu, continua Caderousse, pour avoir le plaisir de serrer la main à un ami.",
+                "entry": {
+                    "serrer la main de qn.": {
+                        "FR_EN": "to shake hands with sb., to shake sb.'s hand, to squeeze sb.'s hand"
+                    }
+                }
             }
         },
         "58": {
@@ -312,12 +634,26 @@
         },
         "59": {
             "119": {
-                "FR": "– Certainement que je vous aime, et que je vous estime encore, attendu que les honnêtes gens sont rares ! Mais il paraît que tu deviens riche, garçon ? » continua le tailleur en jetant un regard oblique sur la poignée d’or et d’argent que Dantès avait déposée sur la table."
+                "FR": "– Certainement que je vous aime, et que je vous estime encore, attendu que les honnêtes gens sont rares ! Mais il paraît que tu deviens riche, garçon ? » continua le tailleur en jetant un regard oblique sur la poignée d’or et d’argent que Dantès avait déposée sur la table.",
+                "entry": {
+                    "attendu que": {
+                        "FR_EN": "whereas [formal]",
+                        "Google": "étant donné que, given that"
+                    }
+                }
             }
         },
         "60": {
             "121": {
-                "FR": "Le jeune homme remarqua l’éclair de convoitise qui illumina les yeux noirs de son voisin."
+                "FR": "Le jeune homme remarqua l’éclair de convoitise qui illumina les yeux noirs de son voisin.",
+                "entry": {
+                    "remarquer qn.\/qc.": {
+                        "FR_EN": "to notice sb.\/sth."
+                    },
+                    "convoitise [ambition, gourmandise]": {
+                        "FR_EN": "greed"
+                    }
+                }
             }
         },
         "61": {

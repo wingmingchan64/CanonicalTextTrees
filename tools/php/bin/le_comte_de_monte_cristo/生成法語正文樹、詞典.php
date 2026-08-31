@@ -24,13 +24,11 @@ $views_folder = $folder . 'views' . DIRECTORY_SEPARATOR;
 check_argv( $argv, 2, "Must provide the doc id." );
 $doc_id = trim( $argv[ 1 ] );
 $switches = [
-
 	'pronunciation',
 	'Cambridge',
 	'LeRobert',
 	'FR_EN',
 	'Google'
-
 ];
 
 $fr_filename = $doc_id;
