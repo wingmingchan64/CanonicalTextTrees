@@ -272,6 +272,11 @@
     "title": "全唐詩",
     "display_title": "《全唐詩》"
   },
+  "READING_FRENCH":{
+    "folder": "corpus/others/reading_french",
+    "title": "Reading French",
+    "display_title": "Reading French"
+  },
   "SCSBS":{
     "folder": "corpus/classical/宋詞三百首",
     "title": "宋詞三百首",
