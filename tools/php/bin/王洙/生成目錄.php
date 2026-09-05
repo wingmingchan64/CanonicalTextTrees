@@ -57,14 +57,14 @@ foreach( $lines as $line )
 file_put_contents(
 	$folder . '洙目錄.json',
 	json_encode(
-		$目錄, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) );
+		$目錄, JSON_UNESCAPED_UNICODE ) );
 file_put_contents(
 	$folder . '默認詩碼_洙詩碼.json',
 	json_encode(
-		$默認詩碼_版本詩碼, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) );
+		$默認詩碼_版本詩碼, JSON_UNESCAPED_UNICODE ) );
 file_put_contents(
 	$folder . '洙詩碼_默認詩碼.json',
 	json_encode(
-		$版本詩碼_默認詩碼, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) );
+		$版本詩碼_默認詩碼, JSON_UNESCAPED_UNICODE ) );
 
 ?>
