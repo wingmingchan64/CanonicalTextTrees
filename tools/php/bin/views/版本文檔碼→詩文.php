@@ -50,5 +50,4 @@ foreach( $paths as $path )
 
 echo $正文樹[ $默文檔碼 ][ 詩題 ], NL, NL;
 echo 攤平樹文字_略過鍵( $正文樹, array( 詩題 ) );
-
 ?>
