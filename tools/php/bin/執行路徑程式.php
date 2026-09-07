@@ -13,7 +13,6 @@ require_once(
 	dirname( __DIR__, 1 ) . DIRECTORY_SEPARATOR .
 	'lib' . DIRECTORY_SEPARATOR .
 	 'functions.php' );
-	 
 check_argv( $argv, 2, 提供著述碼 );
 $work_id = trim( $argv[ 1 ] );
 

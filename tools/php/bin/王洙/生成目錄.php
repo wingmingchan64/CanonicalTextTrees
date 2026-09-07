@@ -107,7 +107,7 @@ file_put_contents(
 	json_encode(
 		$版本詩碼_默認詩碼, JSON_UNESCAPED_UNICODE ) );
 file_put_contents(
-	$folder . '版本文檔碼_版本詩碼.json',
+	$folder . '版文檔碼_版詩碼.json',
 	json_encode(
 		$版本文檔碼_版本詩碼, JSON_UNESCAPED_UNICODE ) );
 
