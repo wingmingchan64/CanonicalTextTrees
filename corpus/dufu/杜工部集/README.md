@@ -22,6 +22,15 @@ Status: Draft
 
 ---
 
+## PHP 指令
+
+<pre>
+php H:\github\CanonicalTextTrees\tools\php\bin\執行路徑程式.php WANGZHU
+
+
+</pre>
+
+---
 
 ## 備注
 
