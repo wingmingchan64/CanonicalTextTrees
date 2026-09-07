@@ -28,6 +28,8 @@ if( !是合法文檔碼( $默文檔碼 ) )
 	throw new DocumentIDNotFoundException( '無此文檔碼。' );
 }
 
+$生成md = true;
+
 $正文樹   = 提取基準正文樹( $默文檔碼 );
 $mm_tree = 提取後設資料樹( $著述碼, $版文檔碼 );
 $paths = array();
@@ -62,6 +64,16 @@ foreach( $paths as $path )
 	}
 }
 
-echo $正文樹[ $默文檔碼 ][ 詩題 ], NL, NL;
-echo 攤平樹文字_略過鍵( $正文樹, array( 詩題 ) );
+$詩題 = $正文樹[ $默文檔碼 ][ 詩題 ] . NL . NL;
+$詩文 = 攤平樹文字_略過鍵( $正文樹, array( 詩題 ) );
+echo $詩題, $詩文;
+
+if( $生成md )
+{
+	file_put_contents(
+		$folder . 'views' . DIRECTORY_SEPARATOR .
+		$版文檔碼 . '.md', 
+		'# ' . $詩題 .
+		$詩文 );
+}
 ?>
