@@ -1,3 +1,7 @@
 {"scope":"攻","src_path":"WANGZHU,0013,1,3"}
 {"scope":"駒","src_path":"WANGZHU,0013,1,4","op":"insert"}
-{"scope":"休","src_path":"WANGZHU,0013,1,5","op":"insert"}
+{"scope":"字","src_path":"WANGZHU,0013,1,5"}
+{"scope":"世","src_path":"WANGZHU,0013,1,6"}
+{"scope":"久","src_path":"WANGZHU,0013,1,7"}
+{"scope":"褭","src_path":"WANGZHU,0013,1,8"}
+{"scope":"卽","src_path":"WANGZHU,0013,1,9"}

@@ -73,6 +73,11 @@ foreach( $版詩碼s as $版詩碼 )
 			{
 				$pointer = &$pointer[ $step ];
 			}
+			// no 題注 in 正文樹
+			elseif( $step == 題注 )
+			{
+				$pointer = &$pointer[ $step ];
+			}
 			else
 			{
 				$path_exist = false;
