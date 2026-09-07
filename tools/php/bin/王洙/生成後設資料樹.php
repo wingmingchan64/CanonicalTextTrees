@@ -36,22 +36,4 @@ foreach( $默文檔碼s as $默文檔碼 )
 	}
 	生成後設資料樹( $默文檔碼, $著述碼, $版文檔碼 );
 }
-//$mapping_file = "版詩碼_默詩碼.json";
-//$map = json_decode(
-	//file_get_contents( $folder . DIRECTORY_SEPARATOR . $mapping_file ), true );
-
-// $版詩碼 always 4 digits
-//foreach( $map as $版詩碼 => $默詩碼 )
-//{
-	//if( is_array( $默詩碼 ) ) // 組詩
-	//{
-		//$默文檔碼 = substr( $默詩碼[ '1' ], 0, 4 );
-	//}
-	//else
-	//{
-		//$默文檔碼 = $默詩碼;
-	//}
-	//$版文檔碼 = $版詩碼;
-	
-//}
 ?>

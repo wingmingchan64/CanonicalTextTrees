@@ -1,1 +1,3 @@
-{"scope":"陵","src_path":"WANGZHU,0009,1,3"}
+{"scope":"歲","src_path":"WANGZHU,0009,1,3"}
+{"scope":"陵","src_path":"WANGZHU,0009,1,4"}
+{"scope":"卽","src_path":"WANGZHU,0009,1,5"}
