@@ -27,7 +27,17 @@ Status: Draft
 <pre>
 php H:\github\CanonicalTextTrees\tools\php\bin\執行路徑程式.php WANGZHU
 
+php H:\github\CanonicalTextTrees\tools\php\bin\王洙\生成後設資料樹.php 4
 
+php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.php 4
+</pre>
+
+結果顯示：
+
+<pre>
+遊龍門奉先寺
+
+已從招提遊。更宿招提境。隂壑生虛籟。月林散清影。天闕象緯逼。雲卧衣裳冷。欲覺聞晨鐘。令人發深省。
 </pre>
 
 ---
@@ -36,13 +46,7 @@ php H:\github\CanonicalTextTrees\tools\php\bin\執行路徑程式.php WANGZHU
 
 - 我采用的版本是國家圖書館藏本，非《續古逸叢書》本；如有需要，則據其他版本文字補足
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/corpus/dufu/%E6%9D%9C%E5%B7%A5%E9%83%A8%E9%9B%86/views">views</a> 文件夾裏儲存的是《杜工部集》的正文樹，包括異文、部分重要的異體字
-- 系統只生成少量的正文樹
-- 《杜工部集》正文可以用 `php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.php 42 4` 來展示
-<pre>
-遊龍門奉先寺
-
-已從招提遊。更宿招提境。陰壑生虛籟。月林散清影。天闕象緯逼。雲臥衣裳冷。欲覺聞晨鍾。令人發深省。
-</pre>
+- 系統只生成少量的樣本正文樹
 
 ---
 

@@ -1,7 +1,9 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.php 42 4
+php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.php 4
 */
+use Dufu\Exceptions\DocumentIDNotFoundException;
+
 require_once(
 	dirname( __DIR__, 5 ) . DIRECTORY_SEPARATOR .
 	'Dufu-Analysis' . DIRECTORY_SEPARATOR .
@@ -10,10 +12,22 @@ require_once(
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
 	
-check_argv( $argv, 3, "必須提供默文檔碼、版文檔碼" );
-$默文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
-$版文檔碼 = fix_doc_id( trim( $argv[ 2 ] ) );
+check_argv( $argv, 2, "必須提供版本文檔碼" );
+$版文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
 $著述碼   = 'WANGZHU';
+$folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
+	get_ctt_folder( $著述碼 ) . DIRECTORY_SEPARATOR;
+$map = json_decode(
+	file_get_contents( $folder . '版文檔碼_默文檔碼.json' ),
+	true );
+	
+$默文檔碼 = $map[ $版文檔碼 ][ 0 ];
+
+if( !是合法文檔碼( $默文檔碼 ) )
+{
+	throw new DocumentIDNotFoundException( '無此文檔碼。' );
+}
+
 $正文樹   = 提取基準正文樹( $默文檔碼 );
 $mm_tree = 提取後設資料樹( $著述碼, $版文檔碼 );
 $paths = array();
