@@ -1,2 +1,6 @@
-{"scope":"胸","src_path":"WANGZHU,0005,1,3"}
-{"scope":"凌","src_path":"WANGZHU,0005,1,4"}
+{"scope":"陰","src_path":"WANGZHU,0005,1,3"}
+{"scope":"昏","src_path":"WANGZHU,0005,1,4"}
+{"scope":"胸","src_path":"WANGZHU,0005,1,5"}
+{"scope":"凌","src_path":"WANGZHU,0005,1,6"}
+{"scope":"絕","src_path":"WANGZHU,0005,1,7"}
+{"scope":"眾","src_path":"WANGZHU,0005,1,8"}
