@@ -14,7 +14,7 @@ require_once(
 	
 check_argv( $argv, 2, "必須提供版本文檔碼" );
 $版文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
-$生成md  = false;
+$生成md  = true;
 $著述碼   = 'WANGZHU';
 //$contents = '';
 $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
@@ -134,7 +134,7 @@ foreach( $版詩碼s as $版詩碼 )
 		
 		foreach( $正文樹[ $默文檔碼 ][ 樹錨名 ] as $line )
 		{
-			$詩文 .= $line . NL;
+			$詩文 .= $line . NL . NL;
 		}
 	}
 
