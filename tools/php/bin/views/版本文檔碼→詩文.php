@@ -146,6 +146,8 @@ foreach( $版詩碼s as $版詩碼 )
 	$詩文contents .= $詩文;
 }
 
+$詩題contents = str_replace( '[[', '[',
+	str_replace( ']]', ']', $詩題contents ) );
 echo $詩題contents, NL, NL, $詩文contents;
 
 if( $生成md )
