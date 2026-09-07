@@ -1,4 +1,3 @@
-{"scope":"題注","src_path":"WANGZHU,0006,0,2"}
 {"scope":"凌","src_path":"WANGZHU,0006,1,4"}
 {"scope":"青","src_path":"WANGZHU,0006,1,5"}
 {"scope":"荷","src_path":"WANGZHU,0006,1,6"}

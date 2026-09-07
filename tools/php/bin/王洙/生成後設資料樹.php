@@ -1,6 +1,6 @@
 <?php
 /*
-php H:\github\CanonicalTextTrees\tools\php\bin\王洙\生成後設資料樹.php 42
+php H:\github\CanonicalTextTrees\tools\php\bin\王洙\生成後設資料樹.php 6
 
 When working with more than one 默文檔碼, do not use
 chars; use paths instead.
