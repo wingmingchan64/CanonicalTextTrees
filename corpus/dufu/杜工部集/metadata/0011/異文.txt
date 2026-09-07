@@ -1,2 +1,5 @@
-{"scope":"庭","src_path":"WANGZHU,0011,1,3"}
-{"scope":"卒","src_path":"WANGZHU,0011,1,4","op":"insert"}
+{"scope":"0229,8,1,2","src_path":"WANGZHU,0011,1,4"}
+{"scope":"庭","src_path":"WANGZHU,0011,1,5"}
+{"scope":"荊","src_path":"WANGZHU,0011,1,6"}
+{"scope":"卒","src_path":"WANGZHU,0011,1,7","op":"insert"}
+{"scope":"陰","src_path":"WANGZHU,0011,1,8"}
