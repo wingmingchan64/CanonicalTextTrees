@@ -60,6 +60,7 @@ php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.ph
 
 - 我采用的版本是國家圖書館藏本，非《續古逸叢書》本；如有需要，則據其他版本文字補足
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/corpus/dufu/%E6%9D%9C%E5%B7%A5%E9%83%A8%E9%9B%86/views">views</a> 文件夾裏儲存的是《杜工部集》的幾個樣本 .md 文檔
+- 葉嘉瑩說此書無注，然而，簡短的注釋還是有的，如〚洙0033:〛《奉同郭給事湯東靈湫作》有「原。崑崙東北脚名也。」
 
 ---
 
