@@ -1,0 +1,8 @@
+{"scope":"遊","src_path":"WANGZHU,0029,1,3"}
+{"scope":"慘","src_path":"WANGZHU,0029,1,4"}
+{"scope":"鳧","src_path":"WANGZHU,0029,1,5"}
+{"scope":"沉","src_path":"WANGZHU,0029,1,6"}
+{"scope":"裊","src_path":"WANGZHU,0029,1,7"}
+{"scope":"船","src_path":"WANGZHU,0029,1,8"}
+{"scope":"戛","src_path":"WANGZHU,0029,1,9"}
+{"scope":"柰","src_path":"WANGZHU,0029,1,10"}

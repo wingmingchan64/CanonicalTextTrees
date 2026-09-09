@@ -1,0 +1,7 @@
+{"scope":"高","src_path":"WANGZHU,0030,1,3"}
+{"scope":"要","src_path":"WANGZHU,0030,1,4","op":"insert"}
+{"scope":"乘","src_path":"WANGZHU,0030,1,5"}
+{"scope":"世","src_path":"WANGZHU,0030,1,6"}
+{"scope":"並","src_path":"WANGZHU,0030,1,7"}
+{"scope":"迥","src_path":"WANGZHU,0030,1,8"}
+{"scope":"景","src_path":"WANGZHU,0030,1,9","op":"insert"}

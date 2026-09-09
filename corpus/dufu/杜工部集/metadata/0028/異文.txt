@@ -1,0 +1,5 @@
+{"scope":"高","src_path":"WANGZHU,0028,1,4"}
+{"scope":"夾","src_path":"WANGZHU,0028,1,5"}
+{"scope":"詄","src_path":"WANGZHU,0028,1,6"}
+{"scope":"卻","src_path":"WANGZHU,0028,1,7"}
+{"scope":"罰","src_path":"WANGZHU,0028,1,8","op":"insert"}
