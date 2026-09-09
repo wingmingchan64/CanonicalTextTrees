@@ -1,0 +1,6 @@
+{"scope":"乘","src_path":"WANGZHU,0025,1,3"}
+{"scope":"0136,7,1,2","src_path":"WANGZHU,0025,1,4"}
+{"scope":"避","src_path":"WANGZHU,0025,1,5"}
+{"scope":"灑","src_path":"WANGZHU,0025,1,6"}
+{"scope":"0136,12,1,7","src_path":"WANGZHU,0025,1,7"}
+{"scope":"0136,13,1,4","src_path":"WANGZHU,0025,1,8"}

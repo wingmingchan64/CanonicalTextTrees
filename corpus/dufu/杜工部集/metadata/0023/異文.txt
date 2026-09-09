@@ -1,0 +1,9 @@
+{"scope":"雨","src_path":"WANGZHU,0023,1,3"}
+{"scope":"腳","src_path":"WANGZHU,0023,1,4"}
+{"scope":"泥","src_path":"WANGZHU,0023,1,5"}
+{"scope":"活活","src_path":"WANGZHU,0023,1,6","op":"insert"}
+{"scope":"昏","src_path":"WANGZHU,0023,1,7"}
+{"scope":"乎","src_path":"WANGZHU,0023,1,8"}
+{"scope":"迆","src_path":"WANGZHU,0023,1,9"}
+{"scope":"恐","src_path":"WANGZHU,0023,1,10","op":"insert"}
+{"scope":"袖","src_path":"WANGZHU,0023,1,11","op":"insert"}

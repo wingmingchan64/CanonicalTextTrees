@@ -1,0 +1,9 @@
+{"scope":"樹","src_path":"WANGZHU,0024,1,3","op":"insert"}
+{"scope":"蛇","src_path":"WANGZHU,0024,1,4"}
+{"scope":"陰","src_path":"WANGZHU,0024,1,5"}
+{"scope":"迴","src_path":"WANGZHU,0024,1,6"}
+{"scope":"無","src_path":"WANGZHU,0024,1,7"}
+{"scope":"世","src_path":"WANGZHU,0024,1,8"}
+{"scope":"露","src_path":"WANGZHU,0024,1,9","op":"insert"}
+{"scope":"歲","src_path":"WANGZHU,0024,1,10"}
+{"scope":"0111,11,2,7","src_path":"WANGZHU,0024,1,11","op":"insert"}
