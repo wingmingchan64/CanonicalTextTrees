@@ -46,6 +46,7 @@ php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.ph
 
 - 現階段只能顯示書的一小部分
 - 等到所有的文檔都整理好了，就可以用同一個程式，以文檔碼 1 至 1098 作數字循環，生成整部《杜工部集》
+- 或以 <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/corpus/dufu/%E6%9D%9C%E5%B7%A5%E9%83%A8%E9%9B%86/%E5%8D%B7%E7%9B%AE_%E6%96%87%E6%AA%94%E7%A2%BC.json">卷目_文檔碼.json</a> 作控制器，逐卷生成
 
 ---
 
