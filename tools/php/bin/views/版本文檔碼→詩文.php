@@ -12,7 +12,7 @@ require_once(
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
 
-$生成md  = true;
+$生成md  = false;
 
 $著述碼 = 'WANGZHU';
 $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
