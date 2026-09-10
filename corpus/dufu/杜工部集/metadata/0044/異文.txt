@@ -1,0 +1,6 @@
+{"scope":"憐","src_path":"WANGZHU,0044,1,3"}
+{"scope":"荊","src_path":"WANGZHU,0044,1,4"}
+{"scope":"0771,9,1,1","src_path":"WANGZHU,0044,1,5"}
+{"scope":"0771,9,1,6","src_path":"WANGZHU,0044,1,5"}
+{"scope":"駝","src_path":"WANGZHU,0044,1,6"}
+{"scope":"疏","src_path":"WANGZHU,0044,1,7"}

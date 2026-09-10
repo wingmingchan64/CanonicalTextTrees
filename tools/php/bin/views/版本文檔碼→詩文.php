@@ -11,20 +11,32 @@ require_once(
 	"php" . DIRECTORY_SEPARATOR .
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
-	
-check_argv( $argv, 2, "必須提供版本文檔碼" );
-$版文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
-$生成md  = false;
-$著述碼   = 'WANGZHU';
-//$contents = '';
+
+$生成md  = true;
+
+$著述碼 = 'WANGZHU';
 $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 	get_ctt_folder( $著述碼 ) . DIRECTORY_SEPARATOR;
 $map = json_decode(
 	file_get_contents( $folder . '版文檔碼_版詩碼.json' ),
 	true );
+$multiple_contents = '';
 
+// a single 版文檔碼
+/*
+check_argv( $argv, 2, "必須提供版本文檔碼" );
+$版文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
+*/
+
+// loop 版文檔碼
+for( $i = 1; $i <= 46; $i++ )
+{
+	$版文檔碼 = fix_doc_id( "$i" );
+	
+// common code
 $版詩碼s = $map[ $版文檔碼 ];
 $是組詩 = count( $版詩碼s ) > 1;
+$題注set = false;
 $版詩碼_默詩碼 = json_decode(
 	file_get_contents( $folder . '版詩碼_默詩碼.json' ), true );
 
@@ -33,9 +45,21 @@ $篇名path = $著述碼 . ',' . $版文檔碼 . ',' . '篇名';
 $詩題 = 提取ctt正文( $篇名path );
 $詩題contents = $詩題;
 $詩文contents = '';
-$mm_tree = 提取後設資料樹( $著述碼, $版文檔碼 );
-$paths = array();
-記錄後設資料樹路徑( $mm_tree );
+$mm_tree_path = $folder . 
+	'metadata' . DIRECTORY_SEPARATOR . 
+	'trees' . DIRECTORY_SEPARATOR . 
+	$版文檔碼 . '.json';
+
+if( file_exists( $mm_tree_path ) )
+{
+	$mm_tree = 提取後設資料樹( $著述碼, $版文檔碼 );
+	$paths = array();
+	記錄後設資料樹路徑( $mm_tree );
+}
+else
+{
+	$mm_tree = null;
+}
 
 foreach( $版詩碼s as $版詩碼 )
 {
@@ -58,59 +82,70 @@ foreach( $版詩碼s as $版詩碼 )
 		添加標點符號( $正文樹 );
 	}
 	
-	foreach( $paths as $path )
+	if( is_null( $mm_tree ) )
+	{}
+	else
 	{
-		$parts = explode( '_', $path );
-		$默路徑 = explode( ',', $parts[ 3 ] );
-		$異文 = 提取ctt正文( $parts[ 4 ] );
-		$op = $parts[ 5 ];
-		$pointer = &$正文樹;
-		$path_exist = true;
-		
-		foreach( $默路徑 as $step )
+		foreach( $paths as $path )
 		{
-			if( array_key_exists( $step, $pointer ) )
+			$parts = explode( '_', $path );
+			$默路徑 = explode( ',', $parts[ 3 ] );
+			$異文 = 提取ctt正文( $parts[ 4 ] );
+			$op = $parts[ 5 ];
+			$pointer = &$正文樹;
+			$path_exist = true;
+			
+			foreach( $默路徑 as $step )
 			{
-				$pointer = &$pointer[ $step ];
+				if( array_key_exists( $step, $pointer ) )
+				{
+					$pointer = &$pointer[ $step ];
+				}
+				// no 題注 in 正文樹
+				elseif( $step == 題注 )
+				{
+					$pointer = &$pointer[ $step ];
+				}
+				else
+				{
+					$path_exist = false;
+					break;
+				}
 			}
-			// no 題注 in 正文樹
-			elseif( $step == 題注 )
+			if( !$path_exist )
 			{
-				$pointer = &$pointer[ $step ];
+				continue;
 			}
-			else
-			{
-				$path_exist = false;
-				break;
-			}
-		}
-		if( !$path_exist )
-		{
-			continue;
-		}
 
-		if( $op == 'replace' )
-		{
-			$pointer = $異文;
-		}
-		elseif( $op == 'insert' )
-		{
-			$pointer .= "[${異文}]";
-		}
-		else // graft
-		{
-			if( !array_key_exists( 樹錨名, $pointer ) )
+			if( $op == 'replace' )
 			{
-				$pointer[ 樹錨名 ] = array();
+				//echo "Replacing", NL;
+				$pointer = $異文;
 			}
-			$pointer[ 樹錨名 ][] = $異文;
-		}
-	} // mm marker
+			elseif( $op == 'insert' )
+			{
+				//echo "Inserting", NL;
+				$pointer .= "[${異文}]";
+			}
+			elseif( $op == 'graft' )
+			{
+				if( !array_key_exists( 樹錨名, $pointer ) )
+				{
+					$pointer[ 樹錨名 ] = array();
+				}
+				$pointer[ 樹錨名 ][] = $異文;
+			}
+		} // mm marker
+	}
 	
 	if( array_key_exists( 題注, $正文樹[ $默文檔碼 ] ) )
 	{
-		$題注 = $正文樹[ $默文檔碼 ][ 題注 ];
-		$詩題contents .= "[${題注}]";
+		if( !$題注set )
+		{
+			$題注 = $正文樹[ $默文檔碼 ][ 題注 ];
+			$詩題contents .= "[${題注}]";
+		}
+		$題注set = true;
 	}
 	
 	if( $是組詩 )
@@ -123,7 +158,6 @@ foreach( $版詩碼s as $版詩碼 )
 			$詩文contents .= $正文樹[ $默文檔碼 ][ $首碼 ][ 副題 ] . NL;
 		}
 	}
-	
 	
 	$詩文 = 攤平樹文字_略過鍵( $正文樹, array( 詩題, 題注, 副題, 樹錨名 ) );
 	$詩文 = str_replace( '。]。', ']。', $詩文 );
@@ -148,13 +182,34 @@ foreach( $版詩碼s as $版詩碼 )
 
 $詩題contents = str_replace( '[[', '[',
 	str_replace( ']]', ']', $詩題contents ) );
-echo $詩題contents, NL, NL, $詩文contents;
+	
+// single
+//echo $詩題contents, NL, NL, $詩文contents;
+
+// multiple
+$multiple_contents .= 
+	'## ' . $詩題contents . NL . NL .
+	$詩文contents . NL . NL;
+
+} // end for loop
+
+
+
 
 if( $生成md )
 {
+	// a single 版文檔碼
+	/*
 	file_put_contents(
 		$folder . 'views' . DIRECTORY_SEPARATOR .
 		$版文檔碼 . '.md', 
 		'# ' . $詩題contents . NL . NL . $詩文contents );
+	*/
+	// multiple poems in a single file
+	file_put_contents(
+		$folder . 'views' . DIRECTORY_SEPARATOR .
+		'卷一' . '.md', 
+		str_replace( NL.NL.NL, NL, $multiple_contents ) );
 }
+
 ?>

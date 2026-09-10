@@ -1,0 +1,9 @@
+{"scope":"驄","src_path":"WANGZHU,0037,1,4"}
+{"scope":"𡺚","src_path":"WANGZHU,0037,1,5"}
+{"scope":"崒","src_path":"WANGZHU,0037,1,6"}
+{"scope":"久","src_path":"WANGZHU,0037,1,7"}
+{"scope":"高","src_path":"WANGZHU,0037,1,8"}
+{"scope":"卻","src_path":"WANGZHU,0037,1,9"}
+{"scope":"取","src_path":"WANGZHU,0037,1,10","op":"insert"}
+{"scope":"幷","src_path":"WANGZHU,0037,1,11"}
+{"scope":"行","src_path":"WANGZHU,0037,1,12","op":"insert"}

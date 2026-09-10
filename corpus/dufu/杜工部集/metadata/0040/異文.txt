@@ -1,0 +1,11 @@
+{"scope":"闃","src_path":"WANGZHU,0040,1,3"}
+{"scope":"階","src_path":"WANGZHU,0040,1,4"}
+{"scope":"陰","src_path":"WANGZHU,0040,1,5"}
+{"scope":"遙","src_path":"WANGZHU,0040,1,6"}
+{"scope":"久","src_path":"WANGZHU,0040,1,7"}
+{"scope":"翻","src_path":"WANGZHU,0040,1,8"}
+{"scope":"脈","src_path":"WANGZHU,0040,1,9"}
+{"scope":"慘","src_path":"WANGZHU,0040,1,10"}
+{"scope":"回","src_path":"WANGZHU,0040,1,11"}
+{"scope":"絕","src_path":"WANGZHU,0040,1,12"}
+{"scope":"歌","src_path":"WANGZHU,0040,1,13"}

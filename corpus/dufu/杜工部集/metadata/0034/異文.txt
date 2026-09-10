@@ -1,0 +1,3 @@
+{"scope":"賓","src_path":"WANGZHU,0034,1,3"}
+{"scope":"鉤","src_path":"WANGZHU,0034,1,4"}
+{"scope":"闃","src_path":"WANGZHU,0034,1,5"}

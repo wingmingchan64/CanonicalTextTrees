@@ -1,0 +1,5 @@
+{"scope":"燕","src_path":"WANGZHU,0038,1,3"}
+{"scope":"顏","src_path":"WANGZHU,0038,1,4"}
+{"scope":"久","src_path":"WANGZHU,0038,1,5"}
+{"scope":"間","src_path":"WANGZHU,0038,1,6"}
+{"scope":"餐","src_path":"WANGZHU,0038,1,7"}

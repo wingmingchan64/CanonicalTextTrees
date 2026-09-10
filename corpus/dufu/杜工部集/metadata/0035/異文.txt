@@ -1,0 +1,16 @@
+{"scope":"卽","src_path":"WANGZHU,0035,1,3"}
+{"scope":"陀","src_path":"WANGZHU,0035,1,4"}
+{"scope":"卻","src_path":"WANGZHU,0035,1,5"}
+{"scope":"屛","src_path":"WANGZHU,0035,1,6"}
+{"scope":"曉","src_path":"WANGZHU,0035,1,7"}
+{"scope":"簇","src_path":"WANGZHU,0035,1,8"}
+{"scope":"陰","src_path":"WANGZHU,0035,1,9"}
+{"scope":"甁","src_path":"WANGZHU,0035,1,10"}
+{"scope":"卹","src_path":"WANGZHU,0035,1,11"}
+{"scope":"尙","src_path":"WANGZHU,0035,1,12"}
+{"scope":"產","src_path":"WANGZHU,0035,1,13"}
+{"scope":"高","src_path":"WANGZHU,0035,1,14"}
+{"scope":"濴","src_path":"WANGZHU,0035,1,15"}
+{"scope":"0515,16,2,4","src_path":"WANGZHU,0035,1,16"}
+{"scope":"0515,26,2,3","src_path":"WANGZHU,0035,1,16"}
+{"scope":"眇","src_path":"WANGZHU,0035,1,17"}
