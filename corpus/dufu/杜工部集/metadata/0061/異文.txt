@@ -1,0 +1,7 @@
+{"scope":"久","src_path":"WANGZHU,0061,1,3"}
+{"scope":"尙","src_path":"WANGZHU,0061,1,4"}
+{"scope":"冗","src_path":"WANGZHU,0061,1,5"}
+{"scope":"薊","src_path":"WANGZHU,0061,1,6"}
+{"scope":"餐","src_path":"WANGZHU,0061,1,7"}
+{"scope":"眇","src_path":"WANGZHU,0061,1,8"}
+{"scope":"貞","src_path":"WANGZHU,0061,1,9"}
