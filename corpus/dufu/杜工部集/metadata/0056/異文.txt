@@ -1,0 +1,5 @@
+{"scope":"1294,3,2,4","src_path":"WANGZHU,0056,1,3"}
+{"scope":"1294,5,1,4","src_path":"WANGZHU,0056,1,3"}
+{"scope":"1294,5,2,2","src_path":"WANGZHU,0056,1,3"}
+{"scope":"1294,5,2,2","src_path":"WANGZHU,0056,1,4","op":"insert"}
+{"scope":"1294,12,1,4","src_path":"WANGZHU,0056,1,3"}

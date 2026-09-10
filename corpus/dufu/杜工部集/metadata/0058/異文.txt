@@ -1,0 +1,8 @@
+{"scope":"兔","src_path":"WANGZHU,0058,1,3"}
+{"scope":"棄","src_path":"WANGZHU,0058,1,4"}
+{"scope":"暖","src_path":"WANGZHU,0058,1,5"}
+{"scope":"1299,6,1,2","src_path":"WANGZHU,0058,1,6"}
+{"scope":"1299,13,1,4","src_path":"WANGZHU,0058,1,6"}
+{"scope":"沉","src_path":"WANGZHU,0058,1,7"}
+{"scope":"久","src_path":"WANGZHU,0058,1,8"}
+{"scope":"妝","src_path":"WANGZHU,0058,1,9"}

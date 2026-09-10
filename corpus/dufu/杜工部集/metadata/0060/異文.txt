@@ -1,0 +1,13 @@
+{"scope":"寶","src_path":"WANGZHU,0060,1,3"}
+{"scope":"1316,3,2,5","src_path":"WANGZHU,0060,1,4"}
+{"scope":"世","src_path":"WANGZHU,0060,1,5"}
+{"scope":"久","src_path":"WANGZHU,0060,1,6"}
+{"scope":"慘","src_path":"WANGZHU,0060,1,7"}
+{"scope":"豎","src_path":"WANGZHU,0060,1,8"}
+{"scope":"鄰","src_path":"WANGZHU,0060,1,9"}
+{"scope":"栖","src_path":"WANGZHU,0060,1,10"}
+{"scope":"鼙","src_path":"WANGZHU,0060,1,11"}
+{"scope":"從","src_path":"WANGZHU,0060,1,12"}
+{"scope":"內","src_path":"WANGZHU,0060,1,13"}
+{"scope":"攜","src_path":"WANGZHU,0060,1,14"}
+{"scope":"鄕","src_path":"WANGZHU,0060,1,15"}

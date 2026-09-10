@@ -1,0 +1,6 @@
+{"scope":"絕","src_path":"WANGZHU,0047,1,4"}
+{"scope":"久","src_path":"WANGZHU,0047,1,5"}
+{"scope":"卽","src_path":"WANGZHU,0047,1,6"}
+{"scope":"雞","src_path":"WANGZHU,0047,1,7"}
+{"scope":"回","src_path":"WANGZHU,0047,1,8"}
+{"scope":"沉","src_path":"WANGZHU,0047,1,9"}

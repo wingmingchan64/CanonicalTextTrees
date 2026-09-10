@@ -1,0 +1,10 @@
+{"scope":"迴","src_path":"WANGZHU,0053,1,3"}
+{"scope":"產","src_path":"WANGZHU,0053,1,4"}
+{"scope":"陰","src_path":"WANGZHU,0053,1,5"}
+{"scope":"逬","src_path":"WANGZHU,0053,1,6"}
+{"scope":"修","src_path":"WANGZHU,0053,1,7"}
+{"scope":"尙","src_path":"WANGZHU,0053,1,8"}
+{"scope":"瑤","src_path":"WANGZHU,0053,1,9"}
+{"scope":"迹","src_path":"WANGZHU,0053,1,10"}
+{"scope":"歎","src_path":"WANGZHU,0053,1,11"}
+{"scope":"久","src_path":"WANGZHU,0053,1,12"}

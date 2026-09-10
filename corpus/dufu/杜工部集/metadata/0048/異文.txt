@@ -1,0 +1,8 @@
+{"scope":"間","src_path":"WANGZHU,0048,1,3"}
+{"scope":"顏","src_path":"WANGZHU,0048,1,4"}
+{"scope":"棘","src_path":"WANGZHU,0048,1,5"}
+{"scope":"乘","src_path":"WANGZHU,0048,1,6"}
+{"scope":"鐘","src_path":"WANGZHU,0048,1,7"}
+{"scope":"性","src_path":"WANGZHU,0048,1,8"}
+{"scope":"絕","src_path":"WANGZHU,0048,1,9"}
+{"scope":"憐","src_path":"WANGZHU,0048,1,10"}
