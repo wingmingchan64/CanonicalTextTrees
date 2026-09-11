@@ -1,0 +1,9 @@
+{"scope":"陰","src_path":"WANGZHU,0066,1,3"}
+{"scope":"柏","src_path":"WANGZHU,0066,1,4"}
+{"scope":"噬","src_path":"WANGZHU,0066,1,5","op":"insert"}
+{"scope":"歸","src_path":"WANGZHU,0066,1,6","op":"insert"}
+{"scope":"修","src_path":"WANGZHU,0066,1,7"}
+{"scope":"眾","src_path":"WANGZHU,0066,1,8"}
+{"scope":"欲","src_path":"WANGZHU,0066,1,9","op":"insert"}
+{"scope":"間","src_path":"WANGZHU,0066,1,10"}
+{"scope":"雛","src_path":"WANGZHU,0066,1,11"}
