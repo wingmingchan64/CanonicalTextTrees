@@ -1,0 +1,9 @@
+{"scope":"雞","src_path":"WANGZHU,0071,1,3"}
+{"scope":"迹","src_path":"WANGZHU,0071,1,4"}
+{"scope":"歡","src_path":"WANGZHU,0071,1,5"}
+{"scope":"據","src_path":"WANGZHU,0071,1,6"}
+{"scope":"牆","src_path":"WANGZHU,0071,1,7"}
+{"scope":"賓","src_path":"WANGZHU,0071,1,8"}
+{"scope":"慰","src_path":"WANGZHU,0071,1,9"}
+{"scope":"糧","src_path":"WANGZHU,0071,1,10"}
+{"scope":"棄","src_path":"WANGZHU,0071,1,11"}
