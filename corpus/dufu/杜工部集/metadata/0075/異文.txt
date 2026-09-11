@@ -1,0 +1,8 @@
+{"scope":"起","src_path":"WANGZHU,0075,1,3"}
+{"scope":"卻","src_path":"WANGZHU,0075,1,4"}
+{"scope":"乘","src_path":"WANGZHU,0075,1,5"}
+{"scope":"翻","src_path":"WANGZHU,0075,1,6"}
+{"scope":"猿","src_path":"WANGZHU,0075,1,7"}
+{"scope":"攲","src_path":"WANGZHU,0075,1,8"}
+{"scope":"聰","src_path":"WANGZHU,0075,1,9"}
+{"scope":"貌","src_path":"WANGZHU,0075,1,10"}
