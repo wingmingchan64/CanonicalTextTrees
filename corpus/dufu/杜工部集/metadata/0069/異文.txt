@@ -1,0 +1,8 @@
+{"scope":"昏","src_path":"WANGZHU,0069,1,4"}
+{"scope":"聰","src_path":"WANGZHU,0069,1,5"}
+{"scope":"柏","src_path":"WANGZHU,0069,1,6"}
+{"scope":"修","src_path":"WANGZHU,0069,1,7"}
+{"scope":"蛇","src_path":"WANGZHU,0069,1,8"}
+{"scope":"內","src_path":"WANGZHU,0069,1,9"}
+{"scope":"世","src_path":"WANGZHU,0069,1,10"}
+{"scope":"澀","src_path":"WANGZHU,0069,1,11"}
