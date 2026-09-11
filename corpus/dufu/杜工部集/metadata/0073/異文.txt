@@ -1,0 +1,4 @@
+{"scope":"0695,4,2,4","src_path":"WANGZHU,0073,1,3","op":"insert"}
+{"scope":"內","src_path":"WANGZHU,0073,1,4"}
+{"scope":"絕","src_path":"WANGZHU,0073,1,5"}
+{"scope":"0695,14,2,2","src_path":"WANGZHU,0073,1,6"}
