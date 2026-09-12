@@ -16,6 +16,7 @@ Status: Draft
 ## 參考書籍
 
 - 國家圖書館藏《杜工部集》 〔國〕
+https://commons.wikimedia.org/wiki/File:NCL-09514_%E6%9D%9C%E5%B7%A5%E9%83%A8%E9%9B%86.pdf
 - 國立中央圖書館藏、影抄宋紹興間刊本《杜工部集》（實與國家圖書館藏本同）
 - 上海圖書館藏宋本《杜工部集》，見<a href="https://www.shuge.org/meet/topic/190010/">宋本《杜工部集》</a> 〔上〕
 - 王洙編《杜工部集》，張元濟輯《續古逸叢書·集》，江蘇古籍出版社2001年9月，頁121-350 〔續〕
@@ -27,7 +28,7 @@ Status: Draft
 <pre>
 php H:\github\CanonicalTextTrees\tools\php\bin\執行路徑程式.php WANGZHU
 
-php H:\github\CanonicalTextTrees\tools\php\bin\王洙\生成後設資料樹.php 4
+php H:\github\CanonicalTextTrees\tools\php\bin\杜工部集\生成後設資料樹.php 4
 
 php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.php 4
 </pre>
