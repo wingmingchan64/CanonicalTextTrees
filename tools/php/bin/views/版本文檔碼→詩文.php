@@ -12,7 +12,7 @@ require_once(
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
 
-$生成md  = false;
+$生成md  = true;
 
 $著述碼 = 'WANGZHU';
 $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
@@ -20,20 +20,20 @@ $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 $map = json_decode(
 	file_get_contents( $folder . '版文檔碼_版詩碼.json' ),
 	true );
-$multiple_contents = '';
+$multiple_contents = '# 卷二' . NL . NL;
 
 // a single 版文檔碼
-/**/
+/*
 check_argv( $argv, 2, "必須提供版本文檔碼" );
 $版文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
-/**/
+*/
 
 // loop 版文檔碼
-/*
-for( $i = 1; $i <= 46; $i++ )
+/**/
+for( $i = 47; $i <= 87; $i++ )
 {
 	$版文檔碼 = fix_doc_id( "$i" );
-*/	
+/**/	
 // common code
 $版詩碼s = $map[ $版文檔碼 ];
 $是組詩 = count( $版詩碼s ) > 1;
@@ -185,32 +185,39 @@ $詩題contents = str_replace( '[[', '[',
 	str_replace( ']]', ']', $詩題contents ) );
 	
 // single
-echo $詩題contents, NL, NL, $詩文contents;
-
-// multiple
-$multiple_contents .= 
-	'## ' . $詩題contents . NL . NL .
-	$詩文contents . NL . NL;
-/*
+if( !$生成md )
+{
+	echo $詩題contents, NL, NL, $詩文contents;
+}
+else
+{
+	// multiple
+	$multiple_contents .= 
+		'## ' . $詩題contents . NL . NL .
+		$詩文contents . NL . NL;
+}
+/**/
 } // end for loop
-*/
+/**/
 
 
 
 if( $生成md )
 {
+	/*
 	// a single 版文檔碼
 	file_put_contents(
 		$folder . 'views' . DIRECTORY_SEPARATOR .
 		$版文檔碼 . '.md', 
 		'# ' . $詩題contents . NL . NL . $詩文contents );
-	/*
+	*/
+	/**/
 	// multiple poems in a single file
 	file_put_contents(
 		$folder . 'views' . DIRECTORY_SEPARATOR .
-		'卷一' . '.md', 
+		'卷二' . '.md', 
 		str_replace( NL.NL.NL, NL, $multiple_contents ) );
-	*/
+	/**/
 }
 
 ?>

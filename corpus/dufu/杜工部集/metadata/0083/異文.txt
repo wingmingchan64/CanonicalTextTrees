@@ -1,0 +1,15 @@
+{"scope":"0861,6,2,1","src_path":"WANGZHU,0083,1,3","op":"insert"}
+{"scope":"參","src_path":"WANGZHU,0083,1,4"}
+{"scope":"枹","src_path":"WANGZHU,0083,1,5"}
+{"scope":"陬","src_path":"WANGZHU,0083,1,6"}
+{"scope":"腳","src_path":"WANGZHU,0083,1,7"}
+{"scope":"邑","src_path":"WANGZHU,0083,1,8"}
+{"scope":"邑","src_path":"WANGZHU,0083,1,9","op":"insert"}
+{"scope":"陰","src_path":"WANGZHU,0083,1,10"}
+{"scope":"稠","src_path":"WANGZHU,0083,1,11","op":"insert"}
+{"scope":"豬","src_path":"WANGZHU,0083,1,12"}
+{"scope":"旆","src_path":"WANGZHU,0083,1,13"}
+{"scope":"鬥","src_path":"WANGZHU,0083,1,14"}
+{"scope":"緣","src_path":"WANGZHU,0083,1,15"}
+{"scope":"還","src_path":"WANGZHU,0083,1,16"}
+{"scope":"札","src_path":"WANGZHU,0083,1,17"}
