@@ -1,0 +1,3 @@
+{"scope":"疏","src_path":"WANGZHU,0096,1,3"}
+{"scope":"歲","src_path":"WANGZHU,0096,1,4"}
+{"scope":"蛇","src_path":"WANGZHU,0096,1,5"}
