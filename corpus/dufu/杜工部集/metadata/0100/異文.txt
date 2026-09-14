@@ -1,0 +1,8 @@
+{"scope":"1390,2,15,2,2","src_path":"WANGZHU,0101,1,3"}
+{"scope":"1376,3,21,2,4","src_path":"WANGZHU,0101,1,4"}
+{"scope":"1376,3,24,2,3","src_path":"WANGZHU,0101,1,5"}
+{"scope":"1376,4,28,1,4","src_path":"WANGZHU,0101,1,6"}
+{"scope":"1376,4,29,2,5","src_path":"WANGZHU,0101,1,7"}
+{"scope":"1376,4,31,1,2","src_path":"WANGZHU,0101,1,8"}
+{"scope":"1376,5,35,2,3","src_path":"WANGZHU,0101,1,9"}
+{"scope":"1376,5,38,2,5","src_path":"WANGZHU,0101,1,10"}
