@@ -1,0 +1,9 @@
+{"scope":"鄰","src_path":"WANGZHU,0095,1,3"}
+{"scope":"腳","src_path":"WANGZHU,0095,1,4"}
+{"scope":"陰","src_path":"WANGZHU,0095,1,5"}
+{"scope":"漆","src_path":"WANGZHU,0095,1,6"}
+{"scope":"漆","src_path":"WANGZHU,0095,1,7","op":"insert"}
+{"scope":"亭","src_path":"WANGZHU,0095,1,8"}
+{"scope":"荊","src_path":"WANGZHU,0095,1,9"}
+{"scope":"徑","src_path":"WANGZHU,0095,1,10"}
+{"scope":"往","src_path":"WANGZHU,0095,1,11"}
