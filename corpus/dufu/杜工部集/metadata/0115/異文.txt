@@ -1,0 +1,10 @@
+{"scope":"哮","src_path":"WANGZHU,0115,1,3"}
+{"scope":"昏","src_path":"WANGZHU,0115,1,4"}
+{"scope":"遠","src_path":"WANGZHU,0115,1,5"}
+{"scope":"霓","src_path":"WANGZHU,0115,1,6"}
+{"scope":"歌","src_path":"WANGZHU,0115,1,7"}
+{"scope":"上","src_path":"WANGZHU,0115,1,8","op":"insert"}
+{"scope":"歲","src_path":"WANGZHU,0115,1,9"}
+{"scope":"攜","src_path":"WANGZHU,0115,1,10"}
+{"scope":"柰","src_path":"WANGZHU,0115,1,11"}
+{"scope":"烝","src_path":"WANGZHU,0115,1,12"}

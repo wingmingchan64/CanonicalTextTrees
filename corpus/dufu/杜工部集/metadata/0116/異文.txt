@@ -1,0 +1,6 @@
+{"scope":"陰","src_path":"WANGZHU,0116,1,3"}
+{"scope":"歲","src_path":"WANGZHU,0116,1,4"}
+{"scope":"尙","src_path":"WANGZHU,0116,1,5"}
+{"scope":"彥","src_path":"WANGZHU,0116,1,6"}
+{"scope":"絕","src_path":"WANGZHU,0116,1,7"}
+{"scope":"遠","src_path":"WANGZHU,0116,1,8"}
