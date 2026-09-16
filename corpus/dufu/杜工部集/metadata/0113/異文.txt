@@ -1,0 +1,7 @@
+{"scope":"厭","src_path":"WANGZHU,0113,1,3"}
+{"scope":"亙","src_path":"WANGZHU,0113,1,4"}
+{"scope":"窄","src_path":"WANGZHU,0113,1,5","op":"insert"}
+{"scope":"隴","src_path":"WANGZHU,0113,1,6"}
+{"scope":"高","src_path":"WANGZHU,0113,1,7"}
+{"scope":"吳","src_path":"WANGZHU,0113,1,8"}
+{"scope":"趁","src_path":"WANGZHU,0113,1,9"}

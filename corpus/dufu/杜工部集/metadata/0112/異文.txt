@@ -1,0 +1,4 @@
+{"scope":"1727,6,1,3","src_path":"WANGZHU,0112,1,3","op":"insert"}
+{"scope":"泄","src_path":"WANGZHU,0112,1,4"}
+{"scope":"戶","src_path":"WANGZHU,0112,1,5"}
+{"scope":"亭","src_path":"WANGZHU,0112,1,6"}
