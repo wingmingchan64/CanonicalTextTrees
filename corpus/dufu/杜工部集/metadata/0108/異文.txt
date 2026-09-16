@@ -1,0 +1,6 @@
+{"scope":"歲","src_path":"WANGZHU,0108,1,3"}
+{"scope":"亭","src_path":"WANGZHU,0108,1,4"}
+{"scope":"迥","src_path":"WANGZHU,0108,1,5"}
+{"scope":"鄕","src_path":"WANGZHU,0108,1,6"}
+{"scope":"高","src_path":"WANGZHU,0108,1,7"}
+{"scope":"嗤","src_path":"WANGZHU,0108,1,8"}

@@ -1,0 +1,4 @@
+{"scope":"煮","src_path":"WANGZHU,0110,1,3"}
+{"scope":"歲","src_path":"WANGZHU,0110,1,4"}
+{"scope":"1717,5,1,4","src_path":"WANGZHU,0110,1,5"}
+{"scope":"1717,5,1,5","src_path":"WANGZHU,0110,1,5"}
