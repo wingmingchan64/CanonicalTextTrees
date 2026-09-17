@@ -1,12 +1,4 @@
-{"scope":"亭","src_path":"WANGZHU,0121,1,3"}
-{"scope":"尙","src_path":"WANGZHU,0121,1,4"}
-{"scope":"凰","src_path":"WANGZHU,0121,1,5"}
-{"scope":"攜","src_path":"WANGZHU,0121,1,6"}
-{"scope":"童","src_path":"WANGZHU,0121,1,7","op":"insert"}
-{"scope":"遠","src_path":"WANGZHU,0121,1,8"}
-{"scope":"巖","src_path":"WANGZHU,0121,1,9"}
-{"scope":"干","src_path":"WANGZHU,0121,1,10","op":"insert"}
-{"scope":"鬥","src_path":"WANGZHU,0121,1,11"}
-{"scope":"昏","src_path":"WANGZHU,0121,1,12"}
-{"scope":"高","src_path":"WANGZHU,0121,1,13"}
-{"scope":"短","src_path":"WANGZHU,0121,1,14","op":"insert"}
+{"scope":"絕","src_path":"WANGZHU,0122,1,3"}
+{"scope":"猿","src_path":"WANGZHU,0122,1,4"}
+{"scope":"疏","src_path":"WANGZHU,0122,1,5"}
+{"scope":"回","src_path":"WANGZHU,0122,1,6"}

@@ -1,0 +1,9 @@
+{"scope":"土","src_path":"WANGZHU,0124,1,3","op":"insert"}
+{"scope":"緣","src_path":"WANGZHU,0124,1,4"}
+{"scope":"毫","src_path":"WANGZHU,0124,1,5","op":"insert"}
+{"scope":"攲","src_path":"WANGZHU,0124,1,6"}
+{"scope":"疏","src_path":"WANGZHU,0124,1,7"}
+{"scope":"林","src_path":"WANGZHU,0124,1,8","op":"insert"}
+{"scope":"陰","src_path":"WANGZHU,0124,1,9"}
+{"scope":"高","src_path":"WANGZHU,0124,1,10"}
+{"scope":"臥","src_path":"WANGZHU,0124,1,11"}

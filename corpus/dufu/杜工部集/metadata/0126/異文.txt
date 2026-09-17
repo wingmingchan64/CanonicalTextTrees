@@ -1,0 +1,3 @@
+{"scope":"絕","src_path":"WANGZHU,0126,1,3"}
+{"scope":"高","src_path":"WANGZHU,0126,1,4"}
+{"scope":"攲","src_path":"WANGZHU,0126,1,5"}
