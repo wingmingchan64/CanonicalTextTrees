@@ -1,0 +1,6 @@
+{"scope":"劍","src_path":"WANGZHU,0129,1,3"}
+{"scope":"關","src_path":"WANGZHU,0129,1,4"}
+{"scope":"尙","src_path":"WANGZHU,0129,1,5"}
+{"scope":"遠","src_path":"WANGZHU,0129,1,6"}
+{"scope":"高","src_path":"WANGZHU,0129,1,7"}
+{"scope":"幷","src_path":"WANGZHU,0129,1,8"}

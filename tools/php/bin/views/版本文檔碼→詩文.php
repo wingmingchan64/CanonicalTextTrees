@@ -44,6 +44,8 @@ $版詩碼_默詩碼 = json_decode(
 // 版本詩題
 $篇名path = $著述碼 . ',' . $版文檔碼 . ',' . '篇名';
 $詩題 = 提取ctt正文( $篇名path );
+//echo $篇名path, NL;
+//echo $詩題, NL;
 $詩題contents = $詩題;
 $詩文contents = '';
 $mm_tree_path = $folder . 
@@ -98,9 +100,19 @@ foreach( $版詩碼s as $版詩碼 )
 			
 			foreach( $默路徑 as $step )
 			{
-				if( array_key_exists( $step, $pointer ) )
+				// 詩題異文
+				if( count( $默路徑 ) == 2 && $step == '1' )
+				{
+					$詩題contents .= '[' . $異文 . ']';
+					// break out of path
+					$path_exist = false;
+					// break out of step
+					break;
+				}
+				elseif( array_key_exists( $step, $pointer ) )
 				{
 					$pointer = &$pointer[ $step ];
+					
 				}
 				// no 題注 in 正文樹
 				elseif( $step == 題注 )
@@ -113,6 +125,7 @@ foreach( $版詩碼s as $版詩碼 )
 					break;
 				}
 			}
+			
 			if( !$path_exist )
 			{
 				continue;
@@ -138,6 +151,7 @@ foreach( $版詩碼s as $版詩碼 )
 			}
 		} // mm marker
 	}
+	
 	
 	if( array_key_exists( 題注, $正文樹[ $默文檔碼 ] ) )
 	{

@@ -1,0 +1,4 @@
+{"scope":"鄕","src_path":"WANGZHU,0131,1,3"}
+{"scope":"高","src_path":"WANGZHU,0131,1,4"}
+{"scope":"眾","src_path":"WANGZHU,0131,1,5"}
+{"scope":"尙","src_path":"WANGZHU,0131,1,6"}
