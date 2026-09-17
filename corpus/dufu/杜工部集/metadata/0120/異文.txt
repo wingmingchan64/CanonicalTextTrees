@@ -1,0 +1,13 @@
+{"scope":"尙","src_path":"WANGZHU,0120,1,4"}
+{"scope":"柰","src_path":"WANGZHU,0120,1,5"}
+{"scope":"歲","src_path":"WANGZHU,0120,1,6"}
+{"scope":"絕","src_path":"WANGZHU,0120,1,7"}
+{"scope":"遠","src_path":"WANGZHU,0120,1,8"}
+{"scope":"驂","src_path":"WANGZHU,0120,1,9"}
+{"scope":"回","src_path":"WANGZHU,0120,1,10"}
+{"scope":"崖","src_path":"WANGZHU,0120,1,11","op":"insert"}
+{"scope":"慘","src_path":"WANGZHU,0120,1,12"}
+{"scope":"懶","src_path":"WANGZHU,0120,1,13"}
+{"scope":"栖","src_path":"WANGZHU,0120,1,14"}
+{"scope":"迹","src_path":"WANGZHU,0120,1,15"}
+{"scope":"慚","src_path":"WANGZHU,0120,1,16"}
