@@ -1,0 +1,3 @@
+{"scope":"寄","src_path":"WANGZHU,0134,1,3"}
+{"scope":"雛","src_path":"WANGZHU,0134,1,4"}
+{"scope":"1989,10,2,5","src_path":"WANGZHU,0134,1,5"}

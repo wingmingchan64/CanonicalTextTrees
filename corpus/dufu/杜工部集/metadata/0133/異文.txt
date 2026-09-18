@@ -1,0 +1,4 @@
+{"scope":"向","src_path":"WANGZHU,0133,1,3","op":"insert"}
+{"scope":"戶","src_path":"WANGZHU,0133,1,4"}
+{"scope":"眾","src_path":"WANGZHU,0133,1,5"}
+{"scope":"凋","src_path":"WANGZHU,0133,1,6"}

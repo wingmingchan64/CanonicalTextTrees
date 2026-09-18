@@ -1,0 +1,12 @@
+{"scope":"2329,3,1,7","src_path":"WANGZHU,0135,1,3"}
+{"scope":"2329,5,2,2","src_path":"WANGZHU,0135,1,3"}
+{"scope":"2329,7,2,4","src_path":"WANGZHU,0135,1,3"}
+{"scope":"著","src_path":"WANGZHU,0135,1,4"}
+{"scope":"卽","src_path":"WANGZHU,0135,1,5"}
+{"scope":"還","src_path":"WANGZHU,0135,1,6"}
+{"scope":"2329,7,2,5","src_path":"WANGZHU,0135,1,7"}
+{"scope":"2329,8,1,3","src_path":"WANGZHU,0135,1,7"}
+{"scope":"2329,7,2,6","src_path":"WANGZHU,0135,1,8"}
+{"scope":"2329,8,1,4","src_path":"WANGZHU,0135,1,8"}
+{"scope":"2329,7,2,6","src_path":"WANGZHU,0135,1,9","op":"insert"}
+{"scope":"旣","src_path":"WANGZHU,0135,1,10"}
