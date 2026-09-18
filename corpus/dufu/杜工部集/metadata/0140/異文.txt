@@ -1,0 +1,9 @@
+{"scope":"戶","src_path":"WANGZHU,0140,1,3"}
+{"scope":"陰","src_path":"WANGZHU,0140,1,4"}
+{"scope":"卻","src_path":"WANGZHU,0140,1,5"}
+{"scope":"虯","src_path":"WANGZHU,0140,1,6"}
+{"scope":"生","src_path":"WANGZHU,0140,1,7"}
+{"scope":"平","src_path":"WANGZHU,0140,1,8"}
+{"scope":"奇","src_path":"WANGZHU,0140,1,9"}
+{"scope":"歌","src_path":"WANGZHU,0140,1,10"}
+{"scope":"慘","src_path":"WANGZHU,0140,1,11"}
