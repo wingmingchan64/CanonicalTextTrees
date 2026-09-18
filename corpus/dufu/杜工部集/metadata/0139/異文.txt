@@ -1,0 +1,11 @@
+{"scope":"2001,詩題","src_path":"WANGZHU,0139,篇名"}
+{"scope":"迹","src_path":"WANGZHU,0139,1,4"}
+{"scope":"壺","src_path":"WANGZHU,0139,1,5","op":"insert"}
+{"scope":"高","src_path":"WANGZHU,0139,1,6"}
+{"scope":"","src_path":"WANGZHU,0139,1,3"}
+{"scope":"","src_path":"WANGZHU,0139,1,3"}
+{"scope":"","src_path":"WANGZHU,0139,1,3"}
+{"scope":"","src_path":"WANGZHU,0139,1,3"}
+{"scope":"","src_path":"WANGZHU,0139,1,3"}
+{"scope":"","src_path":"WANGZHU,0139,1,3"}
+
