@@ -103,7 +103,15 @@ foreach( $版詩碼s as $版詩碼 )
 				// 詩題異文
 				if( count( $默路徑 ) == 2 && $step == '1' )
 				{
-					$詩題contents .= '[' . $異文 . ']';
+					if( $op == 'insert' )
+					{
+						// no 題注 node
+						$詩題contents .= '[' . $異文 . ']';
+					}
+					elseif( $op == 'replace' )
+					{
+						$pointer[ 題注 ] = '[' . $異文 . ']';
+					}
 					// break out of path
 					$path_exist = false;
 					// break out of step
