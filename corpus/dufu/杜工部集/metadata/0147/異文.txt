@@ -1,0 +1,8 @@
+{"scope":"鄕","src_path":"WANGZHU,0147,1,3"}
+{"scope":"絕","src_path":"WANGZHU,0147,1,4"}
+{"scope":"疏","src_path":"WANGZHU,0147,1,5"}
+{"scope":"臥","src_path":"WANGZHU,0147,1,6"}
+{"scope":"卽","src_path":"WANGZHU,0147,1,7"}
+{"scope":"敝","src_path":"WANGZHU,0147,1,8"}
+{"scope":"聯","src_path":"WANGZHU,0147,1,9"}
+{"scope":"牆","src_path":"WANGZHU,0147,1,10"}
