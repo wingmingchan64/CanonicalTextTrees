@@ -1,0 +1,12 @@
+{"scope":"涌","src_path":"WANGZHU,0144,1,3"}
+{"scope":"迆","src_path":"WANGZHU,0144,1,4"}
+{"scope":"高","src_path":"WANGZHU,0144,1,5"}
+{"scope":"卿","src_path":"WANGZHU,0144,1,6"}
+{"scope":"荊","src_path":"WANGZHU,0144,1,7"}
+{"scope":"宮","src_path":"WANGZHU,0144,1,8"}
+{"scope":"尙","src_path":"WANGZHU,0144,1,9"}
+{"scope":"岐","src_path":"WANGZHU,0144,1,10"}
+{"scope":"柰","src_path":"WANGZHU,0144,1,11"}
+{"scope":"還","src_path":"WANGZHU,0144,1,12"}
+{"scope":"粗","src_path":"WANGZHU,0144,1,13"}
+{"scope":"愧","src_path":"WANGZHU,0144,1,14"}
