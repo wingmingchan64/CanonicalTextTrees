@@ -1,0 +1,15 @@
+{"scope":"乘","src_path":"WANGZHU,0155,1,3"}
+{"scope":"貌","src_path":"WANGZHU,0155,1,4"}
+{"scope":"內","src_path":"WANGZHU,0155,1,5"}
+{"scope":"瑙","src_path":"WANGZHU,0155,1,6"}
+{"scope":"碗","src_path":"WANGZHU,0155,1,7"}
+{"scope":"迹","src_path":"WANGZHU,0155,1,8"}
+{"scope":"屛","src_path":"WANGZHU,0155,1,9"}
+{"scope":"久","src_path":"WANGZHU,0155,1,10"}
+{"scope":"歎","src_path":"WANGZHU,0155,1,11"}
+{"scope":"絕","src_path":"WANGZHU,0155,1,12"}
+{"scope":"迥","src_path":"WANGZHU,0155,1,13"}
+{"scope":"廝","src_path":"WANGZHU,0155,1,14"}
+{"scope":"高","src_path":"WANGZHU,0155,1,15"}
+{"scope":"巡","src_path":"WANGZHU,0155,1,16"}
+{"scope":"宮","src_path":"WANGZHU,0155,1,17"}

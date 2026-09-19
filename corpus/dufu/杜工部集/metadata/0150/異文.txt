@@ -1,0 +1,13 @@
+{"scope":"羣","src_path":"WANGZHU,0150,1,3","op":"insert"}
+{"scope":"澀","src_path":"WANGZHU,0150,1,4"}
+{"scope":"宜","src_path":"WANGZHU,0150,1,5"}
+{"scope":"止","src_path":"WANGZHU,0150,1,6"}
+{"scope":"迴","src_path":"WANGZHU,0150,1,7"}
+{"scope":"嘗","src_path":"WANGZHU,0150,1,8"}
+{"scope":"歲","src_path":"WANGZHU,0150,1,9"}
+{"scope":"失","src_path":"WANGZHU,0150,1,10","op":"insert"}
+{"scope":"寇","src_path":"WANGZHU,0150,1,11"}
+{"scope":"盜","src_path":"WANGZHU,0150,1,12"}
+{"scope":"尙","src_path":"WANGZHU,0150,1,13"}
+{"scope":"減","src_path":"WANGZHU,0150,1,14"}
+{"scope":"諗","src_path":"WANGZHU,0150,1,15","op":"insert"}

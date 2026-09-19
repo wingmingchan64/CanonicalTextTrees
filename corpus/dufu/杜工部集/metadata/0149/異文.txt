@@ -1,0 +1,11 @@
+{"scope":"柏","src_path":"WANGZHU,0149,1,3"}
+{"scope":"車","src_path":"WANGZHU,0149,1,4","op":"insert"}
+{"scope":"顏","src_path":"WANGZHU,0149,1,5"}
+{"scope":"高","src_path":"WANGZHU,0149,1,6"}
+{"scope":"歲","src_path":"WANGZHU,0149,1,7"}
+{"scope":"雛","src_path":"WANGZHU,0149,1,8"}
+{"scope":"滿","src_path":"WANGZHU,0149,1,9"}
+{"scope":"內","src_path":"WANGZHU,0149,1,10"}
+{"scope":"鄕","src_path":"WANGZHU,0149,1,11"}
+{"scope":"靜","src_path":"WANGZHU,0149,1,12"}
+{"scope":"賴","src_path":"WANGZHU,0149,1,13"}

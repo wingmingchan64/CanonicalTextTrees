@@ -1,0 +1,7 @@
+{"scope":"卿","src_path":"WANGZHU,0148,1,3"}
+{"scope":"絕","src_path":"WANGZHU,0148,1,4"}
+{"scope":"奇","src_path":"WANGZHU,0148,1,5"}
+{"scope":"歲","src_path":"WANGZHU,0148,1,6"}
+{"scope":"滿","src_path":"WANGZHU,0148,1,7"}
+{"scope":"賓","src_path":"WANGZHU,0148,1,8"}
+{"scope":"雛","src_path":"WANGZHU,0148,1,9"}

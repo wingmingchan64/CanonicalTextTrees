@@ -1,0 +1,4 @@
+{"scope":"剝","src_path":"WANGZHU,0156,1,3"}
+{"scope":"德","src_path":"WANGZHU,0156,1,4","op":"insert"}
+{"scope":"顏","src_path":"WANGZHU,0156,1,5"}
+{"scope":"高","src_path":"WANGZHU,0156,1,6"}
