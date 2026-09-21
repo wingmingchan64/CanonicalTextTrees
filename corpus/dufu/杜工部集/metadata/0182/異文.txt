@@ -1,6 +1,8 @@
-{"scope":"","src_path":"WANGZHU,0182,1,3"}
-{"scope":"","src_path":"WANGZHU,0182,1,4"}
-{"scope":"","src_path":"WANGZHU,0182,1,5"}
-{"scope":"","src_path":"WANGZHU,0182,1,6"}
-{"scope":"","src_path":"WANGZHU,0182,1,7"}
-{"scope":"","src_path":"WANGZHU,0182,1,8"}
+{"scope":"枕","src_path":"WANGZHU,0182,1,3","op":"insert"}
+{"scope":"粳","src_path":"WANGZHU,0182,1,4"}
+{"scope":"2925,8,1,1","src_path":"WANGZHU,0182,1,5"}
+{"scope":"2925,13,1,1","src_path":"WANGZHU,0182,1,5"}
+{"scope":"眾","src_path":"WANGZHU,0182,1,6"}
+{"scope":"遠","src_path":"WANGZHU,0182,1,7"}
+{"scope":"歎","src_path":"WANGZHU,0182,1,8"}
+{"scope":"顏","src_path":"WANGZHU,0182,1,9"}
