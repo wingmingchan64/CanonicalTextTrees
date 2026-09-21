@@ -1,1 +1,8 @@
-{"scope":"","src_path":"WANGZHU,0164,1,3"}
+{"scope":"驥","src_path":"WANGZHU,0164,1,3"}
+{"scope":"2862,1,7,2,4","src_path":"WANGZHU,0164,1,4"}
+{"scope":"2862,2,18,2,5","src_path":"WANGZHU,0164,1,4"}
+{"scope":"2862,3,24,1,3","src_path":"WANGZHU,0164,1,4"}
+{"scope":"宜","src_path":"WANGZHU,0164,1,5"}
+{"scope":"歲","src_path":"WANGZHU,0164,1,6"}
+{"scope":"贏","src_path":"WANGZHU,0164,1,7"}
+{"scope":"寇","src_path":"WANGZHU,0164,1,8"}
