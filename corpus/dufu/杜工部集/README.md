@@ -26,6 +26,8 @@ https://commons.wikimedia.org/wiki/File:NCL-09514_%E6%9D%9C%E5%B7%A5%E9%83%A8%E9
 ## PHP 指令
 
 <pre>
+php H:\github\Dufu-Analysis\tools\php\bin\生成數據結構.php
+
 php H:\github\CanonicalTextTrees\tools\php\bin\執行路徑程式.php WANGZHU
 
 php H:\github\CanonicalTextTrees\tools\php\bin\杜工部集\生成後設資料樹.php 4
