@@ -1,0 +1,7 @@
+{"scope":"高","src_path":"WANGZHU,0167,1,3"}
+{"scope":"疏","src_path":"WANGZHU,0167,1,4"}
+{"scope":"臥","src_path":"WANGZHU,0167,1,5"}
+{"scope":"煙","src_path":"WANGZHU,0167,1,6"}
+{"scope":"久","src_path":"WANGZHU,0167,1,7"}
+{"scope":"汙","src_path":"WANGZHU,0167,1,8"}
+{"scope":"第","src_path":"WANGZHU,0167,1,9"}
