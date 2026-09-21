@@ -1,1 +1,9 @@
+{"scope":"賓","src_path":"WANGZHU,0162,1,3"}
+{"scope":"歎","src_path":"WANGZHU,0162,1,4"}
+{"scope":"乘","src_path":"WANGZHU,0162,1,5"}
+{"scope":"劍","src_path":"WANGZHU,0162,1,6"}
+{"scope":"迹","src_path":"WANGZHU,0162,1,7"}
+{"scope":"","src_path":"WANGZHU,0162,1,3"}
+{"scope":"","src_path":"WANGZHU,0162,1,3"}
+{"scope":"","src_path":"WANGZHU,0162,1,3"}
 {"scope":"","src_path":"WANGZHU,0162,1,3"}
