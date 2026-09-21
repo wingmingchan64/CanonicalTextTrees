@@ -1,0 +1,6 @@
+{"scope":"","src_path":"WANGZHU,0766,1,3"}
+{"scope":"","src_path":"WANGZHU,0766,1,4"}
+{"scope":"","src_path":"WANGZHU,0766,1,5"}
+{"scope":"","src_path":"WANGZHU,0766,1,6"}
+{"scope":"","src_path":"WANGZHU,0766,1,7"}
+{"scope":"","src_path":"WANGZHU,0766,1,8"}
