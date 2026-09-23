@@ -1,6 +1,5 @@
-{"scope":"","src_path":"WANGZHU,0195,1,3"}
-{"scope":"","src_path":"WANGZHU,0195,1,4"}
-{"scope":"","src_path":"WANGZHU,0195,1,5"}
-{"scope":"","src_path":"WANGZHU,0195,1,6"}
-{"scope":"","src_path":"WANGZHU,0195,1,7"}
-{"scope":"","src_path":"WANGZHU,0195,1,8"}
+{"scope":"石","src_path":"WANGZHU,0195,1,3","op":"insert"}
+{"scope":"泛","src_path":"WANGZHU,0195,1,4"}
+{"scope":"疏","src_path":"WANGZHU,0195,1,5"}
+{"scope":"遠","src_path":"WANGZHU,0195,1,6"}
+{"scope":"久","src_path":"WANGZHU,0195,1,7"}
