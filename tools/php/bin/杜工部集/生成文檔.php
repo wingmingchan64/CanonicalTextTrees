@@ -22,7 +22,7 @@ $目錄文檔path = $folder . '目錄.txt';
 $contents = file_get_contents( $目錄文檔path );
 $lines = explode( NL, $contents );
 // .txt
-$start = 211;
+$start = 241;
 $end = 1413;
 $prev題 = '';
 
@@ -74,17 +74,27 @@ for( $i = $start; $i < $end; $i++ )
 			'metadata' . DIRECTORY_SEPARATOR . 
 			$版文檔碼 . DIRECTORY_SEPARATOR .
 			'異文.txt';
-		if( !file_exists( $filepath ) )
-		{
+		//if( !file_exists( $filepath ) )
+		//{
 			file_put_contents( $filepath,
 			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,3\"}" . NL .
 			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,4\"}" . NL .
 			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,5\"}" . NL .
 			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,6\"}" . NL .
 			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,7\"}" . NL .
-			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,8\"}" . NL
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,8\"}" . NL .
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,9\"}" . NL .
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,10\"}" . NL .
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,11\"}" . NL .
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,12\"}" . NL .
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,13\"}" . NL .
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,14\"}" . NL .
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,15\"}" . NL .
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,16\"}" . NL .
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,17\"}" . NL .
+			 	"{\"scope\":\"\",\"src_path\":\"WANGZHU,${版文檔碼},1,18\"}" . NL
 				);
-		}
+		//}
 	}
 	else
 	{
