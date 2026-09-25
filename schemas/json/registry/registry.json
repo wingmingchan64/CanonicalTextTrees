@@ -261,6 +261,13 @@
     "display_title": "顧宸《辟疆園杜詩註解》",
 	"author":"顧宸"
   },
+  "PROJECT":{
+    "folder": "corpus/others/project_hail_mary",
+    "title": "Project Hail Mary",
+    "display_title": "Project Hail Mary",
+	"author":"Andy Weir"
+  },
+
   "QIANZHU":{
     "folder": "corpus/dufu/錢注杜詩",
     "title": "錢注杜詩",
