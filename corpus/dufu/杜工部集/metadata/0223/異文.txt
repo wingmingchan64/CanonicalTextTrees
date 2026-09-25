@@ -10,7 +10,6 @@
 {"scope":"鶯","src_path":"WANGZHU,0223,1,12","op":"insert"}
 {"scope":"本","src_path":"WANGZHU,0223,1,13"}
 {"scope":"祿","src_path":"WANGZHU,0223,1,14"}
-{"scope":"禄","src_path":"WANGZHU,0223,1,15"}
-{"scope":"遠","src_path":"WANGZHU,0223,1,16"}
-{"scope":"算","src_path":"WANGZHU,0223,1,17"}
-{"scope":"尙","src_path":"WANGZHU,0223,1,18"}
+{"scope":"遠","src_path":"WANGZHU,0223,1,15"}
+{"scope":"算","src_path":"WANGZHU,0223,1,16"}
+{"scope":"尙","src_path":"WANGZHU,0223,1,17"}
