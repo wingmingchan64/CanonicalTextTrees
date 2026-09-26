@@ -1,8 +1,9 @@
-{"scope":"4556,3","src_path":"WANGZHU,0231,1,3"}
-{"scope":"陰","src_path":"WANGZHU,0231,1,4"}
-{"scope":"亭","src_path":"WANGZHU,0231,1,5"}
-{"scope":"尙","src_path":"WANGZHU,0231,1,6"}
-{"scope":"久","src_path":"WANGZHU,0231,1,7"}
-{"scope":"牆","src_path":"WANGZHU,0231,1,8"}
-{"scope":"屢","src_path":"WANGZHU,0231,1,9"}
-{"scope":"修","src_path":"WANGZHU,0231,1,10"}
+{"scope":"4556,題注","src_path":"WANGZHU,0231,0,2","op":"replace"}
+{"scope":"4556,3","src_path":"WANGZHU,0231,1,4"}
+{"scope":"陰","src_path":"WANGZHU,0231,1,5"}
+{"scope":"亭","src_path":"WANGZHU,0231,1,6"}
+{"scope":"尙","src_path":"WANGZHU,0231,1,7"}
+{"scope":"久","src_path":"WANGZHU,0231,1,8"}
+{"scope":"牆","src_path":"WANGZHU,0231,1,9"}
+{"scope":"屢","src_path":"WANGZHU,0231,1,10"}
+{"scope":"修","src_path":"WANGZHU,0231,1,11"}
