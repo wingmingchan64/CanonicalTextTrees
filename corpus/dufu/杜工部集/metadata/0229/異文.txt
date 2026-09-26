@@ -7,7 +7,7 @@
 {"scope":"前","src_path":"WANGZHU,0229,1,8","op":"insert"}
 {"scope":"世","src_path":"WANGZHU,0229,1,9"}
 {"scope":"宜","src_path":"WANGZHU,0229,1,10"}
-{"scope":"土","src_path":"WANGZHU,0229,1,11","op":"insert"}
+{"scope":"4803,14,1,6","src_path":"WANGZHU,0229,1,11","op":"insert"}
 {"scope":"戶","src_path":"WANGZHU,0229,1,12"}
 {"scope":"漂","src_path":"WANGZHU,0229,1,13"}
 {"scope":"高","src_path":"WANGZHU,0229,1,14"}
