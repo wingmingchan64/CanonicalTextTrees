@@ -47,6 +47,7 @@ $詩題 = 提取ctt正文( $篇名path );
 //echo $篇名path, NL;
 //echo $詩題, NL;
 $詩題contents = $詩題;
+$序言 = '';
 $詩文contents = '';
 $mm_tree_path = $folder . 
 	'metadata' . DIRECTORY_SEPARATOR . 
@@ -125,10 +126,20 @@ foreach( $版詩碼s as $版詩碼 )
 					// break out of step
 					break;
 				}
+				// 序言異文: replace
+				elseif( count( $默路徑 ) == 2 && $step == '3' )
+				{
+					if( 有序言( $默文檔碼 ) )
+					{
+						$序言 = $異文;
+					}
+					$path_exist = false;
+					break;
+				}
+				
 				elseif( array_key_exists( $step, $pointer ) )
 				{
 					$pointer = &$pointer[ $step ];
-					
 				}
 				// no 題注 in 正文樹
 				elseif( $step == 題注 )
@@ -168,7 +179,6 @@ foreach( $版詩碼s as $版詩碼 )
 		} // mm marker
 	}
 	
-	
 	if( array_key_exists( 題注, $正文樹[ $默文檔碼 ] ) )
 	{
 		if( !$題注set )
@@ -178,6 +188,20 @@ foreach( $版詩碼s as $版詩碼 )
 		}
 		$題注set = true;
 	}
+	
+	if( array_key_exists( 序言, $正文樹[ $默文檔碼 ] ) )
+	{
+		if( $序言 !== '' )
+		{
+			// replace
+			$詩題contents .= NL . $序言;
+		}
+		else
+		{
+			$詩題contents .= NL . $正文樹[ $默文檔碼 ][ 序言 ];
+		}
+	}
+
 	
 	if( $是組詩 )
 	{
@@ -190,7 +214,8 @@ foreach( $版詩碼s as $版詩碼 )
 		}
 	}
 	
-	$詩文 = 攤平樹文字_略過鍵( $正文樹, array( 詩題, 題注, 副題, 樹錨名 ) );
+	$詩文 = 攤平樹文字_略過鍵( $正文樹, 
+		array( 詩題, 題注, 序言, 副題, 樹錨名 ) );
 	$詩文 = str_replace( '。]。', ']。', $詩文 );
 	
 	if( $是組詩 )
