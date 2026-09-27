@@ -43,7 +43,9 @@ $版詩碼_默詩碼 = json_decode(
 
 // 版本詩題
 $篇名path = $著述碼 . ',' . $版文檔碼 . ',' . '篇名';
-$詩題 = 提取ctt正文( $篇名path );
+// 詩題異文
+$詩題 = str_replace( '【', '[',
+		str_replace( '】', ']', 提取ctt正文( $篇名path ) ) );
 //echo $篇名path, NL;
 //echo $詩題, NL;
 $詩題contents = $詩題;
