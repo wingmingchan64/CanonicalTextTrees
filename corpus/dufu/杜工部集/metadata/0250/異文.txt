@@ -6,7 +6,7 @@
 {"scope":"3702,1,10,1,2","src_path":"WANGZHU,0250,1,7"}
 {"scope":"3702,2,14,1,5","src_path":"WANGZHU,0250,1,7"}
 {"scope":"寇","src_path":"WANGZHU,0250,1,8"}
-{"scope":"盜","src_path":"WANGZHU,0250,1,9","op":"insert"}
+{"scope":"3702,1,10,2,2","src_path":"WANGZHU,0250,1,9","op":"insert"}
 {"scope":"迴","src_path":"WANGZHU,0250,1,10"}
 {"scope":"倚","src_path":"WANGZHU,0250,1,11"}
 {"scope":"荊","src_path":"WANGZHU,0250,1,12"}
@@ -15,4 +15,4 @@
 {"scope":"慘","src_path":"WANGZHU,0250,1,15"}
 {"scope":"總","src_path":"WANGZHU,0250,1,16"}
 {"scope":"自","src_path":"WANGZHU,0250,1,17"}
-{"scope":"自","src_path":"WANGZHU,0250,1,19","op":"insert"}
+{"scope":"自","src_path":"WANGZHU,0250,1,18","op":"insert"}
