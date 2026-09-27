@@ -1,0 +1,3 @@
+{"scope":"徒","src_path":"WANGZHU,0247,1,3"}
+{"scope":"喜","src_path":"WANGZHU,0247,1,21"}
+{"scope":"豆","src_path":"WANGZHU,0247,1,29"}
