@@ -21,3 +21,5 @@
 {"scope":"勢","src_path":"WANGZHU,0027,1,23","op":"insert"}
 {"scope":"絕","src_path":"WANGZHU,0027,1,24"}
 {"scope":"近","src_path":"WANGZHU,0027,1,25","op":"insert"}
+{"scope":"遠","src_path":"WANGZHU,0027,1,26"}
+{"scope":"廚","src_path":"WANGZHU,0027,1,27"}

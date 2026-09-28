@@ -4,3 +4,6 @@
 {"scope":"灑","src_path":"WANGZHU,0025,1,6"}
 {"scope":"0136,12,1,7","src_path":"WANGZHU,0025,1,7"}
 {"scope":"0136,13,1,4","src_path":"WANGZHU,0025,1,8"}
+{"scope":"騎","src_path":"WANGZHU,0025,1,9"}
+{"scope":"騎","src_path":"WANGZHU,0025,1,10"}
+{"scope":"高","src_path":"WANGZHU,0025,1,10"}
