@@ -9,3 +9,6 @@
 {"scope":"汙","src_path":"WANGZHU,0042,1,12"}
 {"scope":"0797,4,41,2,1","src_path":"WANGZHU,0042,1,13"}
 {"scope":"0797,4,41,2,2","src_path":"WANGZHU,0042,1,13"}
+{"scope":"高","src_path":"WANGZHU,0042,1,15"}
+{"scope":"還","src_path":"WANGZHU,0042,1,16"}
+{"scope":"憩","src_path":"WANGZHU,0042,1,17"}
