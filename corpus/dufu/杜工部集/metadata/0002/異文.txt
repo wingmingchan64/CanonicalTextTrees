@@ -4,3 +4,7 @@
 {"scope":"歡","src_path":"WANGZHU,0002,1,6"}
 {"scope":"0388,15,2,1","src_path":"WANGZHU,0002,1,7"}
 {"scope":"0388,15,2,2","src_path":"WANGZHU,0002,1,7"}
+{"scope":"高","src_path":"WANGZHU,0002,1,8"}
+{"scope":"跨","src_path":"WANGZHU,0002,1,9"}
+{"scope":"達","src_path":"WANGZHU,0002,1,10"}
+{"scope":"寄","src_path":"WANGZHU,0002,1,11"}

@@ -11,3 +11,6 @@
 {"scope":"回","src_path":"WANGZHU,0001,1,13"}
 {"scope":"濱","src_path":"WANGZHU,0001,1,14"}
 {"scope":"沒","src_path":"WANGZHU,0001,1,15"}
+{"scope":"靜","src_path":"WANGZHU,0001,1,16"}
+{"scope":"揚","src_path":"WANGZHU,0001,1,17"}
+{"scope":"騎","src_path":"WANGZHU,0001,1,18"}
