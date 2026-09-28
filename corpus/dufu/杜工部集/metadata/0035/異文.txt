@@ -14,3 +14,11 @@
 {"scope":"0515,16,2,4","src_path":"WANGZHU,0035,1,16"}
 {"scope":"0515,26,2,3","src_path":"WANGZHU,0035,1,16"}
 {"scope":"眇","src_path":"WANGZHU,0035,1,17"}
+{"scope":"虛","src_path":"WANGZHU,0035,1,18"}
+{"scope":"宮","src_path":"WANGZHU,0035,1,19"}
+{"scope":"戟","src_path":"WANGZHU,0035,1,20"}
+{"scope":"亭","src_path":"WANGZHU,0035,1,21"}
+{"scope":"綺","src_path":"WANGZHU,0035,1,22"}
+{"scope":"鳧","src_path":"WANGZHU,0035,1,23"}
+{"scope":"歲","src_path":"WANGZHU,0035,1,24"}
+{"scope":"乘","src_path":"WANGZHU,0035,1,25"}
