@@ -3,3 +3,5 @@
 {"scope":"眾","src_path":"WANGZHU,0032,1,5"}
 {"scope":"鬥","src_path":"WANGZHU,0032,1,6"}
 {"scope":"尊","src_path":"WANGZHU,0032,1,7"}
+{"scope":"遠","src_path":"WANGZHU,0032,1,8"}
+{"scope":"遭","src_path":"WANGZHU,0032,1,9"}

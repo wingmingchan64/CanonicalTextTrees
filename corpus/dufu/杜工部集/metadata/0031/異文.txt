@@ -4,3 +4,4 @@
 {"scope":"垂","src_path":"WANGZHU,0031,1,6"}
 {"scope":"氈","src_path":"WANGZHU,0031,1,7"}
 {"scope":"賴","src_path":"WANGZHU,0031,1,8"}
+{"scope":"騎","src_path":"WANGZHU,0031,1,9"}
