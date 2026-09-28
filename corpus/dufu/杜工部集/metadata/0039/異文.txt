@@ -28,3 +28,8 @@
 {"scope":"徒","src_path":"WANGZHU,0039,1,28","op":"insert"}
 {"scope":"0668,19,2,3","src_path":"WANGZHU,0039,1,29"}
 {"scope":"0668,39,2,3","src_path":"WANGZHU,0039,1,29"}
+{"scope":"廈","src_path":"WANGZHU,0039,1,30"}
+{"scope":"沒","src_path":"WANGZHU,0039,1,31"}
+{"scope":"歲","src_path":"WANGZHU,0039,1,32"}
+{"scope":"宜","src_path":"WANGZHU,0039,1,33"}
+{"scope":"遠","src_path":"WANGZHU,0039,1,34"}

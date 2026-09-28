@@ -7,3 +7,5 @@
 {"scope":"取","src_path":"WANGZHU,0037,1,10","op":"insert"}
 {"scope":"幷","src_path":"WANGZHU,0037,1,11"}
 {"scope":"行","src_path":"WANGZHU,0037,1,12","op":"insert"}
+{"scope":"卿","src_path":"WANGZHU,0037,1,13"}
+{"scope":"廏","src_path":"WANGZHU,0037,1,14"}
