@@ -9,3 +9,4 @@
 {"scope":"絕","src_path":"WANGZHU,0036,1,11"}
 {"scope":"翻","src_path":"WANGZHU,0036,1,12"}
 {"scope":"遊","src_path":"WANGZHU,0036,1,13"}
+{"scope":"奇","src_path":"WANGZHU,0036,1,14"}
