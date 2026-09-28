@@ -1,5 +1,7 @@
-{"scope":"穹","src_path":"WANGZHU,0021,1,3"}
-{"scope":"蛇","src_path":"WANGZHU,0021,1,4"}
-{"scope":"撐","src_path":"WANGZHU,0021,1,5"}
-{"scope":"回","src_path":"WANGZHU,0021,1,6"}
-{"scope":"雁","src_path":"WANGZHU,0021,1,7"}
+{"scope":"穹","src_path":"WANGZHU,0021,1,4"}
+{"scope":"蛇","src_path":"WANGZHU,0021,1,5"}
+{"scope":"撐","src_path":"WANGZHU,0021,1,6"}
+{"scope":"回","src_path":"WANGZHU,0021,1,7"}
+{"scope":"雁","src_path":"WANGZHU,0021,1,8"}
+{"scope":"戶","src_path":"WANGZHU,0021,1,9"}
+{"scope":"瑤","src_path":"WANGZHU,0021,1,10"}
