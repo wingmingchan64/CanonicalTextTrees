@@ -15,3 +15,6 @@
 {"scope":"鉤","src_path":"WANGZHU,0033,1,17"}
 {"scope":"淥","src_path":"WANGZHU,0033,1,18"}
 {"scope":"絕","src_path":"WANGZHU,0033,1,19"}
+{"scope":"宮","src_path":"WANGZHU,0033,1,20"}
+{"scope":"收","src_path":"WANGZHU,0033,1,21"}
+{"scope":"間","src_path":"WANGZHU,0033,1,22"}
