@@ -6,3 +6,7 @@
 {"scope":"船","src_path":"WANGZHU,0029,1,8"}
 {"scope":"戛","src_path":"WANGZHU,0029,1,9"}
 {"scope":"柰","src_path":"WANGZHU,0029,1,10"}
+{"scope":"奇","src_path":"WANGZHU,0029,1,11"}
+{"scope":"攜","src_path":"WANGZHU,0029,1,12"}
+{"scope":"遠","src_path":"WANGZHU,0029,1,13"}
+{"scope":"關","src_path":"WANGZHU,0029,1,14"}
