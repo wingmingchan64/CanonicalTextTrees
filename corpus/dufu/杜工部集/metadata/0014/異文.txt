@@ -4,3 +4,5 @@
 {"scope":"汙","src_path":"WANGZHU,0014,1,6"}
 {"scope":"0319,9,1,7","src_path":"WANGZHU,0014,1,7","op":"insert"}
 {"scope":"棄","src_path":"WANGZHU,0014,1,8"}
+{"scope":"宜","src_path":"WANGZHU,0014,1,9"}
+{"scope":"顏","src_path":"WANGZHU,0014,1,10"}

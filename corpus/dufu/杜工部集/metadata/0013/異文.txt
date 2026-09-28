@@ -5,3 +5,6 @@
 {"scope":"久","src_path":"WANGZHU,0013,1,7"}
 {"scope":"褭","src_path":"WANGZHU,0013,1,8"}
 {"scope":"卽","src_path":"WANGZHU,0013,1,9"}
+{"scope":"綠","src_path":"WANGZHU,0013,1,11"}
+{"scope":"焰","src_path":"WANGZHU,0013,1,12"}
+{"scope":"焰","src_path":"WANGZHU,0013,1,12"}

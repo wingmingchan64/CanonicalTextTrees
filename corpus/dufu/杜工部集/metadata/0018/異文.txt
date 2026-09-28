@@ -4,3 +4,4 @@
 {"scope":"甁","src_path":"WANGZHU,0018,1,6"}
 {"scope":"眾","src_path":"WANGZHU,0018,1,7"}
 {"scope":"賓","src_path":"WANGZHU,0018,1,8"}
+{"scope":"世","src_path":"WANGZHU,0018,1,9"}

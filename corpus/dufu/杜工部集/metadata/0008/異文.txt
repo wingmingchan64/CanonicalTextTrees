@@ -2,3 +2,4 @@
 {"scope":"誠","src_path":"WANGZHU,0008,1,4"}
 {"scope":"鎖","src_path":"WANGZHU,0008,1,5"}
 {"scope":"高","src_path":"WANGZHU,0008,1,6"}
+{"scope":"爽","src_path":"WANGZHU,0008,1,7"}

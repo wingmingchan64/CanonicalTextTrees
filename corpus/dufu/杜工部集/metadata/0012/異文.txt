@@ -2,3 +2,5 @@
 {"scope":"久","src_path":"WANGZHU,0012,1,4"}
 {"scope":"高","src_path":"WANGZHU,0012,1,5"}
 {"scope":"卻","src_path":"WANGZHU,0012,1,6"}
+{"scope":"遠","src_path":"WANGZHU,0012,1,7"}
+{"scope":"騎","src_path":"WANGZHU,0012,1,8"}

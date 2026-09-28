@@ -8,3 +8,4 @@
 {"scope":"高","src_path":"WANGZHU,0015,1,10"}
 {"scope":"泥","src_path":"WANGZHU,0015,1,11"}
 {"scope":"汙","src_path":"WANGZHU,0015,1,12"}
+{"scope":"環","src_path":"WANGZHU,0015,1,13"}

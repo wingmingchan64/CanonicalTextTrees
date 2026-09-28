@@ -1,1 +1,2 @@
-{"scope":"迹","src_path":"WANGZHU,0007,1,4"}
+{"scope":"陰","src_path":"WANGZHU,0007,1,4"}
+{"scope":"迹","src_path":"WANGZHU,0007,1,5"}

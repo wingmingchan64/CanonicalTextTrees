@@ -6,3 +6,4 @@
 {"scope":"檐","src_path":"WANGZHU,0017,1,8"}
 {"scope":"盜","src_path":"WANGZHU,0017,1,9"}
 {"scope":"杯","src_path":"WANGZHU,0017,1,10"}
+{"scope":"高","src_path":"WANGZHU,0017,1,11"}

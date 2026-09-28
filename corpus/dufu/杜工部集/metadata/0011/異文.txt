@@ -3,3 +3,7 @@
 {"scope":"荊","src_path":"WANGZHU,0011,1,6"}
 {"scope":"卒","src_path":"WANGZHU,0011,1,7","op":"insert"}
 {"scope":"陰","src_path":"WANGZHU,0011,1,8"}
+{"scope":"還","src_path":"WANGZHU,0011,1,9"}
+{"scope":"畝","src_path":"WANGZHU,0011,1,10"}
+{"scope":"關","src_path":"WANGZHU,0011,1,11"}
+{"scope":"收","src_path":"WANGZHU,0011,1,12"}

@@ -6,3 +6,5 @@
 {"scope":"右","src_path":"WANGZHU,0006,1,9","op":"insert"}
 {"scope":"歌","src_path":"WANGZHU,0006,1,10"}
 {"scope":"涌","src_path":"WANGZHU,0006,1,11"}
+{"scope":"亭","src_path":"WANGZHU,0006,1,12"}
+{"scope":"蘊","src_path":"WANGZHU,0006,1,13"}
