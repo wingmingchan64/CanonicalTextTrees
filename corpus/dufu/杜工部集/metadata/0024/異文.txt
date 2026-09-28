@@ -7,3 +7,5 @@
 {"scope":"露","src_path":"WANGZHU,0024,1,9","op":"insert"}
 {"scope":"歲","src_path":"WANGZHU,0024,1,10"}
 {"scope":"0111,11,2,7","src_path":"WANGZHU,0024,1,11","op":"insert"}
+{"scope":"遠","src_path":"WANGZHU,0024,1,12"}
+{"scope":"寄","src_path":"WANGZHU,0024,1,13"}
