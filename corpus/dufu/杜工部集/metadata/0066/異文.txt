@@ -7,3 +7,7 @@
 {"scope":"欲","src_path":"WANGZHU,0066,1,9","op":"insert"}
 {"scope":"間","src_path":"WANGZHU,0066,1,10"}
 {"scope":"雛","src_path":"WANGZHU,0066,1,11"}
+{"scope":"1110,5,1,3","src_path":"WANGZHU,0066,1,12"}
+{"scope":"1110,10,1,4","src_path":"WANGZHU,0066,1,12"}
+{"scope":"寄","src_path":"WANGZHU,0066,1,13"}
+{"scope":"高","src_path":"WANGZHU,0066,1,14"}
