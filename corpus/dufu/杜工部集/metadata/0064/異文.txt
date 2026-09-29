@@ -6,3 +6,5 @@
 {"scope":"岐","src_path":"WANGZHU,0064,1,7","op":"insert"}
 {"scope":"閽","src_path":"WANGZHU,0064,1,8"}
 {"scope":"虛","src_path":"WANGZHU,0064,1,9"}
+{"scope":"戶","src_path":"WANGZHU,0064,1,10"}
+{"scope":"倚","src_path":"WANGZHU,0064,1,11"}
