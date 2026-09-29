@@ -8,3 +8,8 @@
 {"scope":"慘","src_path":"WANGZHU,0068,1,10"}
 {"scope":"雁","src_path":"WANGZHU,0068,1,11"}
 {"scope":"伴","src_path":"WANGZHU,0068,1,12","op":"insert"}
+{"scope":"騎","src_path":"WANGZHU,0068,1,13"}
+{"scope":"內","src_path":"WANGZHU,0068,1,14"}
+{"scope":"廏","src_path":"WANGZHU,0068,1,15"}
+{"scope":"遠","src_path":"WANGZHU,0068,1,16"}
+{"scope":"收","src_path":"WANGZHU,0068,1,16"}
