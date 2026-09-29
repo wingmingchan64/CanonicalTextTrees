@@ -6,3 +6,5 @@
 {"scope":"沉","src_path":"WANGZHU,0058,1,7"}
 {"scope":"久","src_path":"WANGZHU,0058,1,8"}
 {"scope":"妝","src_path":"WANGZHU,0058,1,9"}
+{"scope":"匆","src_path":"WANGZHU,0058,1,10"}
+{"scope":"遠","src_path":"WANGZHU,0058,1,11"}
