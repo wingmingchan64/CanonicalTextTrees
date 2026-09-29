@@ -11,3 +11,7 @@
 {"scope":"內","src_path":"WANGZHU,0060,1,13"}
 {"scope":"攜","src_path":"WANGZHU,0060,1,14"}
 {"scope":"鄕","src_path":"WANGZHU,0060,1,15"}
+{"scope":"1316,10,1,4","src_path":"WANGZHU,0060,1,16"}
+{"scope":"還","src_path":"WANGZHU,0060,1,17"}
+{"scope":"1316,14,2,1","src_path":"WANGZHU,0060,1,18"}
+{"scope":"1316,15,2,1","src_path":"WANGZHU,0060,1,18"}
