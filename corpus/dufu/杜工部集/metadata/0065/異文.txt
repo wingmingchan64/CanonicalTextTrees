@@ -9,3 +9,6 @@
 {"scope":"霑","src_path":"WANGZHU,0065,1,11"}
 {"scope":"歡","src_path":"WANGZHU,0065,1,12"}
 {"scope":"歲","src_path":"WANGZHU,0065,1,13"}
+{"scope":"還","src_path":"WANGZHU,0065,1,14"}
+{"scope":"關","src_path":"WANGZHU,0065,1,15"}
+{"scope":"眾","src_path":"WANGZHU,0065,1,16"}
