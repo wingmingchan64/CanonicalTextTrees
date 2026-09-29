@@ -6,3 +6,4 @@
 {"scope":"尙","src_path":"WANGZHU,0059,1,8"}
 {"scope":"棄","src_path":"WANGZHU,0059,1,9"}
 {"scope":"絕","src_path":"WANGZHU,0059,1,10"}
+{"scope":"還","src_path":"WANGZHU,0059,1,11"}
