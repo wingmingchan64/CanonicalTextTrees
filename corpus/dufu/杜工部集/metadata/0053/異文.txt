@@ -8,3 +8,7 @@
 {"scope":"迹","src_path":"WANGZHU,0053,1,10"}
 {"scope":"歎","src_path":"WANGZHU,0053,1,11"}
 {"scope":"久","src_path":"WANGZHU,0053,1,12"}
+{"scope":"宮","src_path":"WANGZHU,0053,1,13"}
+{"scope":"戶","src_path":"WANGZHU,0053,1,14"}
+{"scope":"猿","src_path":"WANGZHU,0053,1,15"}
+{"scope":"遠","src_path":"WANGZHU,0053,1,16"}
