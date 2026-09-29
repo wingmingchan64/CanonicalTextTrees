@@ -4,3 +4,8 @@
 {"scope":"雞","src_path":"WANGZHU,0047,1,7"}
 {"scope":"回","src_path":"WANGZHU,0047,1,8"}
 {"scope":"沉","src_path":"WANGZHU,0047,1,9"}
+{"scope":"關","src_path":"WANGZHU,0047,1,10}
+{"scope":"還","src_path":"WANGZHU,0047,1,11}
+{"scope":"戶","src_path":"WANGZHU,0047,1,12}
+{"scope":"0841,9,1,1","src_path":"WANGZHU,0047,1,13}
+{"scope":"0841,15,1,2","src_path":"WANGZHU,0047,1,13}
