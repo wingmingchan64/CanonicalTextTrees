@@ -8,3 +8,4 @@
 {"scope":"船","src_path":"WANGZHU,0063,1,10"}
 {"scope":"捩","src_path":"WANGZHU,0063,1,11"}
 {"scope":"捩","src_path":"WANGZHU,0063,1,12","op":"insert"}
+{"scope":"騎","src_path":"WANGZHU,0063,1,13"}
