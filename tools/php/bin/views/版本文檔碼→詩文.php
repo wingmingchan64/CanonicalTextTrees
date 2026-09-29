@@ -13,6 +13,7 @@ require_once(
 	"函式.php" );
 
 $生成md  = true;
+$卷次 = '二';
 
 $著述碼 = 'WANGZHU';
 $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
@@ -20,7 +21,11 @@ $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 $map = json_decode(
 	file_get_contents( $folder . '版文檔碼_版詩碼.json' ),
 	true );
-$multiple_contents = '# 卷一' . NL . NL;
+$卷碼陣列 = json_decode(
+	file_get_contents( $folder . '卷目_文檔碼.json' ),
+	true );
+[ $start, $end ] = $卷碼陣列[ $卷次 ];
+$multiple_contents = "# 卷${卷次}" . NL . NL;
 
 // a single 版文檔碼
 /*
@@ -30,7 +35,7 @@ $版文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
 
 // loop 版文檔碼
 /**/
-for( $i = 1; $i <= 46; $i++ )
+for( $i = $start; $i <= $end; $i++ )
 {
 	$版文檔碼 = fix_doc_id( "$i" );
 /**/	
@@ -270,7 +275,7 @@ if( $生成md )
 	// multiple poems in a single file
 	file_put_contents(
 		$folder . 'views' . DIRECTORY_SEPARATOR .
-		'卷一' . '.md',
+		'卷' . $卷次 . '.md',
 		str_replace( '[', '<sub>[',
 			str_replace( ']', ']</sub>',
 				str_replace( 

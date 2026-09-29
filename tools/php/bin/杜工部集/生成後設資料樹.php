@@ -18,12 +18,15 @@ require_once(
 	 '函式.php' );
 
 $multi = true;
+$卷次 = '二';
+
 
 if( !$multi )
 {
 	check_argv( $argv, 2, "必須提供版本文檔碼" );
 	$版文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
 }
+
 $著述碼  = 'WANGZHU';
 $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 	get_ctt_folder( $著述碼 ) . DIRECTORY_SEPARATOR;
@@ -33,8 +36,10 @@ $map = json_decode(
 
 if( $multi )
 {
-	$start = 1;
-	$end = 46;
+	$卷碼陣列 = json_decode(
+		file_get_contents( $folder . '卷目_文檔碼.json' ),
+		true );
+	[ $start, $end ] = $卷碼陣列[ $卷次 ];
 	
 	for( $i = $start; $i <= $end; $i++ )
 	{
