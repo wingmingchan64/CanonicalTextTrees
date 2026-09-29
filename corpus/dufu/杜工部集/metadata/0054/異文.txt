@@ -17,3 +17,7 @@
 {"scope":"攜","src_path":"WANGZHU,0054,1,20"}
 {"scope":"0934,3,29,1,5","src_path":"WANGZHU,0054,1,21"}
 {"scope":"愧","src_path":"WANGZHU,0054,1,22"}
+{"scope":"0934,1,7,2,3","src_path":"WANGZHU,0054,1,23"}
+{"scope":"0934,1,8,2,2","src_path":"WANGZHU,0054,1,23"}
+{"scope":"0934,2,14,2,1","src_path":"WANGZHU,0054,1,23"}
+{"scope":"遠","src_path":"WANGZHU,0054,1,24"}
