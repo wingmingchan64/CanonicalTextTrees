@@ -36,6 +36,8 @@ $map = json_decode(
 
 if( $multi )
 {
+	//echo "multi", NL;
+	
 	$卷碼陣列 = json_decode(
 		file_get_contents( $folder . '卷目_文檔碼.json' ),
 		true );
@@ -45,6 +47,8 @@ if( $multi )
 	{
 		$版文檔碼 = fix_doc_id( "" . $i );
 		$默文檔碼s = $map[ $版文檔碼 ];
+		//print_r( $版文檔碼 );
+		//print_r( $默文檔碼s );
 		
 		foreach( $默文檔碼s as $默文檔碼 )
 		{
@@ -52,6 +56,8 @@ if( $multi )
 			{
 				throw new DocumentIDNotFoundException( '無此文檔碼。' );
 			}
+			//echo $默文檔碼, NL;
+			//echo $版文檔碼, NL;
 			生成後設資料樹( $默文檔碼, $著述碼, $版文檔碼 );
 		}
 	}
