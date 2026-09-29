@@ -4,3 +4,4 @@
 {"scope":"瀟","src_path":"WANGZHU,0052,1,6"}
 {"scope":"灑","src_path":"WANGZHU,0052,1,7"}
 {"scope":"間","src_path":"WANGZHU,0052,1,8"}
+{"scope":"構","src_path":"WANGZHU,0052,1,9"}
