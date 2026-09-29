@@ -12,4 +12,4 @@
 {"scope":"內","src_path":"WANGZHU,0068,1,14"}
 {"scope":"廏","src_path":"WANGZHU,0068,1,15"}
 {"scope":"遠","src_path":"WANGZHU,0068,1,16"}
-{"scope":"收","src_path":"WANGZHU,0068,1,16"}
+{"scope":"收","src_path":"WANGZHU,0068,1,17"}
