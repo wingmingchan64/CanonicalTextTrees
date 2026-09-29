@@ -6,3 +6,8 @@
 {"scope":"性","src_path":"WANGZHU,0048,1,8"}
 {"scope":"絕","src_path":"WANGZHU,0048,1,9"}
 {"scope":"憐","src_path":"WANGZHU,0048,1,10"}
+{"scope":"還","src_path":"WANGZHU,0048,1,11"}
+{"scope":"澀","src_path":"WANGZHU,0048,1,12"}
+{"scope":"關","src_path":"WANGZHU,0048,1,13"}
+{"scope":"騎","src_path":"WANGZHU,0048,1,14"}
+{"scope":"宜","src_path":"WANGZHU,0048,1,15"}
