@@ -6,3 +6,7 @@
 {"scope":"逼","src_path":"WANGZHU,0104,1,8","op":"insert"}
 {"scope":"嘶","src_path":"WANGZHU,0104,1,9","op":"insert"}
 {"scope":"荊","src_path":"WANGZHU,0104,1,10"}
+{"scope":"世","src_path":"WANGZHU,0104,1,11"}
+{"scope":"寫","src_path":"WANGZHU,0104,1,12"}
+{"scope":"胸","src_path":"WANGZHU,0104,1,13"}
+{"scope":"別","src_path":"WANGZHU,0104,1,14"}

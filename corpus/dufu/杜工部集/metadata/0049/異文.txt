@@ -34,3 +34,4 @@
 {"scope":"虛","src_path":"WANGZHU,0049,1,33"}
 {"scope":"宜","src_path":"WANGZHU,0049,1,34"}
 {"scope":"達","src_path":"WANGZHU,0049,1,35"}
+{"scope":"別","src_path":"WANGZHU,0049,1,36"}
