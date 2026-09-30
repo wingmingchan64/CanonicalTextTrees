@@ -6,3 +6,5 @@
 {"scope":"憔","src_path":"WANGZHU,0097,1,8"}
 {"scope":"悴","src_path":"WANGZHU,0097,1,9"}
 {"scope":"歲","src_path":"WANGZHU,0097,1,10"}
+{"scope":"1356,1,5,1,2","src_path":"WANGZHU,0097,1,10"}
+{"scope":"1356,1,5,2,2","src_path":"WANGZHU,0097,1,10"}

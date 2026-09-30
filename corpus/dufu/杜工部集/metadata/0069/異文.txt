@@ -7,3 +7,4 @@
 {"scope":"世","src_path":"WANGZHU,0069,1,10"}
 {"scope":"澀","src_path":"WANGZHU,0069,1,11"}
 {"scope":"還","src_path":"WANGZHU,0069,1,12"}
+{"scope":"別","src_path":"WANGZHU,0069,1,13"}
