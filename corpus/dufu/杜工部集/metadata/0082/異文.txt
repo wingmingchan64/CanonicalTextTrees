@@ -5,3 +5,4 @@
 {"scope":"還","src_path":"WANGZHU,0082,1,7"}
 {"scope":"慘","src_path":"WANGZHU,0082,1,8"}
 {"scope":"回","src_path":"WANGZHU,0082,1,9"}
+{"scope":"卿","src_path":"WANGZHU,0082,1,10"}
