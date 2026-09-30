@@ -4,3 +4,4 @@
 {"scope":"乘","src_path":"WANGZHU,0079,1,6"}
 {"scope":"腳","src_path":"WANGZHU,0079,1,7"}
 {"scope":"鬐","src_path":"WANGZHU,0079,1,8","op":"insert"}
+{"scope":"奇","src_path":"WANGZHU,0079,1,9"}
