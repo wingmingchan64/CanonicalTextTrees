@@ -16,3 +16,4 @@
 {"scope":"1488,1,9,2,4","src_path":"WANGZHU,0094,1,18"}
 {"scope":"1488,2,26,2,1","src_path":"WANGZHU,0094,1,18"}
 {"scope":"山","src_path":"WANGZHU,0094,1,19"}
+{"scope":"奇","src_path":"WANGZHU,0094,1,20"}
