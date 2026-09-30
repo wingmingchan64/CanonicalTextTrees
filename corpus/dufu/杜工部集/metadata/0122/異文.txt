@@ -2,3 +2,4 @@
 {"scope":"猿","src_path":"WANGZHU,0122,1,4"}
 {"scope":"疏","src_path":"WANGZHU,0122,1,5"}
 {"scope":"回","src_path":"WANGZHU,0122,1,6"}
+{"scope":"高","src_path":"WANGZHU,0122,1,7"}

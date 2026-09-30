@@ -27,3 +27,5 @@
 {"scope":"劍","src_path":"WANGZHU,0119,1,17"}
 {"scope":"遲","src_path":"WANGZHU,0119,1,18"}
 {"scope":"迴","src_path":"WANGZHU,0119,1,19"}
+{"scope":"收","src_path":"WANGZHU,0119,1,20"}
+{"scope":"卿","src_path":"WANGZHU,0119,1,21"}

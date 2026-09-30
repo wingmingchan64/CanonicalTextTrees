@@ -17,3 +17,4 @@
 {"scope":"絕","src_path":"WANGZHU,0033,1,19"}
 {"scope":"宮","src_path":"WANGZHU,0033,1,20"}
 {"scope":"收","src_path":"WANGZHU,0033,1,21"}
+{"scope":"虛","src_path":"WANGZHU,0033,1,22"}

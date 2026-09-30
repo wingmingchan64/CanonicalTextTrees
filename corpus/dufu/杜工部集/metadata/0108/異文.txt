@@ -4,3 +4,4 @@
 {"scope":"鄕","src_path":"WANGZHU,0108,1,6"}
 {"scope":"高","src_path":"WANGZHU,0108,1,7"}
 {"scope":"嗤","src_path":"WANGZHU,0108,1,8"}
+{"scope":"來","src_path":"WANGZHU,0108,1,9"}

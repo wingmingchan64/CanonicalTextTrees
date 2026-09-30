@@ -8,3 +8,4 @@
 {"scope":"攜","src_path":"WANGZHU,0115,1,10"}
 {"scope":"柰","src_path":"WANGZHU,0115,1,11"}
 {"scope":"烝","src_path":"WANGZHU,0115,1,12"}
+{"scope":"騎","src_path":"WANGZHU,0115,1,13"}

@@ -4,3 +4,5 @@
 {"scope":"久","src_path":"WANGZHU,0107,1,6"}
 {"scope":"高","src_path":"WANGZHU,0107,1,7"}
 {"scope":"內","src_path":"WANGZHU,0107,1,8"}
+{"scope":"亭","src_path":"WANGZHU,0107,1,9"}
+

@@ -4,3 +4,4 @@
 {"scope":"遠","src_path":"WANGZHU,0129,1,6"}
 {"scope":"高","src_path":"WANGZHU,0129,1,7"}
 {"scope":"幷","src_path":"WANGZHU,0129,1,8"}
+{"scope":"倚","src_path":"WANGZHU,0129,1,9"}

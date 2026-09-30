@@ -2,3 +2,5 @@
 {"scope":"卻","src_path":"WANGZHU,0117,1,4"}
 {"scope":"1755,8,2,4","src_path":"WANGZHU,0117,1,5"}
 {"scope":"1755,8,2,5","src_path":"WANGZHU,0117,1,5"}
+{"scope":"沒","src_path":"WANGZHU,0117,1,6"}
+{"scope":"寄","src_path":"WANGZHU,0117,1,7"}

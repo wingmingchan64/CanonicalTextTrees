@@ -8,3 +8,4 @@
 {"scope":"遠","src_path":"WANGZHU,0123,1,10"}
 {"scope":"慚","src_path":"WANGZHU,0123,1,11"}
 {"scope":"餐","src_path":"WANGZHU,0123,1,12"}
+{"scope":"沒","src_path":"WANGZHU,0123,1,13"}

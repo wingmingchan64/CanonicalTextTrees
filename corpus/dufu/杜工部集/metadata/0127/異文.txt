@@ -5,3 +5,4 @@
 {"scope":"遠","src_path":"WANGZHU,0127,1,7"}
 {"scope":"絕","src_path":"WANGZHU,0127,1,8"}
 {"scope":"遊","src_path":"WANGZHU,0127,1,9"}
+{"scope":"虛","src_path":"WANGZHU,0127,1,10"}
