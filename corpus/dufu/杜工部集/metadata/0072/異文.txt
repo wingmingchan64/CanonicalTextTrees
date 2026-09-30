@@ -7,3 +7,4 @@
 {"scope":"回","src_path":"WANGZHU,0072,1,9"}
 {"scope":"陰","src_path":"WANGZHU,0072,1,10"}
 {"scope":"眾","src_path":"WANGZHU,0072,1,11"}
+{"scope":"遠","src_path":"WANGZHU,0072,1,12"}

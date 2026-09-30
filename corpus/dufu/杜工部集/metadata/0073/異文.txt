@@ -2,3 +2,5 @@
 {"scope":"內","src_path":"WANGZHU,0073,1,4"}
 {"scope":"絕","src_path":"WANGZHU,0073,1,5"}
 {"scope":"0695,14,2,2","src_path":"WANGZHU,0073,1,6"}
+{"scope":"遠","src_path":"WANGZHU,0073,1,7"}
+{"scope":"壺","src_path":"WANGZHU,0073,1,8"}
