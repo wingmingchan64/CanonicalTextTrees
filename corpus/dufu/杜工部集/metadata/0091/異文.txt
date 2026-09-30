@@ -4,3 +4,4 @@
 {"scope":"內","src_path":"WANGZHU,0091,1,6"}
 {"scope":"咽","src_path":"WANGZHU,0091,1,7"}
 {"scope":"歲","src_path":"WANGZHU,0091,1,8"}
+{"scope":"倚","src_path":"WANGZHU,0091,1,9"}
