@@ -9,3 +9,7 @@
 {"scope":"腳","src_path":"WANGZHU,0074,1,11"}
 {"scope":"旋","src_path":"WANGZHU,0074,1,12"}
 {"scope":"0223,16,2,7","src_path":"WANGZHU,0074,1,13","op":"insert"}
+{"scope":"世","src_path":"WANGZHU,0074,1,14"}
+{"scope":"奇","src_path":"WANGZHU,0074,1,15"}
+{"scope":"淨","src_path":"WANGZHU,0074,1,16"}
+{"scope":"虛","src_path":"WANGZHU,0074,1,17"}
