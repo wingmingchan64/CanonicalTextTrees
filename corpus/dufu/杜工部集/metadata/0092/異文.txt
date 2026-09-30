@@ -7,3 +7,5 @@
 {"scope":"尙","src_path":"WANGZHU,0092,1,9"}
 {"scope":"髮","src_path":"WANGZHU,0092,1,10","op":"insert"}
 {"scope":"修","src_path":"WANGZHU,0092,1,11"}
+{"scope":"收","src_path":"WANGZHU,0092,1,12"}
+{"scope":"柏","src_path":"WANGZHU,0092,1,13"}
