@@ -11,3 +11,5 @@
 {"scope":"髮","src_path":"WANGZHU,0090,1,13"}
 {"scope":"變","src_path":"WANGZHU,0090,1,14"}
 {"scope":"變","src_path":"WANGZHU,0090,1,15","op":"insert"}
+{"scope":"虛","src_path":"WANGZHU,0090,1,16"}
+{"scope":"胝","src_path":"WANGZHU,0090,1,17"}
