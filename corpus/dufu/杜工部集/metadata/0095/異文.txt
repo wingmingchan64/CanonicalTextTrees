@@ -7,3 +7,4 @@
 {"scope":"荊","src_path":"WANGZHU,0095,1,9"}
 {"scope":"徑","src_path":"WANGZHU,0095,1,10"}
 {"scope":"往","src_path":"WANGZHU,0095,1,11"}
+{"scope":"收","src_path":"WANGZHU,0095,1,12"}
