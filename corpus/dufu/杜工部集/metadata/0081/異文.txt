@@ -10,3 +10,5 @@
 {"scope":"列","src_path":"WANGZHU,0081,1,12","op":"insert"}
 {"scope":"0833,22,1,1","src_path":"WANGZHU,0081,1,13"}
 {"scope":"姿","src_path":"WANGZHU,0081,1,14","op":"insert"}
+{"scope":"收","src_path":"WANGZHU,0081,1,15"}
+{"scope":"世","src_path":"WANGZHU,0081,1,16"}
