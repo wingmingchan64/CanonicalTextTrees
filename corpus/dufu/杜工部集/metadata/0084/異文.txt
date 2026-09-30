@@ -7,3 +7,7 @@
 {"scope":"雁","src_path":"WANGZHU,0084,1,9"}
 {"scope":"燕","src_path":"WANGZHU,0084,1,10"}
 {"scope":"遲","src_path":"WANGZHU,0084,1,11"}
+{"scope":"倚","src_path":"WANGZHU,0084,1,12"}
+{"scope":"資","src_path":"WANGZHU,0084,1,13"}
+{"scope":"岐","src_path":"WANGZHU,0084,1,14"}
+{"scope":"高","src_path":"WANGZHU,0084,1,15"}
