@@ -6,3 +6,7 @@
 {"scope":"攲","src_path":"WANGZHU,0075,1,8"}
 {"scope":"聰","src_path":"WANGZHU,0075,1,9"}
 {"scope":"貌","src_path":"WANGZHU,0075,1,10"}
+{"scope":"亭","src_path":"WANGZHU,0075,1,11"}
+{"scope":"還","src_path":"WANGZHU,0075,1,12"}
+{"scope":"0527,7,2,3","src_path":"WANGZHU,0075,1,13"}
+{"scope":"0527,12,1,7","src_path":"WANGZHU,0075,1,13"}
