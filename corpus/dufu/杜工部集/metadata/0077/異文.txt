@@ -6,3 +6,4 @@
 {"scope":"貪","src_path":"WANGZHU,0077,1,9","op":"insert"}
 {"scope":"憐","src_path":"WANGZHU,0077,1,10"}
 {"scope":"顏","src_path":"WANGZHU,0077,1,11"}
+{"scope":"宮","src_path":"WANGZHU,0077,1,12"}

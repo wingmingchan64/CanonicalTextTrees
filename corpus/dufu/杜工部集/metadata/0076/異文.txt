@@ -7,3 +7,5 @@
 {"scope":"尙","src_path":"WANGZHU,0076,1,9"}
 {"scope":"雞","src_path":"WANGZHU,0076,1,10"}
 {"scope":"線","src_path":"WANGZHU,0076,1,11"}
+{"scope":"卿","src_path":"WANGZHU,0076,1,12"}
+{"scope":"窗","src_path":"WANGZHU,0076,1,13"}
