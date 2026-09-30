@@ -7,3 +7,4 @@
 {"scope":"慰","src_path":"WANGZHU,0071,1,9"}
 {"scope":"糧","src_path":"WANGZHU,0071,1,10"}
 {"scope":"棄","src_path":"WANGZHU,0071,1,11"}
+{"scope":"久","src_path":"WANGZHU,0071,1,12"}
