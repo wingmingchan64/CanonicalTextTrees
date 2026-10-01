@@ -2,3 +2,4 @@
 {"scope":"榜","src_path":"WANGZHU,0172,1,5"}
 {"scope":"慘","src_path":"WANGZHU,0172,1,6"}
 {"scope":"來","src_path":"WANGZHU,0172,1,7"}
+{"scope":"淡","src_path":"WANGZHU,0172,1,8"}
