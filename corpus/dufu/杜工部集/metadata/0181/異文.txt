@@ -6,4 +6,4 @@
 {"scope":"迴","src_path":"WANGZHU,0181,1,8"}
 {"scope":"世","src_path":"WANGZHU,0181,1,9"}
 {"scope":"騎","src_path":"WANGZHU,0181,1,10"}
-{"scope":"倚","src_path":"WANGZHU,0181,1,10"}
+{"scope":"倚","src_path":"WANGZHU,0181,1,11"}
