@@ -4,3 +4,4 @@
 {"scope":"倏","src_path":"WANGZHU,0146,1,6"}
 {"scope":"臥","src_path":"WANGZHU,0146,1,7"}
 {"scope":"睹","src_path":"WANGZHU,0146,1,8"}
+{"scope":"顏","src_path":"WANGZHU,0146,1,8"}

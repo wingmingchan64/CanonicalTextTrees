@@ -5,3 +5,4 @@
 {"scope":"高","src_path":"WANGZHU,0141,1,7"}
 {"scope":"回","src_path":"WANGZHU,0141,1,8"}
 {"scope":"世","src_path":"WANGZHU,0141,1,9"}
+{"scope":"廈","src_path":"WANGZHU,0141,1,10"}

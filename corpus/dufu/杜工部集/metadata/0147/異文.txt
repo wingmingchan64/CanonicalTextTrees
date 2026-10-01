@@ -6,3 +6,4 @@
 {"scope":"敝","src_path":"WANGZHU,0147,1,8"}
 {"scope":"聯","src_path":"WANGZHU,0147,1,9"}
 {"scope":"牆","src_path":"WANGZHU,0147,1,10"}
+{"scope":"廷","src_path":"WANGZHU,0147,1,11"}
