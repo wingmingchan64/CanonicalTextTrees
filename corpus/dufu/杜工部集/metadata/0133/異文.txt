@@ -2,3 +2,6 @@
 {"scope":"戶","src_path":"WANGZHU,0133,1,4"}
 {"scope":"眾","src_path":"WANGZHU,0133,1,5"}
 {"scope":"凋","src_path":"WANGZHU,0133,1,6"}
+{"scope":"誇","src_path":"WANGZHU,0133,1,8"}
+{"scope":"高","src_path":"WANGZHU,0133,1,9"}
+{"scope":"王","src_path":"WANGZHU,0133,1,10"}
