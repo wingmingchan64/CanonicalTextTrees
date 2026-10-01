@@ -10,3 +10,5 @@
 {"scope":"肺","src_path":"WANGZHU,0189,1,12"}
 {"scope":"臥","src_path":"WANGZHU,0189,1,13"}
 {"scope":"沱","src_path":"WANGZHU,0189,1,14"}
+{"scope":"別","src_path":"WANGZHU,0189,1,15"}
+{"scope":"潛","src_path":"WANGZHU,0189,1,16"}
