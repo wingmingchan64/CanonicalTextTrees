@@ -5,3 +5,4 @@
 {"scope":"2552,15,1,1","src_path":"WANGZHU,0188,1,6"}
 {"scope":"卯","src_path":"WANGZHU,0188,1,7"}
 {"scope":"高","src_path":"WANGZHU,0188,1,8"}
+{"scope":"騎","src_path":"WANGZHU,0188,1,9"}
