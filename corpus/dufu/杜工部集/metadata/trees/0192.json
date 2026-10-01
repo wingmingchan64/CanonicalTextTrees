@@ -45,8 +45,7 @@
                     "WANGZHU,0192,1,16": "replace"
                 },
                 "2460,13,2,6": {
-                    "WANGZHU,0192,1,17": "replace",
-                    "WANGZHU,0192,1,21": "replace"
+                    "WANGZHU,0192,1,17": "replace"
                 },
                 "2460,15,2,5": {
                     "WANGZHU,0192,1,18": "replace"
@@ -59,6 +58,9 @@
                 },
                 "2460,17,2,7": {
                     "WANGZHU,0192,1,20": "insert"
+                },
+                "2460,6,1,4": {
+                    "WANGZHU,0192,1,21": "replace"
                 }
             }
         }

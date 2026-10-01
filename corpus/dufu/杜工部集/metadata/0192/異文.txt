@@ -17,4 +17,4 @@
 {"scope":"2460,16,1,5","src_path":"WANGZHU,0192,1,18"}
 {"scope":"2460,16,2,7","src_path":"WANGZHU,0192,1,19","op":"insert"}
 {"scope":"芻","src_path":"WANGZHU,0192,1,20","op":"insert"}
-{"scope":"宜","src_path":"WANGZHU,0192,1,21"}
+{"scope":"段","src_path":"WANGZHU,0192,1,21"}
