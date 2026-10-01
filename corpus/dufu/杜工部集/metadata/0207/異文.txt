@@ -6,3 +6,4 @@
 {"scope":"灑","src_path":"WANGZHU,0207,1,8"}
 {"scope":"姿","src_path":"WANGZHU,0207,1,9","op":"insert"}
 {"scope":"慘","src_path":"WANGZHU,0207,1,10"}
+{"scope":"淡","src_path":"WANGZHU,0207,1,11"}

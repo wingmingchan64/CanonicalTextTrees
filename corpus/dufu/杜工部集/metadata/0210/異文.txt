@@ -4,3 +4,4 @@
 {"scope":"高","src_path":"WANGZHU,0210,1,5"}
 {"scope":"餐","src_path":"WANGZHU,0210,1,6"}
 {"scope":"歡","src_path":"WANGZHU,0210,1,7"}
+{"scope":"戶","src_path":"WANGZHU,0210,1,8"}

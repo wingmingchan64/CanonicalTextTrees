@@ -5,3 +5,5 @@
 {"scope":"鬢","src_path":"WANGZHU,0213,1,7"}
 {"scope":"遠","src_path":"WANGZHU,0213,1,8"}
 {"scope":"吳","src_path":"WANGZHU,0213,1,9"}
+{"scope":"高","src_path":"WANGZHU,0213,1,10"}
+{"scope":"別","src_path":"WANGZHU,0213,1,11"}

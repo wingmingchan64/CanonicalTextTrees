@@ -3,3 +3,4 @@
 {"scope":"高","src_path":"WANGZHU,0208,1,5"}
 {"scope":"尙","src_path":"WANGZHU,0208,1,6"}
 {"scope":"攲","src_path":"WANGZHU,0208,1,7"}
+{"scope":"廈","src_path":"WANGZHU,0208,1,8"}
