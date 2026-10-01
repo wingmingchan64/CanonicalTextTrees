@@ -9,3 +9,5 @@
 {"scope":"値","src_path":"WANGZHU,0153,1,10"}
 {"scope":"祿","src_path":"WANGZHU,0153,1,11"}
 {"scope":"3236,2,27,2,5","src_path":"WANGZHU,0153,1,12","op":"insert"}
+{"scope":"騎","src_path":"WANGZHU,0153,1,13"}
+{"scope":"兔","src_path":"WANGZHU,0153,1,14"}

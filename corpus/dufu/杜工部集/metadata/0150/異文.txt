@@ -11,3 +11,4 @@
 {"scope":"尙","src_path":"WANGZHU,0150,1,13"}
 {"scope":"減","src_path":"WANGZHU,0150,1,14"}
 {"scope":"諗","src_path":"WANGZHU,0150,1,15","op":"insert"}
+{"scope":"爽","src_path":"WANGZHU,0150,1,16"}
