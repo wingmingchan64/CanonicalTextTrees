@@ -8,3 +8,5 @@
 {"scope":"卽","src_path":"WANGZHU,0159,1,10"}
 {"scope":"寄","src_path":"WANGZHU,0159,1,11"}
 {"scope":"回","src_path":"WANGZHU,0159,1,12"}
+{"scope":"別","src_path":"WANGZHU,0159,1,13"}
+{"scope":"騎","src_path":"WANGZHU,0159,1,14"}

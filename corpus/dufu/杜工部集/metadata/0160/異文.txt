@@ -3,3 +3,5 @@
 {"scope":"臥","src_path":"WANGZHU,0160,1,5"}
 {"scope":"棄","src_path":"WANGZHU,0160,1,6"}
 {"scope":"歲","src_path":"WANGZHU,0160,1,7"}
+{"scope":"賴","src_path":"WANGZHU,0160,1,8"}
+{"scope":"世","src_path":"WANGZHU,0160,1,9"}

@@ -14,3 +14,5 @@
 {"scope":"巡","src_path":"WANGZHU,0155,1,16"}
 {"scope":"宮","src_path":"WANGZHU,0155,1,17"}
 {"scope":"瑪","src_path":"WANGZHU,0155,1,18"}
+{"scope":"綺","src_path":"WANGZHU,0155,1,19"}
+{"scope":"騎","src_path":"WANGZHU,0155,1,20"}
