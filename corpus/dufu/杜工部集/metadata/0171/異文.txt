@@ -5,4 +5,5 @@
 {"scope":"羣","src_path":"WANGZHU,0171,1,6"}
 {"scope":"慚","src_path":"WANGZHU,0171,1,7"}
 {"scope":"2723,11,1,5","src_path":"WANGZHU,0171,1,8","op":"insert"}
-{"scope":"劍","src_path":"WANGZHU,0171,1,9"}
+{"scope":"高","src_path":"WANGZHU,0171,1,9"}
+{"scope":"劍","src_path":"WANGZHU,0171,1,10"}
