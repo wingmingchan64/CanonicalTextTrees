@@ -8,3 +8,4 @@
 {"scope":"攲","src_path":"WANGZHU,0170,1,9"}
 {"scope":"高","src_path":"WANGZHU,0170,1,10"}
 {"scope":"歎","src_path":"WANGZHU,0170,1,11"}
+{"scope":"綺","src_path":"WANGZHU,0170,1,12"}
