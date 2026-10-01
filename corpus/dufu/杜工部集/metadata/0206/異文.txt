@@ -13,3 +13,4 @@
 {"scope":"尙","src_path":"WANGZHU,0206,1,16"}
 {"scope":"愧","src_path":"WANGZHU,0206,1,17"}
 {"scope":"願","src_path":"WANGZHU,0206,1,18"}
+{"scope":"騎","src_path":"WANGZHU,0206,1,19"}

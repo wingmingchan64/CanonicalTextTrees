@@ -2,3 +2,4 @@
 {"scope":"卻","src_path":"WANGZHU,0201,1,4"}
 {"scope":"燕","src_path":"WANGZHU,0201,1,5"}
 {"scope":"怕","src_path":"WANGZHU,0201,1,6"}
+{"scope":"虛","src_path":"WANGZHU,0201,1,7"}
