@@ -13,3 +13,4 @@
 {"scope":"高","src_path":"WANGZHU,0155,1,15"}
 {"scope":"巡","src_path":"WANGZHU,0155,1,16"}
 {"scope":"宮","src_path":"WANGZHU,0155,1,17"}
+{"scope":"瑪","src_path":"WANGZHU,0155,1,18"}
