@@ -18,7 +18,7 @@ require_once(
 	 '函式.php' );
 
 $multi = true;
-$卷次 = '五';
+$卷次 = '六';
 
 if( !$multi )
 {
