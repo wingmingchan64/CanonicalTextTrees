@@ -6,3 +6,4 @@
 {"scope":"遠","src_path":"WANGZHU,0182,1,7"}
 {"scope":"歎","src_path":"WANGZHU,0182,1,8"}
 {"scope":"顏","src_path":"WANGZHU,0182,1,9"}
+{"scope":"皇","src_path":"WANGZHU,0182,1,10"}
