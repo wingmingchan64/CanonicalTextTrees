@@ -1,4 +1,4 @@
-{"scope":"題注","src_path":"WANGZHU,0194,0,2","op":"insert"}
+{"scope":"題注","src_path":"WANGZHU,0194,0,2"}
 {"scope":"江","src_path":"WANGZHU,0194,1,4","op":"insert"}
 {"scope":"賓","src_path":"WANGZHU,0194,1,5"}
 {"scope":"六","src_path":"WANGZHU,0194,1,6","op":"insert"}
