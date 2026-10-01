@@ -56,6 +56,7 @@ php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.ph
 ## 校記
 
 - <a href="https://github.com/wingmingchan64/CanonicalTextTrees/blob/main/corpus/dufu/%E6%9D%9C%E8%91%97%E8%BF%B0%E6%A0%A1%E8%A8%98/canonical_text/WANGZHU.txt">WANGZHU.txt</a>
+- 一校：卷一至卷四
 
 ---
 
