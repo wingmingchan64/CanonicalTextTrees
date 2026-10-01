@@ -9,3 +9,4 @@
 {"scope":"卻","src_path":"WANGZHU,0161,1,10"}
 {"scope":"卽","src_path":"WANGZHU,0161,1,11"}
 {"scope":"世","src_path":"WANGZHU,0161,1,12"}
+{"scope":"反","src_path":"WANGZHU,0161,1,13"}
