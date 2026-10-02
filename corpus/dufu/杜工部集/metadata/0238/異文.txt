@@ -2,3 +2,7 @@
 {"scope":"陰","src_path":"WANGZHU,0238,1,4"}
 {"scope":"劍","src_path":"WANGZHU,0238,1,5"}
 {"scope":"久","src_path":"WANGZHU,0238,1,6"}
+{"scope":"崎","src_path":"WANGZHU,0238,1,7"}
+{"scope":"潛","src_path":"WANGZHU,0238,1,8"}
+{"scope":"倚","src_path":"WANGZHU,0238,1,9"}
+

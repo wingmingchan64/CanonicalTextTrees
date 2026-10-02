@@ -10,3 +10,5 @@
 {"scope":"采","src_path":"WANGZHU,0237,1,12"}
 {"scope":"歌","src_path":"WANGZHU,0237,1,13"}
 {"scope":"慮","src_path":"WANGZHU,0237,1,14"}
+{"scope":"沒","src_path":"WANGZHU,0237,1,15"}
+{"scope":"棘","src_path":"WANGZHU,0237,1,16"}

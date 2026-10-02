@@ -1,6 +1,6 @@
 {"scope":"高","src_path":"WANGZHU,0240,1,3"}
 {"scope":"李","src_path":"WANGZHU,0240,1,4","op":"insert"}
-{"scope":"區","src_path":"WANGZHU,0240,1,5"}
+{"scope":"區","src_path":"WANGZHU,0240,1,5","op":"insert"}
 {"scope":"歲","src_path":"WANGZHU,0240,1,6"}
 {"scope":"杯","src_path":"WANGZHU,0240,1,7"}
 {"scope":"世","src_path":"WANGZHU,0240,1,8"}
