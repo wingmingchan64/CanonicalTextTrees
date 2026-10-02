@@ -5,3 +5,4 @@
 {"scope":"關","src_path":"WANGZHU,0217,1,7"}
 {"scope":"贊","src_path":"WANGZHU,0217,1,8"}
 {"scope":"棄","src_path":"WANGZHU,0217,1,9"}
+{"scope":"甥","src_path":"WANGZHU,0217,1,10"}
