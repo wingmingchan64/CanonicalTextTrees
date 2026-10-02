@@ -8,3 +8,4 @@
 {"scope":"修","src_path":"WANGZHU,0246,1,10"}
 {"scope":"蘊","src_path":"WANGZHU,0246,1,11"}
 {"scope":"爲","src_path":"WANGZHU,0246,1,12","op":"insert"}
+{"scope":"懷","src_path":"WANGZHU,0246,1,13"}
