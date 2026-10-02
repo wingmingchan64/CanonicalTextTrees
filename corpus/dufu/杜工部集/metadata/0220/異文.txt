@@ -3,3 +3,4 @@
 {"scope":"呂","src_path":"WANGZHU,0220,1,5"}
 {"scope":"搖","src_path":"WANGZHU,0220,1,6"}
 {"scope":"世","src_path":"WANGZHU,0220,1,7"}
+{"scope":"收","src_path":"WANGZHU,0220,1,8"}

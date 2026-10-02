@@ -13,3 +13,4 @@
 {"scope":"遠","src_path":"WANGZHU,0223,1,15"}
 {"scope":"算","src_path":"WANGZHU,0223,1,16"}
 {"scope":"尙","src_path":"WANGZHU,0223,1,17"}
+{"scope":"別","src_path":"WANGZHU,0223,1,18"}

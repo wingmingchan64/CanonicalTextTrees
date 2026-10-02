@@ -8,3 +8,4 @@
 {"scope":"腳","src_path":"WANGZHU,0222,1,10"}
 {"scope":"凰","src_path":"WANGZHU,0222,1,11"}
 {"scope":"昏","src_path":"WANGZHU,0222,1,12"}
+{"scope":"吳","src_path":"WANGZHU,0222,1,13"}
