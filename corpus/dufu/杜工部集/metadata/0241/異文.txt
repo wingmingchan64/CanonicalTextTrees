@@ -3,3 +3,4 @@
 {"scope":"睹","src_path":"WANGZHU,0241,1,5"}
 {"scope":"汙","src_path":"WANGZHU,0241,1,6"}
 {"scope":"汙","src_path":"WANGZHU,0241,1,7","op":"insert"}
+{"scope":"虛","src_path":"WANGZHU,0241,1,8"}
