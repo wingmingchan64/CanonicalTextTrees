@@ -19,3 +19,6 @@
 {"scope":"歡","src_path":"WANGZHU,0243,1,20"}
 {"scope":"呼","src_path":"WANGZHU,0243,1,21","op":"insert"}
 {"scope":"柏","src_path":"WANGZHU,0243,1,22"}
+{"scope":"紛","src_path":"WANGZHU,0243,1,23"}
+{"scope":"嬪","src_path":"WANGZHU,0243,1,24"}
+{"scope":"陷","src_path":"WANGZHU,0243,1,25"}

@@ -5,6 +5,6 @@
 {"scope":"妝","src_path":"WANGZHU,0245,1,6"}
 {"scope":"世","src_path":"WANGZHU,0245,1,7"}
 {"scope":"宮","src_path":"WANGZHU,0245,1,8"}
-{"scope":"綴","src_path":"WANGZHU,0245,1,9"}
+{"scope":"綴","src_path":"WANGZHU,0245,1,9","op":"insert"}
 {"scope":"棄","src_path":"WANGZHU,0245,1,10"}
 {"scope":"雄","src_path":"WANGZHU,0245,1,11","op":"insert"}

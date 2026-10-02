@@ -7,3 +7,4 @@
 {"scope":"環","src_path":"WANGZHU,0242,1,9"}
 {"scope":"臥","src_path":"WANGZHU,0242,1,10"}
 {"scope":"亭","src_path":"WANGZHU,0242,1,11"}
+{"scope":"焰","src_path":"WANGZHU,0242,1,12"}
