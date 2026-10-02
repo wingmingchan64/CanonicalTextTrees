@@ -2,3 +2,4 @@
 {"scope":"灑","src_path":"WANGZHU,0224,1,4"}
 {"scope":"遠","src_path":"WANGZHU,0224,1,5"}
 {"scope":"於","src_path":"WANGZHU,0224,1,6"}
+{"scope":"聯","src_path":"WANGZHU,0224,1,7"}
