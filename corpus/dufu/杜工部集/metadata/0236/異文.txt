@@ -10,5 +10,6 @@
 {"scope":"修","src_path":"WANGZHU,0236,1,12"}
 {"scope":"見","src_path":"WANGZHU,0236,1,13","op":"insert"}
 {"scope":"歲","src_path":"WANGZHU,0236,1,14"}
-{"scope":"去","src_path":"WANGZHU,0236,1,15"}
+{"scope":"去","src_path":"WANGZHU,0236,1,15","op":"insert"}
 {"scope":"鄕","src_path":"WANGZHU,0236,1,16"}
+{"scope":"賴","src_path":"WANGZHU,0236,1,17"}
