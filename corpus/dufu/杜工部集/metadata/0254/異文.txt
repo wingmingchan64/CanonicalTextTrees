@@ -7,3 +7,7 @@
 {"scope":"古","src_path":"WANGZHU,0254,1,9"}
 {"scope":"遠","src_path":"WANGZHU,0254,1,10"}
 {"scope":"杯","src_path":"WANGZHU,0254,1,11"}
+{"scope":"準","src_path":"WANGZHU,0254,1,12"}
+{"scope":"羈","src_path":"WANGZHU,0254,1,13"}
+{"scope":"以","src_path":"WANGZHU,0254,1,14"}
+{"scope":"豈","src_path":"WANGZHU,0254,1,15"}
