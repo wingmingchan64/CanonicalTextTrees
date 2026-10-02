@@ -2,3 +2,4 @@
 {"scope":"本","src_path":"WANGZHU,0218,1,4"}
 {"scope":"高","src_path":"WANGZHU,0218,1,5"}
 {"scope":"祿","src_path":"WANGZHU,0218,1,6"}
+{"scope":"騎","src_path":"WANGZHU,0218,1,7"}
