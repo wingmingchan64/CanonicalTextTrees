@@ -8,3 +8,4 @@
 {"scope":"貌","src_path":"WANGZHU,0233,1,10"}
 {"scope":"餠","src_path":"WANGZHU,0233,1,11"}
 {"scope":"答","src_path":"WANGZHU,0233,1,12"}
+{"scope":"崎","src_path":"WANGZHU,0233,1,13"}

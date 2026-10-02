@@ -246,7 +246,9 @@ foreach( $版詩碼s as $版詩碼 )
 
 $詩題contents = str_replace( '[[', '[',
 	str_replace( ']]', ']', $詩題contents ) );
-	
+$詩題contents = str_replace( '【', '[',
+	str_replace( '】', ']', $詩題contents ) );
+
 // single
 if( !$生成md )
 {

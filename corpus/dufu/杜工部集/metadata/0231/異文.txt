@@ -7,3 +7,5 @@
 {"scope":"牆","src_path":"WANGZHU,0231,1,9"}
 {"scope":"屢","src_path":"WANGZHU,0231,1,10"}
 {"scope":"修","src_path":"WANGZHU,0231,1,11"}
+{"scope":"跨","src_path":"WANGZHU,0231,1,12"}
+{"scope":"虛","src_path":"WANGZHU,0231,1,13"}
