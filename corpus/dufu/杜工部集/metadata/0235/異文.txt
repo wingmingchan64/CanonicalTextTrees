@@ -2,5 +2,5 @@
 {"scope":"案","src_path":"WANGZHU,0235,1,4"}
 {"scope":"畔","src_path":"WANGZHU,0235,1,5"}
 {"scope":"關","src_path":"WANGZHU,0235,1,6"}
-{"scope":"鑿","src_path":"WANGZHU,0235,1,7"}
+{"scope":"鑿","src_path":"WANGZHU,0235,1,7","op":"insert"}
 {"scope":"眾","src_path":"WANGZHU,0235,1,8"}
