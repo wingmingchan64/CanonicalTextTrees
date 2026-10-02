@@ -10,3 +10,5 @@
 {"scope":"姸","src_path":"WANGZHU,0226,1,12"}
 {"scope":"高","src_path":"WANGZHU,0226,1,13"}
 {"scope":"4566,23,2,1","src_path":"WANGZHU,0226,1,14"}
+{"scope":"沒","src_path":"WANGZHU,0226,1,15"}
+{"scope":"本","src_path":"WANGZHU,0226,1,16"}
