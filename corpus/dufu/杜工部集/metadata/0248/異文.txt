@@ -7,3 +7,4 @@
 {"scope":"胸","src_path":"WANGZHU,0248,1,9"}
 {"scope":"嶔","src_path":"WANGZHU,0248,1,10"}
 {"scope":"簪","src_path":"WANGZHU,0248,1,11"}
+{"scope":"虛","src_path":"WANGZHU,0248,1,12"}

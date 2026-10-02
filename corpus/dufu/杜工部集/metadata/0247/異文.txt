@@ -35,3 +35,6 @@
 {"scope":"絕","src_path":"WANGZHU,0247,1,37"}
 {"scope":"捐","src_path":"WANGZHU,0247,1,38","op":"insert"}
 {"scope":"凶","src_path":"WANGZHU,0247,1,39"}
+{"scope":"昔","src_path":"WANGZHU,0247,1,40"}
+{"scope":"4083,4,2,5","src_path":"WANGZHU,0247,1,41"}
+{"scope":"員","src_path":"WANGZHU,0247,1,42"}
