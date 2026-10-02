@@ -16,3 +16,4 @@
 {"scope":"總","src_path":"WANGZHU,0250,1,16"}
 {"scope":"自","src_path":"WANGZHU,0250,1,17"}
 {"scope":"自","src_path":"WANGZHU,0250,1,18","op":"insert"}
+{"scope":"鎭","src_path":"WANGZHU,0250,1,19"}

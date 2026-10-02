@@ -18,3 +18,4 @@
 {"scope":"於","src_path":"WANGZHU,0253,1,20"}
 {"scope":"久","src_path":"WANGZHU,0253,1,21"}
 {"scope":"亭","src_path":"WANGZHU,0253,1,22"}
+{"scope":"名","src_path":"WANGZHU,0253,1,23"}
