@@ -12,7 +12,9 @@
                     "WANGZHU,0218,1,5": "replace"
                 },
                 "2743,5,1,1": {
-                    "WANGZHU,0218,1,6": "replace",
+                    "WANGZHU,0218,1,6": "replace"
+                },
+                "2743,3,1,4": {
                     "WANGZHU,0218,1,7": "replace"
                 }
             }
