@@ -5,3 +5,5 @@
 {"scope":"宮","src_path":"WANGZHU,0230,1,7"}
 {"scope":"慘","src_path":"WANGZHU,0230,1,8"}
 {"scope":"餐","src_path":"WANGZHU,0230,1,9"}
+{"scope":"騎","src_path":"WANGZHU,0230,1,10"}
+{"scope":"腥","src_path":"WANGZHU,0230,1,11"}
