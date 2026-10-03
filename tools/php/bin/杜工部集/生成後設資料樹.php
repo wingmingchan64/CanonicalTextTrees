@@ -17,7 +17,7 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 '函式.php' );
 
-$multi = true;
+$multi = false;
 $卷次 = '六';
 
 if( !$multi )

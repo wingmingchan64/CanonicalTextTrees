@@ -12,7 +12,7 @@ require_once(
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
 
-$生成md  = true;
+$生成md  = false;
 $卷次 = '六';
 
 $著述碼 = 'WANGZHU';
@@ -21,25 +21,25 @@ $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 $map = json_decode(
 	file_get_contents( $folder . '版文檔碼_版詩碼.json' ),
 	true );
-/**/
+/*
 $卷碼陣列 = json_decode(
 	file_get_contents( $folder . '卷目_文檔碼.json' ),
 	true );
 [ $start, $end ] = $卷碼陣列[ $卷次 ];
 $multiple_contents = "# 卷${卷次}" . NL . NL;
-/**/
+*/
 // a single 版文檔碼
-/*
+/**/
 check_argv( $argv, 2, "必須提供版本文檔碼" );
 $版文檔碼 = fix_doc_id( trim( $argv[ 1 ] ) );
-*/
+/**/
 
 // loop 版文檔碼
-/**/
+/*
 for( $i = $start; $i <= $end; $i++ )
 {
 	$版文檔碼 = fix_doc_id( "$i" );
-/**/	
+*/	
 // common code
 $版詩碼s = $map[ $版文檔碼 ];
 $是組詩 = count( $版詩碼s ) > 1;
@@ -261,9 +261,9 @@ else
 		'## ' . $詩題contents . NL . NL .
 		$詩文contents . NL . NL;
 }
-/**/
+/*
 } // end for loop
-/**/
+*/
 
 if( $生成md )
 {
