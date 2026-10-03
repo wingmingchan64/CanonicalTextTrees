@@ -5,3 +5,5 @@
 {"scope":"崑","src_path":"WANGZHU,0262,1,7"}
 {"scope":"荊","src_path":"WANGZHU,0262,1,8"}
 {"scope":"翔","src_path":"WANGZHU,0262,1,9"}
+{"scope":"絛","src_path":"WANGZHU,0262,1,9"}
+{"scope":"徐","src_path":"WANGZHU,0262,1,9"}
