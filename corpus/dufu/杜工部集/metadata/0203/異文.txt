@@ -9,3 +9,4 @@
 {"scope":"昏","src_path":"WANGZHU,0203,1,10"}
 {"scope":"娛","src_path":"WANGZHU,0203,1,11"}
 {"scope":"高","src_path":"WANGZHU,0203,1,12"}
+{"scope":"須","src_path":"WANGZHU,0203,1,13"}

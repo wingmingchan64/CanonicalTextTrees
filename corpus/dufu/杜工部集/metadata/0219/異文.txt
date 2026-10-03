@@ -3,3 +3,4 @@
 {"scope":"眾","src_path":"WANGZHU,0219,1,5"}
 {"scope":"棄","src_path":"WANGZHU,0219,1,6"}
 {"scope":"鼻","src_path":"WANGZHU,0219,1,7"}
+{"scope":"須","src_path":"WANGZHU,0219,1,7"}
