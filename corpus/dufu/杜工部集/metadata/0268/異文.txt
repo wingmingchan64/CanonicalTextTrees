@@ -7,7 +7,7 @@
 {"scope":"高","src_path":"WANGZHU,0268,1,9"}
 {"scope":"騎","src_path":"WANGZHU,0268,1,10"}
 {"scope":"世","src_path":"WANGZHU,0268,1,11"}
-{"scope":"5253,1,1,1","src_path":"WANGZHU,0268,1,12","op":"insert"}
+{"scope":"5253,13,1,1","src_path":"WANGZHU,0268,1,12","op":"insert"}
 {"scope":"增","src_path":"WANGZHU,0268,1,13"}
 {"scope":"5253,14,1,1","src_path":"WANGZHU,0268,1,14"}
 {"scope":"5253,14,1,2","src_path":"WANGZHU,0268,1,14"}
