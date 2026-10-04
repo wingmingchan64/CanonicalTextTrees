@@ -6,3 +6,4 @@
 {"scope":"鄕","src_path":"WANGZHU,0272,1,8"}
 {"scope":"誤","src_path":"WANGZHU,0272,1,9"}
 {"scope":"疏","src_path":"WANGZHU,0272,1,10"}
+{"scope":"士","src_path":"WANGZHU,0272,1,10"}
