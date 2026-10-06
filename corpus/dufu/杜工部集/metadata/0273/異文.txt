@@ -6,11 +6,3 @@
 {"scope":"蛇","src_path":"WANGZHU,0273,1,8"}
 {"scope":"鉤","src_path":"WANGZHU,0273,1,9"}
 {"scope":"辭","src_path":"WANGZHU,0273,1,10"}
-{"scope":"","src_path":"WANGZHU,0273,1,11"}
-{"scope":"","src_path":"WANGZHU,0273,1,12"}
-{"scope":"","src_path":"WANGZHU,0273,1,13"}
-{"scope":"","src_path":"WANGZHU,0273,1,14"}
-{"scope":"","src_path":"WANGZHU,0273,1,15"}
-{"scope":"","src_path":"WANGZHU,0273,1,16"}
-{"scope":"","src_path":"WANGZHU,0273,1,17"}
-{"scope":"","src_path":"WANGZHU,0273,1,18"}
