@@ -63,11 +63,19 @@ if( $multi )
 }
 else
 {
-	$默文檔碼s = $map[ $版文檔碼 ];
+	if( array_key_exists( $版文檔碼, $map ) )
+	{
+		$默文檔碼s = $map[ $版文檔碼 ];
+	}
+	else
+	{
+		$默文檔碼s = array( 文賦默認文檔碼_洙文檔碼[ $版文檔碼 ] );
+	}
 
 	foreach( $默文檔碼s as $默文檔碼 )
 	{
-		if( !是合法文檔碼( $默文檔碼 ) )
+		if( !是合法文檔碼( $默文檔碼 ) &&
+			!in_array( $默文檔碼, 文賦默認文檔碼 ) )
 		{
 			throw new DocumentIDNotFoundException( '無此文檔碼。' );
 		}
