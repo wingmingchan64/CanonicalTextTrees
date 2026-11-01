@@ -99,6 +99,8 @@ else
 		$pointer = &$正文樹;
 		$path_exist = true;
 		
+		print_r( $默路徑 );
+		
 		foreach( $默路徑 as $step )
 		{
 			if( array_key_exists( $step, $pointer ) )
@@ -136,6 +138,9 @@ foreach( array_keys( $正文樹 ) as $key )
 	}
 	else
 	{
+		//echo $key, NL;
+		//echo 提取文賦段落( $正文樹[ $key ] ), NL;
+		
 		$文賦contents .=
 			提取文賦段落( $正文樹[ $key ] ) . NL . NL;
 	}
