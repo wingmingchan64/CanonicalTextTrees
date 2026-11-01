@@ -30,3 +30,10 @@
 {"scope":"6193,5,36,1,2","src_path":"WANGZHU,1102,1,29"}
 {"scope":"6193,5,36,2,2","src_path":"WANGZHU,1102,1,18"}
 {"scope":"6193,5,37,1,7","src_path":"WANGZHU,1102,1,16"}
+{"scope":"6193,7,40,4,3","src_path":"WANGZHU,1102,1,30","op":"insert"}
+{"scope":"6193,7,41,1,1","src_path":"WANGZHU,1102,1,31"}
+{"scope":"6193,7,41,2,2","src_path":"WANGZHU,1102,1,8"}
+{"scope":"6193,7,42,2,5","src_path":"WANGZHU,1102,1,32"}
+{"scope":"6193,8,44,5,3","src_path":"WANGZHU,1102,1,33"}
+{"scope":"6193,8,44,6,3","src_path":"WANGZHU,1102,1,17"}
+{"scope":"6193,8,45,2,1","src_path":"WANGZHU,1102,1,34"}
