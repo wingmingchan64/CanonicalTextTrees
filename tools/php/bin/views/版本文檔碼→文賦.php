@@ -12,14 +12,13 @@ require_once(
 	"lib" . DIRECTORY_SEPARATOR .
 	"函式.php" );
 
-$生成md  = false;
+$生成md  = true;
 //$卷次 = '六';
 
 $著述碼 = 'WANGZHU';
 $folder = dirname( __DIR__, 4 ) . DIRECTORY_SEPARATOR .
 	get_ctt_folder( $著述碼 ) . DIRECTORY_SEPARATOR;
 
-	
 /*
 $卷碼陣列 = json_decode(
 	file_get_contents( $folder . '卷目_文檔碼.json' ),
@@ -142,20 +141,17 @@ foreach( array_keys( $正文樹 ) as $key )
 	}
 }
 
-echo $文賦contents;
-exit;
 
 // single
 if( !$生成md )
 {
-	echo $詩題contents, NL, NL, $詩文contents;
+	echo $文賦contents;
 }
 else
 {
 	// multiple
-	$multiple_contents .= 
-		'## ' . $詩題contents . NL . NL .
-		$詩文contents . NL . NL;
+	$文賦contents =
+		'## ' . $文賦contents . NL . NL;
 }
 
 /*
@@ -175,12 +171,13 @@ if( $生成md )
 	// multiple poems in a single file
 	file_put_contents(
 		$folder . 'views' . DIRECTORY_SEPARATOR .
-		'卷' . $卷次 . '.md',
+		//'卷' . $卷次 . 
+		"${版文檔碼}.md",
 		str_replace( '[', '<sub>[',
 			str_replace( ']', ']</sub>',
 				str_replace( 
 					NL.NL.NL, NL, 
-					$multiple_contents ) ) ) 
+					$文賦contents ) ) ) 
 		);
 	/**/
 }
