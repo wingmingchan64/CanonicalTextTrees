@@ -40,7 +40,7 @@ php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→文賦.ph
 結果顯示：
 
 <pre>
-遊龍門奉先寺
+0004 遊龍門奉先寺
 
 已從招提遊。更宿招提境。隂壑生虛籟。月林散清影。天闕象緯逼。雲卧衣裳冷。欲覺聞晨鐘。令人發深省。
 </pre>
