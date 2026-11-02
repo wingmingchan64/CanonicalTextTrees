@@ -99,7 +99,7 @@ else
 		$pointer = &$正文樹;
 		$path_exist = true;
 		
-		print_r( $默路徑 );
+		//print_r( $默路徑 );
 		
 		foreach( $默路徑 as $step )
 		{
