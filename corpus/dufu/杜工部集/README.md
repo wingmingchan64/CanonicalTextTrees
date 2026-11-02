@@ -33,6 +33,8 @@ php H:\github\CanonicalTextTrees\tools\php\bin\執行路徑程式.php WANGZHU
 php H:\github\CanonicalTextTrees\tools\php\bin\杜工部集\生成後設資料樹.php 4
 
 php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→詩文.php 4
+php H:\github\Dufu-Analysis\tools\php\bin\views\默認版本定位\默文檔碼→文賦.php 6165
+php H:\github\CanonicalTextTrees\tools\php\bin\views\版本文檔碼→文賦.php 1102
 </pre>
 
 結果顯示：
