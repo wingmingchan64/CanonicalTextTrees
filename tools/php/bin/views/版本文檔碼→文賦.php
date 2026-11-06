@@ -48,6 +48,7 @@ $版詩碼_默詩碼 = json_decode(
 */
 // 版本篇名
 $篇名path = $著述碼 . ',' . $版文檔碼 . ',' . '篇名';
+$題注set = false;
 
 // 文賦異文
 $文賦題 = str_replace( '【', '[',
@@ -78,7 +79,7 @@ $正文樹 = json_decode(
 	file_get_contents( $filepath ), true )
 		[ $默文檔碼 ];
 添加標點符號( $正文樹 );
-	
+
 if( is_null( $mm_tree ) )
 {} // do nothing
 else
@@ -88,35 +89,50 @@ else
 		$parts = explode( '_', $path );
 		$默路徑 = explode( ',', $parts[ 3 ] );
 		$異文 = 提取ctt正文( $parts[ 4 ] );
+		$op = $parts[ 5 ];
+		$pointer = &$正文樹;
+		$path_exist = true;
 		
 		// delete text
 		if( $異文 == '空語鏈' )
 		{
 			$異文 = '';
 		}
-		
-		$op = $parts[ 5 ];
-		$pointer = &$正文樹;
-		$path_exist = true;
-		
 		//print_r( $默路徑 );
-		
+
+
 		foreach( $默路徑 as $step )
 		{
-			if( array_key_exists( $step, $pointer ) )
+			if( $step == 題注 )
+			{
+				$pointer[ 篇名 ] = $pointer[ 篇名 ] .
+				'[' . $異文 . ']';
+				$題注set = true;
+				continue;
+			}
+			
+			if( is_array( $pointer ) && 
+				array_key_exists( $step, $pointer ) )
 			{
 				$pointer = &$pointer[ $step ];
 			}
 		}
+
+		
+		//print_r( $正文樹 );
 
 		if( $op == 'replace' )
 		{
 			//echo "Replacing", NL;
 			$pointer = $異文;
 		}
-		elseif( $op == 'insert' )
+		elseif(  $op == 'insert' )
 		{
 			//echo "Inserting", NL;
+			if( $題注set )
+			{
+				continue;
+			}
 			$pointer .= "[${異文}]";
 		}
 		elseif( $op == 'graft' )
@@ -130,11 +146,14 @@ else
 	} // mm marker
 }
 
+//print_r( $正文樹 );
+
 foreach( array_keys( $正文樹 ) as $key )
 {
 	if( $key == 篇名 )
 	{
-		continue;
+		$文賦contents = $正文樹[ 篇名 ] . NL . NL;
+		//continue;
 	}
 	else
 	{
