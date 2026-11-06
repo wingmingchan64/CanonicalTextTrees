@@ -152,7 +152,7 @@ foreach( array_keys( $正文樹 ) as $key )
 {
 	if( $key == 篇名 )
 	{
-		$文賦contents = $正文樹[ 篇名 ] . NL . NL;
+		$文賦contents = $版文檔碼 . ' ' . $正文樹[ 篇名 ] . NL . NL;
 		//continue;
 	}
 	else
