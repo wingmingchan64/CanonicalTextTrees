@@ -5,4 +5,3 @@
 {"scope":"6380,1,6,3,3","src_path":"WANGZHU,1110,1,7"}
 {"scope":"6380,1,6,3,4","src_path":"WANGZHU,1110,1,8"}
 {"scope":"6380,1,7,3,2","src_path":"WANGZHU,1110,1,9"}
-{"scope":"6380,1,8,4,4","src_path":"WANGZHU,1110,1,10","op":"insert"}
