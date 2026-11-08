@@ -278,6 +278,7 @@ if( $生成md )
 	// multiple poems in a single file
 	file_put_contents(
 		$folder . 'views' . DIRECTORY_SEPARATOR .
+		'詩' . DIRECTORY_SEPARATOR .
 		'卷' . $卷次 . '.md',
 		str_replace( '[', '<sub>[',
 			str_replace( ']', ']</sub>',
