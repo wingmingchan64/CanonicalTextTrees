@@ -17,8 +17,8 @@ require_once(
 	'lib' . DIRECTORY_SEPARATOR .
 	 '函式.php' );
 
-$multi = false;
-$卷次 = '六';
+$multi = true;
+$卷次 = '七';
 
 if( !$multi )
 {
@@ -44,6 +44,7 @@ if( $multi )
 	
 	for( $i = $start; $i <= $end; $i++ )
 	{
+		echo $i, NL;
 		$版文檔碼 = fix_doc_id( "" . $i );
 		$默文檔碼s = $map[ $版文檔碼 ];
 		//print_r( $版文檔碼 );
