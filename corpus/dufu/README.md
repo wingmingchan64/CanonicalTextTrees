@@ -62,3 +62,9 @@
 - 異文：一字一條，多字多條
 - 異文：若同時有 replace、insert，分作兩條
 - 音Y、AB切、Z同： 夾注
+
+---
+
+## 杜著述目錄
+
+受版權保護的杜著述，如林繼中輯校《杜詩趙次公先後解輯校》、蕭滌非主編《杜甫全集校注》等著作，其內容不能公開發表，但其目錄（包括我編的文檔碼、實體書、電子書的頁碼）則可以公開。見<a href="https://github.com/wingmingchan64/CanonicalTextTrees/tree/main/corpus/dufu/%E5%8F%97%E7%89%88%E6%AC%8A%E4%BF%9D%E8%AD%B7%E7%9A%84%E6%9D%9C%E8%91%97%E8%BF%B0%E7%9B%AE%E9%8C%84">受版權保護的杜著述目錄</a>
