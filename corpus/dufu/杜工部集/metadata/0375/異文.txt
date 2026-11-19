@@ -6,7 +6,7 @@
 {"scope":"乘","src_path":"WANGZHU,0375,1,8"}
 {"scope":"皋","src_path":"WANGZHU,0375,1,9"}
 {"scope":"關","src_path":"WANGZHU,0375,1,10"}
-{"scope":"天","src_path":"WANGZHU,0375,1,11","op":"insert"}
+{"scope":"0053,12,2,2","src_path":"WANGZHU,0375,1,11","op":"insert"}
 {"scope":"卻","src_path":"WANGZHU,0375,1,12"}
 {"scope":"卻","src_path":"WANGZHU,0375,1,13","op":"insert"}
 {"scope":"倚","src_path":"WANGZHU,0375,1,14"}
