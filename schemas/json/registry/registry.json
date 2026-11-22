@@ -333,6 +333,12 @@
     "display_title": "《唐詩鑒賞辭典》",
 	"author":""
   },
+  "TWDSQB10":{
+    "folder": "corpus/dufu/唐五代詩全編",
+    "title": "唐五代詩全編",
+    "display_title": "陳尚君纂校《唐五代詩全編》第十冊",
+	"author":"陳尚君"
+  },
   "WANGZHU":{
     "folder": "corpus/dufu/杜工部集",
     "title": "杜工部集",
