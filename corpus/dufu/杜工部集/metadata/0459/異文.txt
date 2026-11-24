@@ -1,5 +1,5 @@
-{"scope":"","src_path":"WANGZHU,0459,1,3"}
-{"scope":"","src_path":"WANGZHU,0459,1,4"}
+{"scope":"歲","src_path":"WANGZHU,0459,1,3"}
+{"scope":"牀","src_path":"WANGZHU,0459,1,4"}
 {"scope":"","src_path":"WANGZHU,0459,1,5"}
 {"scope":"","src_path":"WANGZHU,0459,1,6"}
 {"scope":"","src_path":"WANGZHU,0459,1,7"}
