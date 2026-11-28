@@ -373,6 +373,12 @@
     "title": "引典出處",
     "display_title": "《引典出處》"
   },
+  "YMDDFJ":{
+    "folder": "corpus/dufu/永明的杜甫集",
+    "title": "永明的杜甫集",
+    "display_title": "《永明的杜甫集》",
+	"author":"陳永明"
+  },
   "YUEZHU":{
     "folder": "corpus/dufu/杜詩約注",
     "title": "杜詩約注",
